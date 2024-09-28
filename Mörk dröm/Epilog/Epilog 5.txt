@@ -1,0 +1,106 @@
+{p}
+	{set,Epilog,5}
+	{image,'Bilder/Altare'}
+	
+{p}
+	Du går in i Elementaltemplets innersta kammare.
+
+{p}
+	Carduelis väntar på dig där inne.
+
+{p}
+	Carduelis:
+	- Du lyckades till slut.
+
+{p}
+	Carduelis:
+	- Vad är denna ö för något? Man kan se det
+	som en parallell verklighet eller en drömvärld.
+
+{p}
+	Carduelis:
+	- En plats som verkar detaljerad
+	men letar man tillräckligt djupt finns det ingenting.
+	En skissartad värld.
+
+{p}
+	Carduelis:
+	- Ingen som bor här kan ifrågasätta ön.
+	För dem är det självklart att saker är som de är.
+
+{p}
+	Carduelis:
+	- Du är den tanke som drömmaren ser som sitt "jag".
+
+{p}
+	Carduelis:
+	- Men du förstår nog att du och drömmaren
+	inte är samma person.
+
+{p}
+	Carduelis:
+	- Nej, du är någon annan. En alternativ
+	version av drömmaren som är dömd att försvinna
+	eller förvrängas.
+
+{p}
+	Carduelis:
+	- Trots det kanske du ändå vill vakna.
+	Du kanske ser något positivt i det.
+
+{p}
+	Carduelis:
+	- Du hör trots allt inte riktigt hemma i denna värld.
+	Ingen här kommer att minnas dig när du är borta.
+
+{p}
+	Carduelis:
+	- Ingen här känner ens till ditt namn.
+
+{p}
+	Carduelis:
+	- Eller du kanske vill stanna trots allt?
+	Du kan stanna så länge du vill. Tiden saknar mening här.
+
+{p}
+	Carduelis:
+	- Vill du vakna upp är det väldigt enkelt...
+
+{p}
+	Carduelis:
+	- ... du behöver bara drabbas av en tillräckligt
+	stark chock. Du kommer att minnas allt som en mardröm.
+
+{p}
+	Carduelis:
+	- Till och med en mardröm kan vara värdefull.
+	Den kan ge dig något intressant att minnas.
+
+{p}
+	Carduelis:
+	- Få se vad du väljer...
+
+{p}
+	Carduelis ser annorlunda ut nu. Han iakttar dig från överallt.
+
+{p}
+	Svarta klingor börjar skära templet itu. Carduelis närmar sig.
+	Det går inte att fly, du vet att han är bakom dig också...
+
+{p}
+	Är det ens möjligt att slåss mot honom...?
+
+{p}
+	{name,Fiende.Namn,'Carduelis'}
+	{set,Fiende.Grad,15}
+	{name,Fas,'Strid'}
+	{call}
+	
+{p}
+	Är Carduelis borta?
+
+{p}
+	Du lämnar Elementaltemplet.
+	{chap,'Platser/Elementaltemplet'}
+{p}
+

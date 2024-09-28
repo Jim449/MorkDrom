@@ -1,0 +1,198 @@
+{p}
+	{name,Plats,'Norra bergen'}
+	{image,'Bilder/Norra bergen'}
+	{set,Tid,0}
+
+{s}
+	{add,Tid,1}
+	
+{p}
+	Du befinner dig i Norra bergen.
+	{ans}
+		Utforska norra bergen
+	{if}{equal,Epilog,3}
+		{ans}
+			Gå igenom porten
+			{chap,'Epilog/Epilog 4'}
+	{if}{has,Elementaltemplet,1}
+		{ans}
+			Gå norrut till Elementaltemplet
+			{chap,'Platser/Elementaltemplet'}
+	{if}{has,Urskogens hjärta,1}
+		{ans}
+			Gå söderut till Urskogens hjärta
+			{chap,'Platser/Urskogens hjärta'}
+	{if}{has,Muren,1}
+		{ans}
+			Gå västerut till Muren
+			{chap,'Platser/Muren'}
+
+{p}
+	Du utforskar norra bergen...
+	{set,Slump,0}
+	{rand,Slump,3}
+
+{p}
+	{if}{equal,Omväg,1}{equal,Tid,5}
+		{find,1}
+	{elif}
+		{skip,Slump}
+		
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Varulv'}
+	{set,Fiende.Grad,10}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}
+	
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Ogre'}
+	{set,Fiende.Grad,10}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Griffin'}
+	{set,Fiende.Grad,10}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}
+	
+{s}
+	Ni når fram till en massiv port.
+
+{p}
+	Selena:
+	- Den här vägen är stängd. Porten genomsyras av jordmagi och kan inte förstöras.
+
+{p}
+	Selena:
+	- Vägen fortsätter förbi så vi behöver inte gå in här.
+
+{p}
+	Selena:
+	- Vad säger inskriptionen...?
+
+{p}
+	Mara:
+	- Jag kan försöka tyda den.
+
+{p}
+	Mara:
+	- Denna väg leder till de åtta elementens tempel...
+
+{p}
+	Mara:
+	- ... bara den som är älskad av de åtta gudarna kan passera.
+
+{p}
+	Mara:
+	- Vad betyder det...?
+
+{p}
+	Mara:
+	- Strunt i det. Vi fortsätter.
+
+{p}
+	En afrit materaliseras på vägen.
+	{name,Fiende.Namn,'Afrit'}
+	{set,Fiende.Grad,10}
+	{name,Fas,'Strid'}
+	{call}
+	
+{p}
+	Mara:
+	- Det förvånade mig... men vi har besegrat en Afrit förut.
+	Det krävs mer än så för att stoppa oss.
+
+{p}
+	Ni har nått slutet av berget. Framför er ligger Muren - eller det som återstår av den.
+	{name,Plats,'Muren'}
+	{image,'Bilder/Murens ruiner'}
+
+{p}
+	Mara:
+	- Vad trodde de? En sådan bisarr stad skulle ha rasat förr eller senare.
+
+{p}
+	Ni fortsätter till Klipporna.
+	{name,Plats,'Klipporna'}
+	{image,'Bilder/Klipporna'}
+
+{p}
+	Ett stort läger har uppförts framför Lufttemplet.
+	Alba kommer för att möta er.
+
+{p}
+	Alba:
+	- Välkommen! Det här är Muren... eller den nya Muren.. eller något.
+	
+{p}
+	Alba:
+	- Alla överlevare har samlats här. Vi klarar oss än.
+
+{p}
+	Alba:
+	- Är ni på väg mot Staden?
+
+{p}
+	Selena:
+	- Ja, det är tanken. Vi har tvingats ta en omväg för att undvika Urskogen.
+
+{p}
+	Ni berättar vad som har hänt.
+
+{p}
+	Alba:
+	- Vilken tur ändå att ni lyckades besegra Dennis.
+	Och ni har alla amuletterna.
+
+{p}
+	Alba:
+	- Jag har gjort vad jag kan här och Murens befolkning
+	kommer att klara sig.
+
+{p}
+	Alba:
+	- Jag följer med er till Staden.
+	Låt mig hjälpa er att slåss mot Merula.
+
+{p}
+	Selena:
+	- Självklart. Vi behöver all hjälp vi kan få.
+	{set,Norra bergen,0}
+	{set,Muren,2}
+	{set,Omväg,2}
+
+{p}
+	Välj din assistent.
+	{ans}
+		Alba
+		{name,Allierad.Namn,'Alba'}
+	{ans}
+		Mara
+		{name,Allierad.Namn,'Mara'}
+	{ans}
+		Selena
+		{name,Allierad.Namn,'Selena'}
+	{ans}
+		Goran
+		{name,Allierad.Namn,'Goran'}
+
+{p}
+	Du väljer att gå med {write,Allierad.Namn,'.'}
+	{set,Allierad.Grad,10}
+	{name,Fas,'Assistent'}
+	{call}
+
+{p}
+	{chap,'Platser/Klipporna'}
+
+{p}
+
+
+

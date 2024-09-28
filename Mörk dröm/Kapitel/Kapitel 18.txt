@@ -1,0 +1,329 @@
+{s}
+	{set,Akt,5}
+	{set,Kapitel,18}
+	{name,Plats,'Staden'}
+	{image,'Bilder/Kontoret'}
+
+{p}
+	Kapitel 18
+	
+{p}
+	Ni återvänder till herrgården där Alyssa väntar.
+
+{p}
+	Alyssa:
+	- Har du hittat Vattenamuletten?
+
+{p}
+	Alyssa:
+	- Utmärkt! Då är alla de fyra större gudarnas amuletter i vår ägo.
+
+{p}
+	Alyssa:
+	- Tyvärr befinner sig alla de fyra mindre gudarnas amuletter i Gömslets ägo.
+
+{p}
+	Alyssa:
+	- Det är snart dags för oss att slå tillbaka mot Merula.
+	Jag håller på att utarbeta en plan...
+
+{p}
+	Goran går in och avbryter samtalet.
+	
+{p}
+	Goran:
+	- Alyssa! Nimbus har skickat ett sändebud.
+	Kom till mötessalen omedelbart.
+
+{p}
+	Alyssa:
+	- Jag förstår. Goran, leta reda på Alba och Ron.
+
+{p}
+	Goran:
+	- Ska bli.
+
+{p}
+	Goran lämnar kontoret.
+	
+{p}
+	Alyssa:
+	- Låt oss möta sändebudet tillsammans.
+	
+{p}
+	Ni går in i en stor sal med ett avlångt bord i mitten.
+	Flera av Gorans vakter är på plats.
+
+{p}
+	På andra sidan rummet står Nimbus delegation
+	med Aegithalos i spetsen.
+	
+{p}
+	Aegithalos:
+	- Vi träffas igen. Du har varit upptagen, ser jag.
+	
+{p}
+	Aegithalos:
+	- Du måste vara Alyssa. Jag är Aegithalos,
+	den utvalda tjänare av luftens gud. Angenämnt.
+	
+{p}
+	Alyssa:
+	- Välkommen till Staden. Var god vänta,
+	vi är inte fulltaliga ännu.
+
+{p}
+	Aegithalos:
+	- Jag vill inte vänta. Jag ska bara läsa upp ett kortare meddelande...
+
+{p}
+	Goran återvänder, följd av Alba och Ron.
+
+{p}
+	Aegithalos:
+	- ... ser man på. Är det inte prästinnan från Muren och hennes följeslagare?
+
+{p}
+	Alba:
+	- Aegithalos... jag hoppades att jag skulle slippa se dig.
+	Är du arg över att du förlorat amuletten?
+
+{p}
+	Aegithalos:
+	- Det kan de ge dig fan på! Du har stulit amuletten och min position.
+	Hade omständigheterna varit annorlunda skulle jag kunna döda dig här och nu...
+	
+{p}
+	Stämningen blir plötsligt dödlig, vakterna och Aegithalos eskort
+	sträcker efter sina vapen...
+
+{p}
+	Goran:
+	- Stopp!
+
+{p}
+	Goran:
+	- Låt oss höra vad Aegithalos har att säga.
+	Jag hoppas att du kan hålla en artig ton...
+
+{p}
+	Aegithalos:
+	- Jag vet, jag vet... jag är inte här för att slåss.
+
+{p}
+	Narden:
+	- Vad pågår här? Börjar ni ett möte utan att bjuda in mig?
+
+{p}
+	Goran:
+	- Jag är ledsen - det föll mig helt ur minnet...
+
+{p}
+	Alyssa:
+	- Narden är en viktig rådgivare till Stadens ledning.
+	Ta en plats.
+
+{p}
+	Narden:
+	- Tack, Alyssa. Sen när brydde du dig om min åsikt?
+
+{p}
+	Narden:
+	- Var är Turdus? Har du skickat iväg honom på något skumgöra igen?
+
+{p}
+	Alyssa:
+	- Turdus är borta, men det kan vi tala om någon annan gång.
+
+{p}
+	Alyssa:
+	- Det verkar som alla är samlade.
+	Aegithalos, du kan börja.
+	
+{p}
+	Aegithalos:
+	- Bra! Murens stadsminister, Nimbus, kräver härmed
+	att ni lämnar över främlingen som stal Luftens amulett
+	tillsammans med amuletten i fråga.
+
+{p}
+	Aegithalos:
+	- Vi vill även att ni lämnar över Alba och Ron
+	som medverkade i stölden.
+
+{p}
+	Aegithalos:
+	- Dessutom kräver Nimbus att ni lämnar över
+	amuletterna av eld, vatten och jord. 
+
+{p}
+	Alyssa:
+	- Det kommer inte på fråga. Jag kan inte gå med på något
+	av Nimbus krav.
+
+{p}
+	Aegithalos:
+	- Inte det? Om ni vägrar kommer Muren att förklara krig mot Staden.
+
+{p}
+	Aegithalos:
+	- På vår sida står Gömslet och de fyra mindre gudarna,
+	Luscinia, Merula, Viridis och Garrulus. Ni har inte en chans.
+
+{p}
+	Alyssa:
+	- Kan du förklara för mig varför Nimbus behöver amuletterna
+	av eld, vatten och jord?
+
+{p}
+	Aegithalos:
+	- De fyra mindre gudarna kräver det.
+
+{p}
+	Alyssa:
+	- Det är rent nonsens.
+	Amuletterna tillhör respektive guds följare.
+
+{p}
+	Aegithalos:
+	- Vem bryr sig. Ni försöker samla gudarnas krafter.
+	Det gör att ni utgör ett hot mot Muren.
+	
+{p}
+	Aegithalos:
+	- Men jag ser att ni inte tänker gå med på våra krav.
+	Vi kommer att förgöra er.
+
+{p}
+	Aegithalos lämnar rummet med sin eskort.
+
+{p}
+	Alyssa:
+	- Som ni hört har Muren förklarat krig mot Staden.
+	Låt oss diskutera vad vi ska göra.
+
+{p}
+	Alyssa:
+	- Goran, hur ser vårt försvar ut?
+	
+{p}
+	Goran:
+	- Tack vare Selena har vi lyckats resa en barriär runt Staden.
+	Växterna har drivits bort och monstren håller sig undan.
+
+{p}
+	Goran:
+	- Problemet är att vi är alltför få.
+	Jag anar att Muren har mycket större styrkor.
+	För att inte tala om monstren...
+
+{p}
+	Goran:
+	- Staden och Muren skiljs av Urskogen.
+	Det lär ta tid innan Murens armé är här.
+
+{p}
+	Alyssa:
+	- Jag har en plan att slå direkt mot fiendernas ledare.
+	Lyckas det kan vi övertala Muren att dra sig tillbaka.
+
+{p}
+	Alyssa:
+	- Selena. Hur vill du göra? Vi behöver din hjälp här
+	men du kanske behöver återvända till Fristaden?
+
+{p}
+	Selena:
+	- Jag stannar här. Mara har fått tydliga direktiv och Muren lär finna
+	att Fristaden är svår att göra sig av med.
+
+{p}
+	Alyssa:
+	- Tack, Selena. Narden, många av dina gäster är gamla äventyrare.
+	Vi behöver deras hjälp.
+
+{p}
+	Narden:
+	- Alyssa, jag vet inte hur du drog in oss i den här röran...
+
+{p}
+	Narden:
+	- ... men om Staden anfalls kommer jag göra allt jag kan för att försvara den.
+	
+{p}
+	Narden:
+	- Äventyrarna kommer också att kämpa. Men de följer mig, inte Goran.
+
+{p}
+	Goran:
+	- Jag har inga problem med det. Vad sägs om att vi utser Selena som befälhavare?
+
+{p}
+	Narden:
+	- Det är acceptabelt.
+
+{p}
+	Alyssa:
+	- Jag har inga invändningar.
+	
+{p}
+	Selena:
+	- Jag tar på mig det ansvaret.
+
+{p}
+	Narden:
+	- Jag har hört att vi har invånare från Muren ibland oss.
+	Vi kan inte lita på dem.
+
+{p}
+	Alba:
+	- Jag är inte alls med Muren! Nimbus har blivit lurad av Merula,
+	och är min fiende.
+
+{p}
+	Ron:
+	- Nimbus betraktar oss som förrädare och vi vill inget annat
+	än att se honom störtad.
+
+{p}
+	Narden:
+	- Det är bara prat! Låt oss låsa in dem i fängelset
+	så slipper vi obehagliga överraskningar.
+
+{p}
+	Alyssa:
+	- Det kan vi inte göra! De är gäster...
+
+{p}
+	En hätsk debatt bryter ut. Selena överröstar hela salen
+	och begär tystnad.
+	
+{p}
+	Selena:
+	- Jag ska hålla ett öga på dem. Var försäkrade om att jag inte
+	kommer att tillåta att det händer några olyckor.
+
+{p}
+	Selena:
+	- Huvudsaken är att vi undviker interna dispyter.
+	Låt oss hålla oss sansade.
+
+{p}
+	Mötet avslutas och folk börjar lämna salen.
+	Alyssa går fram till dig.
+
+{p}
+	Alyssa:
+	- Vi har mer saker att prata om, men du är säkert trött
+	efter din resa till Vattentemplet och jag måste diskutera
+	några saker med Selena.
+
+{p}
+	Alyssa:
+	- Besök mig på kontoret senare.
+
+{p}
+	{chap,'Platser/Staden'}
+
+{p}
+

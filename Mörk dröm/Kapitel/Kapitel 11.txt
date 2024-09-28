@@ -1,0 +1,204 @@
+{s}
+	{set,Kapitel,11}
+	{name,Plats,'Staden'}
+	{image,'Bilder/Staden'}
+
+{p}
+	Kapitel 11
+	
+{p}
+	Du besöker herrgården där Alyssa och Goran väntar.
+
+{p}
+	Alyssa:
+	- Välkommen tillbaka.
+	Jag ser att du lyckats återfinna Luftamuletten.
+
+{p}
+	Alyssa:
+	- Berätta om allt som du varit med om.
+
+{p}
+	Du berättar om allt som inträffat i Muren.
+
+{p}
+	Alyssa:
+	- Intressant... Det här bekräftar det jag anade om vår motståndare.
+
+{p}
+	Alyssa:
+	- Vår motståndare kontrollerar tid och rum.
+	Vi har haft uppfattningen att Merula har mördat folk genom att skära...
+
+{p}
+	Alyssa:
+	- ... men det stämmer inte. Merula manipulerar materia och beordrar
+	den att delas itu. Det förklarar den oerhörda precisionen
+	och den absoluta dödligheten.
+	
+{p}
+	Alyssa:
+	- Jag har en god idé om vad som gett Merula kraften
+	över tid och rum.
+
+{p}
+	Alyssa:
+	- Jag vill inte tråka ut dig med en lång förklaring.
+	Låt oss gå vidare.
+
+{p}
+	Alyssa:
+	- Jag vill att du fortsätter att samla amuletterna så att du får tillgång
+	till mer av gudarnas styrka.
+
+{p}
+	Alyssa:
+	- Ditt nästa mål är Eldtemplet, som ligger djupt inne i djungeln, bortom Urskogen.
+
+{p}
+	Alyssa:
+	- Givetvis finns även Vattentemplet. Det ligger västerut, bortom Kustvägen.
+	Du behöver eldens krafter för att driva bort den förtrollning som blockerar Kustvägen.
+
+{p}
+	Alyssa:
+	- Problemet är nu hur du ska ta dig igenom Urskogen...
+	Du kan givetvis inte lita på Vandrarna igen för vi vet att de tjänar Merula.
+
+{p}
+	Goran:
+	- Kan vi använda Kompassen? Kompassen visar vägen till Fristaden.
+
+{p}
+	Alyssa:
+	- Jag önskar att vi kunde göra det men Kompassen är försvunnen.
+
+{p}
+	Goran:
+	- Försvunnen? När hände det? Hur?
+
+{p}
+	Alyssa:
+	- Jag vet inte hur, men den försvann ungefär samtidigt som Selena.
+	Jag har letat överallt men Kompassen går inte att hitta.
+	
+{p}
+	Goran:
+	- Kan vi be Turdus att leda vägen? Men Turdus är...
+
+{p}
+	Alyssa:
+	- Turdus är försvunnen.
+	
+{p}
+	Alyssa:
+	- Du säger att Turdus är tillbaka? Han har varit i Muren?
+
+{p}
+	Alyssa:
+	- Nej, jag har aldrig bett Turdus att färdas till Muren.
+	Jag hade ingen aning om att han ens varit där.
+
+{p}
+	Alyssa:
+	- Men om han nu är tillbaka...
+
+{p}
+	Alyssa:
+	- ... nej, förresten. Vi kan inte be Turdus att leda dig genom Urskogen igen.
+	
+{p}
+	Goran:
+	- Hurså?
+	
+{p}
+	Alyssa:
+	- Jag är ledsen att jag säger detta men Turdus går inte att lita på.
+
+{p}
+	Goran:
+	- Stämmer rykterna, att han är...
+	
+{p}
+	Alyssa:
+	- Tyst! Jag vet inte vilka rykten du menar om
+	men det är bäst osagt.
+
+{p}
+	Goran:
+	- ...
+
+{p}
+	Alyssa:
+	- Åter till ämnet. Du måste korsa Urskogen igen.
+	Du har gjort det förut, men den här gången kommer det bli mycket farligare.
+
+{p}
+	Alyssa:
+	- Fristaden ligger djupt inne i djungeln och är svår att hitta.
+
+{p}
+	Alyssa:
+	- Vi har inte mycket till val. Du har två amuletter som skyddar dig.
+	Jag är säker på att du kan motstå Urskogens förtrollning.
+	
+{p}
+	Alyssa:
+	- Jag har beräknat den exakta riktningen till Fristaden.
+	Du får helt enkelt ge dig av utan någon vägvisare.
+	
+{p}
+	Goran:
+	- Absolut inte!
+	Det är alldeles för farligt.
+
+{p}
+	Alyssa:
+	- Det är riskabelt, men vi har inget val.
+	Vi kan inte sitta och vänta på en lösning som aldrig kommer.
+
+{p}
+	Goran:
+	- Leta efter Kompassen då. Den kanske fortfarande finns någonstans här omkring.
+	
+{p}
+	Alyssa:
+	- Nej! Det gör den inte.
+	
+{p}
+	Goran:
+	- Hur kan du vara så säker på det?
+
+{p}
+	Alyssa:
+	- ... det kan jag inte förklara.
+	Faktum är att Kompassen är utom räckhåll.
+	
+{p}
+	Goran:
+	- Låt oss tänka över det här ett tag till.
+	Och du... du går ingenstans!
+
+{p}
+	Goran går iväg.
+	
+{p}
+	Alyssa:
+	- Det är slutligen upp till dig. Du vet vad vi tycker.
+
+{p}
+	Alyssa:
+	- Förtrollningen över Urskogen blir starkare för varje dag som går.
+	Du kan inte ödsla någon tid.
+
+{p}
+	Alyssa:
+	- Gå nu. Jag behöver lite tid att tänka.
+	{set,Fristaden,1}
+	{set,Teori,1}
+	{set,Varning,1}
+	{set,Förakt,1}
+	{chap,'Platser/Staden'}
+	
+{p}
+

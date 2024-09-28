@@ -1,0 +1,49 @@
+{p}
+	{name,Plats,'Metalltemplet'}
+	{image,'Bilder/Metalltemplet'}
+
+{s}
+	Du befinner dig utanför Metalltemplet.
+	{ans}
+		Gå in i Metalltemplet (första porten)
+		{set,Första valet,1}
+	{ans}
+		Gå in i Metalltemplet (andra porten)
+		{set,Första valet,2}
+	{ans}
+		Gå in i Metalltemplet (tredje porten)
+		{set,Första valet,3}
+	{ans}
+		Gå in i Metalltemplet (fjärde porten)
+		{set,Första valet,4}
+	{if}{has,Metalltemplet,3}
+		{ans}
+			Gå tillbaka till Bergspasset
+			{chap,'Platser/Bergspasset'}
+
+{p}
+	Du går in i metalltemplet...
+	{set,Slump,0}
+	{rand,Slump,2}
+
+{p}
+	{if}{equal,Slump,1}
+		{skip,1}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Goblin'}
+	{set,Fiende.Grad,10}
+	{name,Fas,'Strid'}
+	{chap,'Platser/Metalltemplet'}
+	{call}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Ödleman'}
+	{set,Fiende.Grad,10}
+	{name,Fas,'Strid'}
+	{chap,'Platser/Metalltemplet'}
+	{call}
+
+{p}

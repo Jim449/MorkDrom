@@ -1,0 +1,10 @@
+{
+"namn": "Seraf",
+"element": "Ljus",
+"hp": 36,
+"belöning": 10,
+"förmågor": ["Inferno","Nova","Invasiv kyla","Vindskära","Skalv"],
+"beskrivning": "En varelse höljd i ljus.
+Den gillar stillhet och att betrakta det som händer i världen.
+När den måste slåss besegrar den motståndaren snabbt och skoningslöst."
+}

@@ -1,0 +1,335 @@
+{s}
+	{name,Plats,'Okänd plats'}
+	{image,'Bilder/Trätemplet'}
+
+{p}
+	Du befinner dig i en glänta, omgiven av gamla, knotiga träd.
+	Det ser ut som Urskogen men ändå inte,
+	det är ljust och fridfullt.
+	
+{p}
+	Längre bort står ett litet tempel byggt i trä.
+	Ni går fram mot det och märker att en person sitter på verandan.
+
+{p}
+	Det är en kvinna som ser ut att vara i trettioårsåldern.
+	Hon bär traditionella kläder för en prästinna.
+
+{p}
+	Hennes bruna hår är omsorgsfullt flätat
+	och hon utstrålar lugn och elegans.
+
+{p}
+	Du får en underlig känsla av att du träffat henne förut,
+	i ett helt annat sammanhang.
+
+{p}
+	Hon håller ett vaksamt öga mot er och rör sig inte ur fläcken.
+	Du går närmare.
+
+{p}
+	Okänd kvinna:
+	- Stopp.
+
+{p}
+	Hon har en mjuk röst och pratar lugnt.
+
+{p}
+	Okänd kvinna:
+	- Templet av trä är inte öppet för främlingar.
+	Jag ser att ni inte är från Gömslet. Hur hittade ni den här platsen?
+	{name,Plats,'Urskogens hjärta'}
+
+{p}
+	Okänd kvinna:
+	- Du vill inte svara? Det gör inget...
+	bara gå härifrån.
+	
+{p}
+	Mara:
+	- Är vi i närheten av Gömslet?
+
+{p}
+	Okänd kvinna:
+	- Det stämmer, men ni gör bäst i att hålla er borta från Gömslet.
+
+{p}
+	Mara viskar till dig...
+	
+{p}
+	Mara:
+	- Det här kan vara vår chans att infiltrera Gömslet och döda Dennis.
+	Sedan behöver vi bara hitta en väg ut ur Urskogen.
+	För en gångs skull kommer Eldtemplets teleportation väl till pass...
+	
+{p}
+	Mara:
+	- ... men vi behöver göra något så att den här kvinnan inte röjer oss.
+	
+{p}
+	Du går med på Maras idé. Även om det är riskabelt så är det en god chans
+	att lära sig mer om motståndaren, och Mara ändrar sig inte så lätt.
+
+{p}
+	En vattenmagi borde vara nog för att slå kvinnan medvetslös,
+	tror du, och börjar samla kraft...
+
+{p}
+	Plötsligt känner du skarp smärta och det är som om livskraften rinner ur dig.
+	Du tappar greppet om den magiska energi du samlat och faller handlöst.
+	
+{p}
+	Okänd kvinna:
+	- Tro inte att du kan överraska mig.
+
+{p}
+	Du tar dig mödosamt upp igen. Du känner det tydligt nu - en enorm magisk kraft
+	genomsyrar hela gläntan. För bara ett ögonblick sen var den stillsam
+	men nu tycks den gränslös och djupt hotfull.
+	
+{p}
+	Olivia:
+	- Jag är Olivia, väktare av detta tempel och innehavaren av Amuletten av trä.
+
+{p}
+	Olivia:
+	- Jag ogillar våld och jag var beredd att låta dig gå, 
+	men det är inte längre ett alternativ.
+
+{p}
+	Mara:
+	- Något är fel... jag kan inte skaka av den här känslan av fara.
+
+{p}
+	Mara:
+	- Vi måste fly!
+	
+{p}
+	Ni springer mot skogen. En vägg av kvistar och blad
+	skjuter upp och blockerar er väg.
+
+{p}
+	Olivia:
+	- Ni kan inte fly.
+	
+{p}
+	Mara:
+	- Fördömt! Vi blir tvugna att slåss.
+
+{p}
+	Du drar ditt vapen och gör dig redo att anfalla.
+	{name,Fiende.Namn,'Olivia'}
+	{set,Fiende.Grad,4}
+	{name,Fas,'Strid'}
+	{call}
+	
+{p}
+	Ni har kämpat mot Olivia länge nu
+	men hon visar inga tecken på att tröttna ut.
+
+{p}
+	Mara är andfådd. Hon har lugnat ned sig något
+	och du upprepar att ni borde fly.
+	
+{p}
+	Mara frammanar elden, omger sig med en mäktig,
+	ljusstark flamma.
+	
+{p}
+	Olivia backar och gör sig redo att försvara sig...
+
+{p}
+	... men Mara vänder sig om och slungar elden
+	mot skogen.
+
+{p}
+	En väg öppnas och ni springer igenom den.
+	{image,'Bilder/Urskogens hjärta'}
+
+{p}
+	Urskogen sluter sig om er, ljuset stängs ute.
+
+{p}
+	Ni tvingas sakta ned för att inte snubbla över grenarna.
+	Ni fortsätter gå, för att komma längre bort från Trätemplet.
+
+{p}
+	Som tur är syns inte Olivia till.
+	Det verkar inte som om hon vill följa efter er.
+
+{p}
+	Du ser att Mara är vimmelkantig av trötthet och griper tag i henne.
+
+{p}
+	Mara:
+	- Vad är det! Jag kan fortsätta...
+
+{p}
+	Mara:
+	- ... nej, vi måste fortsätta!
+	Stannar vi i den djupaste delen av Urskogen är vi förlorade.
+
+{p}
+	Det är något som smyger bakom träden.
+	Det går knappt att se, men du känner av dem.
+
+{p}
+	Du använder Självbevarelsedrift och hör monstren fly.
+
+{p}
+	Ni återupptar vandringen i snabbare tempo.
+	Du använder alla magier som du vågar
+	för att monstren inte ska anfalla.
+
+{p}
+	Äntligen ser du en ljusning framåt.
+	Ni tar de sista stegen ut ur skogen.
+	
+{p}
+	Så fort ni lämar Urskogen blir du vimmelkantig.
+	Du förflyttas till en annan plats.
+
+{p}
+	Du stirrar fram mot en lång, enslig väg.
+	{image,'Bilder/Kustvägen'}
+	{name,Plats,'Kustvägen'}
+
+{p}
+	Den sträcker sig framåt utan slut. Den griper tag i dig
+	och du känner hur världen börjar snurra.
+
+{p}
+	Du vet vad som väntar längre fram
+	och vågar inte ta ett steg till.
+
+{p}
+	Mara tvingar dig att fortsätta.
+	Du går framåt...
+
+{p}
+	... ingenting händer. Den ondskefulla kraft
+	som borde finnas här har helt försvunnit.
+
+{p}
+	Du känner hur du återigen förflyttas genom rummet
+	men hinner inte se vart du hamnar innan du kollapsar.
+	{name,Plats,'Okänd plats'}
+	{image,'Bilder/Svart'}
+	
+{p}
+	Du vaknar upp i ett litet men bekant rum.
+	
+{p}
+	Snart inser du att du befinner dig i herrgården i Staden.
+	
+{p}
+	Du går genom korridoren och fram till Alyssas kontor.
+	En lite overklig, nostalgisk känsla kommer över dig när du går in.
+	{name,Plats,'Staden'}
+	{image,'Bilder/Kontoret'}
+
+{p}
+	Alyssa sitter bakom sitt skrivbord som vanligt.
+	Även Goran är där.
+	
+{p}
+	Alyssa:
+	- Välkommen tillbaka.
+
+{p}
+	Alyssa:
+	- Goran hittade dig vid utkanten av staden, helt utslagen.
+	Du hade tur att inte monstren från Den öde staden hittade dig.
+
+{p}
+	Alyssa:
+	- Hon som du kom med? Hon hade också kollapsat
+	så vi tog henne hit.
+
+{p}
+	Alyssa:
+	- Hon vaknade något tidigare än du. Jag gick och pratade med henne men...
+
+{p}
+	Alyssa:
+	- Jag hann knappt få fram ett ord innan hon störtade ut.
+
+{p}
+	Goran:
+	- Det var som att hon blev alldeles rasande...
+	och att hon flydde innan hon hann tappa kontrollen.
+
+{p}
+	Alyssa:
+	- Var det ditt intryck? Jag har svårt att avgöra...
+
+{p}
+	Alyssa:
+	- Du säger att du har hittat Templet av Trä?
+	Och du har träffat innehavaren av Träamuletten?
+
+{p}
+	Alyssa:
+	- Guden av Trä, Viridis, är viktig för Gömslet.
+	Olivia är en av våra starkaste motståndare.
+	Du hade tur som överlevde...
+
+{p}
+	Alyssa:
+	- ... och du säger att det var något bekant med henne?
+
+{p}
+	Alyssa:
+	- Jag har vissa farhågor. Om du möter Olivia igen
+	vill jag att du flyr omedelbart.
+
+{p}
+	Alyssa:
+	- Gå nu. Hitta Eldamuletten så fort som möjligt.
+	Allt fler fiender har gett sig tillkänna
+	och vi är inte redo att möta dem.
+
+{p}
+	Du lämnar kontoret. Du är nästan framme vid dörren
+	till herrgården när Goran hinner upp dig.
+	
+{p}
+	Goran:
+	- Vänta! Jag är bekymrad över en sak.
+	
+{p}
+	Goran:
+	- Sedan du gav dig av har Turdus
+	börjat bete sig alltmer underligt.
+
+{p}
+	Goran:
+	- Han är nästan aldrig här. Han lyssnar inte på någon.
+	Konstiga rykten cirkulerar.
+
+{p}
+	Goran:
+	- Alyssa vet säkert något men vägrar berätta.
+	Kan du hålla utkik efter honom?
+
+{p}
+	Du lovar att göra det och lämnar herrgården.
+	Ute på gatan väntar Mara på dig.
+	{image,'Bilder/Staden'}
+
+{p}
+	Mara:
+	- Där är du ju. Jag började bli otålig.
+
+{p}
+	Mara:
+	- Nu lämnar vi den här staden. Nu, direkt.
+	Jag står inte ut med att stanna här.
+	{set,Gläntan,0}
+	{add,Ravinen,1}
+	
+{p}
+	{chap,'Platser/Eldtemplet'}
+	{act,'Staden'}
+
+{p}

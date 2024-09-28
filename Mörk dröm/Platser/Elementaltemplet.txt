@@ -1,0 +1,16 @@
+{p}
+	{name,Plats,'Elementaltemplet'}
+	{image,'Bilder/Elementaltemplet'}
+
+{s}
+	Du befinner dig vid Elementaltemplet.
+	{if}{equal,Eldprövning,1}{equal,Vattenprövning,1}{equal,Luftprövning,1}{equal,Jordprövning,1}
+		{equal,Ljusprövning,1}{equal,Mörkerprövning,1}{equal,Träprövning,1}{equal,Metallprövning,1}
+		{ans}
+			Gå till den innersta kammaren
+			{chap,'Epilog/Epilog 5'}
+	{ans}
+		Gå söderut till Norra bergen
+		{chap,'Platser/Norra bergen'}
+
+{p}

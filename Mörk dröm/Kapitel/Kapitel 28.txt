@@ -1,0 +1,182 @@
+{p}
+	{set,Kapitel,28}
+
+{p}
+	Kapitel 28
+	
+{p}
+	När ni vaknar nästa morgon börjar ni diskutera nästa drag.
+
+{p}
+	Selena:
+	- Vi blir helt enkelt tvungna att forcera oss fram.
+
+{p}
+	Selena:
+	- Den kortaste vägen till Staden går rakt söderut.
+	Men nästan hela sträckan går genom Urskogen.
+
+{p}
+	Goran:
+	- Vi kan inte gå söderut. Ju längre vi färdas genom Urskogen
+	desto större risk.
+
+{p}
+	Selena:
+	- Jag håller med dig. Vi har Djungeln i öster - försöker vi ta oss till Eldtemplet igen...
+
+{p}
+	Mara:
+	- Vi kan inte gå genom Eldtemplet.
+
+{p}
+	Selena:
+	- ... nej. Jag litar på Mara, den vägen är utesluten.
+
+{p}
+	Selena:
+	- Skogen ligger västerut. Det är en omväg men vi kan kringå Urskogen
+	under stora delar av resan.
+
+{p}
+	Goran:
+	- Det kan vara det bästa alternativet men Turdus kommer
+	givetvis att försöka stoppa oss. Det ser inte bra ut...
+
+{p}
+	Selena:
+	- Ska vi då gå norrut? Då kommer vi till Norra bergen
+	och kan följa det till Klipporna.
+
+{p}
+	Selena:
+	- Norra bergen är okänd mark och sägs vara mycket farligt.
+
+{p}
+	Goran:
+	- Jag har hört legenderna om Norra bergen.
+	Vi bör inte gå dit om det kan undvikas.
+
+{p}
+	Selena:
+	- Fördelen är att Norra bergen bara ligger en kort sträcka från Trätemplet.
+
+{p}
+	Goran:
+	- Det kan vara värt ett försök. Det kan inte vara värre
+	än att gå genom Urskogen.
+
+{p}
+	Selena:
+	- Då bestämmer vi det. Vi går norrut.
+
+{p}
+	Selena:
+	- Vi har fyra magiutövare här. Låt oss dela upp oss så två tar täten
+	och två tar flanken.
+
+{p}
+	Selena:
+	- Jag skulle vilja ha dig vid täten. Vem vill du ha med dig?
+	{ans}
+		Mara
+		{name,Allierad.Namn,'Mara'}
+	{ans}
+		Selena
+		{name,Allierad.Namn,'Selena'}
+	{ans}
+		Goran
+		{name,Allierad.Namn,'Goran'}
+
+{p}
+	Du väljer att gå med {write,Allierad.Namn,'.'}
+	{set,Allierad.Grad,10}
+	{name,Fas,'Assistent'}
+	{call}
+
+{p}
+	Du, Goran och alla invånarna i Fristaden går till gläntan
+	där Trätemplet står.
+	{image,'Bilder/Trätemplet'}
+
+{p}
+	Ni har fått tillbaka all utrustning, inklusive ett förråd av elixir.
+	{set,Elixir,Max elixir}
+
+{p}
+	Bergen ligger rakt framför men däremellan ligger
+	en kortare sträcka med skog.
+
+{p}
+	Ni går in i Urskogen.
+	{name,Plats,'Urskogens hjärta'}
+	{image,'Bilder/Urskogens hjärta'}
+	{set,Tid,0}
+
+{s}
+	{add,Tid,1}
+
+{p}
+	Du befinner dig i Urskogens hjärta.
+	{ans}
+		Utforska urskogens hjärta
+
+{p}
+	Du utforskar urskogens hjärta...
+	{set,Slump,0}
+	{rand,Slump,3}
+
+{p}
+	{if}{equal,Tid,5}
+		{find,1}
+	{elif}
+		{skip,Slump}
+		
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Varg'}
+	{set,Fiende.Grad,9}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}
+	
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Panter'}
+	{set,Fiende.Grad,9}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Vålnad'}
+	{set,Fiende.Grad,9}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}
+
+{s}
+	Ni är framme vid Norra bergen.
+	{name,Plats,'Norra bergen'}
+	{image,'Bilder/Norra bergen'}
+
+{p}
+	Bergskedjan sträcker sig högt över er.
+
+{p}
+	Ni befinner er redan högt uppe. Marken är kal och stenig.
+	Det är torrt och varmt, finns inget vatten någonstans.
+
+{p}
+	Ni har en lång vandring framför er
+	och vägen är full av monster.
+	{set,Muren,0}
+	{set,Urskogens hjärta,0}
+	{set,Omväg,1}
+	
+{p}
+	{chap,'Platser/Norra bergen'}
+
+{p}
+

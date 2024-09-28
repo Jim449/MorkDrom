@@ -1,0 +1,10 @@
+{
+"namn": "Ogre",
+"element": "Jord",
+"hp": 16,
+"belöning": 4,
+"förmågor": ["Skalv","Uthållighet","Provokation","Inferno"],
+"beskrivning": "En stor, mäktig varelse
+som älskar att slåss.
+Den är ganska trög."
+}

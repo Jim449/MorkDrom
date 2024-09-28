@@ -1,0 +1,515 @@
+{s}
+	{set,Akt,4}
+	{set,Kapitel,16}
+
+{p}
+	{name,Plats,'Urskogen'}
+	{image,'Bilder/Urskogen'}
+
+{p}
+	{name,Allierad.Namn,'Selena'}
+	{set,Allierad.Grad,5}
+	{name,Fas,'Assistent'}
+	{call}
+	
+{p}
+	Kapitel 16
+
+{p}
+	Vandringen genom urskogen går stadigt.
+	Tack vare dina och Philomelos magier har ni inga problem
+	att navigera.
+
+{p}
+	Philomelos:
+	- Det finns monster framöver. Vi kan behöva slåss.
+
+{p}
+	Selena:
+	- Vi tar oss an dem tillsammans. Visa mig vad du går för.
+	{name,Fiende.Namn,'Varg'}
+	{set,Fiende.Grad,7}
+	{name,Fas,'Strid'}
+	{call}
+
+{p}
+	Vargarna är bekämpade och resan fortsätter.
+	Efter en lång vandring är ni ute ur skogen.
+	{name,Plats,'Den öde staden'}
+	{image,'Bilder/Den öde staden'}
+
+{p}
+	Philomelos:
+	- Det här måste vara den gamla delen av staden.
+	Vilken förödelse... här finns inget liv.
+	
+{p}
+	Ni passerar ruinerna av Jordtemplet.
+
+{p}
+	Selena:
+	- ... jag har många minnen härifrån...
+	men det kommer aldrig att bli sig likt.
+
+{p}
+	Selena:
+	- Låt oss fortsätta.
+	{name,Plats,'Staden'}
+	{image,'Bilder/Staden'}
+	
+{p}
+	Ni träder in i Staden. Även här är det tyst
+	och ödsligt, men det går folk på gatorna.	
+
+{p}
+	Selena:
+	- Staden har blivit ännu mindre sedan jag lämnade den.
+	Det är knappt mer än en spillra...
+
+{p}
+	Selena:
+	- Så ledaren i Staden är Alyssa?
+	Låt oss gå och träffa henne omedelbart.
+
+{p}
+	Ni går in i herrgården. Alyssa sitter som vanligt i sitt kontor.
+	{image,'Bilder/Kontoret'}
+
+{p}
+	Alyssa:
+	- Välkommen tillbaka...
+
+{p}
+	Alyssa:
+	- Selena...?
+
+{p}
+	Selena:
+	- Länge sen, Alyssa.
+
+{p}
+	Alyssa:
+	- Hm... jag anade att du skulle komma tillbaka.
+	
+{p}
+	Selena:
+	- Möt Philomelos...
+
+{p}
+	Alyssa:
+	- Välkommen till Staden, Philomelos.
+	
+{p}
+	Philomelos:
+	- Tack.
+
+{p}
+	Goran träder in i kontoret. Han blir som förstummad.
+
+{p}
+	Selena:
+	- Trevligt att se dig igen, Goran.
+
+{p}
+	Goran:
+	- Selena? Jag kan inte tro det... var har du varit?
+
+{p}
+	Selena:
+	- Jag har levt i Fristaden under en längre tid.
+	
+{p}
+	Selena:
+	- Alyssa, det är på tiden att du förklarar.
+	Var det din idé att skicka ut mig i Urskogen?
+
+{p}
+	Alyssa:
+	- Det stämmer. Jag bad Turdus att lura in dig i Urskogen.
+
+{p}
+	Goran:
+	- Vad är det du säger!?
+
+{p}
+	Alyssa:
+	- Goran, lugna ned dig och låt mig förklara.
+	
+{p}
+	Alyssa:
+	- Selena var i färd med att inleda ett krig mot monstren
+	som vi omöjligen kunde vinna.
+	
+{p}
+	Alyssa:
+	- Jag gav dig kompassen så att du skulle kunna
+	ta dig till Fristaden.
+	
+{p}
+	Selena:
+	- Men det var en chansning, eller hur?
+	Jag hade lika gärna kunnat dö i Urskogen.
+
+{p}
+	Alyssa:
+	- Jag gjorde vad jag kunde
+	men det fanns aldrig några garantier.
+
+{p}
+	Goran:
+	- Alyssa. Den här incidenten har satt djupa sår i Staden...
+
+{p}
+	Goran:
+	- ... det var ditt fel hela tiden?
+	
+{p}
+	Alyssa:
+	- Det var nödvändigt. Om vi hade försökt ta tillbaka
+	Jordtemplet hade Merula anfallit oss igen.
+
+{p}
+	Goran:
+	- Hur kunde du veta det?
+
+{p}
+	Alyssa:
+	- Det är väl dags att jag säger det...
+
+{p}
+	Alyssa:
+	- Det var Turdus som låg bakom attacken mot Staden.
+
+{p}
+	Goran:
+	- Turdus!? Hur då?
+
+{p}
+	Alyssa:
+	- Gudarnas agerande speglar tankarna av alla som lever på ön.
+	Givetvis spelade Vandrarnas hat mot resten av ön en stor roll...
+
+{p}
+	Alyssa:
+	- ... men Turdus hat mot Staden måste ha varit den sista droppen.
+
+{p}
+	Alyssa:
+	- Turdus är Mörkrets utvalda. Det har jag vetat sedan länge.
+
+{p}
+	Goran:
+	- Var det därför du valde honom som din assistent?
+	Så att du kunde hålla koll på honom?
+
+{p}
+	Alyssa:
+	- Absolut inte.
+
+{p}
+	Alyssa:
+	- Turdus har hjälpt mig i min forskning
+	och med att formulera mina teorier.
+
+{p}
+	Alyssa:
+	- Jag fick reda på att han utforskat Mörkrets tempel.
+	Han hittade Mörkeramuletten i dess djup.
+
+{p}
+	Alyssa:
+	- Med amuletten i sin ägo fick han plötsligt tillgång till enorma krafter.
+	Kanske var det för mycket för honom att kontrollera.
+
+{p}
+	Alyssa:
+	- Efter att Staden låg i ruiner lämnade Turdus snabbt över amuletten
+	till Vandrarna... till Dennis.
+
+{p}
+	Selena:
+	- Så Dennis bedrog honom också.
+
+{p}
+	Alyssa:
+	- Det är inte säkert. Turdus vet mer än de flesta att folk
+	inte är att lita på.
+
+{p}
+	Alyssa:
+	- Men nu när Dennis har mörkeramuletten bör vi betrakta Vandrarna
+	som en av de största hoten mot Staden.
+
+{p}
+	Selena:
+	- Så vad är din plan nu?
+
+{p}
+	Alyssa:
+	- Att hitta så många amuletter som möjligt så att vi får kraft
+	att bekämpa Merula.
+
+{p}
+	Alyssa:
+	- Jag trodde att läget var hopplöst. Sen fick jag veta att en främling
+	hade strandsatts på ön. En person som bemästrar alla åtta elementen.
+
+{p}
+	Alyssa:
+	- Det finns ingen motsvarighet i historien.
+	Det måste betyda någonting.
+
+{p}
+	Selena:
+	- Verkligen? Det låter som höjden av dåraktighet
+	att lägga allt hopp till en ensam person.
+
+{p}
+	Alyssa:
+	- Kanske det. Är du med mig?
+
+{p}
+	Selena:
+	- Jag är med dig. Jag har inga bättre idéer själv,
+	och jag har börjat förstå att de vanliga reglerna inte gäller
+	när man står emot sådana motståndare.
+
+{p}
+	Selena:
+	- Låt oss lämna det förflutna bakom oss.
+	Det viktigaste är vad som händer nu.
+
+{p}
+	Alyssa:
+	- Tack, Selena. Goran...?
+	
+{p}
+	Goran:
+	- Jag har svårt att acceptera detta.
+	Du borde inte ha lurat in Selena i Urskogen.
+
+{p}
+	Alyssa:
+	- Tänk på alternativen. Om Selena övertalade alla män
+	att försöka ta tillbaka templet, och Merula mördade
+	allihop?
+
+{p}
+	Goran:
+	- Det hade varit en tragedi, ja. Men Selenas försvinnande
+	kom som en chock för Staden. Vi lämnades med ett stort tomrum, utan svar.
+
+{p}
+	Goran:
+	- Staden håller på att kollapsa från insidan.
+	Missnöjet växer stadigt.
+	
+{p}
+	Goran:
+	- Narden har samlat allt fler följare.
+	De slänger runt med konspirationsteorier - 
+	inte helt ogrundade, visar det sig...
+
+{p}
+	Goran:
+	- Andra vågar sig knappt ut från sina hem.
+	De väntar apatiskt på att situationen ska förbättras.
+	
+{p}
+	Goran:
+	- Just nu har vi ingen chans att besegra Merula.
+	Det tar för mycket kraft att lösa omedelbara problemen som finns här i Staden.
+
+{p}
+	Selena:
+	- Jag förstår vad du menar. Men vi måste ta itu med det större hotet.
+	Det kommer inte att bli lätt, och det kan krävas uppoffringar.
+	
+{p}
+	Goran:
+	- ...
+
+{p}
+	Alyssa:
+	- Goran, jag hoppas att du håller allt det som har sagts här hemligt.
+
+{p}
+	Goran:
+	- Jag tänker inte säga något. Om Narden får veta kommer det att skapa ännu mer kaos.
+
+{p}
+	Selena:
+	- Philomelos, du måste också hålla tyst om det här.
+
+{p}
+	Philomelos:
+	- Varför det? Sanningen borde komma ut.
+	
+{p}
+	Selena:
+	- Alyssa, har du någon fängelsecell ledig?
+
+{p}
+	Alyssa:
+	- Ja, det kan tänkas. Hurså?
+
+{p}
+	Selena:
+	- Släng in Philomelos i den innan han gör något dumt.
+
+{p}
+	Philomelos:
+	- Herregud! Du kan inte låsa in mig om jag inte har gjort något!
+
+{p}
+	Selena:
+	- Då får du hålla tyst om det du hört här.
+
+{p}
+	Philomelos:
+	- Okej, som du vill!
+
+{p}
+	Philomelos:
+	- Men jag vill träffa Turdus. Han är nyckeln till hela
+	den här incidenten och vi prata med honom.
+
+{p}
+	Alyssa:
+	- Överge tanken. Det är sådana som du
+	som Turdus hatar mest.
+
+{p}
+	Philomelos:
+	- Va...?
+
+{p}
+	Alyssa:
+	- Förlåt mig. Jag har inget emot dig men så är det.
+
+{p}
+	Alyssa:
+	- Låt oss diskutera vårt nästa drag.
+	Jag vill att du hittar Vattenamuletten.
+
+{p}
+	Alyssa:
+	- Vattentemplet ligger västerut, förbi Kustvägen.
+	Nu när du har Eldamuletten borde du kunna eliminera
+	förtrollningen som blockerar vägen.
+
+{p}
+	Alyssa:
+	- Templet ligger i Skärgården och går inte att nå via land.
+	Det finns ett skepp i slutet av Kustvägen som du kan använda.
+
+{p}
+	Alyssa:
+	- Vi behöver någon som kan segla det.
+
+{p}
+	Selena:
+	- Jag gör det. Det var länge sen men jag har seglat ett skepp förut.
+	{name,Fas,'Solo'}
+	{call}
+
+{p}
+	Alyssa:
+	- Det är bra, men jag skulle vilja be dig om en annan sak först.
+
+{p}
+	Alyssa:
+	- Staden saknar skydd mot monstren och är på väg att tas över av växtlighet.
+	Kan du använda Jordamuletten för att skapa en barriär?
+
+{p}
+	Selena:
+	- Absolut. Jag har gjort det förut i Fristaden. Ge mig ett dygn.
+
+{p}
+	Alyssa:
+	- Tack så mycket!
+	{image,'Bilder/Staden'}
+
+{p}
+	Mötet är avslutat. Du, Selena och Philomelos
+	beger er till värdshuset för att vila.
+
+{p}
+	När du kliver in i värdshuset möter du Alba och Ron.
+
+{p}
+	Alba:
+	- Det var på tiden! Vi hörde att du varit i Fristaden.
+	Trevligt att se dig igen.
+	
+{p}
+	Alba kastar sig runt din hals.
+	Ron ser desto kyligare ut.
+
+{p}
+	Ron:
+	- Hallå där. Kul att ha dig tillbaka.
+
+{p}
+	Selena och Philomelos introducerar sig.
+
+{p}
+	Ron:
+	- Jag har hittat min plats här i Staden.
+	Jag hjälper till stadsvakten och försöker
+	förbättra rutiner där det går.
+
+{p}
+	Ron:
+	- Stämningen är lite nedtryckt
+	men Goran gör ett bra jobb...
+
+{p}
+	Alba:
+	- Jag hjälper till Alyssa med allehanda ärenden.
+	Det är ganska roligt.
+
+{p}
+	Alba:
+	- Så vad händer nu? Har du något nytt uppdrag på gång?
+	
+{p}
+	Selena:
+	- Vi kommer bege oss västerut till Skärgården.
+	Vattnets tempel ligger där.
+
+{p}
+	Alba:
+	- Säg till om du vill ha hjälp med något.
+	Alyssa vill att jag stannar i Staden i fall monstren anfaller
+	men något kanske jag kan göra.
+	
+{p}
+	Alba:
+	- Jag kan sälja några formler om du inte redan
+	har lärt dig allt.
+
+{p}
+	Selena:
+	- Nu när jag kom att tänka på det...
+
+{p}
+	Selena:
+	- Jag borde ha kvar några formler i mitt gamla hus.
+	Jag ska försöka leta fram dem.
+	{set,Återkomsten,0}
+	{set,Selena,2}
+	{set,Philomelos,2}
+	{set,Alba,2}
+	{set,Ron,2}
+	{set,Avataren,1}
+
+{p}
+	Du tar in i värdshuset för natten.
+	{set,Hp,Max hp}
+
+{p}
+	{chap,'Platser/Staden'}
+
+{p}

@@ -1,0 +1,10 @@
+{
+"namn": "Imp",
+"element": "Eld",
+"hp": 6,
+"extradrag": true,
+"belöning": 2,
+"förmågor": ["Inferno","Provokation","Eldsköld","Absorption"],
+"beskrivning": "En liten, aggressiv
+och ondskefull varelse."
+}

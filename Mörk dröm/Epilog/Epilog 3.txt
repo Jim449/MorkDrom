@@ -1,0 +1,24 @@
+{p}
+	{set,Epilog,3}
+	{name,Plats,'Norra bergen'}
+	{image,'Bilder/Norra bergen'}
+
+{p}
+	Du står vid Norra bergen. Du känner till logiken bakom Eldtemplets förflyttningar
+	och det här är inte den plats du trodde du skulle komma till.
+
+{p}
+	Framför dig står en stor port som går in i berget.
+	Den är öppen.
+
+{p}
+	Du går mot porten...
+
+{p}
+	... precis när du ska gå in förflyttas du igen.
+	{name,Plats,'Djungeln'}
+	{chap,'Platser/Eldtemplet'}
+	{act,'Djungeln'}
+	{skip,3}
+
+{p}

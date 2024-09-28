@@ -1,0 +1,9 @@
+{
+"namn": "Turdus",
+"element": "Mörker",
+"hp": 36,
+"belöning": 10,
+"förmågor": ["Mörk vind","Inferno","Illusion","Depression"],
+"förberedelser": ["Depression"],
+"beskrivning": "Merulas avatar"
+}

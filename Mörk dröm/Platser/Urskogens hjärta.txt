@@ -1,0 +1,81 @@
+{p}
+	{name,Plats,'Urskogens hjärta'}
+	{image,'Bilder/Urskogens hjärta'}
+	{set,Tid,0}
+
+{s}
+	{add,Tid,1}
+
+{p}
+	Du befinner dig i Urskogens hjärta.
+	{ans}
+		Utforska urskogens hjärta
+	{if}{equal,Trätemplet,1}
+		{ans}
+			Gå till Gömslet
+			{chap,'Kapitel/Kapitel 26'}
+	{elif}{has,Trätemplet,3}
+		{ans}
+			Gå till Trätemplet
+			{chap,'Platser/Trätemplet'}
+	{if}{has,Norra bergen,1}
+		{ans}
+			Gå norrut till Norra bergen
+			{chap,'Platser/Norra bergen'}
+	{ans}
+		Gå österut till Djungeln
+		{chap,'Platser/Djungeln'}
+	{ans}
+		Gå söderut till Urskogen
+		{chap,'Platser/Urskogen'}
+	{ans}
+		Gå västerut till Skogen
+		{chap,'Platser/Skogen'}
+
+{p}
+	Du utforskar urskogens hjärta...
+	{set,Slump,0}
+	{rand,Slump,3}
+
+{p}
+	{if}{equal,Tid,5}{equal,Trätemplet,0}
+		{find,1}
+	{elif}
+		{skip,Slump}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Varg'}
+	{set,Fiende.Grad,8}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}
+	
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Svartalv'}
+	{set,Fiende.Grad,8}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Vålnad'}
+	{set,Fiende.Grad,8}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}
+
+{s}
+	En vålnad står i din väg!
+	{name,Fiende.Namn,'Vålnad'}
+	{set,Fiende.Grad,8}
+	{name,Fas,'Strid'}
+	{call}
+
+{p}
+	{set,Trätemplet,1}
+	{find,0}
+
+{p}

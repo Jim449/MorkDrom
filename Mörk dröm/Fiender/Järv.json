@@ -1,0 +1,10 @@
+{
+"namn": "Järv",
+"element": "Ljus",
+"hp": 6,
+"extradrag": true,
+"belöning": 2,
+"förmågor": ["Blixt","Raseri","Genomskådning","Uthållighet"],
+"beskrivning": "En liten, aggressiv best
+som aldrig ger upp."
+}

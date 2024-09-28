@@ -1,0 +1,95 @@
+{s}
+	{name,Plats,'Kustvägen'}
+	{image,'Bilder/Kustvägen'}
+
+{s}
+	Du befinner dig på Kustvägen.
+	{ans}
+		Gå österut till Staden
+		{chap,'Platser/Staden'}
+	{if}{has,Skärgården,1}
+		{ans}
+			Gå västerut till Skärgården
+			{chap,'Platser/Skärgården'}
+	{elif}{equal,Ondska,2}
+		{ans}
+			Prata med Turdus
+			{act,'Ondska'}
+	
+{f,Ondska}
+	Turdus väntar på dig vid sidan av vägen.
+	
+{p}
+	Turdus:
+	- Du kom till slut.
+	
+{p}
+	Turdus:
+	- Fortsätt gå framåt.
+	
+{p}
+	Vill du fortsätta?
+	{ans}
+		Ja
+		{skip,1}
+	{ans}
+		Nej
+
+{p}
+	Du väljer att inte fortsätta.
+	{find,1}
+	
+{p}
+	Du fortsätter framåt.
+
+{p}
+	Från utkanterna av ditt synfält ser du hur något rör sig.
+	
+{p}
+	Du vänder blicken men där finns ingenting, bara en grå, oformliga buskage.
+	Du fortsätter framåt...
+	
+{p}
+	Marken börjar skälva. Vägen framåt täcks av ett gråbrunt dis.
+	
+{p}
+	Grenarna sträcker ut sig mot dig, som om de ville gripa tag i dig.
+	Du drabbas av panik och vänder dig om för att springa. 
+	
+{p}
+	Vägen håller på att slutas. Du tar i allt du har...
+
+{p}
+	... du hinner inte, vägen sluts igen. Du ser bara en gråbrun, kompakt dimma.
+	Du kan inte ge upp, fortsätter tränga dig fram.
+
+{p}
+	Du känner dig trött, utmattad. Allting börjar vingla...
+	
+{p}
+	Plötsligt ger dimman vika och du står på vägen.
+	
+{p}
+	Du vänder dig om. Allting ser ut som vanligt igen.
+	Men något har förändrats, du kan känna det.
+	
+{p}
+	Du vet att en ondskefull kraft döljer sig borta på vägen...
+	
+{p}
+	Du förstår vad det var som hände.
+	Det var inget mer än en illusion.
+	
+{p}
+	Kunskapen om en ny magi
+	har på något sätt planterats i dig.
+	{name,Formel,'Självbevarelsedrift'}
+	{name,Text,Självbevarelsedrift}
+	{open,'Förmågor'}
+	{act,'Tillskott'}
+	
+{p}
+	{set,Ondska,3}
+	{find,1}
+
+{p}

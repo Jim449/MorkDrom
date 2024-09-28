@@ -1,0 +1,18 @@
+{s}
+	Status
+	{info}
+		{write,Namn,'
+'}Grad {show,Grad,'
+'}Erfarenhetspoäng {show,Ep,'/'}{show,Nästa grad,'
+
+'}Styrka {show,Styrka,'
+'}Hp {show,Hp,'/'}{show,Max hp,'
+
+'}{not}{same,Allierad.Namn,''}
+	Allierad: {write,Allierad.Namn,''}
+
+{p}
+	{info}
+	{return}
+
+{p}

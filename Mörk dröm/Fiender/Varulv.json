@@ -1,0 +1,10 @@
+{
+"namn": "Varulv",
+"element": "Eld",
+"hp": 16,
+"belöning": 4,
+"förmågor": ["Inferno","Raseri","Styrka","Fanatism"],
+"beskrivning": "En aggressiv varelse
+som lätt förlorar sig själv
+i blodtörst."
+}

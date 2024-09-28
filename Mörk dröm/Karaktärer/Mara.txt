@@ -1,0 +1,234 @@
+{s}
+	Du besöker Mara.
+	{ans}
+		Prata
+		{if}{equal,Djungelvandring,1}
+			{find,1}
+	{ans}
+		Handla
+		{act,'Handla'}
+	{if}{has,Epilog,2}
+		{ans}
+			Köp artefakter
+			{act,'Artefakt'}
+	{if}{has,Mörkertemplet,1}
+		{ans}
+			Välj som assistent
+			{act,'Assistent'}
+	{ans}
+		Tillbaka
+		{return}
+
+{p}
+	Mara:
+	- Hallå där! Allt bra?
+	{find,0}
+
+{s}
+	Mara:
+	- Är du redo för avfärd?
+	{ans}
+		Ja
+	{ans}
+		Nej
+		{find,0}
+
+{p}
+	Mara:
+	- Utmärkt!
+
+{p}
+	Mara:
+	- Vet du hur man slåss, förresten?
+	Det kanske är bäst att du tar den här...
+	{name,Formel,'Inferno'}
+	{name,Text,Inferno}
+	{open,'Förmågor'}
+	{act,'Tillskott'}
+
+{p}
+	Mara:
+	- Inferno är en kraftfull magi som bränner ned allt i sin väg.
+	Den råkar vara en av mina favoritmagier.
+
+{p}
+	Mara:
+	- Nu ger vi oss av.
+	{name,Allierad.Namn,'Mara'}
+	{set,Allierad.Grad,4}
+	{name,Fas,'Assistent'}
+	{call}
+
+{p}
+	Ni vandrar norrut. Skogen ändrar karaktär och blir alltmer tropisk.
+	Luften är fuktig och varm.
+
+{p}
+	Mara:
+	- Vi har en lång resa framför oss och djungeln
+	är full av monster.
+	
+{p}
+	Mara:
+	- Om allt går vägen är vi framme vid templet innan dagens slut.
+	{chap,'Platser/Djungeln'}
+
+{f,Handla}
+	Vad vill du köpa?
+	{ans}
+		Elixir (3s)
+		{info}
+			{write,'Elixir
+Återställer hälsopoäng
+maximalt utanför strid.',''}
+		{if}{has,Silver,3}{lack,Elixir,10}
+			{sub,Silver,3}{add,Elixir,1}{skip,2}
+		{elif}
+			{skip,3}
+
+	{if}{lackName,Förmågor,'Raseri'}
+		{ans}
+			Raseri (30s)
+			{set,Pris,30}
+			{name,Formel,'Raseri'}
+			{name,Text,Raseri}
+			{info}
+				{write,Raseri,''}
+
+	{if}{lackName,Förmågor,'Provokation'}
+		{ans}
+			Provokation (30s)
+			{set,Pris,30}
+			{name,Formel,'Provokation'}
+			{name,Text,Provokation}
+			{info}
+				{write,Provokation,''}
+
+	{if}{lackName,Förmågor,'Eldsköld'}
+		{ans}
+			Eldsköld (30s)
+			{set,Pris,30}
+			{name,Formel,'Eldsköld'}
+			{name,Text,Eldsköld}
+			{info}
+				{write,Eldsköld,''}
+
+	{if}{lackName,Förmågor,'Blixt'}
+		{ans}
+			Blixt (30s)
+			{set,Pris,30}
+			{name,Formel,'Blixt'}
+			{name,Text,Blixt}
+			{info}
+				{write,Blixt,''}
+
+	{if}{lackName,Förmågor,'Frid'}
+		{ans}
+			Frid (30s)
+			{set,Pris,30}
+			{name,Formel,'Frid'}
+			{name,Text,Frid}
+			{info}
+				{write,Frid,''}
+
+	{if}{lackName,Förmågor,'Genomskådning'}
+		{ans}
+			Genomskådning (30s)
+			{set,Pris,30}
+			{name,Formel,'Genomskådning'}
+			{name,Text,Genomskådning}
+			{info}
+				{write,Genomskådning,''}
+
+	{ans}
+		Tillbaka
+		{find,0}
+
+{p}
+	{if}{has,Silver,Pris}
+		{sub,Silver,Pris}
+		{act,'Handla'}
+		{open,'Förmågor'}{act,'Tillskott'}
+		
+{p}
+	Du har inte råd med {write,Formel,'.'}
+	{find,0}
+	
+{p}
+	Du köper ett elixir för 3 silvermynt.
+	{act,'Handla'}
+
+{p}
+	Du har inte råd med ett elixir.
+	{find,0}
+
+{f,Artefakt}
+	Vad vill du köpa?
+	{if}{lackName,Förmågor,'Rasande eld'}
+		{ans}
+			Rasande eld (275s)
+			{set,Pris,275}
+			{name,Formel,'Rasande eld'}
+			{name,Text,Rasande eld}
+			{info}
+				{write,Rasande eld,''}
+				
+	{if}{lackName,Förmågor,'Nova'}
+		{ans}
+			Nova (275s)
+			{set,Pris,275}
+			{name,Formel,'Nova'}
+			{name,Text,Nova}
+			{info}
+				{write,Nova,''}
+				
+	{if}{lackName,Förmågor,'Mental chock'}
+		{ans}
+			Mental chock (275s)
+			{set,Pris,275}
+			{name,Formel,'Mental chock'}
+			{name,Text,Mental chock}
+			{info}
+				{write,Mental chock,''}
+				
+	{if}{lackName,Förmågor,'Prediktion'}
+		{ans}
+			Prediktion (275s)
+			{set,Pris,275}
+			{name,Formel,'Prediktion'}
+			{name,Text,Prediktion}
+			{info}
+				{write,Prediktion,''}
+	{ans}
+		Tillbaka
+		{find,0}
+
+{p}
+	{if}{has,Silver,Pris}
+		{sub,Silver,Pris}
+		{act,'Artefakt'}
+		{open,'Förmågor'}{act,'Tillskott'}
+		
+{p}
+	Du har inte råd med {write,Formel,'.'}
+	{find,0}
+	
+{f,Assistent}
+	Vill du välja Mara som assistent?
+	{ans}
+		Ja
+	{ans}
+		Nej
+		{find,0}
+
+{p}
+	{name,Allierad.Namn,'Mara'}
+	{set,Allierad.Grad,15}
+	{name,Fas,'Assistent'}
+	{call}
+
+{p}
+	Mara är nu din assistent.
+	{find,0}
+	
+{p}

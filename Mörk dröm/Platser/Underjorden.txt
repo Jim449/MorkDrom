@@ -1,0 +1,367 @@
+{p}
+	{name,Plats,'Underjorden'}
+	{image,'Bilder/Underjorden'}
+	{set,Tid,0}
+	
+{s}
+	{add,Tid,1}
+	
+{p}
+	Du befinner dig i Underjorden.
+	{ans}
+		Utforska underjorden
+	{if}{equal,Underjorden,2}
+		{ans}
+			Utforska palatset
+			{act,'Spelet'}
+	{if}{equal,Underjorden,4}
+		{ans}
+			Gå till den Nedre underjorden
+			{chap,'Platser/Nedre underjorden'}
+	{if}{has,Underjorden,1}
+		{ans}
+			Lämna underjorden
+			{chap,'Platser/Skogen'}
+
+{p}
+	Du utforskar underjorden...
+	{set,Slump,0}
+	{rand,Slump,2}
+	
+{p}
+	{if}{equal,Underjorden,1}{equal,Tid,5}
+		{act,'Staden'}
+	{elif}{equal,Slump,1}
+		{skip,1}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Vessla'}
+	{set,Fiende.Grad,4}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Panter'}
+	{set,Fiende.Grad,3}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}
+
+{f,Staden}
+	Efter en lång vandring genom vindlande tunnlar
+	når ni en enorm grottsal.
+	
+{p}
+	Nedanför avsatsen ser du ruinerna av en gammal stad.
+	Husen är byggda i ett lermaterial och många är fortfarande intakta.
+	
+{p}
+	Bortom staden ligger ett magnifikt palats.
+	
+{p}
+	Alba:
+	- Vilken syn! Denna stad är omnämnd i Murens legender.
+	Låt oss titta närmare.
+
+{p}
+	Ni går in i staden och undersöker byggnaderna.
+
+{p}
+	Ron:
+	- Husen är väldigt solida. De går knappt ens att repa fasaderna.
+	
+{p}
+	Alba:
+	- Den kraft som skyddar Muren verkar också finnas här.
+	Husen är skyddade från tidens gång.
+
+{p}
+	Ni kommer fram till ett stort torg.
+	
+{p}
+	Ron:
+	- Vi behöver söka igenom hela området.
+	Dela upp er i fyra grupper och gå i varsin riktning.
+
+{p}
+	Ron:
+	- Vi samlas här igen innan dagen är över.
+
+{p}
+	Ron:
+	- Gå inte för långt. Vi har inte sett några monster i staden
+	men det kan mycket väl finnas.
+
+{p}
+	Du och Alba beger er i riktning mot palatset
+	med några av Rons män.
+	
+{p}
+	Ni utforskar hela området men hittar ingen väg vidare.
+	
+{p}
+	Alba:
+	- Jag vill utforska palatset också. Jag är lite otålig...
+
+{p}
+	Alba:
+	- ... men låt oss vänta tills vi har hela gruppen med oss.
+	
+{p}
+	Ni återvänder till torget.
+
+{p}
+	Ron:
+	- Ingen av grupperna har hittat någon väg framåt.
+	Det enda som återstår är att utforska palatset.
+
+{p}
+	Ron:
+	- Vi kan inte utesluta att det finns fiender eller fällor framöver.
+	Låt oss fortsätta när vi är ordentligt förberedda.
+	{set,Underjorden,2}
+	{find,0}
+
+{f,Spelet}
+	Palatset är byggt i vit sten och är enormt.
+	Det omgivs av en djup avgrund.
+	
+{p}
+	Ni står på bron, framför den vidöppna porten.
+
+{p}
+	Ni går in. Interiören är magnifik, full av pelare
+	och valv.
+
+{p}
+	Ni når en borggård. Ni verkar befinna er i en annan,
+	något mindre grottsal. Det är fortfarande högt i tak.
+
+{p}
+	Borggården är full av viadukter, som delar upp den i många rum.
+	Förstelnade rester av buskar och träd står ännu kvar.
+
+{p}
+	Plötsligt hör du en röst.
+
+{p}
+	Okänd man:
+	- Välkommen, välkommen. Som jag har väntat.
+
+{p}
+	En spenslig, äldre man kliver fram.
+
+{p}
+	Aegithalos:
+	- Mitt namn är Aegithalos. Jag vaktar denna plats.
+
+{p}
+	Alba:
+	- Aegithalos? Det är samma namn som...
+
+{p}
+	Aegithalos:
+	- Korrekt. Jag är din företrädare, Alba.
+	Det förra överhuvudet för Luftens tempel.
+
+{p}
+	Aegithalos:
+	- Kan det vara så att ni letar efter denna?
+	
+{p}
+	Aegithalos visar upp amuletten som hänger runt hans hals.
+
+{p}
+	Alba:
+	- Luftens amulett! Jag känner energin härifrån - det är ingen replika.
+
+{p}
+	Alba:
+	- Kan du ge amuletten till oss? Den tillhör Luftens tempel.
+
+{p}
+	Aegithalos:
+	- Ge den till dig? Kanske det... om ni går med på att spela ett spel.
+
+{p}
+	Ron:
+	- Vi har inte tid för spel! Lämna över den nu.
+
+{p}
+	Aegithalos:
+	- Jag insisterar. Jag har haft alltför tråkigt här nere.
+
+{p}
+	Ett dussin väldiga varelser tar form framför Aegithalos.
+
+{p}
+	Aegithalos:
+	- Få se hur ni står emot dessa arakider.
+
+{p}
+	Aegithalos svävar upp i luften och ställer sig på ett valv längre bort.
+	Fler enorma spindlar dyker upp och ni är redan omringade.
+
+{p}
+	Ron ropar ut kommandon. Hans trupper gör sig redo att kämpa mot arakiderna, tre mot varje.
+	
+{p}
+	Du tar dig an en arakid tillsammans med Alba.
+	{name,Fiende.Namn,'Arakid'}
+	{set,Fiende.Grad,2}
+	{name,Fas,'Strid'}
+	{call}
+
+{p}
+	Du har besegrat en arakid men omkring dig ser situationen mörk ut.
+
+{p}
+	Rons soldater är chanslösa. De har samlats i en klunga
+	i mitten av salen och arakiderna drar närmare. Aegithalos skrattar.
+	
+{p}
+	Aegithalos:
+	- Är det det bästa ni kan göra? Så långt ni fallit
+	sedan gudarnas tidsålder.
+
+{p}
+	Ron:
+	- Fördömt! Vi måste fly.
+
+{p}
+	Alba:
+	- Spring hitåt! Jag ska se till att arakiderna inte kommer ikapp.
+
+{p}
+	Ron:
+	- Gör som hon säger! Försök tar er ut ur inringningen!
+
+{p}
+	Ron och en handfull soldater lyckas ta sig förbi.
+	Ni springer alla mot den andra sidan av salen.
+	
+{p}
+	Albas vind fångar upp er och sträckan avverkas snabbt.
+	Arakiderna är redan långt bakom.
+	
+{p}
+	Framför er är en port. Ron ropar och ni stannar abrupt.
+
+{p}
+	Över porten flimrar en svart form. Ni hör ett mjukt visslande.
+	Bakom er skrattar Aegithalos.
+	
+{p}
+	Aegithalos:
+	- Se, svarta Merula. Ni kommer alla att dö.
+	
+{p}
+	Visslandet ökar i styrka, det är vemodigt och vackert.
+
+{p}
+	Svarta vingar blixtrar genom luften - men det hörs ingenting.
+	Bara dunsarna av kroppar som faller till marken.
+
+{p}
+	Alla soldaterna ligger ner. Deras kroppsdelar är skurna itu.
+
+{p}
+	Du står kvar. Även Alba och Ron är oskadda.
+
+{p}
+	Aegithalos:
+	- Vad är det, Merula? Döda dem.
+	
+{p}
+	Den svarta gestalten flimrar till och försvinner.
+
+{p}
+	Aegithalos:
+	- Vad är meningen med detta!? Ser du dem inte?
+
+{p}
+	Ron:
+	- Alba, kan du ta mig till Aegithalos.
+	Det här kan vara vår sista chans att besegra honom.
+
+{p}
+	Alba:
+	- Jag kan inte! Det finns för lite luft här,
+	mina krafter förbrukas alldeles för snabbt!
+
+{p}
+	Ron yttrar en ed och ni vänder er om för att fly.
+	
+{p}
+	Ni flyr in genom porten, in i palatset.
+	Ni når en trappgång som tar er nedåt.
+	
+{p}
+	Till slut når ni en port som tar er ut i grottan.
+	{image,'Bilder/Grottsal'}
+
+{p}
+	Tunnlarna är trånga och sluttar stadigt nedåt.
+	Ni går så fort som ni kan, trots det ojämna underlaget.
+
+{p}
+	Till slut når ni en tjärn och stannar.
+	
+{p}
+	Ron:
+	- Vi har passerat många förgreningar.
+	Förhoppningsvis kommer inte arakiderna hitta oss. Låt oss vila.
+	
+{p}
+	Ron:
+	- Jag har förlorat alla mina män.
+	Fan. Lämna mig ifred för ett tag...
+
+{p}
+	Ron sätter upp ett läger och går in i tältet.
+
+{p}
+	Alba:
+	- Vilken mardröm... jag trodde det här skulle bli
+	mer som ett äventyr... så dumt av mig.
+
+{p}
+	Alba:
+	- Vi kan inte längre vända om. Vi har lämnat det mesta
+	av provianten bakom oss. Hur ska vi någonsin kunna komma härifrån?
+	
+{p}
+	Alba:
+	- Nej, jag måste sluta oroa mig.
+	Vi försöker igen imorgon.
+
+{p}
+	Du lägger dig för natten.
+	
+{p}
+	Ron väcker dig tidigt. Ni äter en snabb frukost och packar ihop.
+
+{p}
+	Ron:
+	- Det är dags att gå.
+
+{p}
+	Alba:
+	- Är du okej, Ron?
+	
+{p}
+	Ron:
+	- Fråga inte. Vi måste ta oss igenom
+	tunnlarna så snabbt som möjligt.
+
+{p}
+	Ron:
+	- Det finns monster framöver.
+	Vi får inte tappa fokus nu.
+	{set,Underjorden,2}
+	{chap,'Platser/Nedre underjorden'}
+
+{p}

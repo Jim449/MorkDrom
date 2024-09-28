@@ -1,0 +1,150 @@
+{s}
+	{name,Plats,'Okänd plats'}
+	{image,'Bilder/Svart'}
+
+{p}	
+	Du befinner dig på en karg klippa.
+	Regnet piskar dig i ansiktet och det blåser en stark, isande vind.
+
+{p}
+	Ovädret gör det svårt att se.
+	Du ropar efter Mara och hör ett rop tillbaka. Du kämpar dig ditåt.
+
+{p}
+	Mara:
+	- Det är farligt att vara ute i en sådan här storm!
+	Vi behöver hitta något slags skydd.
+
+{p}
+	Du kan inte se något lä. Allting är helt plant.
+
+{p}
+	Ni börjar vandra. En smygande känsla av fara
+	kommer över dig, som om det finns något ondskefullt längre fram.
+
+{p}
+	Du varnar Mara men hon avfärdar det.
+
+{p}
+	Mara:
+	- Vi måste fortsätta framåt. Vad som än finns där borta
+	är det bättre än att stanna här.
+
+{p}
+	Den obehagliga känslan blir allt starkare
+	och är nu nästan övermäktig.
+
+{p}
+	Du kan se skymten av en person. Det är bara en svag silhuett,
+	men den är på väg bortåt.
+
+{p}
+	Du följer efter och kommer allt närmare.
+	Du är nu bara några meter ifrån och du kan nästan se vem det är.
+
+{p}
+	Du måste få veta. Du trotsar obehaget och kämpar vidare.
+
+{p}
+	Mara:
+	- Stopp!
+
+{p}
+	Mara hugger tag i dig. Du tittar nedåt och plötsligt ser du
+	att du befinner dig vid kanten av ett enormt stup.
+	{name,Plats,'Nålsögat'}
+	{image,'Bilder/Ravinen'}
+
+{p}
+	Du inser att du befinner dig vid Nålsögat,
+	precis vid ravinen.
+
+{p}
+	Gestalten är borta. Det är som att ravinen har slukat den.
+	Du söker med blicken...
+
+{p}
+	Du får syn på en trappa precis framför dig.
+
+{p}
+	Mara:
+	- Jag får onda aningar av det här... men låt oss gå ned.
+	Stormen kan inte nå oss därnere.
+
+{p}
+	Du kliver ut på trappan och vinden avtar plötsligt.
+	Känslan av fara drar sig tillbaka.
+
+{p}
+	Det känns fortfarande som du är iakttagen av något illvilligt,
+	men att denna kraft inte längre försöker hejda dig.
+
+{p}
+	Mara når fram till trappan. Ni börjar gå nedåt,
+	ned i den svarta avgrunden.
+
+{p}
+	Den smala trappan går i en spiral längs hela ravinen.
+	Ni fortsätter gå. Ravinen smalnar av allt eftersom.
+
+{p}
+	Det verkar aldrig ta slut. Stegen känns tunga.
+	
+{p}
+	Äntligen ser ni slutet av ravinen. Det är bara en liten landyta där nere.
+	{image,'Bilder/Mörkertemplet'}
+
+{p}
+	Ni kliver ned. Framför dig ser du ett tempel som är inhugget i berget.
+	Det är knappt mer än en port.
+
+{p}
+	Mara:
+	- Detta måste vara Mörkrets tempel.
+
+{p}
+	Mara:
+	- Det är lätt att gissa och du har redan hittat de övriga sju templen.
+
+{p}
+	Mara:
+	- Vad ska vi göra? Gå tillbaka? Eller fortsätta?
+
+{p}
+	Du bestämmer dig för att fortsätta. Ni går fram mot den vidöppna porten.
+	
+{p}
+	Så fort du passerar tröskeln grips du tag av en välbekant energi
+	och förflyttas någon annanstans.
+	{name,Plats,'Okänd plats'}
+	{image,'Bilder/Vitt'}
+
+{p}
+	Du måste blunda, solen är för skarp. Värmen är intensiv och fuktig.
+
+{p}
+	Mara:
+	- Vi är tillbaka.
+	{name,Plats,'Djungeln'}
+	{image,'Bilder/Eldtemplet'}
+	
+{p}
+	Du tittar upp. Du är i Djungeln, på torget framför Eldtemplet.
+
+{p}
+	Mara:
+	- Ser du mitten av pelargången? En ny port har öppnats.
+	
+{p}
+	Mara:
+	- Om vi går igenom den borde vi komma in i den centrala delen
+	av templet. Vi kan äntligen hitta amuletten.
+	{set,Ravinen,0}
+	{set,Eldtemplet,3}
+	
+{p}	
+	{chap,'Platser/Eldtemplet'}
+	{act,'Djungeln'}
+	{skip,3}
+
+{p}

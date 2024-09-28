@@ -1,0 +1,102 @@
+{p}
+	{name,Plats,'Bergspasset'}
+	{image,'Bilder/Bergspasset'}
+	{set,Tid,0}
+	
+{s}
+	{add,Tid,1}
+	
+{p}
+	Du befinner dig i Bergspasset.
+	{ans}
+		Utforska bergspasset
+	{if}{has,Metalltemplet,1}
+		{ans}
+			Gå till Metalltemplet
+			{chap,'Platser/Metalltemplets ingång'}		
+	{if}{has,Skogen,1}
+		{ans}
+			Gå norrut till Skogen
+			{chap,'Platser/Skogen'}
+	{if}{equal,Hemresan,1}
+		{ans}
+			Gå österut till Urskogen
+			{act,'Hemresan'}
+	{elif}{equal,Omväg,2}
+		{ans}
+			Gå österut till Urskogen
+			{chap,'Kapitel/Kapitel 29'}
+	{elif}{has,Urskogen,1}
+		{ans}
+			Gå österut till Urskogen
+			{chap,'Platser/Urskogen'}
+
+{p}
+	Du utforskar bergspasset...
+	{set,Slump,0}
+	{rand,Slump,2}
+	
+{p}
+	{if}{lack,Skogen,1}{equal,Tid,4}
+		{skip,2}
+	{elif}{equal,Morden,7}{equal,Tid,3}
+		{act,'Spår'}
+	{elif}{equal,Slump,1}
+		{skip,1}
+	
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Goblin'}
+	{set,Fiende.Grad,3}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Orch'}
+	{set,Fiende.Grad,3}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}	
+
+{p}
+	Du når slutet av bergspasset.
+	Framför dig står en höglänt skog.
+	{set,Skogen,1}
+	{find,0}
+
+{f,Spår}
+	Ett regn har nyligen dragit förbi.
+	Marken är lerig.
+
+{p}
+	Du ser färska fotspår som leder norrut.
+	Men vem kan tänkas vilja gå denna väg?
+	{set,Morden,8}
+	{find,0}
+	
+{f,Hemresan}
+	Du och Turdus går in i Urskogen.
+	{name,Plats,'Urskogen'}
+	{image,'Bilder/Urskogen'}
+
+{p}
+	Turdus leder dig vant genom urskogen.
+	Ni vandrar snabbt och målmedvetet.
+	
+{p}
+	Du vet att skogen är full av monster
+	men de håller sig på avstånd.
+
+{p}
+	Innan dagens slut är ni framme vid Den öde staden.
+	Turdus försvinner utan ett ord.
+	{name,Fas,'Solo'}
+	{call}
+
+{p}
+	{set,Hemresan,0}
+	{chap,'Kapitel/Kapitel 11'}
+
+{p}

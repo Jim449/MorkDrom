@@ -1,0 +1,14 @@
+{s}
+	Du besöker Ron.
+	{ans}
+		Prata
+	{ans}
+		Tillbaka
+		{return}
+
+{p}
+	Ron:
+	- Hallå. Kan jag hjälpa till med något?
+	{find,0}
+	
+{p}

@@ -1,0 +1,224 @@
+{s}
+	Paris:
+	- Välkommen... åh, är det du? Låt oss prata mer avsides...
+
+{p}
+	Paris:
+	- Sedan du var här sist har Nimbus stärkt sitt grepp om slummen.
+	Rons liga är i det närmaste utraderad.
+
+{p}
+	Paris:
+	- Nimbus har startat en kampanj för att smutskasta Staden.
+	Han har öppnat upp för en allians med Vandrarna.
+
+{p}
+	Mara:
+	- Dårskap!
+
+{p}
+	Mara:
+	- Låt oss träffa denne Nimbus. Jag ska berätta för honom att
+	om alla som samarbetar med Vandrarna är fiender till Fristaden.
+
+{p}
+	Paris:
+	- Det kan jag inte rekommendera. Nimbus har en tendens
+	att fängsla alla som misshagar honom...
+
+{p}
+	Paris:
+	- ... som dina vänner, Alba och Ron. De är inlåsta
+	på obestämd tid. Det sägs att Alba kommer att ersättas...
+
+{p}
+	Paris:
+	- ... och här blir det märkligt. Ersättaren sägs vara Aegithalos,
+	det förre överhuvudet av Lufttemplet. Alla trodde att han var död.
+
+{p}
+	Paris:
+	- Nimbus hävdar att Aegithalos är Luftens utvalde och att Alba
+	var en bluff.
+
+{p}
+	Paris:
+	- Jag har hört mig runt i templet och är säker på att Nimbus ljuger.
+	Aegithalos har inte längre kvalifikationerna att bli Lufttemplets överhuvud
+	och det är inget som Nimbus kan dölja.
+	
+{p}
+	Paris:
+	- Men det bryr sig inte Nimbus om. Han böjer reglerna som han vill
+	och folket verkar gå med på det. Kanske litar de på Nimbus
+	eftersom morden i slummen har upphört...
+
+{p}
+	Paris:
+	- Så vad vill du göra? Tänker du frita Alba och Ron?
+
+{p}
+	Mara:
+	- Det ska vi göra. Vi ska sabotera den här Nimbus planer.
+	
+{p}
+	Paris:
+	- Det kommer inte att bli lätt. Fängelsebyggnaden ligger avsides
+	och det finns bara en väg in. Bevakningen är hård.
+
+{p}
+	Ni tar in på värdshuset och vilar ut er.
+	{set,Hp,Max hp}
+
+{p}
+	Nästa dag går ni mot fängelsebyggnaden. Paris hade tveklöst rätt
+	- byggnaden svävar i tomma luften och den enda förbindelsen
+	till resten av Muren går över en smal bro.
+
+{p}
+	Mara:
+	- Är du redo? Nu gör vi det här.
+
+{p}
+	Ni går fram över bron. Vakterna betraktar er hela vägen.
+
+{p}
+	Vakt:
+	- Uppge ert ärende.
+
+{p}
+	Plötsligt flammar en rasande eld upp och sköljer över dem.
+	Mara hugger skoningslöst ned vakterna innan de hinner återfå fattningen.
+	
+{p}
+	Mara:
+	- Vi kan inte låta dem kalla på förstärkning,
+	så säg inte ett ord om att jag ska hålla tillbaka!
+
+{p}
+	Ni går in i fängelsebyggnaden.
+	En grupp vakter står redo för att stoppa er.
+	{name,Fiende.Namn,'Vakt'}
+	{set,Fiende.Grad,10}
+	{name,Fas,'Strid'}
+	{call}
+
+{p}
+	Ni har besegrat vakterna och fortsätter in i fängelset.
+	
+{p}
+	Ni hittar Alba och Ron i fängelsets innersta.
+	Du låser upp cellerna med några nycklar som du stulit.
+
+{p}
+	Alba:
+	- Äntligen hittade du oss!
+	Jag står inte ut en minut till i denna hemska cell.
+	
+{p}
+	Ron:
+	- Jag måste medge att jag också blivit rastlös.
+
+{p}
+	Ron:
+	- Låt mig berätta vad som hände efter vi gick till palatset.
+
+{p}
+	Ron:
+	- Vi pratade med Nimbus i tronrummet. Han trodde inte ett ord som vi sa.
+
+{p}
+	Ron:
+	- Nimbus anklagade oss båda från att ha konspirerat för att störta Muren.
+	Han sa att du var den drivande kraften bakom det hela.
+
+{p}
+	Ron:
+	- Morden som begåtts av Merula skyllde han på dig.
+	Han sa att du ville sprida förvirring och kaos.
+
+{p}
+	Ron:
+	- Jag skulle vilja störta Nimbus men vi har inte råd
+	att skapa fler strider nu.
+
+{p}
+	Alba:
+	- Låt oss ta oss ut härifrån först.
+	Har du någon plan?
+
+{p}
+	Du berättar planen för Alba.
+	
+{p}
+	Alba:
+	- Det låter bra. Lämna det åt mig!
+
+{p}
+	Ni smyger mot utgången. Ni möter några vakter på vägen
+	men Albas magi gör att Ron snabbt och tyst kan närma sig,
+	för att knocka dem medvetslösa.
+
+{p}
+	Ni öppnar porten och går ut i det fria.
+	Fler vakter är på väg från andra sidan bron.
+
+{p}
+	Ni hoppar ned från bron och fångas upp av Albas vind.
+	
+{p}
+	Ni flyr nedåt, längs Murens vindlande trappor.
+	Det dröjer inte länge tills ni är nere på fast mark.
+	Alba flämtar.
+
+{p}
+	Alba:
+	- Stopp, stopp... jag orkar knappt ta ett steg till.
+
+{p}
+	Mara:
+	- Ryck upp dig! Vila kan du göra sen, först måste ni
+	ta er in i skogen.
+
+{p}
+	Ron:
+	- Vi borde ta oss till Lufttemplet först.
+	Det finns formler och artefakter där som vi kan behöva.
+
+{p}
+	Alba:
+	- Lufttemplet? Jag vill inte gärna stöta på någon av prästinnorna.
+	Hur ska jag kunna förklara för dem...?
+
+{p}
+	Ron:
+	- Sluta tänka på sådana småsaker. Vill du lämna
+	kvar formlerna i Nimbus ägo?
+
+{p}
+	Alba:
+	- Nej... du har rätt.
+
+{p}
+	Mara:
+	- Gå. Det är svårt att förklara varför,
+	men vi kommer inte kunna följa med er.
+	Kommer ni att klara er?
+	
+{p}
+	Ron:
+	- Jag ser till att vi gör det.
+
+{p}
+	Ron och Alba ger sig av norrut mot Klipporna.
+
+{p}
+	Du och Mara går söderut in i Skogen
+	men förflyttas genast till en annan plats.
+	{set,Fritagning,2}
+
+{p}
+	{chap,'Platser/Eldtemplet'}
+	{act,'Fristaden'}
+	
+{p}

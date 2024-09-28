@@ -1,0 +1,25 @@
+{p}
+	{name,Plats,'Vattenbrynet'}
+	{image,'Bilder/Vattenbrynet'}
+
+{s}
+	Du befinner dig vid Vattenbrynet.
+	{ans}
+		Utforska Vattenbrynet
+	{if}{has,Staden,1}
+		{ans}
+			Gå norrut till Staden
+			{chap,'Platser/Staden'}
+
+{p}
+	Du utforskar vattenbrynet...
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Järv'}
+	{set,Fiende.Grad,1}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}
+	
+{p}

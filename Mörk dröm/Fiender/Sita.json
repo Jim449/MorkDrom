@@ -1,0 +1,10 @@
+{
+"namn": "Sita",
+"element": "Ljus",
+"hp": 36,
+"belöning": 10,
+"förmågor": ["Blixt","Erodering","Genomskådning","Läkekraft"],
+"beskrivning": "Innehavaren av amuletten av Ljus.
+Hon är fast besluten att bryta
+Gömslets isolering från omvärlden."
+}

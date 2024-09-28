@@ -1,0 +1,10 @@
+{
+"namn": "Ödleman",
+"element": "Metall",
+"hp": 16,
+"belöning": 4,
+"förmågor": ["Förgiftning","Reflektion","Uthållighet","Regenerering"],
+"beskrivning": "En slug varelse som plågar sina fiender
+med förgiftade vapen. Med sina hårda fjäll
+och självläkande kött är den svår att skada."
+}

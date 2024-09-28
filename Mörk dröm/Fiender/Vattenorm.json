@@ -1,0 +1,10 @@
+{
+"namn":"Vattenorm",
+"element":"Vatten",
+"hp": 36,
+"belöning": 10,
+"förmågor": ["Blixt","Inferno","Fokus","Återhämtning","Illusion"],
+"beskrivning": "En mäktig best som lever
+under vattnet. Den besitter en otrolig livskraft
+och intelligens."
+}

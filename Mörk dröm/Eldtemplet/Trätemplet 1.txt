@@ -1,0 +1,58 @@
+{s}
+	Du är tillbaka i Staden.
+	Du går ensam in i herrgården för att prata med Alyssa.
+	{image,'Bilder/Kontoret'}
+
+{p}
+	Alyssa:
+	- Välkommen tillbaka.
+
+{p}
+	Alyssa:
+	- Jag förväntade mig att du skulle återvända med Eldamuletten.
+	Varför är du här?
+	
+{p}
+	Du berättar det för henne.
+
+{p}
+	Alyssa:
+	- Fascinerande. Då letar alltså fortfarande efter Eldamuletten.
+	Jag var rädd att du hade stött på problem...
+
+{p}
+	Alyssa:
+	- Eldtemplet är det viktigaste av alla templen.
+	Det håller skrifter och reliker från alla de åtta elementen.
+
+{p}
+	Alyssa:
+	- Det är inte konstigt att det är svårt
+	att ta sig in i templets inre kammare.
+
+{p}
+	Alyssa:
+	- För att komma vidare tror jag att du behöver hitta
+	alla åtta tempel.
+
+{p}
+	Alyssa:
+	- Du har redan besökt templen av Jord, Luft, Ljus och Eld.
+	Du behöver bara hitta de återstående fyra templen.
+
+{p}
+	Alyssa:
+	- De är väl gömda, men det borde inte vara ett problem.
+	Eldtemplet lär teleportera dig till ungefär rätt platser.
+
+{p}
+	Alyssa:
+	- Förr eller senare kommer du hitta en väg framåt. Lycka till.
+	{add,Gläntan,1}
+
+{p}
+	{chap,'Platser/Eldtemplet'}
+	{act,'Staden'}
+
+{p}
+

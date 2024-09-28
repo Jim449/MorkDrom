@@ -1,0 +1,59 @@
+{s}
+	{name,Plats,'Staden'}
+	{image,'Bilder/Staden'}
+
+{p}
+	Du befinner dig i Staden.
+	{if}{equal,Alyssa,1}
+		{ans}
+			Gå till herrgården
+			{open,'Karaktärer/Alyssa'}
+	{if}{equal,Goran,1}
+		{ans}
+			Gå till barracken
+			{open,'Karaktärer/Goran'}
+	{if}{equal,Narden,1}
+		{ans}
+			Gå till värdshuset
+			{open,'Karaktärer/Narden'}
+	{if}{equal,Alba,2}
+		{ans}
+			Besök Alba
+			{open,'Karaktärer/Alba'}
+	{if}{equal,Ron,2}
+		{ans}
+			Besök Ron
+			{open,'Karaktärer/Ron'}
+	{if}{equal,Selena,2}
+		{ans}
+			Besök Selena
+			{open,'Karaktärer/Selena'}
+	{if}{equal,Mara,2}
+		{ans}
+			Besök Mara
+			{open,'Karaktärer/Mara'}
+	{if}{equal,Philomelos,2}
+		{ans}
+			Besök Philomelos
+			{open,'Karaktärer/Philomelos'}
+	{if}{has,Den öde staden,1}
+		{ans}
+			Gå norrut till Den öde staden
+			{chap,'Platser/Den öde staden'}
+	{if}{has,Nålsögat,1}
+		{ans}
+			Gå österut till Nålsögat
+			{chap,'Platser/Nålsögat'}
+	{if}{has,Vattenbrynet,1}
+		{ans}
+			Gå söderut till Vattenbrynet
+			{chap,'Platser/Vattenbrynet'}
+	{if}{has,Kustvägen,1}
+		{ans}
+			Gå västerut till Kustvägen
+			{chap,'Platser/Kustvägen'}
+
+{p}
+	{find,0}
+
+{p}

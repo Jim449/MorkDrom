@@ -1,0 +1,11 @@
+{
+"namn": "Vessla",
+"element": "Luft",
+"hp": 6,
+"belöning": 2,
+"extradrag": true,
+"förmågor": ["Vindskära","Frihet","Illuminering","Reflektion"],
+"beskrivning": "En liten, blixtsnabb best.
+Gillar att leka och är
+väldigt uppfinningsrik."
+}

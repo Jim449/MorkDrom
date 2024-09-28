@@ -1,0 +1,26 @@
+{p}
+	{if}{has,Address depth,3}
+		Du kan inte använda föremål för tillfället.
+		{return}
+
+{s}
+	Vill du använda ett elixir?
+	{ans}
+		Ja
+		{if}{lack,Elixir,1}
+			{skip,1}
+	{ans}
+		Nej
+		{return}
+
+{p}
+	Du dricker ett elixir och återfår hälsopoäng.
+	{sub,Elixir,1}
+	{set,Hp,Max hp}
+	{return}
+
+{p}
+	Du har inga elixir!
+	{return}
+
+{p}

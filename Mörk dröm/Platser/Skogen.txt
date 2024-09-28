@@ -1,0 +1,123 @@
+{p}
+	{name,Plats,'Skogen'}
+	{image,'Bilder/Skogen'}
+	{set,Tid,0}
+	
+{s}
+	{add,Tid,1}
+	
+{p}
+	Du befinner dig i Skogen.
+	{ans}
+		Utforska skogen
+	{if}{has,Underjorden,1}
+		{ans}
+			Gå ned i Underjorden
+			{chap,'Platser/Underjorden'}
+	{if}{has,Muren,1}
+		{ans}
+			Gå norrut till Muren
+			{chap,'Platser/Muren'}
+	{if}{equal,Resan,1}
+		{ans}
+			Gå norrut till Muren
+			{chap,'Kapitel/Kapitel 7'}
+	{if}{has,Urskogens hjärta,1}
+		{ans}
+			Gå österut till Urskogens hjärta
+			{chap,'Platser/Urskogens hjärta'}
+	{ans}
+		Gå söderut till Bergspasset
+		{chap,'Platser/Bergspasset'}
+
+{p}
+	Du utforskar skogen...
+	{set,Slump,0}
+	{rand,Slump,2}
+	
+{p}
+	{if}{lack,Muren,1}{has,Tid,4}
+		{find,1}
+	{elif}{has,Morden,7}
+		{act,'Turdus'}
+	{elif}{equal,Slump,1}
+		{skip,1}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Kobold'}
+	{set,Fiende.Grad,2}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Järv'}
+	{set,Fiende.Grad,2}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}
+	
+{s}
+	Du ser slutet av skogen.
+	{set,Resan,1}
+	{find,0}
+
+{f,Turdus}
+	Du har sökt igenom skogen under en lång tid,
+	utan att hitta något.
+
+{p}
+	Plötsligt dyker det upp en person som du aldrig trodde
+	du skulle träffa här.
+
+{p}
+	Turdus:
+	- Vi ses igen.
+
+{p}
+	Turdus:
+	- Varför jag är här? Alyssa bad mig resa.
+	
+{p}
+	Turdus:
+	- Alyssa vill att du tar reda på
+	mekanismen som håller Muren uppe.
+	
+{p}
+	Turdus:
+	- Du måste hitta en väg ned i underjorden.
+	Har du inte gjort det än?
+
+{p}
+	Turdus:
+	- Du har slut på idéer ser jag. Du tänkte att bara du frågar omkring
+	så skulle folk berätta allt för dig...
+
+{p}
+	Turdus:
+	- Låt mig lära ut dig en användbar magi.
+	Vad du gör med den är upp till dig.
+	
+{p}
+	Turdus ger dig ett pergament. Du läser det
+	och känner hur kunskapen flyter in i dig.
+	{name,Formel,'Mörker'}
+	{name,Text,Mörker}
+	{open,'Förmågor'}
+	{act,'Tillskott'}
+
+{p}
+	Turdus:
+	- Mörker gör dig osynlig. Du kan gå vart du vill
+	utan att någon upptäcker dig.
+
+{p}
+	Turdus:
+	- Nu har jag andra saker att ägna mig åt. Adjö.
+	{set,Morden,0}
+	{set,Osynlighet,1}
+	{find,0}
+	
+{p}

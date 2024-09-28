@@ -1,0 +1,9 @@
+{
+"namn":"Viridis",
+"element":"Trä",
+"hp": 36,
+"belöning": 10,
+"förmågor": ["Mental chock","Invasiv kyla","Kontring","Harmoni","Jordbävning","Kanalisering"],
+"förberedelser": ["Kanalisering"],
+"beskrivning": "Guden av trä."
+}

@@ -1,0 +1,35 @@
+{s}
+	{name,Plats,'Fristaden'}
+	{image,'Bilder/Fristaden'}
+
+{p}
+	Du befinner dig i Fristaden.
+	{if}{equal,Selena,1}
+		{ans}
+			Prata med Selena
+			{open,'Karaktärer/Selena'}
+	{if}{equal,Mara,1}
+		{ans}
+			Prata med Mara
+			{open,'Karaktärer/Mara'}
+	{if}{equal,Philomelos,1}
+		{ans}
+			Prata med Philomelos
+			{open,'Karaktärer/Philomelos'}
+	{if}{has,Djungeln,1}
+		{ans}
+			Gå norrut till Djungeln
+			{chap,'Platser/Djungeln'}
+	{if}{has,Spegelsjön,1}
+		{ans}
+			Gå österut till Spegelsjön
+			{chap,'Platser/Spegelsjön'}
+	{if}{has,Urskogen,1}
+		{ans}
+			Gå västerut till Urskogen
+			{chap,'Platser/Urskogen'}
+	
+{p}
+	{find,0}
+
+{p}

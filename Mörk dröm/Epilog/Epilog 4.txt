@@ -1,0 +1,79 @@
+{p}
+	Du går igenom porten.
+	{image,'Bilder/Grottsal'}
+
+{p}
+	Du befinner dig i en grotta.
+	En smal, vindlande tunnel fortsätter längre in i berget.
+
+{p}
+	Du följer tunneln. Efter en lång vandring ser du ljuset
+	från den andra sidan.
+	{name,Plats,'Elementaltemplet'}
+	{image,'Bilder/Elementaltemplet'}
+
+{p}
+	Du ser havet sträcka ut sig.
+	En smal landremsa leder ut till en halvö.
+
+{p}
+	Ett överdådigt tempel, med otaliga pelare,
+	tar upp hela halvön.
+
+{p}
+	Du går över landremsan. Tar steget uppför marmortrappan,
+	in i templet.
+
+{p}
+	Du går in i en magnifik, luftig hall, som vilar på stora pelare.
+	En person står i mitten av hallen.
+
+{p}
+	Okänd man:
+	- Välkommen till Elementaltemplet.
+
+{p}
+	Carduelis:
+	- Jag heter Carduelis och jag tar hand om templet.
+	Vad kan jag göra för dig?
+
+{p}
+	Carduelis:
+	- Du vill veta hur man lämnar ön?
+
+{p}
+	Carduelis:
+	- De åtta elementens gud kan ge dig svar men då måste du
+	möta honom först.
+
+{p}
+	Carduelis:
+	- Du är här för att du har en stark samhörighet
+	med de åtta elementen. Du borde vara kvalificerad
+	att tala med guden.
+
+{p}
+	Carduelis:
+	- Det är inte jag som avgör det. Guden är en kollektiv tanke,
+	inte någon fysisk varelse.
+	
+{p}
+	Carduelis:
+	- Om du inte kan tala med guden så betyder det att du inte är redo.
+
+{p}
+	Carduelis:
+	- Du behöver mer träning... jag råder dig att besöka de åtta templen igen.
+
+{p}
+	Carduelis:
+	- Kalla på templens väktare. De borde hörsamma dig.
+	{set,Epilog,4}
+	{set,Elementaltemplet,1}
+
+{p}
+	Carduelis:
+	- Jag hoppas att vi kan träffas igen.
+	{chap,'Platser/Elementaltemplet'}
+	
+{p}

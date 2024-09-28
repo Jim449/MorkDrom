@@ -1,0 +1,9 @@
+{
+"namn":"Åskfågel",
+"element":"Luft",
+"hp": 72,
+"belöning": 20,
+"förmågor": ["Storm","Prediktion","Vindskära","Hast"],
+"beskrivning": "En fågel
+som manipulerar åska."
+}

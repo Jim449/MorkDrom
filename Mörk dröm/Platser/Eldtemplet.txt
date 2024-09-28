@@ -1,0 +1,561 @@
+{f,Urskogen}
+	{name,Plats,'Urskogen'}
+	{image,'Bilder/Urskogen'}
+	{set,Djup,0}
+	
+{p}
+	Du befinner dig i Urskogen. Du är under attack!
+	{name,Fiende.Namn,'Varg'}
+	{set,Fiende.Grad,6}
+	{name,Fas,'Strid'}
+	{call}
+	
+{p}
+	Du befinner dig i Urskogen.
+	{ans}
+		Utforska urskogen
+	{ans}
+		Gå norrut till Urskogens hjärta
+		{act,'Den öde staden'}
+	{ans}
+		Gå österut till Fristaden
+		{act,'Staden'}
+	{ans}
+		Gå söderut till Den öde staden
+		{act,'Bergspasset'}
+	{ans}
+		Gå västerut till Bergspasset
+		{act,'Urskogens hjärta'}
+
+{p}
+	Du utforskar urskogen...
+	{set,Slump,0}
+	{rand,Slump,4}
+	{skip,Slump}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Varg'}
+	{set,Fiende.Grad,6}
+	{name,Fas,'Strid'}
+	{call}
+	{rewind,3}
+	
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Svartalv'}
+	{set,Fiende.Grad,6}
+	{name,Fas,'Strid'}
+	{call}
+	{rewind,4}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Panter'}
+	{set,Fiende.Grad,6}
+	{name,Fas,'Strid'}
+	{call}
+	{rewind,5}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Varulv'}
+	{set,Fiende.Grad,6}
+	{name,Fas,'Strid'}
+	{call}
+	{rewind,6}
+
+{f,Vattenbrynet}
+	{name,Plats,'Vattenbrynet'}
+	{image,'Bilder/Vattenbrynet'}
+	{set,Djup,0}
+	
+{p}
+	Du befinner dig vid Vattenbrynet.
+	{ans}
+		Utforska vattenbrynet
+	{ans}
+		Gå norrut till Staden
+		{act,'Djungeln'}
+
+{p}
+	Du utforskar vattenbrynet...
+	
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Järv'}
+	{set,Fiende.Grad,1}
+	{name,Fas,'Strid'}
+	{call}
+	{rewind,3}
+		
+{f,Kustvägen}
+	{name,Plats,'Kustvägen'}
+	{image,'Bilder/Kustvägen'}
+	{set,Djup,0}
+	
+{p}
+	Du befinner dig på Kustvägen.
+	{ans}
+		Gå österut till Staden
+		{act,'Urskogens hjärta'}
+	{ans}
+		Gå västerut till Skärgården
+		{act,'Staden'}
+
+{f,Den öde staden}
+	{name,Plats,'Den öde staden'}
+	{image,'Bilder/Den öde staden'}
+	{add,Djup,1}
+	
+{p}
+	Du befinner dig i Den öde staden.
+	{ans}
+		Utforska den öde staden
+	{ans}
+		Gå norrut till Urskogen
+		{act,'Urskogens hjärta'}
+	{ans}
+		Gå söderut till Staden
+		{act,'Skogen'}
+
+{p}
+	Du utforskar den öde staden...
+	
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Vätte'}
+	{set,Fiende.Grad,1}
+	{name,Fas,'Strid'}
+	{call}
+	{rewind,3}
+
+{f,Skogen}
+	{name,Plats,'Skogen'}
+	{image,'Bilder/Skogen'}
+	{set,Djup,0}
+	
+{p}
+	Du befinner dig i Skogen.
+	{ans}
+		Utforska skogen
+	{ans}
+		Gå norrut till Muren
+		{act,'Urskogen'}
+	{ans}
+		Gå österut till Urskogens hjärta
+		{act,'Fristaden'}
+	{ans}
+		Gå söderut till Bergspasset
+		{act,'Kustvägen'}
+
+{p}
+	Du utforskar skogen...
+	{set,Slump,0}
+	{rand,Slump,2}
+	{skip,Slump}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Kobold'}
+	{set,Fiende.Grad,2}
+	{name,Fas,'Strid'}
+	{call}
+	{rewind,3}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Järv'}
+	{set,Fiende.Grad,2}
+	{name,Fas,'Strid'}
+	{call}
+	{rewind,4}
+
+{f,Klipporna}
+	{name,Plats,'Klipporna'}
+	{image,'Bilder/Klipporna'}
+	{add,Djup,1}
+
+{p}
+	Du befinner dig vid Klipporna.
+	{ans}
+		Utforska klipporna
+	{ans}
+		Gå österut till Muren
+		{act,'Den öde staden'}
+
+{p}
+	Du utforskar klipporna...
+	{set,Slump,0}
+	{rand,Slump,2}
+	{skip,Slump}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Vessla'}
+	{set,Fiende.Grad,2}
+	{name,Fas,'Strid'}
+	{call}
+	{rewind,3}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Orch'}
+	{set,Fiende.Grad,2}
+	{name,Fas,'Strid'}
+	{call}
+	{rewind,4}
+
+{f,Spegelsjön}
+	{name,Plats,'Spegelsjön'}
+	{image,'Bilder/Spegelsjön'}
+	{add,Djup,1}
+	
+{p}
+	Du befinner dig vid Spegelsjön.
+	{ans}
+		Utforska spegelsjön
+	{ans}
+		Gå västerut till Fristaden
+		{act,'Nålsögat'}
+
+{p}
+	Du utforskar spegelsjön...
+	{set,Slump,0}
+	{rand,Slump,2}
+	{skip,Slump}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Järv'}
+	{set,Fiende.Grad,4}
+	{name,Fas,'Strid'}
+	{call}
+	{rewind,3}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Gremlin'}
+	{set,Fiende.Grad,4}
+	{name,Fas,'Strid'}
+	{call}
+	{rewind,4}
+
+{f,Muren}
+	{name,Plats,'Muren'}
+	{image,'Bilder/Muren'}
+	{set,Djup,0}
+
+{p}
+	Du befinner dig i Muren.
+	{if}{equal,Fritagning,1}
+		{ans}
+			Gå till värdshuset
+			{chap,'Eldtemplet/Metalltemplet 1'}
+	{elif}
+		{ans}
+			Gå till värdshuset
+			{open,'Karaktärer/Paris'}
+			{rewind,2}
+	{ans}
+		Gå söderut till Skogen
+		{act,'Fristaden'}
+	{ans}
+		Gå västerut till Klipporna
+		{act,'Staden'}	
+
+{f,Fristaden}
+	{if}{equal,Respit,1}
+		{chap,'Eldtemplet/Fristaden'}
+		
+{p}
+	{name,Plats,'Fristaden'}
+	{image,'Bilder/Fristaden'}
+	{set,Djup,0}
+	
+{p}
+	Du befinner dig i Fristaden.
+	{ans}
+		Prata med Mara
+		{rewind,2}
+		{open,'Karaktärer/Mara'}
+	{ans}
+		Prata med Selena
+		{rewind,2}
+		{open,'Karaktärer/Selena'}
+	{ans}
+		Prata med Philomelos
+		{rewind,2}
+		{open,'Karaktärer/Philomelos'}
+	{ans}
+		Gå norrut till Djungeln
+		{act,'Urskogen'}
+	{ans}
+		Gå österut till Spegelsjön
+		{act,'Staden'}
+	{ans}
+		Gå västerut till Urskogen
+		{act,'Muren'}
+
+{f,Bergspasset}
+	{if}{equal,Fritagning,2}
+		{chap,'Eldtemplet/Metalltemplet 2'}
+
+{p}
+	{name,Plats,'Bergspasset'}
+	{image,'Bilder/Bergspasset'}
+	{add,Djup,1}
+	
+{p}
+	Du befinner dig i Bergspasset.
+	{ans}
+		Utforska bergspasset
+	{ans}
+		Gå norrut till Skogen
+		{act,'Spegelsjön'}
+	{ans}
+		Gå österut till Urskogen
+		{act,'Skogen'}
+
+{p}
+	Du utforskar bergspasset...
+	{set,Slump,0}
+	{rand,Slump,2}
+	{skip,Slump}
+	
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Goblin'}
+	{set,Fiende.Grad,3}
+	{name,Fas,'Strid'}
+	{call}
+	{rewind,3}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Orch'}
+	{set,Fiende.Grad,3}
+	{name,Fas,'Strid'}
+	{call}
+	{rewind,4}	
+
+{f,Skärgården}
+	{if}{equal,Ön,1}
+		{chap,'Eldtemplet/Vattentemplet'}
+
+{p}
+	{name,Plats,'Skärgården'}
+	{image,'Bilder/Skärgården'}
+	{add,Djup,1}
+	
+{p}
+	Du befinner dig i Skärgården.
+	{ans}
+		Utforska skärgården
+	{ans}
+		Gå österut till Kustvägen
+		{act,'Klipporna'}
+
+{p}
+	Du utforskar skärgården...
+	{set,Slump,0}
+	{rand,Slump,2}
+	{skip,Slump}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Gremlin'}
+	{set,Fiende.Grad,5}
+	{name,Fas,'Strid'}
+	{call}
+	{rewind,3}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Ödleman'}
+	{set,Fiende.Grad,5}
+	{name,Fas,'Strid'}
+	{call}
+	{rewind,3}
+
+{f,Urskogens hjärta}
+	{if}{equal,Gläntan,2}
+		{chap,'Eldtemplet/Trätemplet 2'}
+
+{p}
+	{name,Plats,'Urskogens hjärta'}
+	{image,'Bilder/Urskogens hjärta'}
+	{add,Djup,1}
+	
+{p}
+	Du befinner dig i Urskogens hjärta. Du är under attack!
+	{name,Fiende.Namn,'Svartalv'}
+	{set,Fiende.Grad,8}
+	{name,Fas,'Strid'}
+	{call}
+	
+{p}
+	Du befinner dig i Urskogens hjärta.
+	Vad vill du göra?
+	{ans}
+		Utforska urskogens hjärta
+	{ans}
+		Gå österut till Djungeln
+		{act,'Vattenbrynet'}
+	{ans}
+		Gå söderut till Urskogen
+		{act,'Bergspasset'}
+	{ans}
+		Gå västerut till Skogen
+		{act,'Kustvägen'}
+
+{p}
+	Du utforskar urskogens hjärta...
+	{set,Slump,0}
+	{rand,Slump,2}
+	{skip,Slump}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Varg'}
+	{set,Fiende.Grad,8}
+	{name,Fas,'Strid'}
+	{call}
+	{rewind,3}
+	
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Svartalv'}
+	{set,Fiende.Grad,8}
+	{name,Fas,'Strid'}
+	{call}
+	{rewind,4}
+
+{f,Staden}
+	{name,Plats,'Staden'}
+	{image,'Bilder/Staden'}
+	{set,Djup,0}
+	
+{p}
+	Du befinner dig i Staden.
+	{if}{equal,Gläntan,1}
+		{ans}
+			Gå till herrgården
+			{chap,'Eldtemplet/Trätemplet 1'}
+	{elif}
+		{ans}
+			Gå till herrgården
+			{rewind,2}
+			{open,'Karaktärer/Alyssa'}
+	{ans}
+		Gå till barracken
+		{rewind,2}
+		{open,'Karaktärer/Goran'}
+	{ans}
+		Gå till värdshuset
+		{rewind,2}
+		{open,'Karaktärer/Narden'}
+	{ans}
+		Gå norrut till Den öde staden
+		{act,'Muren'}
+	{ans}
+		Gå österut till Nålsögat
+		{act,'Fristaden'}
+	{ans}
+		Gå söderut till Vattenbrynet
+		{act,'Urskogen'}
+	{ans}
+		Gå västerut till Kustvägen
+		{act,'Skogen'}
+
+{f,Nålsögat}
+	{if}{equal,Ravinen,3}
+		{chap,'Eldtemplet/Mörkertemplet'}
+
+{p}
+	{name,Plats,'Nålsögat'}
+	{image,'Bilder/Nålsögat'}
+	{add,Djup,1}
+	
+{p}
+	Du befinner dig vid Nålsögat.
+	{ans}
+		Utforska nålsögat
+	{ans}
+		Gå västerut till Staden
+		{act,'Djungeln'}
+
+{p}
+	Du utforskar nålsögat...
+	
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Vätte'}
+	{set,Fiende.Grad,2}
+	{name,Fas,'Strid'}
+	{call}
+	{rewind,3}
+
+{f,Djungeln}
+	{if}{equal,Eldtemplet,1}
+		{chap,'Eldtemplet/Eldtemplet'}
+	{elif}{has,Djup,8}{equal,Epilog,2}
+		{chap,'Epilog/Epilog 3'}
+		
+{p}
+	{name,Plats,'Djungeln'}
+	{image,'Bilder/Djungeln'}
+	{add,Djup,1}
+
+{p}
+	Du befinner dig i Djungeln. Du är under attack!
+	{name,Fiende.Namn,'Varulv'}
+	{set,Fiende.Grad,4}
+	{name,Fas,'Strid'}
+	{call}
+
+{f,Eldtemplet}
+	{image,'Bilder/Eldtemplet'}
+	
+{p}
+	Du befinner dig vid Eldtemplet.
+	{ans}
+		Lämna Eldtemplet
+		{chap,'Platser/Djungeln'}
+	{if}{equal,Eldtemplet,3}
+		{ans}
+			Gå in i Eldtemplet
+			{chap,'Kapitel/Kapitel 15'}
+	{elif}{equal,Epilog,4}
+		{ans}
+			Gå in i Eldtemplet
+			{act,'Prövning'}
+	{ans}
+		Gå söderut till Fristaden
+		{act,'Urskogen'}
+	{ans}
+		Gå västerut till Urskogens hjärta
+		{act,'Skärgården'}
+		
+{f,Prövning}
+	Du går in i Eldtemplets innersta kammare.
+
+{p}
+	Väktaren dyker upp och anfaller!
+	{name,Fiende.Namn,'Demon'}
+	{set,Fiende.Grad,15}
+	{name,Fas,'Strid'}
+	{call}
+
+{p}
+	Väktaren var inte mer än ett spöke.
+	Nu när den är besegrad är du ett steg närmare
+	att nå Elementaltemplets innersta kammare.
+	{set,Eldprövning,1}
+
+{p}
+	{act,'Djungeln'}
+	{skip,3}
+	
+{p}
+

@@ -1,0 +1,363 @@
+{s}
+	Du besöker Goran.
+	{ans}
+		Prata
+		{if}{equal,Försvunnen,2}
+			{act,'Försvunnen'}
+		{elif}{equal,Lektion,1}
+			{act,'Lektion'}
+		{elif}{equal,Varning,1}
+			{act,'Varning'}
+		{elif}{equal,Varning,2}
+			{act,'Rykten'}
+	{if}{has,Mörkertemplet,1}
+		{ans}
+			Välj som assistent
+			{act,'Assistent'}
+	{ans}
+		Tillbaka
+		{return}
+
+{p}
+	Goran:
+	- Hur kan jag stå till tjänst?
+	{find,0}
+	
+{f,Försvunnen}
+	Goran:
+	- Så du har hört talas om Selena?
+	Hon var min överordnade.
+	
+{p}
+	Goran:
+	- Det är synd att hon inte är här.
+	Hon hade kunnat hjälpa dig att utforska Jordtemplet.
+	
+{p}
+	Goran:
+	- Selena var den utvalda av jordens gud, Certhia.
+	Hon var den som hade den starkaste jordmagin.
+
+{p}
+	Goran:
+	- Hade hon fötts i en tidigare generation skulle hon tvingats
+	in i rollen som jordtemplets överhuvud.
+
+{p}
+	Goran:
+	- Tider förändras. Elementaltron är på väg att försvinna.
+	Nej, det är ingenting jag bryr mig om...
+	
+{p}
+	Goran:
+	- Selena var en av de mest respekterade personerna i staden.
+	Hon försökte övertyga stadsborna att ta till vapnen och kämpa mot monstren.
+	
+{p}
+	Goran:
+	- Stadsborna var splittrade. Alyssa var synnerligen kritisk.
+	Hon trodde inte att varelserna kunde bekämpas.
+	
+{p}
+	Goran:
+	- Nu är Selena borta.
+	
+{p}
+	Goran:
+	- Jag känner inte att jag passar på hennes post.
+	Jag har inte samma driv...
+
+{p}
+	Goran:
+	- ... vad tjänar det till att klaga?
+	Jag har uppgifter att utföra.
+
+{p}
+	Goran:
+	- Tack för samtalet.
+	{set,Försvunnen,3}
+	{return}
+	
+{f,Lektion}
+	Goran:
+	- Vill du ha lite tips om hur man bekämpar monster?
+	{ans}
+		Ja
+		{skip,1}
+	{ans}
+		Nej
+
+{p}
+	Goran:
+	- Okej. Kom tillbaka om du ändrar dig.
+	{find,0}
+	
+{p}
+	Goran:
+	- När du är i en strid,
+	observera din motståndare noga.
+
+{p}
+	Goran:
+	- Efter din motståndare använt en magi
+	måste den vänta innan den kan använda samma magi igen.
+
+{p}
+	Goran:
+	- Om du kan förutsäga motståndarens drag
+	så kan du komma på en strategi.
+
+{p}
+	Goran:
+	- Monster är otåliga. De brukar använda magier inom tre drag
+	från att magierna blivit tillgängliga.
+
+{p}
+	Goran:
+	- Det finns undantag. Till exempel om motståndaren har flera
+	magier redo på samma gång, och måste välja en.
+
+{p}
+	Goran:
+	- Det finns vissa magier som kan tvinga motståndaren
+	att använda en viss typ av drag. Använd dem.
+
+{p}
+	Goran:
+	- En annan strategi är att förhindra motståndaren från att
+	använda en specifik magi.
+	
+{p}
+	Goran:
+	- Då ökar chansen att motståndaren kommer att använda
+	just den magin när den kan agera som vanligt igen.
+
+{p}
+	Goran:
+	- Jag tror att du behöver mer praktisk erfarenhet.
+	Låt oss gå till Jordtemplet.
+
+{p}
+	Goran:
+	- Som du hört är ingången raserad
+	men du kanske ändå är intresserad av att se dig omkring.
+
+{p}
+	Goran:
+	- Jag följer med dig. Då får du träna på att slåss i grupp.
+
+{p}
+	Goran:
+	- Strider är kaotiska. Det är svårt för gruppmedlemmar
+	att koordinera sina drag.
+
+{p}
+	Goran:
+	- Därför kommer jag att använda mina magier som jag finner lämpligt.
+
+{p}
+	Goran:
+	- Försök observera mig och förutse mina drag.
+	Då kan vi slåss mer effektivt tillsammans.
+
+{p}
+	Du och Goran beger er till Den öde staden.
+	{name,Plats,'Den öde staden'}
+	{image,'Bilder/Den öde staden'}
+	{name,Allierad.Namn,'Goran'}
+	{set,Allierad.Grad,1}
+	{name,Fas,'Assistent'}
+	{call}
+
+{p}
+	Ni vandrar genom savannen. På vägen anfalls ni av en Vätte!
+	{name,Fiende.Namn,'Vätte'}
+	{set,Fiende.Grad,3}
+	{name,Fas,'Strid'}
+	{call}
+
+{p}
+	Ni fortsätter vandra tills ni kommer fram till Jordtemplet.
+
+{p}
+	Du anar att det var ett magnifikt tempel.
+	Du ser sandfärgad sten med intrikata inristningar...
+
+{p}
+	Nu är det inte mycket kvar av templet.
+	Hela taket har rasat in.
+	
+{p}
+	Goran:
+	- Det är en stor sorg för oss att Jordtemplet rasat.
+
+{p}
+	Goran:
+	- Visserligen var Templet i ett ganska dåligt skick redan innan.
+	Certhia hade inte så många tillbedjare.
+
+{p}
+	Goran:
+	- Vid flera tillfällen har templet plundrats av tjuvar.
+	Kraftfulla artefakter har stulits.
+	
+{p}
+	Goran:
+	-  Trots allt var templet den mest ikoniska byggnaden i Staden.
+	
+{p}
+	Goran:
+	- De flesta av byggnaderna i Staden förstördes av växterna
+	eller klövs itu av den svarta tingesten...
+
+{p}
+	Goran:
+	- ... men templet raserades av monstren. De slog ned det med
+	sina släggor.
+	
+{p}
+	Goran:
+	- Om vi kunde få hit några män kanske vi kunde få bort rasmassorna...
+
+{p}
+	Goran:
+	- ... men Alyssa har sagt nej. Hon tycker att det är för riskabelt.
+	Platsen är full av monster...
+
+{p}
+	Goran:
+	- De har upptäckt oss. Jag trodde väl det.
+
+{p}
+	En orch dyker upp från bakom ruinen och anfaller!
+	{name,Fiende.Namn,'Orch'}
+	{set,Fiende.Grad,2}
+	{name,Fas,'Strid'}
+	{call}
+
+{p}
+	Goran:
+	- Väl kämpat. Låt oss återvända till Staden innan mörkret kommer.
+	{name,Fas,'Solo'}
+	{call}
+	
+{p}
+	{set,Lektion,2}
+	{return}
+
+{f,Varning}
+	Goran:
+	- Goddag.
+
+{p}
+	Goran:
+	- Jag blev lite irriterad förut.
+	Vad är det med Alyssa...?
+
+{p}
+	Goran:
+	- Det är inte likt henne. Hon är alltid så försiktig.
+
+{p}
+	Goran:
+	- Det är också svårt att tro att kompassen bara kunde försvinna.
+	Ibland känns det som att Alyssa döljer något...
+
+{p}
+	Goran:
+	- I alla fall... jag vill varna dig för Narden.
+
+{p}
+	Goran:
+	- Han är övertygad om att du fått ta på Jordamuletten
+	på ett ohederligt sätt.
+
+{p}
+	Goran:
+	- Sedan han misslyckades hålla dig fången har han
+	blivit än mer fientlig. Men jag antar att det är svårt för dig
+	att undvika värdshuset.
+
+{p}
+	Goran:
+	- Ta hand om dig.
+	{set,Varning,2}
+	{add,Hinder,1}
+
+{p}
+	{return}
+
+{f,Rykten}
+	Goran:
+	- Hej igen...
+
+{p}
+	Goran:
+	- Du kanske undrar vilka rykten som omgärdar Turdus?
+	Jag undrar om jag ska prata om det...
+
+{p}
+	Goran:
+	- Okej... det sägs att Turdus är mörkrets utvalda tjänare.
+
+{p}
+	Goran:
+	- Dagarna efter katastrofen drabbade Staden
+	var det någon som såg Turdus...
+
+{p}
+	Goran:
+	- ... Turuds sågs bära en svart amulett.
+	Det verkar som han gav amuletten till någon annan.
+
+{p}
+	Goran:
+	- Det är bara rykten. Det kan inte tas på något större allvar.
+
+{p}
+	Goran:
+	- Jag vet att en stor del av Stadens befolkning ogillar Turdus.
+
+{p}
+	Goran:
+	- När jag hörde den här misstron så tänkte jag...
+
+{p}
+	Goran:
+	- ... varför ska jag tänka annorlunda?
+	Vad vinner jag på att ta ställning för honom?
+
+{p}
+	Goran:
+	- Nej, det är ingen vacker tanke...
+	Därför blir jag så imponerad av personer som Alyssa
+	som vågar gå sin egen väg.
+
+{p}
+	Goran:
+	- Jag har sagt för mycket. Vi ses.
+	{set,Varning,0}
+	{add,Hinder,1}
+
+{p}
+	{return}
+
+{f,Assistent}
+	Vill du välja Goran som assistent?
+	{ans}
+		Ja
+	{ans}
+		Nej
+		{find,0}
+
+{p}
+	{name,Allierad.Namn,'Goran'}
+	{set,Allierad.Grad,15}
+	{name,Fas,'Assistent'}
+	{call}
+
+{p}
+	Goran är nu din assistent.
+	{find,0}
+	
+{p}

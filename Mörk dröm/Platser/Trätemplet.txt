@@ -1,0 +1,87 @@
+{p}
+	{name,Plats,'Trätemplet'}
+	{image,'Bilder/Grottsal'}
+	{set,Tid,0}
+
+{s}
+	{add,Tid,1}
+
+{p}
+	Du befinner dig i Trätemplet.
+	{ans}
+		Utforska trätemplet
+	{if}{equal,Trätemplet,2}
+		{ans}
+			Gå till den innersta kammaren
+			{chap,'Kapitel/Kapitel 27'}
+	{if}{has,Epilog,4}
+		{ans}
+			Gå till den innersta kammaren
+			{act,'Prövning'}
+	{if}{has,Trätemplet,3}
+		{ans}
+			Lämna trätemplet
+			{chap,'Platser/Urskogens hjärta'}
+
+{p}
+	Du utforskar trätemplet...
+	{set,Slump,0}
+	{rand,Slump,3}
+
+{p}
+	{if}{equal,Tid,5}{equal,Trätemplet,1}
+		{find,1}
+	{elif}
+		{skip,Slump}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Kobold'}
+	{set,Fiende.Grad,10}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}
+	
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Varg'}
+	{set,Fiende.Grad,10}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Kungshjort'}
+	{set,Fiende.Grad,10}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}
+
+{s}
+	Den innersta kammaren står framför er.
+	{set,Trätemplet,2}
+
+{p}
+	{find,0}
+
+{f,Prövning}
+	Du går in i Trätemplets innersta kammare.
+
+{p}
+	Väktaren dyker upp och anfaller!
+	{name,Fiende.Namn,'Uråldrig best'}
+	{set,Fiende.Grad,15}
+	{name,Fas,'Strid'}
+	{call}
+
+{p}
+	Väktaren var inte mer än ett spöke.
+	Nu när den är besegrad är du ett steg närmare
+	att nå Elementaltemplets innersta kammare.
+	{set,Träprövning,1}
+
+{p}
+	{find,0}
+	
+{p}

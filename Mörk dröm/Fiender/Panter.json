@@ -1,0 +1,9 @@
+{
+"namn": "Panter",
+"element": "Luft",
+"hp": 12,
+"extradrag": true,
+"belöning": 4,
+"förmågor": ["Blixt","Vindsköld","Inspiration","Invasiv kyla"],
+"beskrivning": "En farlig best som gillar att leka med sina offer."
+}

@@ -1,0 +1,328 @@
+﻿{s}
+	Ange ditt namn
+	{input,Namn}
+	{ans}
+		Klar
+
+{p}
+	Ditt namn är {write,Namn,'. '}
+	Är det okej?
+	{ans}
+		Ja
+	{ans}
+		Nej
+		{rewind,2}
+	
+{p}
+	{resName,'',Namn}
+	{resVal,'Kapitel',Kapitel}
+	{resName,'',Plats}
+	{resVal,'Grad',Grad}
+	{resDual,'Ep',Ep,'/',Nästa grad}
+	{resDual,'Hp',Hp,'/',Max hp}
+	{resVal,'Silver',Silver}
+	{resDual,'Elixir',Elixir,'/',Max elixir}
+
+{p}
+	{name,Plats,'Vattenbrynet'}
+	{image,'Bilder/Vattenbrynet'}
+
+{s}
+	{write,'Mörk dröm
+------------------
+Uppvaknandet',''}
+
+{s}
+	Kapitel 1
+	
+{p}
+	Du vaknar upp.
+	
+{p}
+	Du befinner dig vid vattenbrynet. Över dig finns bara
+	en oformligt grå vegetation i en lång sluttning.
+
+{p}
+	Du omges av vass. Ut mot vattnet finns ingenting.
+	
+{p}
+	Du är trött och nedkyld. Du känner dig som om du trycks ned
+	av ett kraftigt ok.
+	
+{p}
+	Du måste härifrån och bestämmer dig för att vandra uppåt slänten.
+	Stegen känns tunga.
+
+{p}
+	Du tar upp en gren från marken och försöker mota bort snåren.
+	
+{p}
+	Plötsligt kastas något mot dig - av ren tur stapplar du åt sidan,
+	men tappar samtidigt balansen och faller.
+	
+{p}
+	Du reser dig mödosamt. Du stirrar in i det grå, kompakta buskaget
+	men ser ingenting.
+	
+{p}
+	Du håller grenen framför dig, som ett skydd.
+	
+{p}
+	En mörk form kastar sig ur buskaget - du måttar ett slag!
+	
+{p}
+	Dina händer värker från stöten, men du håller fast.
+	Ett dovt ljud, och något faller till marken.
+
+{p}
+	Du tittar ned - där ligger en grå kropp. Du synar den, det liknar en järv,
+	liten men kompakt.
+	
+{p}	
+	Du pustar ut av lättnad, men känner hur kraften går ur dig.
+	
+{p}
+	Du fortsätter ändå. Du kämpar dig uppför slänten...
+
+{p}
+	Buskagen ger vika och du går ut på en äng. Det är skymning men skenet är ändå befriande.
+
+{p}
+	Framför dig ser du en stad. Du ser slitna trähus och enstaka ljussken från fönstren.
+
+{p}
+	Du ökar tempot, ivrig att nå fram till staden...
+	
+{p}
+	... men du blir plötsligt vimmelkantig.
+	{name,Plats,'Staden'}
+	{image,'Bilder/Svart'}
+	
+{p}
+	Du kollapsar.
+
+{p}
+	Du vaknar i ett litet rum. Solen skiner in genom ett fönster.
+	
+{p}
+	Du öppnar dörren och går ut i en korridor.
+	
+{p}
+	Någon väntar på dig, en medelålders man
+	med en stadig blick.
+	
+{p}
+	Okänd man:
+	- Så du har vaknat.
+
+{p}
+	Okänd man:
+	- Följ med mig. Alyssa vill träffa dig.
+	
+{p}
+	Du följer med honom till ett kontor.
+	{image,'Bilder/Kontoret'}
+	
+{p}
+	En kvinna sitter framför skrivbordet. Hon ser ut att vara i tjugoårsåldern.
+	Hon har långt, svart hår och en kylig blick.
+
+{p}	
+	I stolen vid sidan av sitter en ung man. Han är mörkt brunhårig
+	och ser uttråkad ut.
+	
+{p}
+	Alyssa:
+	- Välkommen. Mitt namn är Alyssa och jag är ledaren av Staden.
+
+{p}
+	Alyssa:
+	- Du kollapsade på ängen. Goran hittade dig.
+	
+{p}
+	Hon tecknar mot mannen som ledde dig till rummet.
+
+{p}
+	Alyssa:
+	- Det här är min assistent, Turdus.
+	
+{p}
+	Hon tecknar mot den unge mannen. Han tittar upp helt kort.
+	
+{p}
+	Alyssa:
+	- Jag förstår att du inte är härifrån.
+	Det här är den första gången en utomstående besöker ön.
+	
+{p}
+	Alyssa:
+	- Känner du till de åtta elementen? Inte det?
+
+{p}
+	Alyssa:
+	- Eld, vatten, luft, jord, ljus, mörker, trä och metall.
+	Enligt elementaltron består allt av dessa element.
+	
+{p}
+	Alyssa:
+	- Jag undrar vilka element som kännetecknar dig?
+	Turdus, tar du fram kristallerna, tack.
+	
+{p}
+	Turdus öppnar en byrålåda och plockar fram åtta kristaller.
+	Han lägger dem på skrivbordet på en rad.
+	
+{p}
+	Alyssa:
+	- Var god och ta upp kristallerna, en i taget.
+
+{p}
+	Du tar upp den första kristallen och håller den i din hand.
+	Den börjar skina med ett starkt orange sken.
+
+{p}
+	Du fortsätter med de andra kristallerna.
+	Även de skiner starkt i olika kulörer.
+
+{p}
+	Alyssa:
+	- Stenarna visar att du har en fallenhet för samtliga element.
+
+{p}
+	Goran:
+	- Kan det verkligen stämma? Går inte det emot den grundläggande
+	vetenskapen om elementen?
+
+{p}
+	Alyssa:
+	- Det är irreguljärt, men jag tvivlar inte på att kristallerna fungerar.
+	Kanske de lagar som vi är vana vid inte gäller för främlingar.
+
+{p}
+	Alyssa:
+	- Jag måste tänka över detta.
+	Turdus, kan du visa vår gäst tillbaka till sitt rum?
+
+{p}
+	Turdus leder dig tyst till det rum som du vaknade upp i förut.
+	Han stänger och låser dörren.
+
+{p}
+	Du väntar rastlöst.
+	
+{p}
+	Till slut öppnas dörren av Goran.
+
+{p}
+	Goran:
+	- Jag har blivit ombedd att visa dig runt i staden.
+	{image,'Bilder/Staden'}
+
+{p}
+	Du följer Goran ut ur herrgården, ut i staden.
+	
+{p}
+	Staden består av tätt byggda, låga trähus. Det är ödsligt och sjaskigt,
+	marken är torr och dammig.
+	
+{p}
+	Goran:
+	- Som sagt, mitt namn är Goran.
+	Jag leder vaktstyrkan. Prata med mig om du undrar något.
+	
+{p}
+	Goran:
+	- Värdshuset ägs av Narden. Han kan vara otrevlig men reta inte upp honom,
+	du är beroende av hans tjänster.
+	
+{p}
+	Goran:
+	- Alyssa - som du redan har träffat - är en teolog.
+	Besök henne om du vill veta mer om det övernaturliga.
+	
+{p}
+	Goran:
+	- Du har även träffat Turdus. Han är en underlig typ...
+	
+{p}
+	Goran:
+	- Vi är redan framme... Se dig omkring.
+	{name,Plats,'Den öde staden'}
+	{image,'Bilder/Det öde torget'}
+	
+{p}
+	Först ser du knappt någon skillnad, men sen märker du
+	att staden blivit än mer ödslig.
+	
+{p}
+	Husen är fallfärdiga. Enorma, vildvuxna rankor växer längs alla ytor.
+	Du grips av obehag.
+
+{p}
+	Goran:
+	- Det här är den gamla stadsdelen.
+	Den är övergiven sen ett halvår tillbaka.
+	
+{p}
+	Goran:
+	- Från denna gräns kommer du att finna lömska varelser.
+	De anfaller människor urskiljningslöst.
+	
+{p}
+	Goran:
+	- Vi vill att du slåss mot dessa varelser.
+	Vi betalar dig för varje varelse du besegrar.
+
+{p}
+	Goran:
+	- Ta detta svärd. Prata med mig om det behöver repareras.
+
+{p}
+	Goran ger dig ett enkelt kortsvärd.
+
+{p}
+	Goran:
+	- Ta dessa elixir också. De helar skador
+	men du kan inte använda dem i strid.
+	{add,Elixir,3}
+	
+{p}
+	Goran:
+	- Var försiktig. Inte bara för varelserna, se upp för stadsborna.
+	De är misstänksamma mot främlingar.
+	
+{p}
+	Goran:
+	- Lycka till.
+	
+{p}
+	Goran går tillbaka mot staden. Du står ensam kvar.
+	
+{p}
+	Du fortsätter bortåt. Det är helt tyst, inga spår av något levande.
+	Du passerar det sista huset...
+	{image,'Bilder/Det öde torget'}
+	
+{p}
+	Du når en stor savann. Centralt på savannen står ett raserat tempel.
+	Längre bort ser du ett fält med höga stenhus.
+
+{p}
+	Du fortsätter framåt.
+
+{p}
+	{set,Alyssa,1}
+	{set,Goran,1}
+	{set,Narden,1}
+	
+{p}
+	{set,Den öde staden,1}
+	{set,Staden,1}
+
+{p}
+	{set,Värdshusvärden,1}
+	
+{p}	
+	{chap,'Platser/Den öde staden'}
+	
+{p}

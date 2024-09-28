@@ -1,0 +1,11 @@
+{
+"namn":"Hydra",
+"element":"Metall",
+"hp": 36,
+"belöning": 10,
+"förmågor": ["Förgiftning","Inferno","Uthållighet","Regenerering","Djup infektion"],
+"förberedelser": ["Djup infektion"],
+"beskrivning": "En slug varelse som plågar sina fiender
+med kraftfulla gifter. Med sina hårda fjäll
+och självläkande kött är den svår att skada."
+}

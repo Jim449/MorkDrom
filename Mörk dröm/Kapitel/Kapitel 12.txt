@@ -1,0 +1,139 @@
+{s}
+	{set,Kapitel,12}
+	{name,Plats,'Urskogen'}
+	{image,'Bilder/Urskogen'}
+
+{p}
+	Kapitel 12
+
+{p}
+	Du går ensam in i Urskogen.
+
+{p}
+	Du har en naggande känsla av fara
+	som inte vill försvinna.
+
+{p}
+	Du vet inte hur du ska orientera dig
+	för allting ser lika jämntjockt mörkgrönt ut.
+	Det känns redan som dina sinnen är på väg att domna bort.
+
+{p}
+	Monster ligger i bakhåll bakom träden.
+	Du måste försvara dig.
+	{name,Fiende.Namn,'Varg'}
+	{set,Fiende.Grad,6}
+	{name,Fas,'Strid'}
+	{call}
+	
+{p}
+	En lång tid har passerat men det känns inte
+	som du kommit närmare ditt mål.
+	
+{p}
+	Träden har blivit brun- och grådaskiga.
+	Marken är lerig. Du stretar uppför en backe...
+
+{p}
+	Från fjärran hörs en ödesdiger vissling.
+	Du når toppen av backen...
+
+{p}
+	Du har redan varit på den här platsen.
+	På något sätt har du börjat gå runt i cirklar.
+
+{p}
+	Du försöker gå igenom snåret men det är för tätt.
+	Grenverket trycker tillbaka dig ut på stigen.
+	{if}{lack,Hinder,5}
+		{find,1}
+
+{p}
+	Det är som om du har fångats i en liten, avskiljd värld.
+	Det finns ingen väg ut.
+
+{p}
+	Den mörka guden sitter högt upp i ett träd,
+	ser ned på dig och tycks håna dig med sin sång.
+	
+{p}
+	Dina sinnen är avmattade och det är svårt att tänka.
+
+{p}
+	Såvitt du kommer ihåg har du ingenting med dig
+	som kan hjälpa dig ur det här.
+
+{p}
+	Du har en känsla av att du inte är någonting,
+	bara en slumpvis samling materia.
+
+{p}
+	På vägen framför dig ser du en svart fläck...
+
+{p}
+	{name,Fiende.Namn,'Merula'}
+	{set,Fiende.Grad,10}
+	{name,Fas,'Strid'}
+	{call}
+
+{p}
+	Dina attacker är verkningslösa. Merula återhämtar sig
+	och anfaller igen!
+	{rewind,2}
+
+{s}
+	Sakta börjar du förstå att du har fångats i en illusion.
+	En liten avskiljd värld utan någon väg ut.
+	
+{p}
+	Den mörka guden sitter högt upp i ett träd,
+	ser ned på dig och tycks håna dig med sin sång.
+
+{p}
+	Du tar fram amuletterna av luft och jord.
+	De ger dig styrka och sveper bort förvirringen.
+	
+{p}
+	Med ens bleknar illusionen och du ser en väg framåt.
+	Du fortsätter vandra...
+	
+{p}
+	Det tar lång tid men till slut skingras mörkret.
+	Skogen blir ljusare och det känns som en börda har lyfts bort.
+	{name,Plats,'Fristaden'}
+	{image,'Bilder/Fristaden'}
+	
+{p}
+	Du ser en by framför dig. Det är bara några gamla hyddor
+	men det sjuder av liv.
+
+{p}
+	Du går in i byn. Invånarna stannar upp när de ser dig.
+
+{p}
+	De ger sig av, snabbt och sansat. Platsen lämnas öde.
+
+{p}
+	Men en ensam man går fram för att möta dig.
+
+{p}
+	Bybo:
+	- Välkommen främling. Du måste ha rest långt.
+
+{p}
+	Bybo:
+	- Följ med mig.
+	{set,Fristaden,2}
+	{set,Teori,0}
+	{set,Varning,0}
+	{set,Förakt,0}
+	{set,Hinder,0}
+	
+{p}
+	Han tar dig till ett gästrum där du äntligen kan vila ut.
+	{set,Hp,Max hp}
+
+{p}
+	{chap,'Kapitel/Kapitel 13'}
+	
+{p}

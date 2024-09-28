@@ -1,0 +1,131 @@
+{s}
+	{set,Kapitel,10}
+	{name,Plats,'Muren'}
+	{image,'Bilder/Muren'}
+
+{p}
+	Kapitel 10
+	
+{p}
+	Nästa dag samlas du, Alba och Ron i värdshuset
+	för att diskutera nästa drag.
+	
+{p}
+	Alba:
+	- Muren är inte säker. Hela staden måste överges.
+	
+{p}
+	Ron:
+	- Det stämmer. Jag kommer att försöka övertala alla
+	som bor i slummen att ge sig av.
+	
+{p}
+	Ron:
+	- Men det är oklart vart vi ska bege oss.
+	Vi måste flytta ett säkert avstånd från Muren.
+	
+{p}
+	Ron:
+	- Om Muren faller finns risken att hela underjorden också rämnar...
+	
+{p}
+	Ron:
+	- Du tror inte att vi kan flytta till Staden?
+	Nej... det vore svårt... vi skulle behöva korsa Urskogen...
+
+{p}
+	Ron:
+	- Den öde staden går inte att bebygga och utvidgas ständigt.
+	Om vi slår oss ned i Skogen finns alltid risken
+	att någon irrar in i Urskogen. Jag ser ingen lösning...
+	
+{p}
+	Alba:
+	- Vi måste rapportera vad som hänt till Nimbus.
+	
+{p}
+	Ron:
+	- Bah! Han kommer inte att lyssna, det verklighetsfrånvända fanskapet.
+
+{p}
+	Alba:
+	- Snälla Ron, jag behöver din hjälp för att övertala honom.
+	Annars finns risken att jag snubblar på orden...
+	
+{p}
+	Ron:
+	- Nimbus ser dig som en slags galjonsfigur.
+	Han kommer att ifrågasätta dig hårt.
+	
+{p}
+	Ron:
+	- Det kan inte hjälpas. Jag följer med dig.
+	
+{p}
+	Alba:
+	- Tack, Ron!
+	
+{p}
+	Alba vänder sig till dig.
+	
+{p}
+	Alba:
+	- Stort tack till dig också. Här, ta emot Luftamuletten,
+	den är din nu.
+
+{p}
+	Alba:
+	- Vänta på mig i värdshuset. Jag följer med dig till Staden.
+
+{p}
+	Alba och Ron ger sig av mot palatset. Du stannar kvar.
+	
+{p}
+	Du har hört att du är efterlyst för stöld. Som tur är låter Paris dig stanna
+	och håller det hemligt att du är här.
+	
+{p}
+	Tiden går men Alba och Ron återvänder aldrig.
+	Du får höra att Nimbus låtit fängsla dem.
+	
+{p}
+	Du funderar på om du ska frita dem.
+	Då får du besök av Turdus.
+	
+{p}
+	Turdus:
+	- Jag ser att du har hittat Luftamuletten.
+	
+{p}
+	Turdus:
+	- Jag har gjort allt som jag kom hit för att göra.
+	Låt oss återvända till Staden.
+
+{p}
+	Turdus:
+	- Dina vänner har blivit fängslade?
+
+{p}
+	Turdus:
+	- Strunta i dem. Jag ger mig av nu och om du inte följer med
+	så kommer du aldrig igenom Urskogen.
+	
+{p}
+	Turdus vägrar att ändra sin uppfattning och du bestämmer dig
+	till slut för att följa med honom.
+	{name,Allierad.Namn,'Turdus'}
+	{set,Allierad.Grad,10}
+	{name,Fas,'Assistent'}
+	{call}
+
+{p}
+	{set,Alba,0}
+	{set,Ron,0}
+	{set,Nimbus,0}
+	{set,Hemresan,1}
+	{set,Underjorden,4}
+	
+{p}
+	{chap,'Platser/Muren'}
+	
+{p}

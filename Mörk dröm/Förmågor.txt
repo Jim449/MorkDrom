@@ -1,0 +1,587 @@
+{s}
+	{info}
+
+{p}
+	Aktiva förmågor. Välj en förmåga som du vill byta ut.
+	{ans}
+		{write,Drag[0],''}
+		{set,Val,0}
+		{info}
+			{write,Info[0],''}
+	{ans}
+		{write,Drag[1],''}
+		{set,Val,1}
+		{info}
+			{write,Info[1],''}
+	{ans}
+		{write,Drag[2],''}
+		{set,Val,2}
+		{info}
+			{write,Info[2],''}
+	{ans}
+		{write,Drag[3],''}
+		{set,Val,3}
+		{info}
+			{write,Info[3],''}
+	{ans}
+		Tillbaka
+		{return}
+
+{p}
+	{set,i,0}
+	{info}
+		{write,Drag[Val],''}
+
+{p}
+	Välj en förmåga som du vill byta in.
+	{if}{inName,i,Förmågor}
+		{ans}
+			{write,Förmågor[i],''}
+			{set,Växla,Choice}
+			{add,Växla,i}
+			{info}
+				{write,Beskrivning[i],''}
+			{count,i,1}
+	{if}{inName,i,Förmågor}
+		{ans}
+			{write,Förmågor[i],''}
+			{set,Växla,Choice}
+			{add,Växla,i}
+			{info}
+				{write,Beskrivning[i],''}
+			{count,i,1}
+	{if}{inName,i,Förmågor}
+		{ans}
+			{write,Förmågor[i],''}
+			{set,Växla,Choice}
+			{add,Växla,i}
+			{info}
+				{write,Beskrivning[i],''}
+			{count,i,1}
+	{if}{inName,i,Förmågor}
+		{ans}
+			{write,Förmågor[i],''}
+			{set,Växla,Choice}
+			{add,Växla,i}
+			{info}
+				{write,Beskrivning[i],''}
+			{count,i,1}
+	{if}{inName,i,Förmågor}
+		{ans}
+			{write,Förmågor[i],''}
+			{set,Växla,Choice}
+			{add,Växla,i}
+			{info}
+				{write,Beskrivning[i],''}
+			{count,i,1}
+	{if}{inName,i,Förmågor}
+		{ans}
+			{write,Förmågor[i],''}
+			{set,Växla,Choice}
+			{add,Växla,i}
+			{info}
+				{write,Beskrivning[i],''}
+			{count,i,1}
+	{if}{inName,i,Förmågor}
+		{ans}
+			{write,Förmågor[i],''}
+			{set,Växla,Choice}
+			{add,Växla,i}
+			{info}
+				{write,Beskrivning[i],''}
+			{count,i,1}
+	{if}{inName,i,Förmågor}
+		{ans}
+			Nästa
+			{add,i,7}
+			{rewind,1}
+	{if}{has,i,8}
+		{ans}
+			Föregående
+			{sub,i,7}
+			{rewind,1}
+	{ans}
+		Första
+		{set,i,0}
+		{rewind,1}
+	{ans}
+		Avbryt
+		{find,0}
+	{count,i,-7}
+
+{p}
+	{if}{hasName,Drag,Förmågor[Växla]}
+		{skip,1}
+	{elif}{same,Drag[Val],''}
+		{skip,2}
+	
+{p}
+	Vill du använda {write,Förmågor[Växla],' '} istället för {write,Drag[Val],'?'}
+	{ans}
+		Ja
+		{name,Drag[Val],Förmågor[Växla]}
+		{name,Info[Val],Beskrivning[Växla]}
+		{find,0}
+	{ans}
+		Nej
+		{find,0}
+{p}
+	Förmågan är redan tillagd!
+	{find,0}
+
+{p}
+	{name,Drag[Val],Förmågor[Växla]}
+	{name,Info[Val],Beskrivning[Växla]}
+	{find,0}
+	
+{f,Tillskott}
+	{addName,Förmågor,Formel}
+	{addName,Beskrivning,Text}
+	
+	{if}{same,Drag[0],''}
+		{name,Drag[0],Formel}
+		{name,Info[0],Text}
+	
+	{elif}{same,Drag[1],''}
+		{name,Drag[1],Formel}
+		{name,Info[1],Text}
+	
+	{elif}{same,Drag[2],''}
+		{name,Drag[2],Formel}
+		{name,Info[2],Text}
+	
+	{elif}{same,Drag[3],''}
+		{name,Drag[3],Formel}
+		{name,Info[3],Text}
+		
+{p}
+	Du har lärt dig {write,Formel,'!'}
+	{return}
+
+{f,Ladda}
+	{name,Inferno,'Inferno
+Eld
+Attack
+8 avkylning
+En kraftfull attack'}
+
+	{name,Provokation,'Provokation
+Eld
+Manipulation
+7 avkylning
+Tvingar motståndaren att anfalla
+under den kommande rundan.
+Motståndaren prioriterar förmågor
+framför normala attacker'}
+
+	{name,Raseri,'Raseri
+Eld
+Förstärkning
+8 avkylning
+Ökar Styrka med 100%
+under 2 rundor och tvingar
+användaren att anfalla'}
+
+	{name,Eldsköld,'Eldsköld
+Eld
+Förstärkning
+8 avkylning
+Omger användaren med eld
+som skadar anfallande
+under 3 rundor'}
+
+{p}
+	{name,Invasiv kyla,'Invasiv kyla
+Vatten
+Attack
+8 avkylning
+En attack som åsamkar
+full skada även om användarens
+eller motståndarens status
+förändrats'}
+
+	{name,Läkekraft,'Läkekraft
+Vatten
+Läkekraft
+8 avkylning
+Helar användarens skador'}
+
+	{name,Fokus,'Fokus
+Vatten
+Förstärkning
+8 avkylning
+Förstärker effekten
+av användarens
+helande magier med 75%
+under 3 rundor'}
+
+	{name,Frost,'Frost
+Vatten
+Försvagning
+8 avkylning
+Minskar motståndarens
+Styrka med 40%
+under 3 rundor'}
+
+{p}
+	{name,Vindskära,'Vindskära
+Luft
+Attack
+6 avkylning
+En svag attack med
+kort avkylningsperiod'}
+
+	{name,Vindsköld,'Vindsköld
+Luft
+Sköld
+7 avkylning
+Skyddar användaren
+mot alla hot
+under 1 runda'}
+
+	{name,Frihet,'Frihet
+Luft
+Återställning
+7 avkylning
+Ta bort alla negativa effekter
+från användaren'}
+
+	{name,Inspiration,'Inspiration
+Luft
+Förstärkning
+6 avkylning
+Räknar ned
+avkylningsperioden
+av användarens förmågor
+med 1 runda'}
+
+{p}
+	{name,Skalv,'Skalv
+Jord
+Attack
+8 avkylning
+En attack som förlamar
+motståndaren under
+den kommande rundan'}
+
+	{name,Makt,'Styrka
+Jord
+Förstärkning
+8 avkylning
+Ökar användarens
+Styrka med 75%
+under 3 rundor'}
+
+	{name,Uthållighet,'Uthållighet
+Jord
+Förstärkning
+8 avkylning
+Ökar användarens
+Försvar med 40%
+under 3 rundor'}
+
+	{name,Viljestyrka,'Viljestyrka
+Jord
+Förstärkning
+8 avkylning
+Ger användaren immunitet
+mot manipulation
+under 8 rundor'}
+
+{p}
+	{name,Blixt,'Blixt
+Ljus
+Attack
+8 avkylning
+En attack som inte kan
+blockeras eller kontras'}
+
+	{name,Frid,'Frid
+Ljus
+Manipulation
+12 avkylning
+Tvingar motståndaren
+att använda förstärkande
+förmågor under de
+kommande 3 rundorna'}
+
+	{name,Illuminering,'Illuminering
+Ljus
+Förstärkning
+8 avkylning
+Säkerställer att användarens
+drag lyckas under 8 rundor'}
+
+	{name,Genomskådning,'Genomskådning
+Ljus
+Förstärkning
+8 avkylning
+Säkerställer att användarens
+attacker åsamkar full skada
+under 8 rundor'}
+
+{p}
+	{name,Mörker,'Mörker
+Mörker
+Sköld
+12 avkylning
+Skyddar användaren mot
+alla hot under 3 rundor
+men användaren förhindras
+från att agera'}
+
+	{name,Tomhet,'Tomhet
+Mörker
+Kancellering
+7 avkylning
+Ta bort alla positiva
+effekter från
+motståndaren'}
+
+	{name,Hopplöshet,'Hopplöshet
+Mörker
+Kontring
+8 avkylning
+Blockerar motståndarens
+förstärkande förmåga
+och kontrar
+med en attack'}
+
+	{name,Bitterhet,'Bitterhet
+Mörker
+Manipulation
+7 avkylning
+Tvingar motståndaren
+att använda en
+försvagande förmåga
+under nästa runda'}
+
+{p}
+	{name,Absorption,'Absorption
+Trä
+Attack
+7 avkylning
+En svag attack som
+stjäl motståndarens
+hälsopoäng'}
+
+	{name,Regenerering,'Regenerering
+Trä
+Läkekraft
+8 avkylning
+Helar användaren från
+skador under 5 rundor'}
+
+	{name,Kontring,'Kontring
+Trä
+Kontring
+8 avkylning
+Blockerar motståndarens
+attack och kontrar
+med en attack'}
+
+	{name,Självbevarelsedrift,'Självbevarelsedrift
+Trä
+Manipulation
+7 avkylning
+Tvingar motståndaren att
+använda en förstärkande
+förmåga under den
+kommande rundan'}
+
+{p}
+	{name,Förgiftning,'Förgiftning
+Metall
+Försvagning
+8 avkylning
+Förgiftar motståndaren
+och åsamkar skada
+över 5 rundor'}
+
+	{name,Erodering,'Erodering
+Metall
+Försvagning
+8 avkylning
+Minskar motståndarens
+Styrka med 75%
+under 3 rundor'}
+
+	{name,Reflektion,'Reflektion
+Metall
+Kontring
+8 avkylning
+Blockerar motståndarens
+försvagande förmåga
+och kontrar med en attack'}
+
+	{name,Fanatism,'Fanatism
+Metall
+Förstärkning
+8 avkylning
+Ökar användarens Styrka
+med 25% under 8 rundor
+och skyddar användarens
+förmågor från tidig
+avaktivering'}
+
+{p}
+	{name,Rasande eld,'Rasande eld
+Eld
+Attack
+8 avkylning
+En extra kraftfull attack
+som bara kan användas
+under manipulation'}
+
+	{name,Nova,'Nova
+Eld
+Attack
+8 avkylning
+En extra kraftfull attack
+som minskar användarens
+eget försvar med 100%
+under 2 rundor'}
+
+{p}
+	{name,Förfrysning,'Förfrysning
+Vatten
+Manipulation
+8 avkylning
+Förlamar motståndaren
+och åsamkar kontinuerlig
+skada över 3 rundor'}
+
+	{name,Illusion,'Illusion
+Vatten
+Manipulation
+8 avkylning
+Tvingar motståndaren
+att anfalla men förhindrar
+motståndaren från att
+träffa under 2 rundor'}
+
+{p}
+	{name,Storm,'Storm
+Luft
+Förstärkning
+8 avkylning
+Användaren anfaller
+med Tornado och får
+immunitet mot manipulation
+under 3 rundor'}
+
+	{name,Hast,'Hast
+Luft
+Förstärkning
+6 avkylning
+Minskar avkylningen
+av förmågor med 1 steg
+och den allierade
+använder förmågor utan
+extra fördröjning'}
+
+{p}
+	{name,Jordbävning,'Jordbävning
+Jord
+Attack
+8 avkylning
+En extra kraftfull attack
+som förlamar motståndaren
+under de 5 kommande rundorna
+men har en 60 rundor
+lång uppvärmningsperiod'}
+
+	{name,Stenskinn,'Stenskinn
+Jord
+Förstärkning
+8 avkylning
+Ökar användarens försvar
+med 80% under 3 rundor'}
+
+{p}
+	{name,Mental chock,'Mental chock
+Ljus
+Attack
+8 avkylning
+En mycket kraftfull attack
+som inte kan misslyckas
+eller skyddas mot'}
+
+	{name,Prediktion,'Prediktion
+Ljus
+Förstärkning
+8 avkylning
+Säkerställer att användarens
+drag lyckas och förhindrar
+skada från att reduceras
+under 8 rundor.
+Kan inte avaktiveras i förtid'}
+
+{p}
+	{name,Mörk vind,'Mörk vind
+Mörker
+Attack
+8 avkylning
+Tar bort positiva effekter
+från motståndaren och anfaller
+med en kraftfull attack
+som inte kan undvikas'}
+
+	{name,Depression,'Depression
+Mörker
+Försvagning
+8 avkylning
+Gör motståndarens förstärkande
+drag verkningslösa
+under 3 rundor'}
+
+{p}
+	{name,Återhämting,'Återhämtning
+Trä
+Läkekraft
+5 avkylning
+Helar användaren från skada
+och tar bort negativa effekter'}
+
+	{name,Harmoni,'Harmoni
+Trä
+Manipulation
+8 avkylning
+Tvingar både användaren
+och motståndaren att
+använda förstärkande drag
+och ökar effekten av
+läkekraft med 150%
+under 2 rundor'}
+
+	{name,Förtäring,'Förtäring
+Trä
+Attack
+7 avkylning
+En attack som stjäl
+motståndarens hälsopoäng'}
+
+{p}
+	{name,Överlägsenhet,'Överlägsenhet
+Metall
+Förstärkning
+8 avkylning
+Ökar användarens styrka
+med 25% och skyddar effekter
+från avaktivering samt
+ger immunitet mot försvagningar
+under 8 rundor'}
+
+	{name,Djup infektion,'Djup infektion
+Metall
+Försvagning
+8 avkylning
+Förhindrar att motståndaren
+avaktiverar negativa effekter
+i förtid och minskar försvar
+med 50% under 8 rundor'}
+
+{p}
+	{return}
+
+{p}

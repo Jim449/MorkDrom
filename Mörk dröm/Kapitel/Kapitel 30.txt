@@ -1,0 +1,165 @@
+{p}
+	{image,'Bilder/Mörkertemplets altare'}
+	{set,Kapitel,30}
+
+{p}
+	Kapitel 30
+	
+{p}
+	Du går in i porten.
+
+{p}
+	Du går ut på en smal trappa. Den följer den kala bergsväggen
+	och leder nedåt.
+
+{p}
+	Du går nedför trappan och kliver ut på ett slätt stengolv.
+	Några pelare stödjer taket men på det hela är salen
+	mycket sparsmakad.
+	
+{p}
+	Längst bort i salen ligger altaret och i mitten står en man.
+
+{p}
+	Turdus:
+	- Är det du, {write,Namn,'?'}
+	
+{p}
+	Turdus:
+	- Jag visste väl att du skulle komma.
+
+{p}
+	Turdus:
+	- Mörkertemplet är en tillflykts, där personer som jag
+	finner ro. Du är inte välkommen här.
+
+{p}
+	Turdus:
+	- Jag kan inte få dig att ändra dig och gå tillbaka...
+	nej, jag trodde väl inte det.
+	
+{p}
+	Turdus:
+	- Hur ska jag förklara allt det här...
+
+{p}
+	Turdus:
+	- Jag får en känsla av att allt har eskalerat bortom kontroll.
+	Från katastrofen vid Staden för ett år sedan...
+
+{p}
+	Turdus:
+	- Jag trodde aldrig att det skulle hända.
+	Men nu har jag bestämt mig för att förändra ön...
+	
+{p}
+	Turdus:
+	- ... vad spelar det för roll egentligen...?
+	Skulle jag radera tron på de åtta gudarna...
+	det är fullständigt ointressant nu när jag tänker efter.
+
+{p}
+	Turdus:
+	- För mig har det alltid varit personligt.
+	Jag ska göra mig av med alla som jag hatar.
+
+{p}
+	Turdus:
+	- Jag ska skaffa mig makt.
+
+{p}
+	Turdus:
+	- Vad ska jag med den till - ingen aning.
+	Men jag tänker behålla den.
+
+{p}
+	Turdus:
+	- Jag kan inte ta risken att någon blir starkare än jag
+	och bestämmer sig för att hämnas mot mig.
+
+{p}
+	Turdus:
+	- Sen är den här ön redan förlorad.
+	Hade jag inte blivit en tyrann hade någon annan blivit det.
+
+{p}
+	Turdus:
+	- En sak är säker: jag måste göra mig av med dig.
+
+{p}
+	Turdus:
+	- Låt oss få det här överstökat.
+	{name,Fiende.Namn,'Turdus'}
+	{set,Fiende.Grad,15}
+	{name,Fas,'Strid'}
+	{call}
+	
+{p}
+	Turdus:
+	- Så det där räckte inte för att besegra dig...
+	jag trodde väl det.
+
+{p}
+	Turdus:
+	- Men jag har bara använt en liten del av mina krafter.
+	
+{p}
+	Turdus:
+	- Merula kunde inte se dig förut men det är annorlunda nu.
+	Det är dags för dig att dö.
+
+{p}
+	Turdus kallar på mörkret. Han ändrar skepnad och du står framför
+	en nattsvart, bevingad varelse.
+
+{p}
+	Turdus anfaller.
+	{name,Fiende.Namn,'Merula'}
+	{set,Fiende.Grad,15}
+	{name,Fas,'Strid'}
+	{call}
+
+{p}
+	Turdus:
+	- Fördömt... hur gick det här till?
+
+{p}
+	Turdus:
+	- När jag är borta kommer förbannelsen över havet att hävas.
+	Men det betyder inte att du kan återvända hem.
+
+{p}
+	Turdus:
+	- Det här är en liten, avskärmad värld.
+	Ingen kommer någonsin hit, ingen åker härifrån.
+
+{p}
+	Turdus:
+	- Vet du ens vem du är? Hehe... trodde väl inte det.
+	
+{p}
+	Turdus:
+	- Du bemästrar alla de åtta elementen, besitter alla egenskaper i lika stor utsträckning.
+	Vilket betyder att det inte finns någonting som är unikt för dig - du är ihålig.
+
+{p}
+	Turdus:
+	- Är du en existens som den här världen har skapat för att besegra mig?
+	Du har i alla fall lyckats...
+
+{p}
+	Turdus:
+	- ... men mitt försvinnande lär inte förändra någonting i grunden.
+
+{p}
+	Turdus:
+	- Den här ön förblir en liten, meningslös plats,
+	full av människor som saknar mål...
+	{set,Mörkertemplet,4}
+
+{p}
+	Turdus:
+	- Farväl.
+	{chap,'Epilog/Epilog 1'}
+
+{p}

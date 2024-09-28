@@ -1,0 +1,10 @@
+﻿{p}
+	Vad vill du göra?
+	{ans}
+		Spela Mörk dröm
+		{game,'Mörk dröm'}
+
+{p}
+	{chap,'Meny'}
+	
+{p}

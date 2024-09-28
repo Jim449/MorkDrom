@@ -1,0 +1,49 @@
+{s}
+	Du besöker palatset.
+	{ans}
+		Prata
+		{if}{has,Morden,4}
+			{act,'Morden'}
+	{if}{equal,Osynlighet,2}
+		{ans}
+			Genomsök palatset
+			{chap,'Kapitel/Kapitel 8'}
+	{ans}
+		Tillbaka
+		{return}
+		
+{p}
+	Nimbus tar inte emot besök för tillfället.
+	{find,0}
+	
+{f,Morden}
+	Nimbus tar emot ditt besök i tronrummet.
+	
+{p}
+	Nimbus:
+	- Jag är fullt medveten om att en serie mord har begåtts.
+	De är under utredning.
+	
+{p}
+	Nimbus:
+	- Du behöver inte göra någonting.
+	Vi kommer att hitta mördaren.
+	
+{p}
+	Nimbus:
+	- Du tror att morden begåtts av mörkrets gud, Merula?
+	Nonsens!
+	
+{p}
+	Nimbus:
+	- Muren har luftens gud, Palumbus, på sin sida.
+	Merula har inget att sätta emot.
+	{set,Erbjudande,1}
+	{set,Morden,5}
+
+{p}
+	Nimbus:
+	- Du kan gå.
+	{return}
+	
+{p}

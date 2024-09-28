@@ -1,0 +1,140 @@
+{p}
+	{name,Plats,'Vattentemplet'}
+	{image,'Bilder/Grottsal'}
+	{set,Tid,0}
+
+{s}
+	Du befinner dig i Vattentemplet.
+	{ans}
+		Utforska vattentemplet
+	{if}{equal,Vattentemplet,2}
+		{ans}
+			Gå till den innersta kammaren
+			{find,2}
+	{elif}{has,Epilog,4}
+		{ans}
+			Gå till den innersta kammaren
+			{act,'Prövning'}
+	{if}{has,Skärgården,1}
+		{ans}
+			Lämna vattentemplet
+			{chap,'Platser/Skärgården'}
+	
+
+{p}
+	Du utforskar Vattentemplet...
+	{set,Slump,0}
+	{rand,Slump,2}
+	{add,Tid,1}
+
+{p}
+	{if}{equal,Vattentemplet,1}{equal,Tid,6}
+		{find,1}
+	{elif}{equal,Slump,1}
+		{skip,1}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Gremlin'}
+	{set,Fiende.Grad,6}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Basilisk'}
+	{set,Fiende.Grad,6}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}
+
+{s}
+	En arakid vaktar porten till den sista kammaren.
+	
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Arakid'}
+	{set,Fiende.Grad,6}
+	{name,Fas,'Strid'}
+	{call}
+	
+{p}
+	Porten in till den sista kammaren står framför er.
+	{set,Vattentemplet,2}
+	{find,0}
+
+{s}
+	{image,'Bilder/Altare'}
+
+{p}
+	Ni har äntligen kommit fram till de djupaste delarna
+	av templet. Ni går igenom en tung port.
+
+{p}
+	Ni befinner er i en stor sal. Golvet består av släta stenblock
+	och taket stöttas av pelare.
+
+{p}
+	Ett grönblått sken lyser upp salen. Allting är rikt utsmyckat
+	och har en nästan överjordisk skönhet.
+
+{p}
+	Mitt i salen ligger en enorm varelse med ormlik kropp
+	och skimrande fjäll.
+
+{p}
+	Selena:
+	- Jag trodde väl att amuletten hade en väktare. Är du redo?
+
+{p}
+	Odjuret anfaller.
+	{name,Fiende.Namn,'Vattenorm'}
+	{set,Fiende.Grad,5}
+	{name,Fas,'Strid'}
+	{call}
+
+{p}
+	Vattenormen är äntligen besegrad.
+
+{p}
+	Du går fram mot altaret där amuletten vilar.
+	Du tar den från altaret.
+
+{p}
+	Selena:
+	- Bra jobbat! Jag har hittat en ny passage.
+
+{p}
+	Den nya passagen leder er snabbt ut ur Vattentemplet.
+	Ni tar er till hamnen.
+
+{p}
+	Ni väntar tills nästa morgon innan ni går på skeppet
+	och seglar tillbaka till fastlandet.
+	{set,Vattentemplet,3}
+
+{p}
+	Därifrån är det bara en kort sträcka till Staden.
+	{chap,'Kapitel/Kapitel 18'}
+
+{f,Prövning}
+	Du går in i Vattentemplets innersta kammare.
+
+{p}
+	Väktaren dyker upp och anfaller!
+	{name,Fiende.Namn,'Sjöstjärna'}
+	{set,Fiende.Grad,15}
+	{name,Fas,'Strid'}
+	{call}
+
+{p}
+	Väktaren var inte mer än ett spöke.
+	Nu när den är besegrad är du ett steg närmare
+	att nå Elementaltemplets innersta kammare.
+	{set,Vattenprövning,1}
+
+{p}
+	{find,0}
+	
+{p}

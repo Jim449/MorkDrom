@@ -1,0 +1,296 @@
+{s}
+	{name,Plats,'Okänd plats'}
+	{image,'Bilder/Grottsal'}
+
+{p}
+	Den senaste förflyttningen har tagit dig och Mara till en grotta.
+	Berget omkring dig är blygrått.
+	
+{p}
+	Du kan inte minnas att du varit här förut.
+	Ni börjar vandra genom tunnlarna.
+	{image,'Bilder/Metalltemplet'}
+	
+{p}
+	Ni når fram till ett tempel. Det följer hela grottväggen
+	och det finns portar överallt.
+
+{p}
+	Mara:
+	- Ett till tempel? Men till vilken gud...?
+
+{p}
+	Mara:
+	- Hur som helst har vi kommit till en återvändsgränd.
+	Vi vänder om.
+
+{p}
+	Ni går tillbaka samma väg ni kom ifrån och hittar
+	en tunnel som leder uppåt.
+
+{p}
+	Ni hittar vägen ut. Du känner omedelbart igen de kala bergen
+	- ni befinner er i Bergspasset.
+	{name,Plats,'Bergspasset'}
+	{image,'Bilder/Bergspasset'}
+
+{p}
+	Ni är inte ensamma. Du ser en patrull soldater längre bort.
+	De verkar söka efter något.
+
+{p}
+	Du tittar åt det andra hållet. Två personer som du känner igen
+	reser sig från buskarna som de gömt sig i.
+
+{p}
+	Ron:
+	- Patrullen har passerat.
+	
+{p}
+	Alba:
+	- Jag blev nervös där ett tag... Vad gör vi nu?
+	Ska vi fortsätta söderut?
+
+{p}
+	Ron:
+	- Jag är rädd att de har hunnit ikapp oss.
+	Vägen framåt är blockerad.
+
+{p}
+	Ron:
+	- Om vi stannar här kommer de att hitta oss förr eller senare.
+	Vi kanske ändå ska försöka ta oss igenom.
+
+{p}
+	Alba:
+	- Jag håller med.
+	
+{p}
+	Ron:
+	- Vänta... det är någon där!
+
+{p}
+	Alba:
+	- Nej, det är... hur är det möjligt?
+	Jag trodde inte ni kunde följa med.
+
+{p}
+	Ron:
+	- Vad är meningen med detta?
+	Har ni lurat oss?
+
+{p}
+	Mara:
+	- Ledsen! Jag vet inte riktigt hur jag ska förklara.
+	Vi befinner oss visst i Eldtemplet och allting är förvrängt...
+
+{p}
+	Mara:
+	- ... glöm det. Vi har hittat en grotta i närheten.
+	Öppningen är väl dold, ni kan gömma er där.
+
+{p}
+	Ron:
+	- Visa mig.
+
+{p}
+	Ni leder Alba och Ron ned i grottan.
+	{image,'Bilder/Grottsal'}
+
+{p}
+	Ron:
+	- Utmärkt! Ingången kan lätt kamoufleras och här i grottan
+	finns allting som vi behöver för att härda ut.
+
+{p}
+	Alba:
+	- Förresten, jag tror inte vi hann presentera oss ordentligt förut...
+
+{p}
+	Alba berättar kort vad hon varit med om för Mara.
+
+{p}
+	Du berättar mer ingående om den situation
+	du och Mara befinner er i.
+
+{p}
+	Alba:
+	- Ett tempel som spänner över hela ön?
+	Det låter så spännande!
+
+{p}
+	Mara:
+	- Spännande? Hehehe... det känns mest som jag har irrat runt
+	helt vilset. Men visst har det varit en utmaning!
+	
+{p}
+	Ron:
+	- Ni är inte kloka...
+	Det låter förfärligt, att inte ens kunna lita på en karta.
+	
+{p}
+	Natten faller och ni slår läger nere i grottan.
+	Nästa dag går ni för att undersöka templet.
+	{image,'Bilder/Metalltemplet'}
+
+{p}
+	Alba:
+	- Det här måste vara metalltemplet. Jag har läst
+	att det skulle ligga här.
+
+{p}
+	Okänd man:
+	- Det stämmer. Jag trodde inte ni skulle hitta hit.
+	
+{p}
+	Du vänder dig snabbt om för att se vem som talade.
+	
+{p}
+	Nimbus:
+	- Jag har visst hittat er.
+	Och jag ser att du är här också.
+
+{p}
+	Nimbus:
+	- Jag bryr mig inte om att tillfångata er igen.
+	Den här gången ska ni dö.
+
+{p}
+	Mara:
+	- Försök bara. Jag ska hugga ned dig först.
+
+{p}
+	Nimbus:
+	- Dig känner jag inte igen. Vem är du?
+	
+{p}
+	Mara:
+	- Mara, en jägare från Fristaden.
+
+{p}
+	Nimbus:
+	- Fristaden? Aldrig hört talas om.
+	
+{p}
+	Nimbus:
+	- Jag vet att ni utklassar mig fyra mot en.
+	Och att Alba, tydligen den utvalda av Palumbus,
+	kan något om luftmagi...
+
+{p}
+	Nimbus:
+	- ... men jag har denna.
+
+{p}
+	Nimbus visar upp en svart, glänsande amulett.
+	
+{p}
+	Nimbus:
+	- Amuletten av Metall. Vilket gör mig till Garrulus utvalde.
+	På denna plats finns det ingen som kan trotsa Metallens gud.
+
+{p}
+	Alba:
+	- Hur fick du tag på den?
+
+{p}
+	Nimbus:
+	- Det var en gåva från Dennis. Guden av Tid och Rum, Merula,
+	kommer att föra oss in i en ny era.
+
+{p}
+	Nimbus:
+	- Jag ska se till att röja bort alla som står ivägen.
+	Först er... sedan Staden. Bara Muren består för evigt.
+
+{p}
+	Alba:
+	- Ingenting består för evigt... vilka lögner har de slagit in i dig?
+
+{p}
+	Nimbus:
+	- Tig!
+	
+{p}
+	Alba:
+	- Det här är illa. Jag känner en enorm kraft
+	från den där amuletten.
+	
+{p}
+	Mara:
+	- Än sen!? Vi kan inte backa ur nu!
+
+{p}
+	Ni omringar Nimbus och gör er redo för strid.
+	{name,Fiende.Namn,'Nimbus'}
+	{set,Fiende.Grad,4}
+	{name,Fas,'Strid'}
+	{call}
+
+{p}
+	Nimbus är sårad och tar ett steg tillbaka.
+
+{p}
+	Nimbus:
+	- Gah! Det här var mycket svårare än jag trodde!
+	Merula, ta mig härifrån!
+
+{p}
+	Nimbus omges av en fladdrande svart form och försvinner.
+	Mara skjuter en pil efter honom men den splittras mot mörkret.
+
+{p}
+	Mara:
+	- Fan!
+
+{p}
+	Ron:
+	- Han lär beordra soldaterna att storma grottan.
+	Skynda!
+	{image,'Bilder/Bergspasset'}
+
+{p}
+	Ni lämnar grottan i all hast. En patrull soldater står i er väg.
+
+{p}
+	Mara gör en gest och soldaterna fångas i en explosion av eld.
+
+{p}
+	Alba:
+	- Herregud... håll tillbaka lite!
+
+{p}
+	Mara:
+	- Fan heller!
+
+{p}
+	Med Mara i fronten når ni snart till slutet av Bergspasset.
+
+{p}
+	Ron:
+	- De kommer knappast följa efter oss in i Urskogen.
+	Frågan är om vi kan undvika att gå vilse.
+
+{p}
+	Alba:
+	- Det är okej... tror jag.
+	Min magi motverkar alla sorters manipulationer och förtrollningar.
+
+{p}
+	Alba:
+	- Tack för all din hjälp. Vi ses i Staden.
+
+{p}
+	Alba och Ron går in i Urskogen.
+
+{p}
+	Du och Mara följer efter men förflyttas
+	genast till en annan plats.
+	{set,Fritagning,0}
+	{add,Ravinen,1}
+	
+{p}
+	{chap,'Platser/Eldtemplet'}
+	{act,'Skogen'}
+	
+{p}

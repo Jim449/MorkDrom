@@ -1,0 +1,152 @@
+{s}
+	{set,Kapitel,13}
+
+{p}
+	Kapitel 13
+
+{p}
+	Du vaknar upp i byn med en känsla av att du befriats
+	från en längre tids förvirring.
+
+{p}
+	Din värd bjuder dig på en enklare måltid.
+	
+{p}
+	Bybo:
+	- Du har äntligen vaknat. Din resa genom Urskogen
+	måste ha varit svår.
+	
+{p}
+	Bybo:
+	- Vi blev alla överrumplade.
+	Något liknande har inte hänt sen Selena dök upp från Urskogen
+	för några år sedan.
+
+{p}
+	Philomelos:
+	- Jag heter Philomelos. Var god känn dig som hemma.
+	
+{p}
+	Philomelos:
+	- När du ätit klart vill Selena träffa dig.
+	Hon är ledaren av vår by.
+
+{p}
+	Du följer Philomelos in i en större hydda.
+	
+{p}
+	Selena väntar på dig. Hon är ganska ung, men ser ut
+	att ha varit med om en del.
+	
+{p}
+	Hon har en skarp blick och rakt, brunt hår.
+	Hon är iklädd enkla, praktiska kläder.
+
+{p}
+	Selena:
+	- Välkommen, främling. Mitt namn är Selena.
+
+{p}
+	Selena:
+	- Jag hoppas inte du är en av vandrarna?
+	Du kommer från Staden?
+	
+{p}
+	Selena:
+	- Så du har hört talas om mig.
+	Det var en lång tid sen...
+
+{p}
+	Selena:
+	- Staden drabbades av många olyckor. Monster dök upp
+	och stormade Jordtemplet. Staden togs över av enorma växter.
+	
+{p}
+	Selena:
+	- Jag var fast besluten att slå tillbaka. Jag lyckades nästan övertyga
+	folket att ta till vapen...
+
+{p}
+	Selena:
+	- Turdus sa att Alyssa hade försvunnit in i Urskogen.
+	Jag var tvungen att hitta henne.
+	
+{p}
+	Selena:
+	- Vi gick ensamma, för Turdus sa att om vi tog med oss fler
+	ökade risken att någon skulle gå vilse.
+
+{p}
+	Selena:
+	- Han gav mig ett kompass som han sa skulle leda mig tillbaka till Staden.
+	
+{p}
+	Selena:
+	- Sen försvann Turdus. Jag vandrade ensam och följde kompassen.
+	Till slut kom jag fram hit, till Fristaden.
+	
+{p}
+	Selena:
+	- Nu förstår jag att allting var en lögn.
+	Turdus ville lura bort mig från Staden innan jag kunde leda
+	en attack mot monstren.
+
+{p}
+	Selena:
+	- Jag undrar om Turdus agerade ensam eller om Alyssa låg bakom allt.
+	Vad hade de för anledning? De ville uppenbarligen inte döda mig...
+
+{p}
+	Selena:
+	- Det tjänar inget till att fundera på det nu.
+	Jag har fullt upp med mina åtaganden här i Fristaden.
+
+{p}
+	Selena:
+	- Jag har tagit över ledarskapet och kämpar för att
+	hålla tillbaka Urskogens monster.
+	
+{p}
+	Selena:
+	- Monstren har blivit allt mer aggressiva.
+	Vi har lidit många förluster.
+
+{p}
+	Selena:
+	- Vandrarna, ett folk som lever i Gömslet djupt inne i Urskogen,
+	kontrollerar monstren.
+	
+{p}
+	Selena:
+	- Vi kan inte nå Gömslet. Det enda vi kan göra är att försvara oss...
+
+{p}
+	Selena:
+	- Nog om det. Berätta varför har du kommit hit.
+	
+{p}
+	Selena:
+	- Du letar efter Eldamuletten?
+	Om du tror att du kan hitta den, varsågod och ta den.
+	Eldtemplet ligger norrut, djupt inne i djungeln.
+
+{p}
+	Selena:
+	- Du behöver en vägvisare. Mara kan hjälpa dig
+	men hon är inte här just nu. Hon och hennes jägare
+	är ute på en expedition.
+
+{p}
+	Selena:
+	- Du kan vänta här tills hon återvänder.
+
+{p}
+	Selena:
+	- Behöver du vila kan du använda Philomelos gäststuga.
+
+{p}
+	{set,Tempelruinen,1}
+	{chap,'Platser/Fristaden'}
+	
+{p}
+

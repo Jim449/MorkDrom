@@ -1,0 +1,206 @@
+{s}
+	{set,Kapitel,9}
+	{image,'Bilder/Nedre underjorden'}
+
+{p}
+	Kapitel 9
+	
+{p}
+	Ni når en bergssal. Mitt i salen svävar ett stort, svart klot av energi.
+	
+{p}
+	Alba:
+	- Vad är det där? Det verkar vara magi...
+	men det är inte någon av de åtta elementen.
+	
+{p}
+	Aegithalos:
+	- Välkomna! Så trevligt att se er igen!
+
+{p}
+	Aegithalos träder fram ur skuggorna.
+	
+{p}
+	Aegithalos:
+	- Ni har kommit till underjordens själva hjärta.
+	
+{p}
+	Aegithalos:
+	- Detta är den kraft som motverkar gravitation och åldrande.
+	Arkitekten bakom Murens välstånd.
+
+{p}
+	Aegithalos:
+	- För många år sen, när jag vandrade genom underjorden,
+	upptäckte jag denna plats.
+
+{p}
+	Aegithalos:
+	- Här mötte jag Merula, guden över tid och rum.
+
+{p}
+	Alba:
+	- Det där lät inte rätt...
+
+{p}
+	Aegithalos:
+	- Det säger du? Men hur annars förklarar du Muren?
+	Tror du verkligen att den hålls uppe av luftens kraft?
+
+{p}
+	Alba:
+	- Nej...
+
+{p}
+	Aegithalos:
+	- Givetvis inte! För du vet att Palumbus, guden av nyckfullhet,
+	inspiration och föränderlighet aldrig skulle skapa något så statiskt
+	som Muren.
+
+{p}
+	Aegithalos:
+	- Sanningen är att det är Merula som håller Muren uppe.
+	Han kan när som helst kan välja att slunga ned Muren i marken.
+
+{p}
+	Aegithalos:
+	- Jag längtar tills dagen då Muren störtas.
+	Men den mörka guden gör ingenting...
+
+{p}
+	Alba:
+	- Är du galen? Varför vill du att Muren ska falla?
+
+{p}
+	Aegithalos:
+	- För att Muren är stel och tråkig.
+	Murens invånare har blivit slöa och inbilska.
+
+{p}
+	Alba:
+	- Vansinne. Du tycks betrakta hela världen som ett spel.
+
+{p}
+	Aegithalos:
+	- Ett spel? Kanske det. Ensamheten gör en smått galen.
+
+{p}
+	Aegithalos:
+	- Jag vill ta mig ut från den här grottan.
+	Men Dennis säger att det är för tidigt.
+
+{p}
+	Ron:
+	- Dennis?
+
+{p}
+	Aegithalos:
+	- Dennis är någon ledargestalt inom Vandrarna
+	och han har stora planer på gång.
+
+{p}
+	Aegithalos:
+	- Jag struntar i vad Dennis säger. Jag vill ut...
+	men jäveln har den mörka guden på sin sida
+	och håller mig fången.
+
+{p}
+	Ron:
+	- Kontrollerar han Merula? Då måste vi ta itu med Dennis.
+
+{p}
+	Aegithalos:
+	- Skulle inte tro det. Ni kommer inte härifrån levande.
+
+{p}
+	Aegithalos:
+	- Nu är det dags för er att dö. Och eftersom Merula, av någon anledning,
+	verkar oförmögen att agera så måste jag ta hand om saken själv.
+
+{p}
+	Aegithalos anfaller!
+	{name,Fiende.Namn,'Aegithalos'}
+	{set,Fiende.Grad,3}
+	{name,Fas,'Strid'}
+	{call}
+
+{p}
+	Striden fortsätter. Ni är tre mot en men
+	det tar allt ni har bara för att stå emot Aegithalos.
+	
+{p}
+	Till slut lyckas ni distrahera honom.
+	Ron anfaller från hans blinda punkt!
+
+{p}
+	Han hugger upp ett stort sår
+	men det är inte dödligt.
+
+{p}
+	Aegithalos vind slungar Rons svärd från hans hand.
+	Men Ron stannar inte. Han får in ett slag!
+	
+{p}
+	Han greppar tag om Aegithalos amulett och drar av den från hans hals.
+
+{p}
+	Aegithalos samlar sig och hugger mot Ron,
+	men Ron drar sig undan.
+	
+{p}
+	Aegithalos:
+	- Din jävel. Du stjäl luftens amulett?
+
+{p}
+	Aegithalos:
+	- Jag har fortfarande kraft över vinden.
+	Men det här börjar bli mer besvär än det är värt.
+
+{p}
+	Aegithalos:
+	- Merula! Jag ber dig: ta mig härifrån!
+	
+{p}
+	En svart tingest materialiseras.
+	
+{p}
+	Aegithalos:
+	- Ni har inte sett det sista av mig...
+	
+{p}
+	Aegithalos slukas upp av den svarta tingesten, som försvinner.
+
+{p}
+	Alba:
+	- Äntligen... jag orkar inte mer...
+	
+{p}
+	Ron:
+	- Slappna inte av för tidigt. Vi måste gå upp till ytan också.
+
+{p}
+	Ron:
+	- Men först: finns det något mer vi kan göra här?
+	
+{p}
+	Alba:
+	- Nej. Denna kraftkälla håller Muren uppe.
+	Den kan stängas av när som helst men det finns inget vi kan göra åt det.
+
+{p}
+	Ron:
+	- Då går vi.
+
+{p}
+	Ni hittar en annan väg uppåt, genom Aegithalos gömsle.
+	Det finns inga monster där.
+	{name,Fas,'Solo'}
+	{call}
+	
+{p}
+	Till slut når ni ytan. Skogen står tyst omkring er.
+	Ni tar er till värdshuset och får en välförtjänt vila.
+	{set,Hp,Max hp}
+	{chap,'Kapitel/Kapitel 10'}
+	
+{p}

@@ -1,0 +1,177 @@
+﻿{s}
+	Meny
+	{ans}
+		Nytt spel
+	{if}{has,Sparpunkt,1}{lack,Address depth,3}
+		{ans}
+			Spara spelet
+			{act,'Spara'}
+	{ans}
+		Ladda spel
+		{act,'Ladda'}
+	{if}{has,Spel,1}
+		{ans}
+			Återuppta
+			{return}
+	
+{p}
+	{clear}
+
+{p}
+	{set,Spel,1}
+	{set,Sparpunkt,1}
+	{set,Akt,1}
+	{set,Kapitel,1}
+	{set,Grad,1}
+	{set,Ep,0}
+	{set,Nästa grad,50}
+	{set,Silver,0}
+	{set,Styrka,3}
+	{set,Hp,108}
+	{set,Max hp,108}
+	{set,Max elixir,10}
+
+{p}
+	{newName,Drag}
+	{addName,Drag,''}
+	{addName,Drag,''}
+	{addName,Drag,''}
+	{addName,Drag,''}
+	{newName,Info}
+	{addName,Info,''}
+	{addName,Info,''}
+	{addName,Info,''}
+	{addName,Info,''}
+	{name,Fas,'Skapa'}
+	{call}
+
+{p}
+	{name,Fas,'Solo'}
+	{call}
+	
+{p}
+	{menu,'Meny','Meny',''}
+	{menu,'Status','Status',''}
+	{menu,'Förmågor','Förmågor',''}
+	{menu,'Föremål','Föremål',''}
+	{menu,'Spola framåt','Skip',''}
+
+{p}
+	{open,'Förmågor'}{act,'Ladda'}
+	
+{p}
+	{chap,'Kapitel/Kapitel 1'}
+	
+{f,Spara}
+	Välj en sparfil
+	{ans}
+		Fil 1
+		{save,'Sparade spel/Sparfil 1'}
+	{ans}
+		Fil 2
+		{save,'Sparade spel/Sparfil 2'}
+	{ans}
+		Fil 3
+		{save,'Sparade spel/Sparfil 3'}
+	{ans}
+		Fil 4
+		{save,'Sparade spel/Sparfil 4'}
+	{ans}
+		Fil 5
+		{save,'Sparade spel/Sparfil 5'}
+	{ans}
+		Fil 6
+		{save,'Sparade spel/Sparfil 6'}
+	{ans}
+		Fil 7
+		{save,'Sparade spel/Sparfil 7'}
+	{ans}
+		Fil 8
+		{save,'Sparade spel/Sparfil 8'}
+	{ans}
+		Fil 9
+		{save,'Sparade spel/Sparfil 9'}
+	{ans}
+		Fil 10
+		{save,'Sparade spel/Sparfil 10'}
+	{ans}
+		Tillbaka
+		{find,0}
+
+{p}
+	Spelet har sparats!
+	{find,0}
+
+{f,Ladda}
+	Välj en sparfil att ladda.
+	{ans}
+		Fil 1
+		{open,'Sparade spel/Sparfil 1'}
+	{ans}
+		Fil 2
+		{open,'Sparade spel/Sparfil 2'}
+	{ans}
+		Fil 3
+		{open,'Sparade spel/Sparfil 3'}
+	{ans}
+		Fil 4
+		{open,'Sparade spel/Sparfil 4'}
+	{ans}
+		Fil 5
+		{open,'Sparade spel/Sparfil 5'}
+	{ans}
+		Fil 6
+		{open,'Sparade spel/Sparfil 6'}
+	{ans}
+		Fil 7
+		{open,'Sparade spel/Sparfil 7'}
+	{ans}
+		Fil 8
+		{open,'Sparade spel/Sparfil 8'}
+	{ans}
+		Fil 9
+		{open,'Sparade spel/Sparfil 9'}
+	{ans}
+		Fil 10
+		{open,'Sparade spel/Sparfil 10'}
+	{ans}
+		Tillbaka
+		{find,0}
+
+{p}
+	{name,Fas,'Skapa'}
+	{call}
+
+{p}
+	{if}{same,Allierad.Namn,''}
+		{name,Fas,'Solo'}
+		{call}
+	{elif}
+		{name,Fas,'Assistent'}
+		{call}
+	
+{p}
+	{menu,'Meny','Meny',''}
+	{menu,'Status','Status',''}
+	{menu,'Förmågor','Förmågor',''}
+	{menu,'Föremål','Föremål',''}
+	{menu,'Spola framåt','Skip',''}
+	
+{p}
+	{resName,'',Namn}
+	{resVal,'Kapitel',Kapitel}
+	{resName,'',Plats}
+	{resVal,'Grad',Grad}
+	{resDual,'Ep',Ep,'/',Nästa grad}
+	{resDual,'Hp',Hp,'/',Max hp}
+	{resVal,'Silver',Silver}
+	{resDual,'Elixir',Elixir,'/',Max elixir}
+
+{p}
+	{open,'Förmågor'}{act,'Ladda'}
+
+{p}
+	{chap,Chapter}
+	{go,Paragraph}
+
+{p}

@@ -1,0 +1,102 @@
+{p}
+	{set,Tid,0}
+	{name,Plats,'Mörkertemplet'}
+	{image,'Bilder/Labyrint'}
+
+{s}
+	Du befinner dig i Mörkertemplet.
+	{ans}
+		Utforska mörkertemplet
+	{if}{equal,Mörkertemplet,3}
+		{ans}
+			Gå till den innersta kammaren
+			{find,1}
+	{if}{has,Epilog,4}
+		{ans}
+			Gå till den innersta kammaren
+			{act,'Prövning'}
+	{ans}
+		Lämna mörkertemplet
+		{chap,'Platser/Nålsögat'}
+		{act,'Ravinen'}
+
+{p}
+	Du utforskar mörkertemplet...
+	{set,Slump,0}
+	{rand,Slump,4}
+	{add,Tid,1}
+
+{p}
+	{if}{equal,Tid,8}{equal,Mörkertemplet,2}
+		{find,1}
+	{elif}
+		{skip,Slump}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Svartalv'}
+	{set,Fiende.Grad,13}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Panter'}
+	{set,Fiende.Grad,13}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Vålnad'}
+	{set,Fiende.Grad,13}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Vätte'}
+	{set,Fiende.Grad,13}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}	
+
+{s}
+	Du står framför porten till den innersta kammaren.
+	{set,Mörkertemplet,3}
+
+{p}
+	Vill du gå in?
+	{ans}
+		Ja
+		{chap,'Kapitel/Kapitel 30'}
+	{ans}
+		Nej
+		{find,0}
+
+{f,Prövning}
+	Du går in i Mörkertemplets innersta kammare.
+
+{p}
+	Väktaren dyker upp och anfaller!
+	{name,Fiende.Namn,'Skugga'}
+	{set,Fiende.Grad,15}
+	{name,Fas,'Strid'}
+	{call}
+
+{p}
+	För ett tag trodde du att Merula var tillbaka
+	men  väktaren var inte mer än ett spöke.
+
+{p}
+	Nu när den är besegrad är du ett steg närmare
+	att nå Elementaltemplets innersta kammare.
+	{set,Mörkerprövning,1}
+
+{p}
+	{find,0}
+	
+{p}

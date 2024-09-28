@@ -1,0 +1,10 @@
+{
+"namn": "Kobold",
+"element": "Trä",
+"hp": 8,
+"belöning": 2,
+"förmågor": ["Vindskära","Självbevarelsedrift","Kontring","Inspiration"],
+"beskrivning": "En liten varelse
+som samarbetar i en flock
+för att jaga, mörda och stjäla."
+}

@@ -1,0 +1,10 @@
+{
+"namn": "Basilisk",
+"element": "Vatten",
+"hp": 16,
+"belöning": 4,
+"förmågor": ["Skalv","Mörker","Läkekraft","Invasiv kyla"],
+"beskrivning": "En listig varelse
+som har förmågan att förstelna
+sina fiender."
+}

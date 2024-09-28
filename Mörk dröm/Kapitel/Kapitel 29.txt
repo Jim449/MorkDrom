@@ -1,0 +1,211 @@
+{p}
+	{name,Plats,'Urskogen'}
+	{image,'Bilder/Urskogen'}
+	{set,Tid,0}
+
+{p}
+	{set,Kapitel,29}
+
+{p}
+	Kapitel 29
+
+{p}
+	Ni går in i Urskogen. Vägen framåt blockeras
+	av dödliga monster.
+
+{s}
+	{add,Tid,1}
+
+{p}
+	Du befinner dig i Urskogen.
+	{ans}
+		Utforska urskogen
+
+{p}
+	Du utforskar urskogen...
+	{set,Slump,0}
+	{rand,Slump,3}
+
+{p}
+	{if}{equal,Tid,5}
+		{find,1}
+	{elif}
+		{skip,Slump}
+		
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Varg'}
+	{set,Fiende.Grad,12}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}
+	
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Panter'}
+	{set,Fiende.Grad,12}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Vålnad'}
+	{set,Fiende.Grad,12}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}
+
+{s}
+	En vålnad står i er väg!
+	{name,Fiende.Namn,'Vålnad'}
+	{set,Fiende.Grad,15}
+	{name,Fas,'Strid'}
+	{call}
+
+{p}
+	Vålnaden är död men du är utmattad
+	efter alla strider.
+
+{p}
+	Det börjar skymma. Att stanna är inte ett alternativ.
+
+{p}
+	Du märker att en strid pågår längre bort
+	och ni rusar dit.
+
+{p}
+	Några soldater från Staden kämpar mot monstren.
+	Ron, Alyssa och Philomelos är med.
+
+{p}
+	Ni går till undsättning och de sista monstren
+	besegras snabbt.
+	
+{p}
+	Ron:
+	- Är alla okej? Väl kämpat.
+
+{p}
+	Goran:
+	- Alyssa, vad glad jag är att se dig igen. Letade ni efter oss?
+
+{p}
+	Alyssa:
+	- Vi trodde att ni skulle behöva hjälp.
+	Philomelos har hållit ett öga på Urskogen och upptäckte er.
+
+{p}
+	Goran:
+	- Det uppskattas.
+	
+{p}
+	Alyssa:
+	- Jag är rädd att Urskogen blivit farligare än någonsin.
+	Vi måste tillbaka till Staden snabbt.
+
+{p}
+	Ni inleder den sista sträckan. Ni slår tillbaka några attacker
+	från monstren och lämnar Urskogen välbehållna.
+
+{p}
+	{name,Plats,'Staden'}
+	{image,'Bilder/Kontoret'}
+
+{p}
+	Du befinner dig på kontoret. Alyssa, Goran, Narden, Alba, Ron,
+	Selena, Philomelos och Mara är alla där.
+
+{p}
+	Alyssa:
+	- Tack för att ni kom. Vi befinner oss i en kritisk fas.
+	
+{p}
+	Alyssa:
+	- Vi har besegrat Muren och Gömslet
+	men Merula är starkare än någonsin.
+
+{p}
+	Alyssa:
+	- Om vi inte agerar kommer monstren
+	snart att överväldiga oss.
+
+{p}
+	Alyssa:
+	- Nu måste vi bege oss in i Mörkertemplet
+	och besegra Merula.
+
+{p}
+	Alyssa:
+	- Vi har alla åtta amuletterna så
+	vi borde ha en chans.
+	
+{p}
+	Alyssa:
+	- Problemet är att Merulas magier börjat påverka Staden.
+	Folk börjar bli förvirrade och apatiska.
+
+{p}
+	Alyssa:
+	- Vi har försökt göra något åt det men har inte lyckats.
+	
+{p}
+	Alyssa:
+	- Det blir allt svårare att se vad som händer i Urskogen.
+	Monstren kan anfalla Staden med väldigt kort varsel.
+	
+{p}
+	Alyssa:
+	- Vi måste försvara oss men har samtidigt inte tid att vänta.
+
+{p}
+	Alyssa:
+	- Jag vill att du beger dig till Mörkertemplet.
+
+{p}
+	Alyssa:
+	- Välj ut en person som du vill ska följa med. Vi ställer alla upp.
+
+{p}
+	Alyssa:
+	- Lycka till.
+	
+{p}
+	{name,Fas,'Solo'}
+	{call}
+
+{p}
+	{set,Omväg,0}
+	{set,Mörkertemplet,1}
+
+{p}
+	{set,Vattenbrynet,1}
+	{set,Kustvägen,1}
+	{set,Skärgården,1}
+	{set,Nålsögat,1}
+	{set,Urskogen,1}
+	{set,Urskogens hjärta,1}
+	{set,Norra bergen,1}
+	{set,Bergspasset,1}
+	{set,Muren,2}
+	{set,Klipporna,1}
+	{set,Fristaden,1}
+	{set,Spegelsjön,1}
+	{set,Djungeln,1}
+
+{p}
+	{set,Alyssa,1}
+	{set,Goran,1}
+	{set,Narden,1}
+	{set,Alba,2}
+	{set,Ron,2}
+	{set,Selena,2}
+	{set,Philomelos,2}
+	{set,Mara,2}
+	
+{p}
+	{chap,'Platser/Staden'}
+
+{p}
+
+

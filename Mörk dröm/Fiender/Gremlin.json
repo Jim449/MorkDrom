@@ -1,0 +1,9 @@
+{
+"namn": "Gremlin",
+"element": "Vatten",
+"hp": 8,
+"belöning": 2,
+"förmågor": ["Invasiv kyla","Läkekraft","Frid","Absorption"],
+"beskrivning": "En liten, intelligent varelse
+som helst vill vara ifred."
+}

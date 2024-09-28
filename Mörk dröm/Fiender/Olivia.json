@@ -1,0 +1,11 @@
+{
+"namn": "Olivia",
+"element": "Trä",
+"hp": 36,
+"belöning": 10,
+"förmågor": ["Förtäring","Kontring","Invasiv kyla","Stenskinn"],
+"förberedelser": ["Stenskinn"],
+"beskrivning": "Trätemplets väktare.
+Verkar avslappnad men är alltid
+på sin vakt."
+}

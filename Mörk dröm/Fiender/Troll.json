@@ -1,0 +1,9 @@
+{
+"namn":"Troll",
+"element":"Jord",
+"hp": 36,
+"belöning": 10,
+"förmågor": ["Skalv","Styrka","Uthållighet","Regenerering","Jordbävning"],
+"beskrivning": "En mäktig varelse med imponerande
+fysisk styrka och ovanligt snabb återhämtning."
+}

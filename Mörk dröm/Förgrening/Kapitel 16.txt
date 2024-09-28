@@ -1,0 +1,409 @@
+{s}
+	{set,Akt,4}
+	{set,Kapitel,16}
+
+{p}
+	{name,Plats,'Urskogen'}
+	{image,'Bilder/Urskogen'}
+
+{p}
+	{name,Allierad.Namn,'Mara'}
+	{set,Allierad.Grad,5}
+	{name,Fas,'Assistent'}
+	{call}
+	
+{p}
+	Kapitel 16
+
+{p}
+	Vandringen genom urskogen går stadigt.
+	Tack vare dina och Philomelos magier har ni inga problem
+	att navigera.
+
+{p}
+	Philomelos:
+	- Det finns monster framöver. Vi kan behöva slåss.
+
+{p}
+	Mara:
+	- De är ingen match.
+	{name,Fiende.Namn,'Varg'}
+	{set,Fiende.Grad,7}
+	{name,Fas,'Strid'}
+	{call}
+
+{p}
+	Vargarna är bekämpade och resan fortsätter.
+	Efter en lång vandring är ni ute ur skogen.
+	{name,Plats,'Den öde staden'}
+	{image,'Bilder/Den öde staden'}
+
+{p}
+	Philomelos:
+	- Det här måste vara den gamla delen av staden.
+	Vilken förödelse... här finns inget liv.
+	
+{p}
+	Ni passerar ruinerna av Jordtemplet och fortsätter mot staden.
+	{name,Plats,'Staden'}
+	{image,'Bilder/Staden'}
+	
+{p}
+	Ni träder in i Staden. Även här är det tyst
+	och ödsligt, men det går folk på gatorna.	
+
+{p}
+	Mara:
+	- Staden... jag står fortfarande inte ut med den.
+
+{p}
+	Mara:
+	- Låt oss gå och träffa Alyssa.
+
+{p}
+	Ni går in i herrgården. Alyssa sitter som vanligt i sitt kontor.
+	{image,'Bilder/Kontoret'}
+
+{p}
+	Alyssa:
+	- Välkommen tillbaka...
+
+{p}
+	Alyssa:
+	- Åh...? Du har med dig besökare.
+
+{p}
+	Mara:
+	- Vi kommer från Fristaden. Jag heter Mara.
+
+{p}
+	Alyssa:
+	- Angenämt. Vi har träffats en gång förut.
+	
+{p}
+	Mara:
+	- Detta är Philomelos...
+
+{p}
+	Alyssa:
+	- Välkommen till Staden, Philomelos.
+	
+{p}
+	Philomelos:
+	- Tack.
+
+{p}
+	Goran träder in i kontoret.
+
+{p}
+	Goran:
+	- Jag hörde att vi har besökare. Stör jag? 
+
+{p}
+	Alyssa:
+	- Inte alls. Slå dig ned.
+
+{p}
+	Mara:
+	- Alyssa, jag är här för att få en förklaring.
+	Varför skickade du ut Selena i Urskogen?
+
+{p}
+	Goran:
+	- Alyssa, vad är det hon säger...
+	
+{p}
+	Alyssa:
+	- Lugn, Goran.
+
+{p}
+	Alyssa:
+	- För ett tag sedan bad jag Turdus att lura in Selena i Urskogen.
+	Jag är skyldig Mara en förklaring.
+
+{p}
+	Alyssa:
+	- Selena var i färd med att inleda ett krig mot monstren
+	som vi omöjligen kunde vinna.
+	
+{p}
+	Alyssa:
+	- Jag gav Selena kompassen så att hon skulle kunna
+	ta sig till Fristaden.
+	
+{p}
+	Mara:
+	- Nej. Det var Selenas förtjänst att hon lyckades ta sig genom Urskogen.
+	Hon kunde lika gärna ha dött.
+
+{p}
+	Alyssa:
+	- Jag gav henne förutsättningarna
+	men det fanns aldrig några garantier.
+
+{p}
+	Goran:
+	- Alyssa. Den här incidenten har satt djupa sår i Staden...
+
+{p}
+	Goran:
+	- ... det var ditt fel hela tiden?
+	
+{p}
+	Alyssa:
+	- Det var nödvändigt. Om vi hade försökt ta tillbaka
+	Jordtemplet hade Merula anfallit oss igen.
+
+{p}
+	Goran:
+	- Hur kunde du veta det?
+
+{p}
+	Alyssa tvekar.
+
+{p}
+	Mara:
+	- Berätta. Våga inte undanhålla något från mig.
+
+{p}
+	Alyssa:
+	- Jag kan inte säga något mer. Tyvärr.
+
+{p}
+	Mara:
+	- Det avgör saken...
+
+{p}
+	Mara:
+	- Som jag trodde kan jag inte acceptera din förklaring.
+
+{p}
+	Mara höjer sin hand och luften virvlar sig av värme.
+	En enorm eld skjuter ut mot Alyssa.
+
+{p}
+	Hela kontoret dränks av flammor. Men så slocknar de...
+
+{p}
+	Alyssa och Goran står kvar, skyddade av en isbarriär.
+
+{p}
+	Mara har redan dragit sitt svärd och störtar fram.
+	Goran ställer sig ivägen och blockerar hennes hugg.
+
+{p}
+	Han är ansträngd, kan inte hålla tillbaka henne länge till.
+
+{p}
+	Men så minskar Mara raseri och hon backar.
+	Du griper tag i henne och tar beslag på hennes vapen.
+
+{p}
+	Philomelos ljusmagi ligger över rummet.
+	Mara ser frustrerad ut men säger ingenting.
+
+{p}
+	Philomelos:
+	- Jag beklagar det här. Vi ska gå.
+	
+{p}
+	Goran:
+	- Ni går ingenstans.
+
+{p}
+	Philomelos:
+	- Så länge min formel är aktiv kan du inte hindra oss.
+
+{p}
+	Du, Mara och Philomelos lämnar herrgården.
+
+{p}
+	Mara:
+	- Fan...
+
+{p}
+	Philomelos:
+	- Är du okej? Är du arg på mig för att jag stoppade dig?
+
+{p}
+	Mara:
+	- Jag förväntade mig inget annat. Nej, jag är besviken
+	på att jag misslyckades.
+	
+{p}
+	Philomelos:
+	- Är du inte klok? Du borde vara glad för det!
+
+{p}
+	Mara:
+	- Lämna mig ifred. Du borde inte bli inblandad i det här.
+
+{p}
+	Philomelos:
+	- Det är klart att jag är inblandad...
+
+{p}
+	Mara slår Philomelos så att han faller till marken.
+	Sedan vänder hon sig om och går sin väg.
+
+{p}
+	Du och Philomelos återvänder till herrgården
+	och pratar med Alyssa om vad som hänt i Fristaden.
+
+{p}
+	Ett tag senare kommer Goran tillbaka.
+	Han är oroad över att något hänt vid värdshuset.
+
+{p}
+	Du får använda gästrummet i herrgården
+	och somnar in för natten.
+
+{p}
+	...
+
+{p}
+	(låt spelaren möta Alba och Ron i värdshuset. Avsluta kapitlet så att spelaren får tid att gå omkring i Staden)
+
+{p}
+	...
+
+{p}
+	Nästa dag är Staden i uppror.
+
+{p}
+	Goran:
+	- Narden har samlat en stor skara.
+	De är beväpnade och jag fruktar att de kommer att anfalla herrgården.
+
+{p}
+	Alyssa:
+	- Då antar jag att sanningen har kommit ut.
+	Om vi slår ned Nardens män så kommer vi att betraktas som tyranner.
+
+{p}
+	Alyssa:
+	- Jag antar att moralen inom vaktstyrkan
+	inte är särskilt hög.
+
+{p}
+	Goran:
+	- Nej. Mara kommer att kunna locka över alla
+	som är lojala med Selena.
+
+{p}
+	Goran:
+	- Vad gör vi nu? Vill du abdikera?
+
+{p}
+	Alyssa:
+	- Det är frestande, men det finns risker med det.
+
+{p}
+	Goran:
+	- Risker?
+
+{p}
+	Alyssa:
+	- Staden befann sig redan innan i ett mycket farligt läge.
+	Om Narden tar över styret kan allting kollapsa mycket snabbt.
+
+{p}
+	Goran:
+	- Talar du om Merula?
+
+{p}
+	Alyssa:
+	- Ja. Hotet är värre än du tror.
+
+{p}
+	Alyssa:
+	- Goran, jag måste be dig att samla vaktstyrkan
+	och slå ned folkmassan.
+
+{p}
+	Goran:
+	- Du vet att det är mycket begärt...
+
+{p}
+	Goran:
+	- Jag måste bryta mot din order.
+	Jag vill tro på dig men du måste ge mig
+	en bättre förklaring.
+
+{p}
+	Alyssa:
+	- Jag förstår. Då har jag inget annat val
+	än att fly från Staden.
+
+{p}
+	Alyssa:
+	- Kan du hämta Philomelos?
+
+{p}
+	Goran lämnar kontoret och återvänder sen med Philomelos.
+
+{p}
+	Philomelos:
+	- Goddag. Tack för gästfriheten.
+
+{p}
+	Alyssa:
+	- Ingen orsak. Jag ser att du inte är med på Maras planer.
+
+{p}
+	Alyssa:
+	- Vi är på väg att utrymma herrgården och fly från Staden.
+	Vad vill du göra?
+
+{p}
+	Philomelos:
+	- Mitt mål är bara att förhindra konflikter.
+	Jag tänker inte ta någons parti.
+
+{p}
+	Philomelos:
+	- Jag måste prata med Mara igen så jag stannar här.
+
+{p}
+	Philomelos:
+	- Hon kanske kommer att jaga dig.
+	Är hon tillräckligt arg är det knappast möjligt
+	att övertala henne.
+
+{p}
+	Alyssa:
+	- Försätt dig inte i onödig fara.
+	Jag klarar mig.
+	
+{p}
+	Alyssa vänder sig till dig.
+
+{p}
+	Alyssa:
+	- Vad vill du göra nu? Jag behöver fortfarande din hjälp.
+
+{p}
+	Alyssa:
+	- Följ med mig västerut till Skärgården.
+	Där ligger Vattnets tempel.
+
+{p}
+	Du går med på att hjälpa Alyssa.
+
+{p}
+	En vakt kommer in och berättar att Narden är här.
+
+{p}
+	Goran:
+	- Jag ska möta dem.
+
+{p}
+	Goran:
+	- Säg till resten av vakterna att lägga ned vapnen.
+	Vi ger upp.
+
+{p}
+	Du och Alyssa går ut genom en bakdörr.
+	Skyddade av din osynlighetsformel skyndar ni mot Kustvägen.
+
+{p}

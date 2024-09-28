@@ -1,0 +1,34 @@
+{p}
+	{set,Kapitel,22}
+
+{p}
+	Kapitel 22
+
+{p}
+	Du och Philomelos besöker Alyssa och berättar vad som hänt i Fristaden och Ljustemplet.
+
+{p}
+	Alyssa:
+	- Det är allvarligt att vi förlorat Selena och Mara, men vi har inte tid att göra något åt det just nu.
+
+{p}
+	Alyssa:
+	- Jag har fått information av Ron att Murens armé är samlad och redo för strid.
+	Den södra delen av Urskogen är inte längre påverkad av Merulas förtrollning och är fullt framkomlig.
+
+{p}
+	Alyssa:
+	- Vi är alltför få för att försvara oss mot Muren. 
+	Vår enda chans är att resa till Muren och besegra Nimbus innan han hinner kommendera en attack.
+	{name,Fas,'Solo'}
+	{call}
+
+{p}
+	Alyssa:
+	- Res till Muren och leta reda på Ron och Alba. De försöker hitta ett sätt att störta Nimbus.
+	{set,Sabotage,1}
+
+{p}
+	{chap,'Platser/Staden'}
+	
+{p}

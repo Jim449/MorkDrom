@@ -1,0 +1,87 @@
+{s}
+	{set,Kapitel,3}
+
+{p}
+	Kapitel 3
+
+{p}
+	Efter du hittat Jordtemplet återvänder du till Staden.
+	Du går till herrgården för att prata med Alyssa.
+	{image,'Bilder/Kontoret'}
+
+{p}
+	Alyssa:
+	- Välkommen. Har det hänt något?
+	
+{p}
+	Alyssa:
+	- Du har hittat ingången till Jordtemplet? Utmärkt!
+	Kan du beskriva vägen dit?
+	
+{p}
+	Alyssa:
+	- ... så ingången ligger i ett av husen
+	i den norra delen av staden. Bra jobbat.
+
+{p}
+	Alyssa:
+	- Du ser trött ut. Vila ut dig i gästrummet
+	så pratar vi mer imorgon.
+	{set,Hp,Max hp}
+	
+{p}
+	Du somnar in i gästrummet och vaknar upp utvilad nästa morgon.
+	Du går till kontoret igen.
+	
+{p}
+	Alyssa:
+	- God morgon.
+
+{p}
+	Alyssa:
+	- Låt oss gå och utforska Jordtemplet tillsammans.
+
+{p}
+	Alyssa:
+	- Jag är inte bekväm med strider, men som Podiceps utvalda tjänare
+	är jag en expert på vattenmagi.
+
+{p}
+	Alyssa: 
+	- Det betyder inte att jag har en stark tro.
+	Tvärtom, mitt intresse av elementalreligionerna är rent intellektuellt.
+	{name,Allierad.Namn,'Alyssa'}
+	{set,Allierad.Grad,1}
+	{name,Fas,'Assistent'}
+	{call}
+	
+{p}
+	Du och Alyssa beger er till Den öde staden och hittar där
+	ingången till Jordtemplet.
+	{name,Plats,'Den öde staden'}
+	{image,'Bilder/Den öde staden'}
+
+{p}
+	Du öppnar källardörren och går in i en lång, smal tunnel.
+	Vid tunnelns slut står en solid port.
+	
+{p}
+	Alyssa:
+	- Den är öppen. Var på din vakt nu.
+	{name,Plats,'Jordtemplet'}
+	{image,'Bilder/Grottsal'}
+
+{p}
+	Ni träder in i en stor, underjordisk sal.
+	Väggarna består av stora stenblock
+	och pelare håller uppe taket.
+
+{p}
+	Alyssa:
+	- Jordtemplets underjord är gigantisk och amuletten ligger längst ned i dess djup.
+	Låt oss börja utforska.
+	{set,Lektion,0}
+	{chap,'Platser/Jordtemplet'}
+
+{p}
+

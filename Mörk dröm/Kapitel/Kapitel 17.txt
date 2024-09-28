@@ -1,0 +1,361 @@
+{s}
+	{set,Kapitel,17}
+
+{p}
+	Kapitel 17
+	{image,'Bilder/Ravinen dag'}
+
+{p}
+	I Nålsögat, nära ravinen, får du syn på Philomelos.
+
+{p}
+	Philomelos:
+	- Hej. Undrar du vad jag gör här...?
+
+{p}
+	Philomelos:
+	- Detta är väl platsen för Mörkrets tempel?
+	Jag känner en ondskefull kraft som försöker mota bort mig.
+
+{p}
+	Philomelos:
+	- Om jag använder min ljusmagi borde jag kunna ta mig igenom.
+
+{p}
+	Philomelos frammanar en stråle av ljus framför sig.
+	Han börjar gå mot stupet. Du följer efter men Philomelos
+	har ett försprång.
+
+{p}
+	Förra gången du var här var det stormigt och det gick knappt att se.
+	Nu är det vindstilla och klart.
+
+{p}
+	Du vet att det finns en trappa som leder ned i ravinen
+	men du vet inte var den är.
+
+{p}
+	Rädslan väller över dig. Du ser hur Philomelos tvekar...
+
+{p}
+	... så hör du en röst bakom dig. Du vänder dig om.
+
+{p}
+	Där står han. Du anade att han skulle vara här
+	men trodde inte att du skulle hitta honom så snabbt.
+
+{p}
+	Turdus:
+	- Du är här igen... Letade du efter mig?
+
+{p}
+	Turdus:
+	- Eller vill du gå ned till Mörkrets tempel?
+
+{p}
+	Turdus:
+	- Förra gången jag var här följde du efter mig ned i ravinen.
+	Så oförsiktigt av mig...
+
+{p}
+	Philomelos:
+	- Du måste vara Turdus.
+
+{p}
+	Turdus:
+	- Och vem är du?
+
+{p}
+	Philomelos:
+	- Philomelos, från Fristaden.
+
+{p}
+	Turdus:
+	- Philomelos... håll dig borta från ravinen
+	om du värdesätter ditt liv.
+
+{p}
+	Philomelos:
+	- Jag behöver inte gå ned i ravinen.
+	Jag letade efter dig.
+
+{p}
+	Turdus:
+	- Varför?
+
+{p}
+	Philomelos:
+	- Alyssa har avslöjat allt. Hon sa att du stod bakom
+	attacken på Staden.
+
+{p}
+	Turdus:
+	- Har Alyssa sagt det? Vilken besvikelse... 
+
+{p}
+	Turdus:
+	- Då är hon också emot mig.
+
+{p}
+	Philomelos:
+	- Turdus, vi behöver din hjälp för att försvara
+	oss mot Gömslet.
+
+{p}
+	Turdus:
+	- Jag bryr mig inte.
+
+{p}
+	Turdus:
+	- Du kan göra som du vill. Slåss mot Gömslet,
+	vinn eller förlora... det gör detsamma.
+
+{p}
+	Philomelos:
+	- Du bryr dig inte vad som händer med Alyssa?
+
+{p}
+	Turdus:
+	- Dra åt helvete!
+
+{p}
+	Philomelos:
+	- Jag är inte klar...
+
+{p}
+	Turdus omges plötsligt av ett kompakt mörker.
+	En våg av rädsla och bitterhet slår emot er.
+
+{p}
+	Du står knappt emot men Philomelos står och flämtar av skräck.
+	Sedan flyr han i panik.
+	
+{p}
+	Turdus:
+	- Hehehe...
+
+{p}
+	Turdus ser Philomelos springa och hans vanligen uttryckslösa ansikte
+	förbyts till skadeglädje. Han återfår snabbt lugnet.
+
+{p}
+	Turdus:
+	- Du är fortfarande kvar, ser jag. Bra... låt oss prata en stund.
+	
+{p}
+	Turdus:
+	- {write,Namn,'. '} Jag har iakttagit din resa här på ön med intresse.
+
+{p}
+	Turdus:
+	- Undrar inte du varför du är här?
+	Varifrån du kom?
+
+{p}
+	Turdus:
+	- Visst stämmer det att du inte har några minnen
+	om tiden innan du var på ön? Men jag har en god idé om vem du är.
+	
+{p}
+	Turdus:
+	- Om du vill lämna ön kanske jag kan hjälpa dig.
+	Jag kan ta bort förtrollningen över havet
+	eller förflytta dig genom rummet.
+
+{p}
+	Turdus:
+	- Överge Staden och följ med mig.
+	{ans}
+		Vägra
+
+{p}
+	Turdus:
+	- På det viset...
+
+{p}
+	Turdus:
+	- Ett råd: samla inte fler amuletter.
+	Vad ska du med kraften av de gamla gudarna?
+
+{p}
+	Turdus:
+	- Gudarna är ingenting mer än kollektiva tankar.
+	Vi har varit beroende av dem alltför länge.
+
+{p}
+	Turdus:
+	- Tror du inte på mig?
+
+{p}
+	Turdus:
+	- Gör som du vill då. Vi kanske ses igen.
+	
+{p}
+	Turdus försvinner i en kaskad av mörker.
+
+{p}
+	Du återvänder till Staden och besöker herrgården.
+	{name,Plats,'Staden'}
+	{image,'Bilder/Kontoret'}
+
+{p}
+	I kontoret ser du Alyssa, Philomelos och Selena.
+	Philomelos ser fortfarande skakig ut.
+	
+{p}
+	Alyssa:
+	- Är du redan tillbaka? Philomelos berättade precis
+	om att ni träffat Turdus.
+
+{p}
+	Alyssa:
+	- Berätta vad som hände.
+
+{p}
+	Alyssa:
+	- Jag förstår... det finns en risk att Turdus
+	kommer att stå i din väg framöver.
+
+{p}
+	Alyssa:
+	- Det finns inget som vi kan göra åt det. 
+	Låt oss följa den ursprungliga planen och hitta Vattenamuletten.
+
+{p}
+	Selena:
+	- Jag har precis använt Jordamuletten för att skapa
+	en barriär runt staden. Monstren kommer inte att våga sig in.
+	
+{p}
+	Selena:
+	- Med det avklarat finns det ingen anledning att vänta.
+	Låt oss resa så snabbt som möjligt.
+
+{p}
+	Du och Selena lämnar Staden och beger er till Kustvägen.
+	{name,Plats,'Kustvägen'}
+	{image,'Bilder/Kustvägen'}
+
+{p}
+	Du går längs Kustvägen. Det ser helt vanligt ut, en lång enslig
+	grusväg omgiven av grönska.
+
+{p}
+	Du vet att Viridis förbannelse ligger över vägen, du kan känna det.
+
+{p}
+	Du fortsätter rakt in. Träden och buskarna viker sig
+	och sträcker sig hungrigt mot dig.
+
+{p}
+	Landskapet förvandlas till ett brundaskigt dis,
+	fullt av damm och döda löv.
+
+{p}
+	Du känner dig iakttagen. Där, på stigen,
+	kan du ana gestalt.
+
+{p}
+	Du kommer osökt att tänka på Olivia.
+	Du kan nästan svära på att det är hon som står där.
+	
+{p}
+	Du lägger din hand på Eldens amulett och frammanar dess kraft.
+	Ett brinnande inferno omger dig och slukar allt runtom.
+
+{p}
+	Kraften i elden berusar dig. Flammorna slår mot gestalten på vägen.
+
+{p}
+	Olivias skepnad löses upp i ett grått dis och försvinner.
+
+{p}
+	Du slappnar av och elden brinner ut.
+
+{p}
+	Landskapet återgår till det normala. Buskarna och träden står kvar,
+	allt som hände var en illusion.
+
+{p}
+	Du och Selena fortsätter framåt. Det är stillsamt och idylliskt,
+	träden är skirande gröna och havet sträcker ut sig bakom lövverket.
+
+{p}
+	Vid slutet av vägen ligger en brygga och några övergivna stugor.
+	Ni går in i dockan och ser ett litet skepp.
+	
+{p}
+	Selena:
+	- Det var länge sedan jag sist såg ett skepp.
+	Jag har säkert glömt en del om hur man seglar.
+
+{p}
+	Selena:
+	- Det här skeppet ser välbehållet ut, det borde klara en seglats.
+	Hjälp mig knuffa ut det i vattnet.
+
+{p}
+	Efter en tids arbete är allt klart. Ni hissar segel och skeppet
+	börja färdas ut från land.
+	
+{p}
+	Framför ligger otaliga små öar, grönskande och klippiga.
+	Selena girar mellan dem.
+	
+{p}
+	En obehaglig känsla smyger sig på er. Alla öar ser likadana ut
+	och du vet inte om ni verkligen färdas framåt.
+	
+{p}
+	En stor ö uppenbarar sig. Skeppet siktar in mot piren,
+	den enda plats som går att ankra vid.
+	{name,Plats,'Skärgården'}
+	{image,'Bilder/Skärgården'}
+
+{p}
+	Ni lämnar skeppet. Hamnen är placerad vid foten av berget.
+	De gamla trähusen är utströdda i en exotisk grönska
+	och det är otroligt vackert.
+
+{p}
+	Ni ser er omkring men det är helt öde. Det finns tecken på strid.
+
+{p}
+	Selena:
+	- Det samhälle som fanns här verkar ha blivit helt utplånat.
+	Det kan ha slagits ut av en koordinerad attack från monstren.
+
+{p}
+	Selena:
+	- Det kan finnas överlevande. Låt oss leta i varsin ände av byn.
+	
+{p}
+	Du upptäcker dessvärre inga överlevande och möter Selena på torget.
+
+{p}
+	Selena:
+	- De flesta byborna har försökt befästa sig i en större källare
+	men de har alla blivit dödade. Vilken tragedi...
+
+{p}
+	Selena:
+	- Vi släpper det nu. Vi måste utforska Vattentemplet så snabbt som möjligt.
+
+{p}
+	Selena:
+	- Vi bör inte resa tillbaka till Staden tills vi är klara.
+	{name,Allierad.Namn,'Selena'}
+	{set,Allierad.Grad,5}
+	{name,Fas,'Assistent'}
+	{call}
+
+{p}
+	Selena:
+	- Alyssa sa att Vattentemplet ligger högre upp på berget.
+	Vi måste vandra genom skogen för att komma dit. Var på din vakt.
+	{set,Avataren,0}
+	
+{p}
+	{chap,'Platser/Skärgården'}
+
+{p}

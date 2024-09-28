@@ -1,0 +1,46 @@
+{p}
+	{name,Plats,'Spegelsjön'}
+	{image,'Bilder/Spegelsjön'}
+	{set,Tid,0}
+
+{s}
+	{add,Tid,1}
+
+{p}
+	Du befinner dig vid Spegelsjön.
+	{ans}
+		Utforska spegelsjön
+	{if}{has,Ljustemplet,1}
+		{ans}
+			Gå till Ljustemplet
+			{chap,'Platser/Ljustemplet'}
+	{ans}
+		Gå västerut till Fristaden
+		{chap,'Platser/Fristaden'}
+
+{p}
+	Du utforskar spegelsjön...
+	{set,Slump,0}
+	{rand,Slump,2}
+	
+{p}
+	{if}{equal,Slump,1}
+		{skip,1}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Järv'}
+	{set,Fiende.Grad,4}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Gremlin'}
+	{set,Fiende.Grad,4}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}
+
+{p}

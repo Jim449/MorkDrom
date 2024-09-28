@@ -1,0 +1,153 @@
+{p}
+	{set,Tid,0}
+	{name,Plats,'Jordtemplet'}
+	{image,'Bilder/Grottsal'}
+
+{s}
+	{add,Tid,1}
+	
+{p}
+	Du befinner dig i Jordtemplet.
+	{ans}
+		Utforska jordtemplet
+	{if}{equal,Jordtemplet,2}
+		{ans}
+			Gå till den innersta kammaren
+			{find,2}
+	{if}{has,Epilog,4}
+		{ans}
+			Gå till den innersta kammaren
+			{act,'Prövning'}
+	{ans}
+		Lämna labyrinten
+		{chap,'Platser/Den öde staden'}
+
+{p}
+	Du utforskar jordtemplet...
+	{set,Slump,0}{rand,Slump,3}
+
+{p}
+	{if}{equal,Tid,5}{equal,Jordtemplet,1}
+		{find,1}
+	{elif}{equal,Tid,4}
+		{skip,2}
+	{elif}{equal,Slump,2}
+		{skip,1}
+		
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Orch'}
+	{set,Fiende.Grad,2}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Kobold'}
+	{set,Fiende.Grad,2}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Ogre'}
+	{set,Fiende.Grad,2}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}
+
+{s}
+	Du har funnit den innersta kammaren!
+	{set,Jordtemplet,2}
+	{find,0}
+
+{s}
+	Du är framme vid hjärtat av labyrinten.
+	Vill du verkligen fortsätta?
+	{ans}
+		Ja
+	{ans}
+		Nej
+		{find,0}
+
+{p}
+	Du öppnar porten och stiger in i en väldig grottsal.
+	{image,'Bilder/Altare'}
+	
+{p}
+	Du går framåt. I mitten av salen står en väldig varelse.
+
+{p}
+	Den har gröngrå hud och ett groteskt ansikte.
+	Den bär en enorm träpåk och stirrar hotfullt på dig.
+	
+{p}
+	Porten stängs bakom dig.
+
+{p}
+	Alyssa:
+	- Vi har inget val än att besegra väktaren.
+	Är du redo?
+
+{p}
+	Trollet går till attack!
+	{name,Fiende.Namn,'Troll'}
+	{set,Fiende.Grad,1}
+	{name,Fas,'Strid'}
+	{call}
+
+{p}
+	Äntligen är trollet besegrat.
+	Du fortsätter framåt och går igenom den sista porten.
+	
+{p}
+	Du träder in i en magnifik tempelsal.
+	Du går fram längs den släta stengången.
+
+{p}
+	Du går fram till altaret där amuletten vilar.
+	Den är mörkt bronsfärgad och har en gyllenbrun sten i mitten.
+
+{p}
+	Alyssa:
+	- Amuletten är din. Ta den.
+	
+{p}
+	Du tar amuletten.
+
+{p}
+	Alyssa:
+	- Tack. Jag var inte säker på om du skulle lyckas...
+	men det visade sig att jag satsade rätt.
+	
+{p}
+	Alyssa:
+	- Låt oss återvända till Staden.
+	
+{p}
+	{set,Jordamuletten,1}
+	{set,Jordtemplet,3}
+	{chap,'Kapitel/Kapitel 4'}
+	
+{f,Prövning}
+	Du går in i Jordtemplets innersta kammare.
+
+{p}
+	Väktaren dyker upp och anfaller!
+	{name,Fiende.Namn,'Behemoth'}
+	{set,Fiende.Grad,15}
+	{name,Fas,'Strid'}
+	{call}
+
+{p}
+	Väktaren var inte mer än ett spöke.
+	Nu när den är besegrad är du ett steg närmare
+	att nå Elementaltemplets innersta kammare.
+	{set,Jordprövning,1}
+
+{p}
+	{find,0}
+	
+{p}

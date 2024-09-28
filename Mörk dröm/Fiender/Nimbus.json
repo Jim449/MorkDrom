@@ -1,0 +1,10 @@
+{
+"namn": "Nimbus",
+"element": "Metall",
+"hp": 36,
+"belöning": 10,
+"förmågor": ["Inferno","Styrka","Uthållighet","Överlägsenhet","Erodering"],
+"förberedelser": ["Överlägsenhet"],
+"beskrivning": "Ledaren över Muren.
+Anser sig överlägsen alla andra."
+}

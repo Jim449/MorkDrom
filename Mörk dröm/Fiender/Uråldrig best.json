@@ -1,0 +1,11 @@
+{
+"namn":"Uråldrig best",
+"element":"Trä",
+"hp": 72,
+"belöning": 20,
+"förmågor": ["Inferno","Skalv","Harmoni","Meditation","Urkraft"],
+"förberedelser": ["Urkraft"],
+"beskrivning": "En dödlig best.
+Den har inga naturliga fiender
+och kan anfalla utan hämningar."
+}

@@ -1,0 +1,160 @@
+{s}
+	{set,Kapitel,7}
+	{name,Plats,'Muren'}
+	{image,'Bilder/Muren'}
+
+{p}
+	Kapitel 7
+
+{p}
+	Ni når slutet av den kuperade, steniga skogen. Framför dig ser du Muren.
+	
+{p}
+	Det är en bisarr syn: byggnader av alla typer
+	står staplade på varandra, högre och högre upp
+	tills de bryter igenom molnen.
+	
+{p}
+	Enorma palats är uppförda direkt på taken av gamla ruckel.
+	Stora öar av byggnader kastar sig ut i tomma luften.
+	
+{p}
+	Det är lätt att se att Muren inte följer tyngdkraftens regler.
+	Staden liknar ett kaotiskt hopkok, resultatet av tusentals olika viljor.
+
+{p}
+	Du går in bland husen och upp för den vindlande trappan.
+
+{p}
+	Du går genom stora valv och smala gränder tills du når fram till ett torg.
+	
+{p}
+	Mängder av folk går omkring. Det finns en munter stämning
+	som du aldrig känt i Staden.
+	
+{p}
+	Dennis:
+	- Välkommen till Muren. Nu när jag tagit dig hit
+	så är mitt uppdrag över. På återseende.
+	
+{p}
+	Dennis går sin väg.
+	{name,Fas,'Solo'}
+	{call}
+	
+{p}
+	Du hittar ett värdshus och går in.
+
+{p}
+	Paris:
+	- Välkommen främling! Mitt namn är Paris
+	och jag driver detta värdshus.
+	
+{p}
+	Paris:
+	- Låt mig berätta lite kort om hur du hittar din väg här i Muren.
+	Borgmästaren hittar du i ett palats högre upp.
+
+{p}
+	Paris:
+	- Muren är indelad i ett rikare och ett fattigare område.
+	Slummen styrs i praktiken av en liga.
+	
+{p}
+	Paris:
+	- Luftens tempel ligger på klipporna norrut,
+	där det blickar över havet.
+
+{p}
+	Paris:
+	- Du måste vara trött efter resan. Låt mig bjuda på en natts logi.
+	{set,Hp,Max hp}
+
+{p}
+	Du tar in på värdshuset.
+	
+{p}
+	Nästa dag bestämmer du dig för att träffa borgmästaren.
+	Han bor i ett överdådigt palats.
+	
+{p}
+	Säkerheten är rigorös men du släpps in
+	som en ambassadör för Staden.
+	
+{p}
+	Borgmästaren tar emot dig i tronrummet.
+	
+{p}
+	Nimbus:
+	- Välkommen till Muren. Jag heter Nimbus
+	och jag regerar över denna stad.
+
+{p}
+	Nimbus:
+	- Du säger att du kommer från Staden?
+	Jag ser fram emot att höra vilka nyheter du kommer med.
+	
+{p}
+	Du berättar om vad som inträffat i Staden.
+	
+{p}
+	Nimbus:
+	- Det var tråkigt att höra att Staden drabbats av sådan olycka.
+	Jag önskar att vi kunde hjälpa till...
+	
+{p}
+	Nimbus:
+	- ... men det är tyvärr omöjligt.
+	Urskogen förhindrar oss från att nå Staden.
+
+{p}
+	Nimbus:
+	- Du vill besöka Luftens tempel? Du är givetvis välkommen.
+	Du hittar templet vid klipporna i väster.
+	
+{p}
+	Nimbus:
+	- Vi kan inte under några omständigheter ge dig luftens amulett.
+	Vi vill varna dig från att besöka de inre delarna av templet.
+
+{p}
+	Du frågar vidare om hur det kan komma sig att byggnaderna
+	ignorerar levitationens lagar.
+
+{p}
+	Nimbus:
+	- Bra fråga. Muren är byggd ovanpå en uråldrig, övergiven stad,
+	som ligger nere i underjorden.
+
+{p}
+	Nimbus:
+	- De hittade en mäktig kraftkälla nere i djupet som de tyglade.
+	Denna kraftkälla håller nu vår stad uppe.
+
+{p}
+	Nimbus:
+	- Enligt traditionen ligger ansvaret för den här frågan på Lufttemplet.
+	Prata med överprästinnan Alba så kan hon lära dig mer.
+
+{p}
+	Nimbus:
+	- Nu måste jag återgå till mitt arbete.
+	Jag hoppas att du trivs under din vistelse i Muren.
+	
+{p}
+	{set,Nimbus,1}
+	{set,Paris,1}
+	{set,Alba,1}
+	
+{p}
+	{set,Muren,1}
+	{set,Klipporna,1}
+	
+{p}
+	{set,Morden,1}
+	{set,Resan,0}
+	
+{p}
+	{chap,'Platser/Muren'}
+	
+{p}

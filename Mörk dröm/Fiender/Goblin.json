@@ -1,0 +1,10 @@
+{
+"namn": "Goblin",
+"element": "Metall",
+"hp": 8,
+"belöning": 2,
+"förmågor": ["Inferno","Erodering","Reflektion","Bitterhet"],
+"beskrivning": "En liten, ondskefull varelse.
+De kämpar ofta i grupper men ser alltid
+bara till sin egen vinning."
+}

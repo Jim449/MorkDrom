@@ -1,0 +1,426 @@
+{p}
+	{image,'Bilder/Kontoret'}
+
+{s}
+	Du besöker Alyssa.
+	{ans}
+		Prata
+		{if}{equal,Försvunnen,3}
+			{act,'Selena'}
+		{elif}{equal,Lektion,2}
+			{act,'Lektion'}
+		{elif}{equal,Kapitel,4}
+			{chap,'Kapitel/Kapitel 5'}
+		{elif}{equal,Teori,1}
+			{act,'Teori'}
+		{elif}{equal,Teori,2}
+			{act,'Uppmaning'}
+		{elif}{has,Hinder,5}
+			{act,'Återvändsgränd'}
+		{elif}{equal,Kapitel,18}
+			{chap,'Kapitel/Kapitel 19'}
+		{elif}{equal,Kapitel,21}
+			{chap,'Kapitel/Kapitel 22'}
+	{if}{has,Kapitel,2}
+		{ans}
+			Handla
+			{act,'Handla'}
+	{if}{has,Epilog,2}
+		{ans}
+			Köp artefakter
+			{act,'Artefakt'}
+	{if}{has,Mörkertemplet,1}
+		{ans}
+			Välj som assistent
+			{act,'Assistent'}
+	{ans}
+		Tillbaka
+		{return}
+
+{p}
+	Alyssa:
+	- Välkommen!
+	{find,0}
+
+{p}
+	Alyssa:
+	- Hur kan jag stå till tjänst?
+	{find,0}
+	
+{f,Handla}
+	Vad vill du köpa?
+	{ans}
+		Elixir (3s)
+		{info}
+			{write,'Elixir
+Återställer hälsopoäng
+maximalt utanför strid.',''}
+		{if}{has,Silver,3}{lack,Elixir,10}
+			{sub,Silver,3}{add,Elixir,1}{skip,2}
+		{elif}
+			{skip,3}
+			
+	{if}{lackName,Förmågor,'Läkekraft'}
+		{ans}
+			Läkekraft (5s)
+			{set,Pris,5}
+			{name,Formel,'Läkekraft'}
+			{name,Text,Läkekraft}
+			{info}
+				{write,Läkekraft,''}
+
+	{if}{lackName,Förmågor,'Frost'}
+		{ans}
+			Frost (5s)
+			{set,Pris,5}
+			{name,Formel,'Frost'}
+			{name,Text,Frost}
+			{info}
+				{write,Frost,''}
+
+	{if}{lackName,Förmågor,'Fokus'}
+		{ans}
+			Fokus (5s)
+			{set,Pris,5}
+			{name,Formel,'Fokus'}
+			{name,Text,Fokus}
+			{info}
+				{write,Fokus,''}
+
+	{if}{lackName,Förmågor,'Tomhet'}
+		{ans}
+			Tomhet (5s)
+			{set,Pris,5}
+			{name,Formel,'Tomhet'}
+			{name,Text,Tomhet}
+			{info}
+				{write,Tomhet,''}
+
+	{if}{lackName,Förmågor,'Bitterhet'}
+		{ans}
+			Bitterhet (5s)
+			{set,Pris,5}
+			{name,Formel,'Bitterhet'}
+			{name,Text,Bitterhet}
+			{info}
+				{write,Bitterhet,''}
+
+	{if}{lackName,Förmågor,'Hopplöshet'}
+		{ans}
+			Hopplöshet (5s)
+			{set,Pris,5}
+			{name,Formel,'Hopplöshet'}
+			{name,Text,Hopplöshet}
+			{info}
+				{write,Hopplöshet,''}
+
+	{ans}
+		Tillbaka
+		{find,0}
+
+{p}
+	{if}{has,Silver,Pris}
+		{sub,Silver,Pris}
+		{act,'Handla'}
+		{open,'Förmågor'}{act,'Tillskott'}
+		
+{p}
+	Du har inte råd med {write,Formel,'.'}
+	{find,0}
+	
+{p}
+	Du köper ett elixir för 3 silvermynt.
+	{act,'Handla'}
+
+{p}
+	Du har inte råd med ett elixir.
+	{find,0}
+
+{f,Artefakt}
+	Vad vill du köpa?
+	{if}{lackName,Förmågor,'Förfrysning'}
+		{ans}
+			Förfrysning (275s)
+			{set,Pris,275}
+			{name,Formel,'Förfrysning'}
+			{name,Text,Förfrysning}
+			{info}
+				{write,Förfrysning,''}
+				
+	{if}{lackName,Förmågor,'Illusion'}
+		{ans}
+			Illusion (275s)
+			{set,Pris,275}
+			{name,Formel,'Illusion'}
+			{name,Text,Illusion}
+			{info}
+				{write,Illusion,''}
+				
+	{if}{lackName,Förmågor,'Mörk vind'}
+		{ans}
+			Mörk vind (275s)
+			{set,Pris,275}
+			{name,Formel,'Mörk vind'}
+			{name,Text,Mörk vind}
+			{info}
+				{write,Mörk vind,''}
+				
+	{if}{lackName,Förmågor,'Depression'}
+		{ans}
+			Depression (275s)
+			{set,Pris,275}
+			{name,Formel,'Depression'}
+			{name,Text,Depression}
+			{info}
+				{write,Depression,''}
+	{ans}
+		Tillbaka
+		{find,0}
+
+{p}
+	{if}{has,Silver,Pris}
+		{sub,Silver,Pris}
+		{act,'Artefakt'}
+		{open,'Förmågor'}{act,'Tillskott'}
+		
+{p}
+	Du har inte råd med {write,Formel,'.'}
+	{find,0}
+
+{f,Selena}
+	Alyssa:
+	- Du vill veta mer om Selena?
+	
+{p}
+	Alyssa:
+	- Hon försvann spårlöst för några månader sedan.
+	
+{p}
+	Alyssa:
+	- Hon argumenterade för att vi skulle kämpa
+	mot monstren och säkra jordens tempel.
+	
+{p}
+	Alyssa:
+	- Jag var oenig. Jag är säker på att vi står emot mäktig fiende
+	som vi inte kan bekämpa på egen hand.
+
+{p}
+	Alyssa:
+	- Varför tror jag det...?
+
+{p}
+	Alyssa:
+	- Det är fortfarande för tidigt att säga.
+	Kalla det en föraning.
+	{set,Försvunnen,4}
+
+{p}
+	Alyssa:
+	- Det vi vet är att du tagit dig hit utifrån,
+	och att du har en fallenhet för alla de åtta elementen.
+	Därför sätter jag mitt hopp till dig.	
+	{return}
+
+{f,Lektion}
+	Alyssa:
+	- Har du svårt att ta dig vidare?
+
+{p}
+	Alyssa:
+	- Försök att prata med så många du kan.
+	Om någon berättar något så kan det öppna upp
+	nya möjligheter.
+
+{p}
+	Alyssa:
+	- Utforska olika platser. Ge inte upp för tidigt.
+
+{p}
+	Alyssa:
+	- Var fokuserad. Om du lämnar en plats och återvänder senare
+	är det lätt att komma av sig, och du tvingas börja om från början.
+
+{p}
+	Alyssa:
+	- Ta alltid med dig flera elixir. De är inte billiga men det är viktigt
+	att du kan återställa din styrka precis när du behöver det.
+
+{p}
+	Alyssa:
+	- Lär dig alla magier du kan. Vissa fiender kan vara nästintill omöjliga
+	att besegra om du inte använder rätt magier.
+
+{p}
+	Alyssa:
+	- Du kan komma att hamna i situationer där det inte finns någon väg tillbaka.
+	Är du inte väl förberedd så dör du.
+	{set,Lektion,0}
+
+{p}
+	Alyssa:
+	- Jag hoppas att du tagit lärdom av detta. Lycka till.
+	{return}
+
+{f,Teori}
+	Alyssa:
+	- Vill du veta mer om hur den här världen fungerar?
+
+{p}
+	Alyssa:
+	- I denna värld blir tankar verklighet. Gudarna finns för att vi tror på dem.
+
+{p}
+	Alyssa:
+	- Elementaltron har gradvis försvagats. Den har ersatts med något annat...
+	
+{p}
+	Alyssa:
+	- ... en tro på vetenskap, orsak och verkan, gravitation
+	och en enda byggsten som är grunden till allt.
+
+{p}
+	Alyssa:
+	- Om tankar blir verklighet låter det rimligt
+	att en gud av tid och rum kan uppstå...
+
+{p}
+	Alyssa:
+	- ... men det är inte riktigt så enkelt. Det finns inga legender
+	som skulle kunna ge form till en sådan gud.
+
+{p}
+	Alyssa:
+	- Istället verkar det ha skett en sammanblandning.
+
+{p}
+	Alyssa:
+	- Om jag får spekulera lite... Säg att en person överger tron på elementen
+	och börjar tro att världen styrs av mekaniska regler.
+
+{p}
+	Alyssa:
+	- Personen börjar sedan tycka att hans nya världsåskådning
+	är tom och meningslös.
+
+{p}
+	Alyssa:
+	- Den vilsenhet som han då känner får honom att associera till mörkerelementet,
+	tomhetens element.
+
+{p}
+	Alyssa:
+	- Om tillräckligt många personer tänker på detta sätt så skulle det kunna förklara
+	varför Merula fått kraften av tid och rum.
+	
+{p}
+	Alyssa:
+	- Du kanske också undrar varför Merula inte kan skada dig.
+	
+{p}
+	Alyssa:
+	- Den traditionella världsbilden säger att varje gud
+	kontrollerar varsitt element.
+
+{p}
+	Alyssa:
+	- De nya vetenskapliga teorierna motsäger detta och säger
+	att allting består av samma byggstenar och styrs av samma lagar.
+
+{p}
+	Alyssa:
+	- Merula kan bara manipulera elementen om de nya teorierna stämmer.
+	Tillhör elementen gudarna så har Merula ingen makt över dem.
+
+{p}
+	Alyssa:
+	- Kom ihåg att verkligheten rättar sig efter folkets tankar.
+	Folk tror antagligen inte att en slumpvist vald sten i skogen
+	kontrolleras av gudarna.
+
+{p}
+	Alyssa:
+	- Gäller det däremot stenen i jordtemplets altare
+	så tror många att det styrs av Certhia.
+
+{p}
+	Alyssa:
+	- Vilket skulle göra just den stenen immun mot Merulas påverkan.
+
+{p}
+	Alyssa:
+	- Enligt ett liknande resonemang kan man säga att vissa personer
+	har en starkare koppling till gudarna, vilket gör dem immuna
+	mot Merulas påverkan.
+
+{p}
+	Alyssa:
+	- En persons koppling till gudarna beror på hans personlighet
+	och magiska krafter. Det spelar ingen roll vilka element
+	hans fysiska kropp består av.
+
+{p}
+	Alyssa:
+	- Alba, till exempel, har en stark koppling till luftelementet.
+	Och Ron...
+
+{p}
+	Alyssa:
+	- ... vad jag vet har han ingen stark koppling till något element.
+	Han måste ha skyddat sig själv mot Merula på något annat sätt.
+
+{p}
+	Alyssa:
+	- Tack för att du tog dig tid att lyssna på mig.
+	{set,Teori,2}
+	{add,Hinder,1}
+	{return}
+
+{f,Uppmaning}
+	Alyssa:
+	- Varför är du fortfarande kvar i Staden?
+
+{p}
+	Alyssa:
+	- Gå in i Urskogen. Ta dig till Fristaden.
+
+{p}
+	Alyssa:
+	- Innan du gjort det vill jag inte se dig här mer igen.
+	{set,Teori,0}
+	{add,Hinder,1}
+	{return}
+
+{f,Återvändsgränd}
+	Alyssa:
+	- Är du fortfarande kvar?
+
+{p}
+	Alyssa:
+	- Det är för sent nu. Mörkret som täcker Urskogen
+	är alldeles för kompakt.
+
+{p}
+	Alyssa:
+	- Jag har misslyckats...
+	{return}
+
+{f,Assistent}
+	Vill du välja Alyssa som assistent?
+	{ans}
+		Ja
+	{ans}
+		Nej
+		{find,0}
+
+{p}
+	{name,Allierad.Namn,'Alyssa'}
+	{set,Allierad.Grad,15}
+	{name,Fas,'Assistent'}
+	{call}
+
+{p}
+	Alyssa är nu din assistent.
+	{find,0}
+	
+{p}

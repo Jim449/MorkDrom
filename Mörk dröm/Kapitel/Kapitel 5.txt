@@ -1,0 +1,193 @@
+{s}
+	{set,Kapitel,5}
+
+{p}
+	Kapitel 5
+
+{p}
+	Alyssa och Goran väntar på dig i kontoret.
+	
+{p}
+	Alyssa:
+	- Bra att du kom.
+	Jag lyckades få tag på en vägvisare.
+
+{p}
+	Alyssa:
+	- Han väntar på dig i Den öde staden.
+	Goran visar dig vägen.
+
+{p}
+	Goran:
+	- Följ med mig.
+	{image,'Bilder/Staden'}
+
+{p}
+	Ni lämnar herrgården och börjar gå norrut genom staden.
+
+{p}
+	Innan ni kommit ut ur staden stoppas du av Narden.
+	Han har med sig ett mindre följe.
+
+{p}
+	Narden:
+	- Stopp! Jag kan inte låta dig lämna staden.
+
+{p}
+	Narden:
+	- Jag vet att du hittat jordens amulett från templet.
+	Jag köper inte att du hittat nedgången, tagit dig förbi
+	monstren, och hittat den innersta kammaren.
+
+{p}
+	Narden:
+	- Du måste ha fått amuletten från våra fiender.
+	Ge tillbaka den.
+	
+{p}
+	Goran:
+	- Vänta!
+
+{p}
+	Goran:
+	- Vi vill alla samma sak, att besegra monstren.
+	För att lyckas behöver vi hitta fler amuletter.
+
+{p}
+	Goran:
+	- Alyssa har utfärdat ett uppdrag att hitta Luftamuletten i Muren.
+
+{p}
+	Narden:
+    - Nonsens. Jag litar inte på Alyssa.
+
+{p}
+	Goran:
+    - Du har ingen rätt att stoppa oss.
+
+{p}
+	Narden:
+    - Där har du fel. Det är folket som avgör vad som ska hända
+	och vilka som är skyldiga.
+
+{p}
+	Narden:
+	- Alyssas makt är skör. Jag företräder folkets vilja.
+	Kan ni besegra oss alla?
+
+{p}
+	Goran:
+	- Vi har ingen avsikt att slåss.
+	Jag hoppas att du inte gör något förhastat.
+
+{p}
+	Narden:
+    - Givetvis inte. Vi vill inte skada någon.
+
+{p}
+	Goran vänder sig till dig.
+
+{p}
+	Goran:
+    - Tyvärr kan jag inte hjälpa dig. Narden är inflytelserik.
+	Jag vill inte att den här incidenten ska splittra vår stad.
+
+{p}
+	Narden:
+	- Du kommer med mig.
+	
+{p}
+	Narden eskorterar dig till värdshuset.
+	Han låser in dig i ett rum.
+
+{p}
+	Tiden går och kvällen kommer.
+
+{p}
+	Dörren öppnas och en man du aldrig sett går in.
+	Han har gedigna vandringskläder och är iklädd en kåpa.
+	
+{p}
+	Dennis:
+    - God kväll. Mitt namn är Dennis.
+	
+{p}
+	Dennis:
+	Jag har fått höra att du är på väg mot Muren.
+	Jag vill erbjuda mig att att bli din vägvisare.
+
+{p}
+	Dennis:
+	- Det finns ingen som kan lyssna in på oss, jag var diskret.
+	Låt oss diskutera ersättningen...
+
+{p}
+	Dennis:
+    - Det är en farlig resa så det blir inte billigt.
+	Jag ser att du saknar pengar...
+
+{p}
+	Dennis:
+    - Vad sägs om att du betalar genom information?
+	Jag hörde ryktesvägen att många underliga saker har inträffat i Staden nyligen.
+
+{p}
+	Accepterar du Dennis erbjudande?
+	{ans}
+		Ja
+
+{p}
+	Dennis:
+    - Utmärkt! Låt höra...
+
+{p}
+	Dennis:
+    - Hm... det var värdefull information.
+	Det är absolut tillräckligt – vi har en affär.
+
+{p}
+	Dennis:
+    - Följ mig...
+
+{p}
+	Du följer Dennis ut från rummet men innan du lyckas lämna värdshuset
+	blir du påkommen.
+
+{p}
+	Narden:
+	- Stopp!
+	
+{p}
+	Narden:
+	- Försöker du fly? Jag ser att du fått hjälp. Vem är du?
+
+{p}
+	Dennis:
+	- Bara en passerande vandrare. Vi vill inte ha några problem.
+	Vad sägs om att jag betalar dig en nätt summa för
+	att du ska glömma det här?
+	
+{p}
+	Narden:
+	- Glöm det! Du är en av Vandrarna...
+	jag vill inte se din sort i Staden.
+
+{p}
+	Dennis:
+	- Det var tråkigt. Då har jag inget val...
+
+{p}
+	Något händer med Nardens blick. Han faller ned handlöst
+	och ligger stilla.
+	
+{p}
+	Dennis:
+	- Jag ber om ursäkt för detta. Låt oss skynda på.
+
+{p}
+	Du följer Dennis mot Urskogen.
+	
+{p}
+	{chap,'Kapitel/Kapitel 6'}
+
+{p}

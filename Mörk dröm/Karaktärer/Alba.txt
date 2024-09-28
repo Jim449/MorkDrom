@@ -1,0 +1,425 @@
+{p}
+	{if}{equal,Morden,1}
+		{act,'Prästinnan'}
+
+{s}
+	Du besöker Alba.
+	{ans}
+		Prata
+		{if}{has,Morden,6}
+			{act,'Samtal'}
+	{ans}
+		Handla
+		{act,'Handla'}
+	{if}{has,Epilog,2}
+		{ans}
+			Köp artefakter
+			{act,'Artefakt'}
+	{if}{equal,Osynlighet,1}
+		{ans}
+			Genomsök templet
+			{act,'Stöld'}
+	{if}{has,Mörkertemplet,1}
+		{ans}
+			Välj som assistent
+			{act,'Assistent'}
+	{ans}
+		Tillbaka
+		{return}
+
+{p}
+	Alba:
+	- Välkommen! Vad behöver du idag?
+	{find,0}
+
+{f,Handla}
+	Vad vill du köpa?
+	{ans}
+		Elixir (3s)
+		{info}
+			{write,'Elixir
+Återställer hälsopoäng
+maximalt utanför strid.',''}
+		{if}{has,Silver,3}{lack,Elixir,10}
+			{sub,Silver,3}{add,Elixir,1}{skip,2}
+		{elif}
+			{skip,3}
+
+	{if}{lackName,Förmågor,'Vindskära'}
+		{ans}
+			Vindskära (15s)
+			{set,Pris,15}
+			{name,Formel,'Vindskära'}
+			{name,Text,Vindskära}
+			{info}
+				{write,Vindskära,''}
+
+	{if}{lackName,Förmågor,'Vindsköld'}
+		{ans}
+			Vindsköld (15s)
+			{set,Pris,15}
+			{name,Formel,'Vindsköld'}
+			{name,Text,Vindsköld}
+			{info}
+				{write,Vindsköld,''}
+
+	{if}{lackName,Förmågor,'Inspiration'}
+		{ans}
+			Inspiration (15s)
+			{set,Pris,15}
+			{name,Formel,'Inspiration'}
+			{name,Text,Inspiration}
+			{info}
+				{write,Inspiration,''}
+
+	{if}{lackName,Förmågor,'Förgiftning'}
+		{ans}
+			Förgiftning (15s)
+			{set,Pris,15}
+			{name,Formel,'Förgiftning'}
+			{name,Text,Förgiftning}
+			{info}
+				{write,Förgiftning,''}
+				
+	{if}{lackName,Förmågor,'Erodering'}
+		{ans}
+			Erodering (15s)
+			{set,Pris,15}
+			{name,Formel,'Erodering'}
+			{name,Text,Erodering}
+			{info}
+				{write,Erodering,''}
+
+	{if}{lackName,Förmågor,'Reflektion'}
+		{ans}
+			Reflektion (15s)
+			{set,Pris,15}
+			{name,Formel,'Reflektion'}
+			{name,Text,Reflektion}
+			{info}
+				{write,Reflektion,''}
+
+	{if}{lackName,Förmågor,'Fanatism'}
+		{ans}
+			Fanatism (15s)
+			{set,Pris,15}
+			{name,Formel,'Fanatism'}
+			{name,Text,Fanatism}
+			{info}
+				{write,Fanatism,''}
+	{ans}
+		Tillbaka
+		{find,0}
+
+{p}
+	{if}{has,Silver,Pris}
+		{sub,Silver,Pris}
+		{act,'Handla'}
+		{open,'Förmågor'}{act,'Tillskott'}
+		
+{p}
+	Du har inte råd med {write,Formel,'.'}
+	{find,0}
+	
+{p}
+	Du köper ett elixir för 3 silvermynt.
+	{act,'Handla'}
+
+{p}
+	Du har inte råd med ett elixir.
+	{find,0}
+
+{f,Artefakt}
+	Vad vill du köpa?
+	{if}{lackName,Förmågor,'Storm'}
+		{ans}
+			Storm (275s)
+			{set,Pris,275}
+			{name,Formel,'Storm'}
+			{name,Text,Storm}
+			{info}
+				{write,Storm,''}
+				
+	{if}{lackName,Förmågor,'Hast'}
+		{ans}
+			Hast (275s)
+			{set,Pris,275}
+			{name,Formel,'Hast'}
+			{name,Text,Hast}
+			{info}
+				{write,Hast,''}
+				
+	{if}{lackName,Förmågor,'Överlägsenhet'}
+		{ans}
+			Överlägsenhet (275s)
+			{set,Pris,275}
+			{name,Formel,'Överlägsenhet'}
+			{name,Text,Överlägsenhet}
+			{info}
+				{write,Överlägsenhet,''}
+				
+	{if}{lackName,Förmågor,'Djup infektion'}
+		{ans}
+			Djup infektion (275s)
+			{set,Pris,275}
+			{name,Formel,'Djup infektion'}
+			{name,Text,Djup infektion}
+			{info}
+				{write,Djup infektion,''}
+	{ans}
+		Tillbaka
+		{find,0}
+
+{p}
+	{if}{has,Silver,Pris}
+		{sub,Silver,Pris}
+		{act,'Artefakt'}
+		{open,'Förmågor'}{act,'Tillskott'}
+		
+{p}
+	Du har inte råd med {write,Formel,'.'}
+	{find,0}
+	
+{f,Prästinnan}
+	Du besöker Luftens tempel.
+	
+{p}
+	Alba:
+	- Välkommen till Luftens tempel. Mitt namn är Alba.
+	Jag är templets översteprästinna.
+	
+{p}
+	Alba är en kvinna med långt, nästan vitt hår.
+
+{p}
+	Hon ser påtagligt ung ut. Hon har ett litet ansikte
+	med nyfikna ögon och är mycket energetisk.
+	
+{p}
+	Alba:
+	- Du vill ha Luftens amulett? Men jag kan inte ge bort den.
+	Nimbus skulle bli rasande...
+	
+{p}
+	Alba:
+	- Jag är ledsen att du rest hit i onödan.
+	Men stanna ett tag. Berätta om vart du kom från.
+	
+{p}
+	Du berättar för Alba om hur du blivit strandad på ön.
+	Hon lyssnar nyfiket.
+	
+{p}
+	Alba:
+	- Gällande kraften som håller Muren uppe
+	så vet jag inte så mycket.
+	
+{p}
+	Alba:
+	- Nimbus säger att kraften aldrig kommer att sina,
+	att den är självupphållande...
+
+{p}
+	Alba:
+	- ... men det enda sättet att få reda på det är
+	att utforska underjorden.
+	
+{p}
+	Alba:
+	- Det sägs att underjorden är extremt farlig.
+	Nimbus har låtit spärra av alla ingångar.
+	Jag har aldrig ens satt min fot därnere.
+	
+{p}
+	Alba:
+	- Jag är rädd att jag inte kan hjälpa dig något mer.
+	Hälsa gärna på mig igen.
+	{set,Morden,2}
+	{return}
+
+{f,Samtal}
+	Alba:
+	- Har du tid att prata en stund?
+
+{p}
+	Alba:
+	- Ärligt talat känner jag mig obekväm i rollen som översteprästinna.
+	Jag tar inte mitt uppdrag på något större allvar.
+
+{p}
+	Alba:
+	- Jag tvingades in i rollen av Nimbus sen det avslöjades
+	att jag var Palumbus utvalda tjänare. Traditioner betyder mycket här i Muren.
+
+{p}
+	Alba:
+	- Har du hört talas om den förre översteprästen, Aegithalos?
+	En dag var han spårlöst försvunnen.
+
+{p}
+	Alba:
+	- Det sägs att han begav sig ned i underjorden
+	i jakt på någonting. Ingen vet säkert.
+
+{p}
+	Alba:
+	- Det finns inte mycket att göra här i Lufttemplet.
+	Jag fördriver tiden med att läsa böcker från templets bibliotek...
+
+{p}
+	Alba:
+	- Jag har lärt mig mycket från dem.
+	Om du har några frågor så ska jag försöka svara på dem.
+
+{p}
+	Alba:
+	- Är du nyfiken på Vandrarna? Det sägs att de gömmer sig undan
+	i djupet av Urskogen.
+
+{p}
+	Alba:
+	- De är tillbedjare av Viridis och Merula, gudarna av trä och mörker.
+	
+{p}
+	Alba:
+	- Den mörka gudens kraft skyddar dem från upptäckt 
+	och har gjort så under en lång tid.
+
+{p}
+	Alba:
+	- Folk säger att Merula ligger bakom morden i slummen.
+	Det är inte förvånande att de tror det...
+	
+{p}
+	Alba:
+	- Merulas symbol är trots allt en nattsvart fågel.
+	Men mörker är en av de minst destruktiva elementen.
+
+{p}
+	Alba:
+	- Kan det verkligen orsaka sådana allvarliga skador?
+	Det känns som vi missar någonting...
+
+{p}
+	Alba:
+	- Kanske Garrulus har något med saken att göra?
+	Guden av metall om någon har kraften att skära saker itu.
+
+{p}
+	Alba:
+	- Metalltemplet lär finnas någonstans i Bergspasset.
+	Ingen vet exakt var. Det är säkert väl dolt.
+	
+{p}
+	Alba:
+	- Åh, förresten... du kom ju från Staden.
+	Det lär inte bli lätt för dig när du ska återvända genom Urskogen. 
+
+{p}
+	Alba:
+	- Ta den här...
+	{name,Formel,'Frihet'}
+	{name,Text,Frihet}
+	{open,'Förmågor'}
+	{act,'Tillskott'}
+
+{p}
+	Alba:
+	- Du kan använda Frihet för att göra dig av
+	med de magiska effekter som tynger ned dig.
+
+{p}
+	Alba:
+	- Tack för att du orkade lyssna på mig. Vi ses!
+	{set,Morden,7}
+	{return}
+
+{f,Stöld}
+	Du aktiverar formeln som gör dig osynlig
+	och smyger in i templet.
+	
+{p}
+	Du öppnar porten som leder djupt in i templet.
+	Passagerna leder stadigt uppåt mot toppen av berget.
+	
+{p}
+	Utanför vrålar en evig storm.
+	Klipporna ser ut som spjut och sluttar lodrätt ned i avgrunden.
+
+{p}
+	Du når fram till lufttemplets innersta kammare, längst upp på berget.
+	Det är förvånansvärt tyst och stilla.
+	
+{p}	
+	Du går fram till altaret och hittar amuletten. Du tar upp den.
+	
+{p}
+	Någonting är fel. Du förväntade dig någon sorts reaktion
+	när du rörde vid amuletten men ingenting hände.
+
+{p}
+	Du hör en röst bakom dig.
+
+{p}
+	Alba:
+	- Stopp! Ge mig amuletten.
+
+{p}
+	Du kastar över amuletten och hon fångar den med en hand.
+
+{p}
+	Alba:
+	- Försöker du lura mig? Det här är en replika,
+	den har ingen kraft...
+
+{p}
+	Alba:
+	- ... vad är det här? Jag kan inte känna
+	någon energi från det här rummet...
+	
+{p}
+	Alba:
+	- Den äkta luftamuletten måste ha stulits
+	från templet långt tidigare.
+
+{p}
+	Alba:
+	- Jag förstår inte hur tjuven lyckats ta sig förbi väktaren...
+
+{p}
+	Alba:
+	- Jag måste tala om detta för Nimbus.
+	Men vad ska jag göra med dig...?
+
+{p}
+	Alba:
+	- ... glöm det! Jag tar itu med dig senare.
+
+{p}
+	Alba rusar iväg.
+	
+{p}
+	Du har inget mer att uträtta i templet
+	och återvänder till Klipporna.
+	{set,Osynlighet,2}
+	{return}
+	
+{f,Assistent}
+	Vill du välja Alba som assistent?
+	{ans}
+		Ja
+	{ans}
+		Nej
+		{find,0}
+
+{p}
+	{name,Allierad.Namn,'Alba'}
+	{set,Allierad.Grad,15}
+	{name,Fas,'Assistent'}
+	{call}
+
+{p}
+	Alba är nu din assistent.
+	{find,0}
+	
+{p}

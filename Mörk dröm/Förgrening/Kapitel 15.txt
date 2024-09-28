@@ -1,0 +1,171 @@
+{s}
+	{set,Kapitel,15}
+
+{p}
+	Kapitel 15
+	
+{p}
+	Du står i mitten av pelargången, framför den enorma porten.
+
+{p}
+	Mara:
+	- Den här vägen leder till Eldtemplets innersta.
+	Jag är säker på det. Är du redo?
+
+{p}
+	Ni går genom porten. En trappa leder upp till en högre våning.
+
+{p}
+	Ni träder in i en enorm sal. Längs väggarna står hyllor
+	fyllda med böcker. Överallt finns det bord med gamla artefakter
+	- vapen, smycken, oidentifierade föremål...
+
+{p}
+	Luften är torr och sval här inne. Du fortsätter rakt fram
+	och lämnar artefakterna ifred.
+
+{p}
+	Ni går in genom en port och en till trappa leder er stadigt uppåt. 
+	Den tar er ända upp till pyramidens tak.
+
+{p}
+	Altaret ligger framför er. Amuletten ligger helt öppet i dess mitt
+	och solen skiner ned på den. Du börjar gå fram...
+	
+{p}
+	Det lyser upp framför dig. En ofantlig kropp av eld
+	materaliseras från tomma luften.
+
+{p}
+	Mara:
+	- Det är inte över än. Vi måste fortfarande besegra
+	Eldtemplets väktare.
+
+{p}
+	Varelsen anfaller.
+	{name,Fiende.Namn,'Afrit'}
+	{set,Fiende.Grad,4}
+	{name,Fas,'Strid'}
+	{call}
+
+{p}
+	Ni har besegrat afriten. Den har reducerats till en hög av aska
+	och sveps snabbt iväg av vinden.
+
+{p}
+	Du går fram till altaret och tar amuletten.
+
+{p}
+	Mara:
+	- Behåll den. Du lär behöva den.
+
+{p}
+	Mara:
+	- Nu har jag fått nog av det här templet.
+	Låt oss snabbt återvända till Fristaden.
+
+{p}
+	Ni lämnar Eldtemplet och tar vägen söderut genom Djungeln.
+	Du behöver inte längre oroa dig för att bli förflyttad
+	slumpvis till någon annan del av ön.
+	{name,Plats,'Fristaden'}
+	{image,'Bilder/Fristaden'}
+
+{p}
+	Åter i Fristaden anordnas en fest.
+	{set,Hp,Max hp}
+	
+{p}
+	Mara är märkligt oengagerad. Hon kallar på dig
+	och ni går till hennes hus.
+
+{p}
+	Mara:
+	- Jag har funderat över en sak på senaste tiden.
+	Jag kan inte riktigt bestämma mig...
+
+{p}
+	Mara:
+	- Ibland är det svårt att veta om jag agerar
+	utifrån Fristadens bästa eller efter egenintresse.
+
+{p}
+	Mara:
+	- Jag vill inte berätta mer just nu
+	men jag skulle vilja ha ditt stöd.
+
+{p}
+	Mara:
+	- Vad säger du?
+	{ans}
+		Ge ditt stöd
+	{ans}
+		Be henne att tänka över saken
+
+{p}
+	Mara:
+	- Tack.
+
+{p}
+	Mara:
+	- Jag ska gå och prata med Selena.
+
+{p}
+	Nästa dag går du till Selenas hydda. Selena, Philomelos och Mara är där.
+
+{p}
+	Selena:
+	- Låt mig gratulera dig än en gång för att ha hittat Eldamuletten.
+	Det är en imponerande bedrift.
+
+{p}
+	Selena:
+	- Nu antar jag att du vill återvända till Staden.
+	Jag diskuterade med Mara igår...
+
+{p}
+	Selena:
+	- Vi bestämde oss för att Mara ska följa med dig till staden.
+
+{p}
+	Mara:
+	- Philomelos följer också med. Vi kan ha nytta
+	av hans ljusmagi.
+
+{p}
+	Philomelos:
+	- Så sant som det är sagt. Det skulle förstås kännas ännu säkrare
+	om vi var fler som kunde lysa upp vägen...
+
+{p}
+	Philomelos:
+	- Ta den här formeln. Den lär ut Illuminering.
+	{name,Formel,'Illuminering'}
+	{name,Text,Illuminering}
+	{open,'Förmågor'}
+	{act,'Tillskott'}
+	
+{p}
+	Selena:
+	- Jag ville egentligen resa till staden personligen
+	men Fristaden behöver mig här.
+
+{p}
+	Selena:
+	- Mara får diskutera med Stadens ledare i mitt ställe.
+	{name,Fas,'Solo'}
+	{call}
+	
+{p}
+	Selena:
+	- Det kommer att behöva göras en del förberedelser.
+	Ni ger er av imorgon.
+	{set,Eldtemplet,4}
+	{set,Djungeln,1}
+	{set,Förgrening,1}
+	{set,Besök,1}
+
+{p}
+	{chap,'Platser/Fristaden'}
+
+{p}

@@ -1,0 +1,12 @@
+{
+"namn": "Vålnad",
+"element": "Mörker",
+"hp": 16,
+"belöning": 6,
+"extradrag": true,
+"förmågor": ["Absorption","Andeform","Hopplöshet","Självbevarelsedrift"],
+"förberedelser": ["Andeform"],
+"beskrivning": "En vålnad som är resistent
+mot skada. Den äter livskraften
+av sina motståndare."
+}

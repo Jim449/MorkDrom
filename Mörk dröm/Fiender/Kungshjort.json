@@ -1,0 +1,11 @@
+{
+"namn": "Kungshjort",
+"element": "Trä",
+"hp": 16,
+"belöning": 6,
+"extradrag": true,
+"förmågor": ["Blixt","Återhämtning","Fokus","Frid"],
+"beskrivning": "En magnifik hjort
+som skyddar sig själv med
+helande förmågor."
+}

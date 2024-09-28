@@ -1,0 +1,202 @@
+{s}
+	Du besöker Selena.
+	{ans}
+		Prata
+	{if}{has,Selena,2}
+		{ans}
+			Handla
+			{act,'Handla'}
+	{if}{has,Epilog,2}
+		{ans}
+			Köp artefakter
+			{act,'Artefakt'}
+	{if}{has,Mörkertemplet,1}
+		{ans}
+			Välj som assistent
+			{act,'Assistent'}
+	{ans}
+		Tillbaka
+		{return}
+
+{p}
+	Selena:
+	- Välkommen. Vad är ditt ärende?
+	{find,0}
+
+{f,Handla}
+	Vad vill du köpa?
+	{ans}
+		Elixir (3s)
+		{info}
+			{write,'Elixir
+Återställer hälsopoäng
+maximalt utanför strid.',''}
+		{if}{has,Silver,3}{lack,Elixir,10}
+			{sub,Silver,3}{add,Elixir,1}{skip,2}
+		{elif}
+			{skip,3}
+
+	{if}{lackName,Förmågor,'Skalv'}
+		{ans}
+			Skalv (50s)
+			{set,Pris,50}
+			{name,Formel,'Skalv'}
+			{name,Text,Skalv}
+			{info}
+				{write,Skalv,''}
+
+	{if}{lackName,Förmågor,'Styrka'}
+		{ans}
+			Styrka (50s)
+			{set,Pris,50}
+			{name,Formel,'Styrka'}
+			{name,Text,Makt}
+			{info}
+				{write,Makt,''}
+
+	{if}{lackName,Förmågor,'Uthållighet'}
+		{ans}
+			Uthållighet (50s)
+			{set,Pris,50}
+			{name,Formel,'Uthållighet'}
+			{name,Text,Uthållighet}
+			{info}
+				{write,Uthållighet,''}
+
+	{if}{lackName,Förmågor,'Viljestyrka'}
+		{ans}
+			Viljestyrka (50s)
+			{set,Pris,50}
+			{name,Formel,'Viljestyrka'}
+			{name,Text,Viljestyrka}
+			{info}
+				{write,Viljestyrka,''}
+
+	{if}{lackName,Förmågor,'Absorption'}
+		{ans}
+			Absorption (50s)
+			{set,Pris,50}
+			{name,Formel,'Absorption'}
+			{name,Text,Absorption}
+			{info}
+				{write,Absorption,''}
+
+	{if}{lackName,Förmågor,'Regenerering'}
+		{ans}
+			Regenerering (50s)
+			{set,Pris,50}
+			{name,Formel,'Regenerering'}
+			{name,Text,Regenerering}
+			{info}
+				{write,Regenerering,''}
+
+	{if}{lackName,Förmågor,'Kontring'}
+		{ans}
+			Kontring (50s)
+			{set,Pris,50}
+			{name,Formel,'Kontring'}
+			{name,Text,Kontring}
+			{info}
+				{write,Kontring,''}
+
+	{ans}
+		Tillbaka
+		{find,0}
+
+{p}
+	{if}{has,Silver,Pris}
+		{sub,Silver,Pris}
+		{act,'Handla'}
+		{open,'Förmågor'}{act,'Tillskott'}
+		
+{p}
+	Du har inte råd med {write,Formel,'.'}
+	{find,0}
+	
+{p}
+	Du köper ett elixir för 3 silvermynt.
+	{act,'Handla'}
+
+{p}
+	Du har inte råd med ett elixir.
+	{find,0}
+
+{f,Artefakt}
+	Vad vill du köpa?
+	{if}{lackName,Förmågor,'Jordbävning'}
+		{ans}
+			Jordbävning (275s)
+			{set,Pris,275}
+			{name,Formel,'Jordbävning'}
+			{name,Text,Jordbävning}
+			{info}
+				{write,Jordbävning,''}
+				
+	{if}{lackName,Förmågor,'Stenskinn'}
+		{ans}
+			Stenskinn (275s)
+			{set,Pris,275}
+			{name,Formel,'Stenskinn'}
+			{name,Text,Stenskinn}
+			{info}
+				{write,Stenskinn,''}
+				
+	{if}{lackName,Förmågor,'Återhämtning'}
+		{ans}
+			Återhämtning (275s)
+			{set,Pris,275}
+			{name,Formel,'Återhämtning'}
+			{name,Text,Återhämtning}
+			{info}
+				{write,Återhämtning,''}
+				
+	{if}{lackName,Förmågor,'Harmoni'}
+		{ans}
+			Harmoni (275s)
+			{set,Pris,275}
+			{name,Formel,'Harmoni'}
+			{name,Text,Harmoni}
+			{info}
+				{write,Harmoni,''}
+	
+	{if}{lackName,Förmågor,'Förtäring'}
+		{ans}
+			Förtäring (275s)
+			{set,Pris,275}
+			{name,Formel,'Förtäring'}
+			{name,Text,Förtäring}
+			{info}
+				{write,Förtäring,''}
+	{ans}
+		Tillbaka
+		{find,0}
+
+{p}
+	{if}{has,Silver,Pris}
+		{sub,Silver,Pris}
+		{act,'Artefakt'}
+		{open,'Förmågor'}{act,'Tillskott'}
+		
+{p}
+	Du har inte råd med {write,Formel,'.'}
+	{find,0}
+	
+{f,Assistent}
+	Vill du välja Selena som assistent?
+	{ans}
+		Ja
+	{ans}
+		Nej
+		{find,0}
+
+{p}
+	{name,Allierad.Namn,'Selena'}
+	{set,Allierad.Grad,15}
+	{name,Fas,'Assistent'}
+	{call}
+
+{p}
+	Selena är nu din assistent.
+	{find,0}
+	
+{p}

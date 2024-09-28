@@ -1,0 +1,351 @@
+{p}
+	{set,Kapitel,20}
+	{name,Plats,'Fristaden'}
+	{image,'Bilder/Fristaden'}
+
+{p}
+	Ni är framme i Fristaden. Mara möter er i mitten av byn.
+
+{p}
+	Mara:
+	- Välkomna tillbaka. Ni tog god tid på er.
+
+{p}
+	Selena:
+	- Jag är ledsen att det dröjde. Hur ser situationen ut i Fristaden?
+
+{p}
+	Mara:
+	- Det ser inte bra ut. Flera av jägarna är sårade eller döda. Resten är utmattade.
+
+{p}
+	Mara:
+	- Se er omkring...
+
+{p}
+	Du märker att Fristaden håller på att tas över av växtlighet.
+	Det är lavar, rötter och rankor överallt.
+	
+{p}
+	Ett olycksbådande dis hänger över staden. Du känner instinktivt av faran,
+	som om ett fasansfullt odjur när som helst kan slå till och döda er alla.
+
+{p}
+	Mara:
+	- Det här måste vara Olivias verk. Det går inte att missta den här förtryckande stämningen.
+
+{p}
+	Mara:
+	- Säg att ni har någon plan. Vi har ingen tid att förlora.
+
+{p}
+	Selena:
+	- Jag är ledsen. Våra fienders inflytande över Fristaden är för starkt.
+	Jag kan inte längre göra någonting för att hålla monstren borta.
+
+{p}
+	Selena:
+	- Vi kan inte stanna i Fristaden. Vi måste alla ge oss av.
+
+{p}
+	Mara:
+	- Jag anade det...
+
+{p}
+	Selena:
+	- Vi har fortfarande en chans. Det är för farligt att färdas genom Urskogen nu
+	men vi kan bege oss till Eldtemplet.
+
+{p}
+	Mara:
+	- Eldtemplet? Det är en farlig chansning.
+
+{p}
+	Mara:
+	- När jag befann mig i templet fanns det ständigt en risk att svepas bort till okända platser, eller anfallas av monster.
+	Värst av allt var ändå det konstanta trycket som templet utövade.
+
+{p}
+	Mara:
+	- Det var som mina tankar sakta sveptes in i en dimma. Det går inte att stanna i templet för länge.
+
+{p}
+	Selena:
+	- Jag tror dig men vi har inte mycket till val. Vi kan hitta en mer varaktig lösning senare.
+
+{p}
+	Selena:
+	- Jag ska gå och samla alla bybor. De måste förbereda sig för avfärd.
+
+{p}
+	Philomelos:
+	- Vänta.
+	
+{p}
+	Selena:
+	- Philomelos...? Är du okej?
+
+{p}
+	Philomelos:
+	- Något har känts fel sen vi kom hit. Jag kunde inte riktigt sätta fingret på det.
+
+{p}
+	Dennis:
+	- Du märkte? Du borde ha varit ännu mer vaksam. Det är för sent nu.
+
+{p}
+	Dennis kliver fram ur skuggorna. Brevid honom står Olivia.
+
+{p}
+	Dennis:
+	- Vi har väntat på er hela tiden. Vi har lyssnat på hela er diskussion.
+
+{p}
+	Olivia:
+	- Alla invånarna i Fristaden har blivit nedsövda. Jag kan döda dem när jag vill.
+
+{p}
+	Selena:
+	- Vad är det som du vill?
+
+{p}
+	Dennis:
+	- Jag vill att Fristaden underkastar sig vårt styre.
+
+{p}
+	Selena:
+	- Lovar du att skona bybornas liv?
+
+{p}
+	Dennis:
+	- Du har mitt ord på det.
+
+{p}
+	Selena:
+	- Som ledare över Fristaden måste jag prioritera bybornas överlevnad. Du vinner – vi ger upp.
+
+{p}
+	Mara:
+	- Nej, Selena. Vi måste slåss.
+
+{p}
+	Dennis:
+	- Slåss? Ser du inte vilket underläge ni är i?
+	Är du beredd att offra bybornas liv?
+
+{p}
+	Mara:
+	- Visst, försök bara. Tro inte att jag kommer att ge upp utan en strid.
+
+{p}
+	Selena:
+	- Mara! Lägg ned vapnen. Det är över.
+
+{p}
+	Mara:
+	- Fan heller! Fristaden är dömd och våra liv i frihet är förlorade.
+
+{p}
+	Mara vänder sig till dig.
+
+{p}
+	Mara:
+	- Ge mig Eldamuletten. Denna enda gång ska Pyrrhula göra som jag vill.
+
+{p}
+	Du tar fram Eldamuletten och överväger att ge den till Mara.
+
+{p}
+	Dennis:
+	- Olivia, det verkar som vi måste verkställa vårt hot.
+
+{p}
+	Olivia:
+	- ...
+
+{p}
+	Du har bestämt dig. Du ger Eldamuletten till Mara.
+
+{p}
+	Mara:
+	- Tack... det är dags för allting att brinna.
+
+{p}
+	En enorm, otyglad kraft börjar samlas runt Mara.
+	För ett ögonblick vågar ingen röra sig.
+
+{p}
+	Olivia:
+	- Vänta!
+
+{p}
+	Olivia:
+	- Jag drar tillbaka vårt hot för idag. Ingen kommer att dö.
+
+{p}
+	Dennis:
+	- Olivia, backa inte ur nu...
+
+{p}
+	Olivia:
+	- Jag är ledsen, Dennis. Jag vill inte möta Eldens gud. Jag kan inte slåss
+	mot en motståndare som är beredd att offra allt och alla.
+
+{p}
+	Mara:
+	- Du ger upp bara så där? Jag trodde du var starkare än så.
+
+{p}
+	Olivia:
+	- Jag är långt starkare än du. Det är bara det att kraften av trä
+	är något som byggs upp och används under en längre tid.
+
+{p}
+	Olivia:
+	- Det här är inte rätt plats för en avgörande strid.
+
+{p}
+	Dennis ser ut att tveka.
+
+{p}
+	Dennis:
+	- Olivia kanske backat ur men det förändrar ingenting. Jag har Merula på min sida.
+
+{p}
+	Mörk energi börjar formas omkring Dennis.
+
+{p}
+	Philomelos:
+	- Det är inte sant.
+
+{p}
+	Dennis rycker till.
+
+{p}
+	Philomelos:
+	- Merulas krafter har du bara lånat av Turdus. Eller hur?
+
+{p}
+	Dennis:
+	- Turdus? Han gav Mörkeramuletten till mig. Därigenom har han förlorat allt sitt inflytande över den mörka guden.
+
+{p}
+	Philomelos:
+	- Det tvivlar jag på. Mörkrets krafter har vuxit sig starkare
+	de senaste dagarna men det är inget som jag ser på dig.
+	
+{p}
+	Philomelos:
+	- Hur kommer det sig att du fortfarande inte har besegrat Fristaden?
+	Du kunde ha beordrat monstren att anfalla.
+
+{p}
+	Dennis:
+	- Ingen kan kontrollera så många monster samtidigt...
+
+{p}
+	Philomelos:
+	- Vet du inte att en stor armé av monster anfallit Staden
+	under ledning av Aegithalos?
+	
+{p}
+	Dennis:
+	- ... jag anade att något var på gång...
+
+{p}
+	Dennis:
+	- Fan! Jag måste få klarhet i det här.
+
+{p}
+	Dennis:
+	- Jag låter er gå denna gång. Nästa gång kommer ni inte undan!
+
+{p}
+	Dennis och Olivia försvinner in i ett hav av mörker och är borta.
+
+{p}
+	Mara släpper Eldamuletten. Hon flämtar.
+
+{p}
+	Mara:
+	- Vad i helvete var jag på väg att göra...? Ett tag ville jag döda allihop...
+
+{p}
+	Selena:
+	- Slappna av. Du fattade ett beslut och det fungerade. Det räcker för mig.
+
+{p}
+	Selena:
+	- Det viktiga nu är att vi ger oss av mot Eldtemplet. Vi måste härifrån innan Dennis och Olivia hinner hämta sig.
+
+{p}
+	Philomelos:
+	- Vi borde utforska Ljustemplet och ta amuletten från Sita.
+	Det borde göra det möjligt för hela byn att färdas genom Urskogen.
+
+{p}
+	Philomelos:
+	- Då har vi en utväg om det visar sig ohållbart att stanna i Eldtemplet.
+
+{p}
+	Selena:
+	- Jag håller med men jag och Mara måste skydda byborna.
+
+{p}
+	Selena vänder sig till dig.
+
+{p}
+	Selena:
+	- Kan du bege dig till Ljustemplet med Philomelos?
+
+{p}
+	Du går med på det.
+	{name,Allierad.Namn,'Philomelos'}
+	{set,Allierad.Grad,7}
+	{name,Fas,'Assistent'}
+	{call}
+
+{p}
+	Philomelos:
+	- Vi ger oss av omedelbart.
+	{name,Plats,'Spegelsjön'}
+	{image,'Bilder/Spegelsjön'}
+
+{p}
+	Du och Philomelos sätter fart mot Spegelsjön. Ni når snabbt fram till ruinerna av Ljustemplet.
+
+{p}
+	Philomelos:
+	- Det är andra gången vi är här. Den här gången kommer jag att hitta vägen in i templet.
+
+{p}
+	Philomelos koncentrerar sig.
+
+{p}
+	Philomelos:
+	- ... där!
+
+{p}
+	Ni hittar en halvt begraven trappgång.
+
+{p}
+	Ni går in i templet. Trapporna tar er djupt ned i underjorden.
+	När ni äntligen nått botten går ni ut i en stor grottsal.
+	{name,Plats,'Ljustemplet'}
+	{image,'Bilder/Grottsal'}
+
+{p}
+	Philomelos:
+	- Vi befinner oss någonstans under Spegelsjön.
+	Jag känner av närvaron av monster.
+
+{p}
+	Philomelos:
+	- Låt oss fortsätta.
+	{set,Förfall,0}
+	{set,Ljustemplet,1}
+	
+{p}
+	{chap,'Platser/Ljustemplet'}
+
+{p}

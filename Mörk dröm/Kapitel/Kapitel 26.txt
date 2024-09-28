@@ -1,0 +1,291 @@
+{p}
+	{set,Kapitel,26}
+	{name,Plats,'Gömslet'}
+	{image,'Bilder/Gömslet'}
+
+{p}
+	Kapitel 26
+	
+{p}
+	Gömslet ligger nere i en dal.
+	Ni blickar ned över mängder av små, idylliska trähus.
+
+{p}
+	Ni gömmer er bakom ett tätt buskage
+	och ser folk gå omkring på gatorna.
+
+{p}
+	Goran:
+	- Fångarna från Fristaden borde finnas här någonstans, men vi vet inte var.
+	Låt oss vänta och bilda oss en uppfattning om deras rutiner.
+
+{p}
+	Du hör ett ljud och vänder dig om.
+
+{p}
+	Sita:
+	- Det tjänar ingenting till att gömma er. Vi vet att ni är här.
+
+{p}
+	Sita:
+	- Dennis väntar på er vid Trätemplet. Följ mig.
+
+{p}
+	Goran:
+	- Stopp ett tag... hur vet vi att du inte leder oss in i en fälla?
+
+{p}
+	Sita:
+	- Jag hatar att använda bedrägliga metoder. Jag gillar inte när Dennis
+	använder dem heller...
+
+{p}
+	Sita:
+	- .. så om han försöker sig på något kommer min ljusmagi att avslöja honom.
+	Se det som en tjänst för att du lät mig gå fri från Ljustemplet.
+	
+{p}
+	Goran:
+	- På det viset... då litar jag på dig.
+
+{p}
+	Ni följer Sita runt byn och når en vindlande trappgång i sten.
+
+{p}
+	Sita:
+	- Trätemplet ligger på toppen av höjden. Mara och Selena är fångna inne i templet.
+	{image,'Bilder/Trätemplet'}
+	
+{p}
+	Ni når slutet av trappan och du känner omedelbart igen gläntan
+	där Trätemplet ligger.
+
+{p}
+	Dennis står i mitten av gläntan.
+
+{p}
+	Sita:
+	- Jag lämnar er här. Om ni mot förmodan skulle besegra både Dennis och Olivia,
+	möt mig i gläntan. Då ser jag till att fångarna går fria.
+
+{p}
+	Sita går tillbaka nedför trappan.
+
+{p}
+	Dennis:
+	- Ni är här till slut. Sen ni tog Ljusamuletten från Sita
+	trodde jag att ni skulle ha lite mer bråttom.
+
+{p}
+	Dennis:
+	- Är det bara ni två? Det var i minsta laget.
+
+{p}
+	Goran:
+	- Jag beklagar också att vi inte är fler.
+	De flesta av oss är upptagna på annat håll.
+
+{p}
+	Dennis:
+	- Jag hörde att Muren har fallit.
+	Hur lyckades ni med det?
+
+{p}
+	Dennis:
+	- Vi har ägnat så mycket tid åt att infiltrera Muren
+	och få över Nimbus på vår sida... plötsligt är allt förstört.
+
+{p}
+	Goran:
+	- Jag var inte där när det hände.
+	
+{p}
+	Dennis:
+	- Sak samma. Staden kommer ändå att gå under.
+
+{p}
+	Dennis:
+	- Jag behöver bara döda er här och nu.
+
+{p}
+	Mörk energi börjar samlas kring Dennis.
+
+{p}
+	Dennis anfaller!
+	{name,Fiende.Namn,'Dennis'}
+	{set,Fiende.Grad,8}
+	{name,Fas,'Strid'}
+	{call}
+
+{p}
+	Dennis är försvagad.
+
+{p}
+	Dennis:
+	- Hur kunde det bli så här? Jag har mörkeramuletten och kontrollerar därmed Merula.
+
+{p}
+	Dennis:
+	- Den svarta gudens krafter borde vara mer än nog för att besesgra er, men det är något som saknas.
+
+{p}
+	En till person kliver ut i gläntan. Han är så tyst att du inte märkte honom förrän nu.
+
+{p}
+	Dennis:
+	- Turdus? Hur länge har du varit här?
+
+{p}
+	Turdus:
+	- Från början.
+
+{p}
+	Turdus:
+	- Dennis. Det är dags att du ger upp.
+
+{p}
+	Dennis:
+	- Aldrig. Vad försöker du göra?
+
+{p}
+	Turdus:
+	- Jag har tagit tillbaka den kraft som är min. Jag gav dig Mörkeramuletten förut...
+
+{p}
+	Turdus:
+	- ... efter katastrofen i Staden ville jag inte veta av amuletten längre.
+	Jag lämnade ifrån mig den så fort jag fick chansen.
+
+{p}
+	Turdus:
+	- Då var det redan för sent. Jag och Merula var redan en och samma.
+
+{p}
+	Turdus:
+	- Jag lät dig låna en del av mörkrets krafter så att du kunde skapa kaos på ön.
+
+{p}
+	Dennis:
+	- Så jag gjorde bara det som du tillät mig att göra?
+	Och nu är du klar med mig?
+
+{p}
+	Turdus:
+	- Det stämmer.
+
+{p}
+	Dennis:
+	- Vill du inte att Gömslet ska styra över ön? Det här är platsen där du hör hemma
+	- den har skapats för personer som du.
+
+{p}
+	Turdus:
+	- Jag bryr mig inte om Gömslet.
+
+{p}
+	Turdus:
+	- Jag vill utplåna elementaltron från ön. Gömslet kommer inte att gå fria.
+
+{p}
+	Dennis:
+	- Är du galen? Det är vår tro som ligger till grund för din kraft.
+
+{p}
+	Turdus:
+	- Det är bara delvis sant.
+
+{p}
+	Dennis:
+	- Du har krafter som vi inte känner till?
+	Vi måste ha förbisett något...
+
+{p}
+	Dennis:
+	- Jag erkänner mig besegrad men Olivia är långt starkare än jag.
+
+{p}
+	Dennis:
+	- Hon är Viridis avatar och hon befinner sig i Trätemplet,
+	där hon är som starkast.
+
+{p}
+	Turdus:
+	- Jag inser det. Jag vill inte slåss mot Olivia om det kan undvikas.
+
+{p}
+	Turdus:
+	- Jag lämnar den saken åt dem...
+
+{p}
+	Turdus:
+	- De är tvungna att gå in i Trätemplet för att rädda Mara och Selena.
+
+{p}
+	Turdus:
+	- Farväl, Dennis.
+
+{p}
+	Dennis huggs itu av de svarta vingarna.
+
+{p}
+	Turdus:
+	- Ta mörkeramuletten om ni vill. Jag har ingen användning för den.
+
+{p}
+	Goran:
+	- Jag vågar inte ta den. Det är för riskabelt.
+
+{p}
+	Turdus:
+	- Som du vill. Jag tänkte att jag skulle ge er en gåva som kan hjälpa er att besegra Olivia.
+
+{p}
+	Goran:
+	- Vad menar du med att du inte behöver amuletten?
+
+{p}
+	Turdus:
+	- Min samhörighet med mörkerelementet är redan fullständig.
+	Amuletten skulle inte tillföra något.
+
+{p}
+	Du tar amuletten från Dennis lik.
+
+{p}
+	Turdus:
+	- Ett bra beslut.
+
+{p}
+	Goran:
+	- Turdus. Är du säker på att det här är vad du vill? Du kan fortfarande ångra dig.
+
+{p}
+	Turdus:
+	- Nej, det finns ingen återvändo. Det finns ingen som jag bryr mig om...
+
+{p}
+	Turdus:
+	- ... förutom en person, kanske. Men Alyssa vet redan vad som står på spel
+	och hon har gjort sitt val.
+
+{p}
+	Turdus:
+	- Trätemplet ligger öppet för er. Gå.
+
+{p}
+	Turdus omges av mörker och försvinner.
+
+{p}
+	Goran:
+	- Han är borta. Det här ger min onda aningar...
+
+{p}
+	Goran:
+	- ... nej, det är för sent att ångra sig. Låt oss gå in i Trätemplet.
+	{set,Trätemplet,1}
+
+{p}
+	{chap,'Platser/Trätemplet'}
+
+{p}
+

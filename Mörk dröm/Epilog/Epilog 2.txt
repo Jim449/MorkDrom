@@ -1,0 +1,65 @@
+{p}
+	{name,Plats,'Eldtemplet'}
+	{image,'Bilder/Eldtemplet'}
+	{set,Epilog,2}
+
+{p}
+	Epilog 2
+
+{p}
+	Alyssa:
+	- Jag har sett fram emot att besöka den här platsen. Låt oss gå in...
+
+{p}
+	Ni går in genom huvudporten och når biblioteket.
+
+{p}
+	Alyssa:
+	- Det finns så mycket att se här.
+	Jag skulle kunna hålla mig sysselsatt länge.
+
+{p}
+	Alyssa:
+	- Jag har förstås andra åtaganden
+	så jag ska försöka skynda mig.
+
+{p}
+	Tiden går. Alyssa vandrar omkring i biblioteket
+	och läser ett flertal böcker.
+
+{p}
+	Till slut kommer hon tillbaka.
+
+{p}
+	Alyssa:
+	- Tack för tålamodet. Skrifterna talar om ett tempel
+	som är tillägnad alla åtta elementen.
+
+{p}
+	Alyssa:
+	- Detta tempel ligger väl dolt. Det verkar inte vara meningen
+	att folk ska besöka det.
+
+{p}
+	Alyssa:
+	- Det står att bara personer som är har kraften
+	av alla åtta elementen kan hitta ingången.
+
+{p}
+	Alyssa:
+	- Det ska finnas en till ledtråd i Eldtemplet.
+	Det är allt jag vet.
+
+{p}
+	Alyssa:
+	- När jag sökte igenom biblioteket hittade jag
+	några sällsynta formler.
+
+{p}
+	Alyssa:
+	- Jag tänker ta med dem till Staden och ge dem
+	till de personer som bäst kan förvalta dem.
+	{chap,'Platser/Djungeln'}
+
+{p}
+	

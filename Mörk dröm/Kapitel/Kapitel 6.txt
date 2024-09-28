@@ -1,0 +1,132 @@
+{s}
+	{set,Kapitel,6}
+	{name,Plats,'Urskogen'}
+	{image,'Bilder/Urskogen'}
+
+{p}
+	Kapitel 6
+
+{p}
+	Dennis träffar dig i utkanten av urskogen.
+	{name,Allierad.Namn,'Dennis'}
+	{set,Allierad.Grad,8}
+	{name,Fas,'Assistent'}
+	{call}
+	
+{p}
+	Dennis:
+	- Vi måste gå en sträcka genom skogen
+	för att komma till bergspasset.
+	
+{p}
+	Dennis:
+	- Många har gått vilse i skogen.
+	Släpp mig inte ur sikte.
+
+{p}
+	Dennis:
+	- Jag ska försöka hålla oss undan de monster
+	som lever i skogen men jag kan inte lova något.
+	
+{p}
+	Du går in i urskogen. Träden är gamla och knotiga.
+	Det täta lövverket blockerar solljuset.
+
+{p}
+	Marken är täckt av mossa och fallna trädstammar
+	är strödda överallt.
+	
+{p}
+	Du börjar ana oråd. Du har helt tappat orienteringen
+	och ni färdas så krokigt att det känns som ni går i cirklar.
+
+{p}
+	Dennis:
+	- De vanliga lagarna gäller inte här.
+	Hade vi gått den raka vägen hade det lett rätt in i en fälla.
+	
+{p}
+	Dennis:
+	- Stopp. Någonting närmar sig.
+	
+{p}
+	Du ser en enorm varg smyga fram ur buskaget
+	och drar ditt vapen.
+	
+{p}
+	Dennis:
+	- Vi måste besegra den. Monstren som lever i urskogen
+	är långt starkare än de som finns nära staden.
+	
+{p}
+	Vargen rusar emot dig och striden börjar.
+	{name,Fiende.Namn,'Varg'}
+	{set,Fiende.Grad,6}
+	{name,Fas,'Strid'}
+	{call}
+	
+{p}
+	Dennis:
+	- Det börjar skymma. Låt oss ta oss härifrån
+	innan fler monster dyker upp.
+	
+{p}
+	Ni kommer fram till en bäck och slår upp ett läger.
+	
+{p}
+	Du tar fram amuletten ur fickan och koncentrerar dig.
+	Du uppfylls av en känsla av trygghet.
+	Ingenting kan skada dig här.
+
+{p}
+	Dennis:
+	- Mannen som försökte stoppa oss förut... Narden, hette han det?
+
+{p}
+	Dennis:
+	- Han är väldigt farlig. Jag oskadliggjorde honom relativt lätt
+	för han var oförberedd...
+
+{p}
+	Dennis:
+	- ... men jag märkte att han hade en stark fallenhet för metallelementet.
+	Kanske till och med mer än Nimbus...
+
+{p}
+	Dennis:
+	- Se upp för anhängarna av metallens gud, Garrulus.
+	De håller fast vid sin inskränkta världsbild och lyssnar inte på reson.
+
+{p}
+	Dennis:
+	- Vila nu. Vi har en lång dag framför oss.
+
+{p}
+	Du somnar in.
+	
+{p}
+	Tidigt nästa dag fortsätter ni vandringen.
+	
+{p}
+	Det tar inte lång tid innan ni är framme vid bergsfoten.
+	
+{p}
+	Dennis:
+	- Vi måste färdas genom bergspasset. Det kommer att vara svårare
+	att undvika monster här.
+
+{p}
+	Dennis:
+	- Efter bergspasset kommer en skog. Vi måste passera den
+	och fortsätta norrut.
+	
+{p}
+	Dennis:
+	- Vår destination ligger precis efter skogen.
+	
+{p}
+	Dennis:
+	- Du får ta täten.
+	{chap,'Platser/Bergspasset'}
+
+{p}

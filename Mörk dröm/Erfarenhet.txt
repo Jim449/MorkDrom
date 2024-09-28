@@ -1,0 +1,60 @@
+{p}
+	{write,Namn,' '} vinner {show,Belöning,' '} erfarenhetspoäng och silver.
+
+{p}
+	{if}{has,Grad,15}
+		{add,Silver,Belöning}
+		{return}
+
+{p}
+	{add,Ep,Belöning}
+	{add,Silver,Belöning}
+
+{p}
+	{if}{lack,Ep,Nästa grad}
+		{return}
+
+{p}
+	{add,Grad,1}
+	{add,Styrka,1}
+	{add,Hp,36}
+	{add,Max hp,36}
+
+{p}
+	{if}{has,Ep,5250}
+		{set,Ep,5250}
+
+{p}
+	Du är nu grad {show,Grad,'!'}
+
+{p}
+	{if}{equal,Grad,2}
+		{set,Nästa grad,150}
+	{elif}{equal,Grad,3}
+		{set,Nästa grad,300}
+	{elif}{equal,Grad,4}
+		{set,Nästa grad,500}
+	{elif}{equal,Grad,5}
+		{set,Nästa grad,750}
+	{elif}{equal,Grad,6}
+		{set,Nästa grad,1050}
+	{elif}{equal,Grad,7}
+		{set,Nästa grad,1400}
+	{elif}{equal,Grad,8}
+		{set,Nästa grad,1800}
+	{elif}{equal,Grad,9}
+		{set,Nästa grad,2250}
+	{elif}{equal,Grad,10}
+		{set,Nästa grad,2750}
+	{elif}{equal,Grad,11}
+		{set,Nästa grad,3300}
+	{elif}{equal,Grad,12}
+		{set,Nästa grad,3900}
+	{elif}{equal,Grad,13}
+		{set,Nästa grad,4550}
+	{elif}{equal,Grad,14}
+		{set,Nästa grad,5250}
+{p}
+	{return}
+
+{p}

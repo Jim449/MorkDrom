@@ -1,0 +1,10 @@
+{
+"namn":"Eremit",
+"element":"Ljus",
+"hp": 72,
+"belöning": 20,
+"förmågor": ["Mental chock","Blixt","Styrka","Frid","Läkekraft"],
+"beskrivning": "En vålnad
+som betraktar världen
+under stillhet."
+}

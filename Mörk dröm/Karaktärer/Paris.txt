@@ -1,0 +1,174 @@
+{s}
+	Du besöker Paris.
+	{ans}
+		Prata
+		{if}{equal,Morden,2}
+			{act,'Morden'}
+		{elif}{equal,Erbjudande,2}
+			{act,'Erbjudande'}
+		{elif}{equal,Sabotage,1}
+			{act,'Sabotage'}
+	{ans}
+		Ta in på värdshuset
+		{act,'Värdshuset'}
+	{ans}
+		Tillbaka
+		{return}
+
+{p}
+	Paris:
+	- Välkommen! Hur kan jag stå till tjänst?
+	{find,0}
+
+{f,Värdshuset}
+	Paris begär 1 silver för mat och logi.
+	{if}{has,Silver,1}
+		{ans}
+			Acceptera
+			{sub,Silver,1}
+	{ans}
+		Avböj
+		{find,0}
+
+{p}
+	Du tar in för natten och vaknar upp utvilad.
+	{set,Hp,Max hp}
+	{return}
+	
+{f,Morden}
+	Paris:
+	- Har du hört att ett till mord inträffat i slummen?
+
+{p}
+	Paris:
+	- Det sägs att offren blivit uppskurna av svarta vingar.
+	Att den skyldige är Merula, guden av mörker...
+	
+{p}
+	Paris:
+	- Om du vill veta mer, prata med Ron.
+	Han är i praktiken ledaren över slummen.
+
+{p}
+	{set,Morden,3}
+	{set,Slummen,1}
+	{return}
+
+{f,Erbjudande}
+	Paris:
+	- Välkommen! Hur kan jag stå till tjänst?
+
+{p}
+	Paris:
+	- Behöver du komma i kontakt med Dennis?
+	{ans}
+		Ja
+		{skip,1}
+	{ans}
+		Nej
+
+{p}
+	Paris:
+	- Okej. Tveka inte att prata med mig
+	om du behöver hjälp med något.
+	{find,0}
+
+{p}
+	Paris:
+	- Okej. Ge mig några minuter.
+
+{p}
+	Efter ett tag kommer Dennis för att prata med dig. 
+
+{p}
+	Dennis:
+	- Har du tänkt över mitt erbjudande?
+	Vill du att jag ska visa dig vägen ned i underjorden?
+
+{p}
+	Dennis:
+	- Det kommer att kosta 100 silvermynt. Vad säger du?
+	{ans}
+		Anta erbjudandet
+		{skip,1}
+	{ans}
+		Avböj erbjudandet
+
+{p}
+	Dennis:
+	- Vad tråkigt. Prata med mig igen om du ändrar dig.
+	{find,0}
+
+{p}
+	Dennis:
+	- Utmärkt! Den här vägen.
+	{name,Plats,'Skogen'}
+	{image,'Bilder/Skogen'}
+
+{p}
+	Dennis leder dig till en liten, väl dold grottmynning i Skogen.
+
+{p}
+	Ni går in. Du går nedför långa, sluttande tunnlar
+	och når till slut en enorm grottsal.
+	{name,Plats,'Underjorden'}
+	{image,'Bilder/Underjorden'}
+
+{p}
+	Dennis:
+	- Vi är framme i den underjordiska staden.
+	En uråldrig stad som legat övergiven sedan länge.
+
+{p}
+	Dennis:
+	- Ser du palatset? Om du går genom det kommer du till
+	de djupaste delarna av Underjorden.
+
+{p}
+	Dennis:
+	- Men först...
+	{image,'Bilder/Svart'}
+
+{p}
+	Dennis hugger en dolk rätt in i din bröstkorg.
+
+{p}
+	Dennis:
+	- Det här är slutet för dig. Tack för att du ger mig jordamuletten.
+
+{p}
+	Dennis:
+	- Nu är jag ett steg närmare att ta makten över den här ön.
+
+{p}
+	Du faller till marken.
+
+{p}
+	Du har förlorat spelet. Gå till menyn för att ladda eller starta ett spel.
+	{rewind,1}
+
+{f,Sabotage}
+	Du söker upp Paris i värdshuset.
+
+{p}
+	Paris:
+	- Ja, Alba och Ron kom förbi här för ett tag sedan.
+
+{p}
+	Paris:
+	- Jag är rädd att jag inte vet var de är. Sedan Ron började iscensätta räder mot adeln
+	har jag förklarat honom icke önskvärd i värdshuset.
+
+{p}
+	Paris:
+	- Han har gjort sig skyldig till stölder och mord.
+	Det ingenting som jag vill förknippas med. Jag hoppas att du förstår.
+
+{p}
+	Paris:
+	- Jag måste be dig att lämna värdshuset. Du är inte längre välkommen här.
+	{set,Paris,0}
+	{set,Sabotage,2}
+	{return}
+	
+{p}

@@ -1,0 +1,11 @@
+{
+"namn":"Behemoth",
+"element":"Jord",
+"hp": 72,
+"belöning": 20,
+"förmågor": ["Nova","Stenskinn","Regenerering","Överlägsenhet","Jordbävning"],
+"förberedelser": ["Överlägsenhet"],
+"beskrivning": "En enorm best
+som förgör allt i sin väg.
+Den sägs vara nästan omöjlig att döda."
+}

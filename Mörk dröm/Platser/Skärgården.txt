@@ -1,0 +1,53 @@
+{p}
+	{name,Plats,'Skärgården'}
+	{image,'Bilder/Skärgården'}
+	{set,Tid,0}
+
+{s}
+	Du befinner dig i Skärgården.
+	{ans}
+		Utforska skärgården
+	{if}{has,Vattentemplet,1}
+		{ans}
+			Gå in i Vattentemplet
+			{chap,'Platser/Vattentemplet'}
+	{if}{has,Skärgården,1}
+		{ans}
+			Gå österut till Kustvägen
+			{chap,'Platser/Kustvägen'}
+
+{p}
+	Du utforskar skärgården...
+	{set,Slump,0}
+	{rand,Slump,2}
+	{add,Tid,1}
+
+{p}
+	{if}{lack,Vattentemplet,1}{equal,Tid,5}
+		{find,1}
+	{elif}{equal,Slump,1}
+		{skip,1}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Gremlin'}
+	{set,Fiende.Grad,5}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Ödleman'}
+	{set,Fiende.Grad,5}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}
+
+{s}
+	Ni har vandrat uppför berget och står på platån.
+	Vattentemplet ligger framför er.
+	{set,Vattentemplet,1}
+	{find,0}
+
+{p}

@@ -1,0 +1,467 @@
+{p}
+	{set,Kapitel,19}
+	{image,'Bilder/Kontoret'}
+
+{p}
+	Kapitel 19
+
+{p}
+	När du besöker herrgården igen märker du omedelbart
+	att något har hänt.
+
+{p}
+	Selena:
+	- Bra att du kom. En stor grupp monster har siktats i Den öde staden.
+	Vi tror att de förbereder en attack.
+
+{p}
+	Selena:
+	- Vi har precis formulerat en plan för hur vi ska försvara oss.
+	Följ med mig.
+	{name,Plats,'Den öde staden'}
+	{image,'Bilder/Det öde torget'}
+
+{p}
+	Du följer med Selena till den öde staden.
+	Barrikader har placerats ut på gatorna och soldater står redo.
+	
+{p}
+	Du går upp i ett torn, där Alba står och håller utsikt.
+
+{p}
+	Alba:
+	- God morgon. Ser du hur monstren närmar sig norrifrån?
+	De är så många fler än oss...
+
+{p}
+	Alba:
+	- Jag trodde aldrig att jag skulle dras in i ett krig.
+	Kommer vi verkligen att klara av det här?
+
+{p}
+	Selena:
+	- Alba, du har slagits mot Aegithalos förut. Hur stark är han?
+	
+{p}
+	Alba:
+	- Mycket. Vi hade knappt någon chans förra gången.
+	Som tur är lyckades Ron stjäla Luftamuletten från honom.
+
+{p}
+	Alba:
+	- Utan amuletten borde han vara rejält försvagad.
+	Som Luftens utvalda borde jag vara starkare men jag vet inte... han är så oberäknelig.
+
+{p}
+	Selena:
+	- Alba, du är den snabbaste av oss. Din uppgift under striden
+	blir att hålla utsikt och delegera order.
+
+{p}
+	Alba:
+	- Okej.
+
+{p}
+	Goran:
+	- Selena, soldaterna är redo!
+
+{p}
+	Selena:
+	- Utmärkt, Goran. Det var snabbt jobbat.
+	Låt mig förklara strategin igen...
+	
+{p}
+	Tiden går. Det är bara några minuter kvar tills monstren är framme
+	och stämningen är spänd. 
+
+{p}
+	Fienderna stormar in. Stora horder av vättar, ödlemän, goblins, vargar...
+	Order delas ut, vapen dras...
+	
+{p}
+	Ett stort dån hörs. Ett hus rämnar och rasar över monstren.
+	Stora dammoln piskas upp och döljer all sikt.
+
+{p}
+	Gorans soldater rusar ut ur husen omringar monstren.
+	Monstren hinner inte hämta sig från kaoset och huggs ned snabbt.
+
+{p}
+	Du, Selena och Alba står på taket av ett hus
+	där ni har en god överblick av striden.
+	
+{p}
+	Selena raserar byggnader och ändrar hela Den öde stadens terräng.
+	Du fyller gränderna med flammande eld.
+
+{p}
+	Än så länge går striden er väg. Stadens soldater slår effektivt
+	ned de monster som lyckats ta sig till fronten.
+	Fiendernas numerära överläge minskar stadigt.
+
+{p}
+	Du hör plötsligt ett skri. En enorm skepnad sveper över himmelen.
+
+{p}
+	Alba:
+	- Selena behöver dig vid fronten nu!
+	Aegithalos har frammanat en bevingad best!
+	
+{p}
+	Du följer Alba upp på taken. En kraftig vind slår emot dig
+	och får dig att förlora kontrollen.
+
+{p}
+	Albas vind fångar upp dig. Du höjer blicken och möter ögonen på en gigantisk fågel.
+	Brevid den håller en tornado på att formas.
+	
+{p}
+	Alba:
+	- Det är en Garuda. De lever vid Klipporna och sägs vaka över Lufttemplet.
+	Var försiktig - du vet aldrig när en till kastvind kommer.
+
+{p}
+	Selena:
+	- Bra att du kom. Jag funderar på hur vi ska få ned den här besten till marken.
+	Har ni några idéer?
+
+{p}
+	Alyssa:
+	- Jag skulle kunna använda is och kyla för att slå ut dess vingar
+	men jag vet inte om jag kan nå den härifrån.
+
+{p}
+	Alba:
+	- Jag hjälper dig.
+
+{p}
+	Alyssa och Alba aktiverar sina magier.
+	En jetström av frost och isskärvor slår mot Garudan.
+
+{p}
+	Garudans vingar börjar frysa till is och den faller mot marken.
+	Den fångas upp av en stark vind och landar mjukt.
+
+{p}
+	Du ser att Aegithalos rider på Garudans rygg.
+
+{p}
+	Aegithalos:
+	- Så ni är här. Det är dags att jag tar min hämnd
+	för det som hände i Underjorden!
+
+{p}
+	Aegithalos:
+	- Jag kanske inte har Luftamuletten längre men med denna best
+	på min sida är mina krafter mer än tillräckliga för att döda er alla!
+
+{p}
+	Tornadon ökar i styrka och rusar mot er. Albas vind tar tag i er
+	och sveper er ur vägen.
+
+{p}
+	Du landar på gatan med Garudan rakt framför dig.
+
+{p}
+	Alba:
+	- Jag är ledsen men jag har använt upp nästan all min magi.
+
+{p}
+	Selena:
+	- Du har gjort mer än nog, ta skydd och vila.
+	
+{p}
+	Selena:
+	- Nu är det upp till oss.
+	Framförallt måste vi se till att Garudan inte lyfter.
+	{name,Fiende.Namn,'Garuda'}
+	{set,Fiende.Grad,6}
+	{name,Fas,'Strid'}
+	{call}
+
+{p}
+	Garudan är död. Dess kropp ligger stilla i dammet,
+	i mitten av torget.
+
+{p}
+	Aegithalos reser sig mödosamt från dess rygg.
+	Han är utmattad, har använt nästan all sin kraft under striden.
+
+{p}
+	Aegithalos:
+	- Fan ta er... hur kunde ni besegra Garudan,
+	en av de legendariska vidundren?
+
+{p}
+	Aegithalos:
+	- Ni hade kunnat låta den fly. Vilken grymhet...
+
+{p}
+	Selena:
+	- Var inte dum. Då hade den kommit tillbaka för att hämnas.
+
+{p}
+	Aegithalos:
+	- Luftens vidunder är nyckfulla.
+	De gör aldrig samma sak flera gånger.
+	
+{p}
+	Selena:
+	- Må så vara. Det här är slutet för dig.
+
+{p}
+	En fysisk stöt går genom Aegithalos kropp. Hans leder bryts itu
+	och han faller handlöst ned på marken.
+
+{p}
+	Aegithalos:
+	- Det här är slutet säger du... min kropp kanske är på väg att ge upp
+	men vad är liv egentligen...
+	
+{p}
+	Aegithalos:
+	- Hahaha... jag är ändå lycklig som fick flyga genom luften.
+	Efter att varit instängd i den där hålan så länge...
+
+{p}	
+	Aegithalos:
+	- Ta mig härifrån, Merula.
+
+{p}
+	Aegithalos omges av svart energi och försvinner.
+
+{p}
+	Alba:
+	- Han är borta...
+
+{p}
+	Goran kommer springandes.
+
+{p}
+	Goran:
+	- Striden är över! Monstren har dödats
+	eller drivits på flykt.
+
+{p}
+	Selena:
+	- Bra. Nu måste vi ta hand om alla
+	som blivit sårade.
+
+{p}
+	Arbetet sätter igång och fortsätter under hela dagen.
+	{set,Hp,Max hp}
+
+{p}
+	Nästa morgon går du till herrgården.
+	Ett möte är på väg att börja och alla är där.
+	{name,Plats,'Staden'}
+	{image,'Bilder/Kontoret'}
+
+{p}
+	Selena:
+	- Jag måste återvända till Fristaden.
+	Jag tog en stor risk när jag reste hit.
+
+{p}
+	Selena:
+	- Jag är orolig för att Fristaden ska ha blivit utplånat...
+
+{p}
+	Narden:
+	- Det borde du ha tänkt på tidigare.
+	Visste du inte vad du gav dig in på?
+
+{p}
+	Selena:
+	- Jag står fast vid mitt beslut. Resan till Staden
+	var nödvändig.
+
+{p}
+	Alyssa:
+	- Fristaden är alltför sårbar om Gömslet
+	skulle bestämma sig att anfalla.
+
+{p}
+	Alyssa:
+	- Det bästa vore om hela befolkningen kunde
+	ta sig till Staden. Det blir lättare att försvara oss
+	om alla är samlade på en plats.
+
+{p}
+	Narden:
+	- Vi har inte resurser att ta hand om Fristaden!
+	Vi är tillräckligt hårt pressade som det är.
+
+{p}
+	Selena:
+	- Nej, jag är övertygad om att det kommer att fungera.
+	Invånarna i Fristaden är överlevare och skickliga krigare.
+	Vi kommer inte att belasta er.
+
+{p}
+	Selena:
+	- Problemet är att hela byn måste korsa Urskogen.
+	Några av er vet hur man tar sig igenom Urskogen...
+	
+{p}
+	Selena:
+	- ... men det här handlar om att förflytta ett stort antal människor
+	genom en plats som kontrolleras av fiender.
+
+{p}
+	Philomelos:
+	- Vad sägs om att vi hittar amuletten av Ljus först?
+	Den kan skydda oss från att gå vilse och mota bort monstren.
+
+{p}
+	Alyssa:
+	- Jag instämmer med Philomelos. Det finns en chans att Sita,
+	som har amuletten, befinner sig i Ljustemplet.
+
+{p}
+	Alyssa:
+	- Annars så skulle ni kunna förstöra Ljustemplets altare.
+	Då skulle Sita upphöra att vara ett hot.
+
+{p}
+	Philomelos:
+	- Nej...
+
+{p}
+	Selena:
+	- Det är en bra idé. Philomelos, du måste hjälpa mig.
+
+{p}
+	Philomelos:
+	- Jag kan i alla fall visa vägen till Ljustemplets altare.
+
+{p}
+	Ron:
+	- Jag tänker återvända till Muren. Mina kompanjoner från Slummen
+	kanske finns kvar någonstans och jag vill ta reda på vad Nimbus planerar.
+	
+{p}
+	Ron:
+	- Alba, följer du med?
+
+{p}
+	Alba:
+	- Jag? Jag hoppades att jag kunde slippa Muren för ett tag, men om du insisterar...
+
+{p}
+	Goran:
+	- Alyssa, har du kommit på någon plan för att stoppa Merula än?
+	
+{p}
+	Alyssa:
+	- Inte ännu. Jag hoppades att vi kunde anfalla Mörkertemplet snart...
+
+{p}
+	Alyssa:
+	- ... men det verkar inte vara möjligt. Ravinen skyddas av en stark formel.
+
+{p}
+	Alba:
+	- Har ni inte redan nått Mörkertemplet en gång?
+
+{p}
+	Alyssa:
+	- Ja, men det var i Eldtemplet och den metoden kan vi inte använda
+	om vi vill nå Mörkertemplets inre.
+
+{p}
+	Alyssa:
+	- Dessutom har formeln som skyddar Mörkertemplet
+	blivit starkare under de senaste dagarna.
+
+{p}
+	Selena:
+	- Varför det?
+
+{p}
+	Alyssa:
+	- Det är svårt att säga.
+
+{p}
+	Alyssa:
+	- För att ta oss ned i Ravinen måste vi hitta Ljusamuletten.
+	Vill du följa med Selena och Philomelos till Fristaden?
+
+{p}
+	Selena:
+	- Hur blir det med försvaret av Staden? Jag vill inte gärna lämna Staden sårbart för attacker.
+
+{p}
+	Goran:
+	- Det är mitt ansvar att skydda Staden. Narden, jag hoppas att du går med på det?
+
+{p}
+	Narden:
+	- Gör som du vill. Äventyrarna lyder fortfarande bara under mig.
+
+{p}
+	Goran:
+	- Nåväl... vi får samarbeta så gott det går.
+
+{p}
+	Mötet avslutas och de flesta går. Alyssa ber dig och Selena att stanna kvar.
+
+{p}
+	Alyssa:
+	- Jag tänkte på det som ni sa... om att en by i Skärgården blivit utplånad av monstren.
+
+{p}
+	Alyssa:
+	- Jag bodde där ett tag så det är en stor förlust för mig.
+
+{p}
+	Alyssa:
+	- Invånarna i Skärgården tillbad Vattnets gud, Podiceps.
+	De ville att jag skulle ta rollen som Vattentemplets överhuvud.
+
+{p}
+	Alyssa:
+	- Jag vägrade. Anledningen var att jag inte såg poängen med gudarna. Jag vet att de existerar...
+
+{p}
+	Alyssa:
+	- ... men vad ger de oss? Magier, givetvis, men inte mycket mer.
+
+{p}
+	Alyssa:
+	- Jag läste flitigt genom böckerna om öns historia och jag insåg en sak.
+
+{p}
+	Alyssa:
+	- Ju mer öns invånare tillber gudarna, desto fler naturkatastrofer inträffar.
+	Det låter paradoxalt, för det är precis det som vi ville att gudarna skulle skydda oss ifrån…
+
+{p}
+	Alyssa:
+	- Gudarna gör inte vad vi vill – de gör vad vi fruktar.
+	Ju mer vi fruktar att något ska hända, desto oftare händer det.
+
+{p}
+	Alyssa:
+	- Jag drog slutsatsen att vi borde överge elementalreligionen.
+	Jag lämnade Skärgården och träffade Turdus, som snabbt lät sig övertygas av mina teorier.
+
+{p}
+	Alyssa:
+	- Ibland undrar jag om alla de här incidenterna hade inträffat om jag hade stannat i Skärgården.
+	Men det finns ingen mening med att tänka på det sättet.
+
+{p}
+	Alyssa:
+	- Ursäkta mig. Jag ville bara prata om det.
+
+{p}
+	Alyssa:
+	- Vi ses.
+	{set,Alba,0}
+	{set,Ron,0}
+
+{p}
+	{chap,'Platser/Staden'}
+
+{p}

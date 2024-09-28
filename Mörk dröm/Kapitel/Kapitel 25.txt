@@ -1,0 +1,229 @@
+{p}
+	{set,Kapitel,25}
+	{image,'Bilder/Altare'}
+
+{p}
+	Kapitel 25
+	
+{p}
+	Nimbus väntar på er i altarrummet.
+
+{p}
+	Nimbus:
+	- Så ni har hittat ända hit. Jag var noga med att placera ut vakter
+	och det kan inte ha varit lätt att passera labyrinten.
+
+{p}
+	Nimbus:
+	- Jag hade bara behövt lite mer tid...
+	Nu blir jag tvungen att ta itu mer er först.
+
+{p}
+	Ron:
+	- Jag ser att vi äntligen lyckades slå en kil i dina planer.
+
+{p}
+	Ron:
+	- Det är dags att jag tar min hämnd för att du låste in mig
+	och mina kompanjoner i det där fängelset.
+
+{p}
+	Nimbus:
+	- Jag bestämmer lagen i Muren. Jag fängslar de som är skyldiga
+	och du har ingen rätt att hämnas för något.
+
+{p}
+	Ron:
+	- Snacka går ju... Vad försöker du göra här?
+
+{p}
+	Nimbus:
+	- Jag tänker förgifta Staden. Försvaga den så att det blir lätt
+	att ta över.
+
+{p}
+	Narden:
+	- Idiot. Du experimenterar med farliga magier.
+	Giftet kommer att göra Staden obeboelig i decennier.
+
+{p}
+	Nimbus:
+	- Vem är du?
+
+{p}
+	Narden:
+	- Narden. Den utvalda av Metallens gud.
+
+{p}
+	Nimbus:
+	- Du ljuger. Det är jag som är utvald.
+
+{p}
+	Narden:
+	- Du bedrar dig själv. Har du inte använt en kristall för att mäta
+	din samhörighet med metallelementet? Till och med Muren borde ha sådana kristaller.
+
+{p}
+	Nimbus:
+	- Tig! Det spelar ingen roll vem du är...
+
+{p}
+	Nimbus:
+	- ... här har jag makten. Jag kan kalla på templets väktare.
+
+{p}
+	Ett gigantiskt odjur med flera ormhuvuden materaliseras.
+
+{p}
+	Narden:
+	- Så du har en hydra...
+
+{p}
+	Narden:
+	- Jag tar täten. Den där besten kan lätt döda er.
+
+{p}
+	Hydran anfaller.
+	{name,Fiende.Namn,'Hydra'}
+	{set,Fiende.Grad,8}
+	{name,Fas,'Strid'}
+	{call}
+
+{p}
+	Nimbus:
+	- Det är inte möjligt!
+
+{p}
+	Hydran ligger död på golvet och Nimbus är instängd i ett hörn. Ron går mot honom.
+
+{p}
+	Ron:
+	- Du har förlorat, Nimbus.
+
+{p}
+	Narden:
+	- Håll dig borta!
+
+{p}
+	Nimbus försöker ta sig undan men misslyckas. Ron hugger ned honom.
+
+{p}
+	Ron:
+	- Detta är alltså Metallamuletten... ta den du.
+
+{p}
+	Ron:
+	- Eller vill du lägga beslag på den, Narden?
+	Som den utvalda av metallens gud verkar det rimligt.
+
+{p}
+	Narden:
+	- Vad ska jag med den till? En inskränkt gud som Garrulus kan dra åt helvete.
+
+{p}
+	Du tar emot amuletten från Ron.
+
+{p}
+	Narden:
+	- Vi är klara här. Jag går tillbaka till Staden.
+
+{p}
+	Ron:
+	- Jag följer med. Jag ska bara samla mina män,
+	sen är jag klar med Muren.
+
+{p}
+	Ni lämnar templet och du ser upp mot den norra himmelen.
+	{name,Plats,'Bergspasset'}
+	{image,'Bilder/Murens ruiner'}
+
+{p}
+	Elden har slocknat. Bara svartbrända ruiner återstår av Muren.
+
+{p}
+	Ron:
+	- Jag kan inte säga att jag kommer att sakna den.
+	Det var alltid en tvådelad stad, full av brister under ytan.
+
+{p}
+	Ni reser tillbaka till Staden. Väl framme rapporterar ni till Alyssa.
+	{name,Plats,'Staden'}
+	{image,'Bilder/Kontoret'}
+
+{p}
+	Alyssa:
+	- Bra jobbat. Ett av de största hoten mot Staden har avvärjts.
+
+{p}
+	Alyssa:
+	- Jag har vissa dåliga nyheter. Monstren blir allt starkare. Selenas barriär försvagas ständigt
+	och kommer snart att falla.
+
+{p}
+	Alyssa:
+	- Vi måste anfalla Gömslet nu. Vi har allt som vi behöver för att ta oss igenom Urskogen.
+
+{p}
+	Goran:
+	- Jag och Alyssa har diskuterat saken. Vi kan inte skicka ut soldater. Vägen är för farlig och Staden kan inte lämnas oskyddad.
+
+{p}
+	Goran:
+	- Vi behöver en liten styrka som kan iscensätta en överraskningsattack mot Trätemplet. Jag kommer att ingå i den styrkan.
+
+{p}
+	Goran:
+	- Jag tror att min kunskap om träelementet och erfarenhet av jakt kommer att öka våra chanser.
+
+{p}
+	Goran:
+	- Ron, kan du ta över ansvaret för vaktstyrkan och uppdraget att skydda Staden?
+
+{p}
+	Ron:
+	- Det var inte vad jag hade planerat...
+
+{p}
+	Alyssa:
+	- Du gör mer nytta här än i Gömslet. Jag är ledsen, men du är inte tillräckligt stark för att slåss mot Dennis.
+
+{p}
+	Ron:
+	- Det var hårda ord. Som du vill. Du kan lämna Stadens försvar åt mig.
+
+{p}
+	Alyssa:
+	- Narden, är du okej med det?
+
+{p}
+	Narden:
+	- Det får duga. Ron kan sina saker.
+
+{p}
+	Alyssa:
+	- Jag har funderat på om jag skulle följa med men har bestämt mig för att stanna här.
+
+{p}
+	Alyssa:
+	- Ni blir inte många. Försök att frita Mara och Selena, de borde hållas fångna någonstans i Gömslet.
+
+{p}
+	Goran:
+	- Absolut. Vi kommer att prioritera det.
+	{name,Allierad.Namn,'Goran'}
+	{set,Allierad.Grad,9}
+	{name,Fas,'Assistent'}
+	{call}
+
+{p}
+	Goran:
+	- Förbered dig väl. Sedan ger vi oss av mot Urskogens hjärta.
+	{set,Metalltemplet,3}
+	{set,Muren,2}
+	{set,Ron,2}
+	{set,Urskogens hjärta,1}
+
+{p}
+	{chap,'Platser/Staden'}
+
+{p}

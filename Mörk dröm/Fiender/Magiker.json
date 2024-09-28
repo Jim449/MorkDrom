@@ -1,0 +1,9 @@
+{
+"namn":"Magiker",
+"element":"Luft",
+"hp": 36,
+"belöning": 10,
+"extradrag": true,
+"förmågor": ["Vindskära","Vindsköld","Frihet","Inspiration"],
+"beskrivning": "Präster från Luftens tempel."
+}

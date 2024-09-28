@@ -1,0 +1,67 @@
+{p}
+	{name,Plats,'Urskogen'}
+	{image,'Bilder/Urskogen'}
+	{set,Tid,0}
+
+{s}
+	{add,Tid,1}
+
+{p}
+	Du befinner dig i Urskogen.
+	{ans}
+		Utforska urskogen
+	{if}{has,Urskogens hjärta,1}
+		{ans}
+			Gå norrut till Urskogens hjärta
+			{chap,'Platser/Urskogens hjärta'}
+	{ans}
+		Gå österut till Fristaden
+		{chap,'Platser/Fristaden'}
+	{ans}
+		Gå söderut till Den öde staden
+		{chap,'Platser/Den öde staden'}
+	{ans}
+		Gå västerut till Bergspasset
+		{chap,'Platser/Bergspasset'}
+
+{p}
+	Du utforskar urskogen...
+	{set,Slump,0}
+	{rand,Slump,4}
+
+{p}
+	{skip,Slump}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Varg'}
+	{set,Fiende.Grad,6}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}
+	
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Svartalv'}
+	{set,Fiende.Grad,6}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Panter'}
+	{set,Fiende.Grad,6}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Varulv'}
+	{set,Fiende.Grad,6}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}
+
+{p}

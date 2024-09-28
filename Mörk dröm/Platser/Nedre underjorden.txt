@@ -1,0 +1,62 @@
+{p}
+	{name,Plats,'Nedre underjorden'}
+	{image,'Bilder/Grottsal'}
+	{set,Tid,0}
+
+{s}
+	{add,Tid,1}
+	
+{p}
+	Du befinner dig i Nedre underjorden.
+	{ans}
+		Utforska den nedre underjorden
+	{if}{equal,Underjorden,3}
+		{ans}
+			Gå till den innersta kammaren
+			{find,1}
+	{elif}{has,Underjorden,4}
+		{ans}
+			Gå till Underjorden
+			{chap,'Platser/Underjorden'}
+
+{p}
+	Du utforskar den nedre underjorden...
+	{set,Slump,0}
+	{rand,Slump,2}
+
+{p}
+	{if}{equal,Underjorden,2}{equal,Tid,5}
+		{set,Underjorden,3}
+		{skip,2}
+	{elif}{equal,Slump,1}
+		{skip,1}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Svartalv'}
+	{set,Fiende.Grad,4}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Panter'}
+	{set,Fiende.Grad,4}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}
+	
+{p}
+	Framöver ligger den djupaste delen av underjorden.
+
+{s}
+	Vill du verkligen fortsätta?
+	{ans}
+		Ja
+		{chap,'Kapitel/Kapitel 9'}
+	{ans}
+		Nej
+		{find,0}
+
+{p}

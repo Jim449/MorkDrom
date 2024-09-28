@@ -1,0 +1,59 @@
+{s}
+	{name,Plats,'Skärgården'}
+	{image,'Bilder/Skärgården'}
+
+{p}
+	Mara:
+	- Vad är det här för en plats?
+	Det är nästan lika frodigt som i Djungeln...
+
+{p}
+	Ni befinner på brant sluttning,
+	omgiven av träd.
+	Ni vandrar uppåt.
+
+{p}
+	Ni kommer fram till en stor platå.
+	Mellan trädkronorna ser ni havet sträcka ut sig.
+
+{p}
+	Havet omger er på alla sidor.
+	Ni befinner er på en liten ö.
+
+{p}
+	Du känner igen några detaljer i fjärran:
+	Klipporna längst åt vänster, därefter Bergspasset.
+	Du kan skymta Den öde staden.
+
+{p}
+	Du ser dig omkring på platån.
+	Du ser ett tempel som inristat i själva bergsväggen.
+
+{p}
+	Du och Mara går för att utforska templet.
+
+{p}
+	Mara:
+	- Kan detta vara Templet av Vatten?
+	Du kommer att behöva utforska det men inte nu.
+
+{p}
+	Mara:
+	- Låt oss hitta en väg härifrån. Problemet är att vi är omringade av vatten...
+	
+{p}
+	Det verkar inte som ni kan lämna ön.
+
+{p}
+	Till slut kommer ni överens om att gå in i templet.
+
+{p}
+	Så fort ni gått igenom porten förflyttas ni till en annan plats.
+	{set,Ön,0}
+	{add,Ravinen,1}
+	
+{p}
+	{chap,'Platser/Eldtemplet'}
+	{act,'Klipporna'}
+
+{p}

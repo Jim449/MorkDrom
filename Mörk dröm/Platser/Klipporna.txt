@@ -1,0 +1,93 @@
+{p}
+	{name,Plats,'Klipporna'}
+	{image,'Bilder/Klipporna'}
+	{set,Tid,0}
+
+{s}
+	{add,Tid,1}
+
+{p}
+	Du befinner dig vid Klipporna.
+	{ans}
+		Utforska Klipporna
+		{skip,1}
+	{if}{equal,Alba,1}
+		{ans}
+			Gå till Lufttemplet
+			{open,'Karaktärer/Alba'}
+	{elif}{equal,Sabotage,3}
+		{ans}
+			Gå till Lufttemplet
+			{chap,'Kapitel/Kapitel 23'}
+	{elif}{equal,Epilog,4}
+		{ans}
+			Gå till Lufttemplet
+			{find,2}
+	{elif}
+		{ans}
+			Gå till Lufttemplet
+			{find,1}
+	{ans}
+		Gå österut till Muren
+		{chap,'Platser/Muren'}
+
+{p}
+	{find, 0}
+
+{p}
+	Du utforskar klipporna...
+	{set,Slump,0}
+	{rand,Slump,2}
+
+{p}
+	{if}{equal,Slump,1}
+		{skip,1}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Vessla'}
+	{set,Fiende.Grad,2}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Orch'}
+	{set,Fiende.Grad,2}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}
+	
+{s}
+	Det finns ingen anledning för dig att besöka Lufttemplet just nu.
+	{find,0}
+
+{s}
+	Vill du gå in i Lufttemplets innersta kammare?
+	{ans}
+		Ja
+	{ans}
+		Nej
+		{find,0}
+
+{p}
+	Du går in i Lufttemplets innersta kammare.
+
+{p}
+	Väktaren dyker upp och anfaller!
+	{name,Fiende.Namn,'Åskfågel'}
+	{set,Fiende.Grad,15}
+	{name,Fas,'Strid'}
+	{call}
+
+{p}
+	Väktaren var inte mer än ett spöke.
+	Nu när den är besegrad är du ett steg närmare
+	att nå Elementaltemplets innersta kammare.
+	{set,Luftprövning,1}
+
+{p}
+	{find,0}
+	
+{p}

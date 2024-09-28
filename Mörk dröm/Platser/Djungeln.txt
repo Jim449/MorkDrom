@@ -1,0 +1,169 @@
+{p}
+	{name,Plats,'Djungeln'}
+	{image,'Bilder/Djungeln'}
+	{set,Tid,0}
+
+{s}
+	{add,Tid,1}
+
+{p}
+	Du befinner dig i Djungeln.
+	{if}{has,Eldtemplet,1}{equal,Epilog,1}{same,Allierad.Namn,'Alyssa'}
+		{ans}
+			Gå till Eldtemplet
+			{chap,'Epilog/Epilog 2'}
+	{elif}{has,Eldtemplet,1}
+		{ans}
+			Gå till Eldtemplet
+			{chap,'Platser/Eldtemplet'}
+			{act,'Djungeln'}
+			{skip,3}
+	{if}{has,Djungeln,1}
+		{ans}
+			Gå söderut till Fristaden
+			{chap,'Platser/Fristaden'}
+	{if}{has,Urskogens hjärta,1}
+		{ans}
+			Gå västerut till Urskogens hjärta
+			{chap,'Platser/Urskogens hjärta'}
+	{ans}
+		Utforska djungeln
+	
+{p}
+	Du utforskar djungeln...
+	{set,Slump,0}
+	{rand,Slump,2}
+	
+{p}
+	{if}{equal,Djungelvandring,1}{has,Tid,5}
+		{find,1}
+	{elif}{equal,Slump,1}
+		{skip,1}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Imp'}
+	{set,Fiende.Grad,4}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Varulv'}
+	{set,Fiende.Grad,4}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}
+
+{s}
+	Djungeln ger vika och du går på en slät stenväg.
+	{name,Plats,'Eldtemplet'}
+	{image,'Bilder/Eldtemplet'}
+	
+{p}
+	Framför dig ligger ett stort tempel.
+	Det ser ut som en pyramid och är överväxt av rankor.
+	
+{p}
+	Du går in i en lång pelargång.
+	Längre fram ser du en anonym port.
+	
+{p}
+	Mara:
+	- Efter vi passerat denna port befinner vi oss i Eldtemplet.
+
+{p}
+	Mara:
+	- Enligt legenderna är det lätt att träda in i templet
+	men svårt att ta sig ut. Är du redo?
+
+{p}
+	Mara:
+	- Då går vi.
+
+{p}
+	Hon leder dig igenom porten.
+
+{p}
+	Templet verkar vara helt öde. Fyra tomma, kvadratiska rum
+	är ordnade i en fyrkant. Oavsett var du tittar ser du bara sten.
+
+{p}
+	Ni fortsätter framåt längs den enda väg ni inte utforskat.
+	Ni når ett mycket litet rum med ett altare.
+
+{p}
+	Mara:
+	- Jag ser ingen väg framåt... har vi missat något?
+
+{p}
+	Mara:
+	- Jag har fått höra att Eldens tempel
+	är det största och mest labyrintiska av dem alla...
+
+{p}
+	Ni letar omkring men ingenting tyder på att det finns några dolda rum.
+	Till slut lämnar ni Eldtemplet.
+	
+{p}
+	Mara:
+	- Vilken besvikelse. Det finns ju ingenting här!
+	
+{p}
+	Mara:
+	- Jag tänker inte slösa bort mer tid! Jag går tillbaka till Fristaden.
+
+{p}
+	Mara går sin väg utan dröjsmål. Du går ifatt henne.
+
+{p}
+	Ni går längs stenvägen, ni är ännu inte frame inne i djungeln...
+	
+{p}
+	... men något är fel. Stegen känns tunga, det är svårt att få grepp.
+	
+{p}
+	Mara:
+	- Konstigt... jag känner inte igen den här vägen.
+	Landskapet har förändrats, det är mindre fuktigt...
+
+{p}
+	Mara:
+	- ... kallare, och mycket mörkare.
+	Sen när blev mina sinnen så dimmiga...? Ånej...
+	{name,Plats,'Urskogen'}
+	{image,'Bilder/Urskogen'}
+
+{p}
+	Mara:
+	- ... vi befinner oss mitt i Urskogen.
+
+{p}
+	Mara:
+	- Jag svär jag tog rätt väg! Jag följde stigen...
+
+{p}
+	Överallt du tittar ser du bara igenvuxna, nästan oframkomliga vägar.
+	Det var uppenbarligen inte härifrån du kom.
+
+{p}
+	Mara:
+	- Det var så de menade... Vi lämnade aldrig Eldtemplet.
+	{set,Djungelvandring,0}
+	{set,Reflektioner,0}
+	
+{p}
+	Mara:
+	- Vi måste härifrån, snabbt! Urskogen är oerhört farlig.
+	{set,Eldtemplet,1}
+	{set,Djungeln,1}
+	{set,Fritagning,1}
+	{set,Gläntan,1}
+	{set,Respit,1}
+	{set,Ön,1}
+	
+{p}
+	{chap,'Platser/Eldtemplet'}
+
+{p}

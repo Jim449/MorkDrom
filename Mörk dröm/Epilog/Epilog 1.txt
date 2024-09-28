@@ -1,0 +1,216 @@
+{p}
+	Grattis! Du har klarat av spelet.
+
+{p}
+	Ett spel av Jim Ström. All kalkylering, programmering
+	och pixelbildstecknande gjordes av densamme.
+	{name,Plats,'Vattenbrynet'}
+	{image,'Bilder/Vattenbrynet'}
+
+{p}
+	Jag vill passa på att tillägna spelet till den dödsföraktande
+	orädda och påflugna koltrasten på Yxlan.
+	{name,Plats,'Staden'}
+	{image,'Bilder/Staden'}
+
+{p}
+	Hon blev anfallen av en rovfågel och kolade vippen
+	men hon levde nog ett gott trastliv medan det varade.
+	{name,Plats,'Det öde torget'}
+	{image,'Bilder/Det öde torget'}
+
+{p}
+	Om något namn låter latinskt så är det nog ett fågelnamn
+	(Nimbus är ett slags moln)
+	{name,Plats,'Den öde staden'}
+	{image,'Bilder/Den öde staden'}
+
+{p}
+	Pyrrhula - Guden av eld - Pyrrhula Pyrrhula - Domherre (eller eldrött)
+	{name,Plats,'Grottsal'}
+	{image,'Bilder/Grottsal'}
+
+{p}
+	Podiceps - Guden av vatten - Podiceps Cristatus - Skäggdopping
+	{name,Plats,'Altare'}
+	{image,'Bilder/Altare'}
+
+{p}
+	Palumbus - Guden av Luft - Columba Palumbus - Ringduva
+	{name,Plats,'Bergspasset'}
+	{image,'Bilder/Bergspasset'}
+
+{p}
+	Certhia - Guden av Jord - Certhia Familiaris - Trädkrypare
+	{name,Plats,'Metalltemplet'}
+	{image,'Bilder/Metalltemplet'}
+
+{p}
+	Luscinia - Guden av Ljus - Luscinia Luscinia - Näktergal
+	{name,Plats,'Labyrint'}
+	{image,'Bilder/Labyrint'}
+
+{p}
+	Merula - Guden av Mörker - Turdus Merula - Koltrast
+	{name,Plats,'Skogen'}
+	{image,'Bilder/Skogen'}
+
+{p}
+	Viridis - Guden av Trä - Picus Viridis - Gröngöling (eller färgen grön)
+	{name,Plats,'Muren'}
+	{image,'Bilder/Muren'}
+
+{p}
+	Garrulus - Guden av Metall - Garrulus Glandarius - Nötskrika
+	{name,Plats,'Murens ruiner'}
+	{image,'Bilder/Murens ruiner'}
+
+{p}
+	Alba - Motacilla Alba - Sädesärla (eller färgen vit)
+	{name,Plats,'Slummen'}
+	{image,'Bilder/Slummen'}
+
+{p}
+	Aegithalos - Aegithalos Caudatus - Skärtmes
+	{name,Plats,'Underjorden'}
+	{image,'Bilder/Underjorden'}
+
+{p}
+	Philomelos - Turdus Philomelos - Taltrast
+	{name,Plats,'Nedre underjorden'}
+	{image,'Bilder/Nedre underjorden'}
+
+{p}
+	Karaktärer och ett försök att ge dem livsåskådningar
+	enligt rollspelstradition...
+	{name,Plats,'Klipporna'}
+	{image,'Bilder/Klipporna'}
+
+{p}
+	Goran - Trä - Laglydigt neutral
+	{name,Plats,'Fristaden'}
+	{image,'Bilder/Fristaden'}
+
+{p}
+	Alyssa - Vatten - Laglydigt god
+	{name,Plats,'Spegelsjön'}
+	{image,'Bilder/Spegelsjön'}	
+
+{p}
+	Turdus - Mörker / Kausalitet - Kaotiskt ond
+	{name,Plats,'Djungeln'}
+	{image,'Bilder/Djungeln'}
+
+{p}
+	Narden - Metall - Balanserat ond
+	{name,Plats,'Eldtemplet'}
+	{image,'Bilder/Eldtemplet'}
+	
+{p}
+	Dennis - Mörker - Kaotiskt ond
+	{name,Plats,'Kustvägen'}
+	{image,'Bilder/Kustvägen'}
+	
+{p}
+	Paris - Blandad / Övervägande Ljus - Neutralt god
+	{name,Plats,'Skärgården'}
+	{image,'Bilder/Skärgården'}
+
+{p}
+	Nimbus - Metall - Kaotiskt ond
+	{name,Plats,'Urskogen'}
+	{image,'Bilder/Urskogen'}
+	
+{p}
+	Alba - Luft - Kaotiskt god
+	{name,Plats,'Urskogens hjärta'}
+	{image,'Bilder/Urskogens hjärta'}
+	
+{p}
+	Ron - Blandad / Övervägande Jord - Kaotiskt ond
+	{name,Plats,'Trätemplet'}
+	{image,'Bilder/Trätemplet'}
+
+{p}
+	Aegithalos - Luft / Entropi - Kaotiskt ond
+	{name,Plats,'Nålsögat'}
+	{image,'Bilder/Nålsögat'}
+	
+{p}
+	Philomelos - Ljus - Laglydigt god
+	{name,Plats,'Ravinen'}
+	{image,'Bilder/Ravinen'}
+	
+{p}
+	Selena - Jord - Neutralt god
+	{name,Plats,'Ravinen dag'}
+	{image,'Bilder/Ravinen dag'}
+	
+{p}
+	Mara - Eld - Kaotiskt neutral
+	{name,Plats,'Mörkertemplet'}
+	{image,'Bilder/Mörkertemplet'}
+	
+{p}
+	Sita - Ljus - Laglydigt god
+	{name,Plats,'Mörkertemplets altare'}
+	{image,'Bilder/Mörkertemplets altare'}
+	
+{p}
+	Olivia - Trä - Balanserat neutral
+	{name,Plats,'Norra bergen'}
+	{image,'Bilder/Norra bergen'}
+
+{p}
+	Det var det hela!
+	{ans}
+		Jomenvisst!
+	{ans}
+		Det var det värsta!
+
+{p}
+	{set,Epilog,1}
+	{name,Plats,'Staden'}
+	{image,'Bilder/Kontoret'}
+
+{p}
+	Epilog 1
+
+{p}
+	Du är tillbaka i Staden och berättar nyheterna för de andra.
+
+{p}
+	Alyssa:
+	- Vi är skyldiga dig ett tack.
+
+{p}
+	Alyssa:
+	- Nu borde situationen på ön snart återgå till det normala.
+
+{p}
+	Alyssa:
+	- Jag antar att du vill återvända hem nu.
+	Tyvärr finns det ingen som har lyckats med att lämna ön tidigare.
+
+{p}
+	Alyssa:
+	- Vi behöver mer information. Om vi reser till Eldtemplet
+	så kanske jag kan hitta något i de gamla dokumenten.
+
+{p}
+	Alyssa:
+	- Har du någon bättre idé så kan du försöka med dem.
+	Vi står alla till ditt förfogande.
+
+{p}
+	Alyssa:
+	- Om du vill besöka Skärgården igen
+	så kan vi bemanna ett skepp åt dig.
+
+{p}
+	Alyssa:
+	- Återigen tack.
+	{chap,'Platser/Staden'}
+
+{p}
+

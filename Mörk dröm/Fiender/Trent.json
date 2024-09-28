@@ -1,0 +1,10 @@
+{
+"namn":"Trent",
+"element":"Trä",
+"hp": 36,
+"belöning": 10,
+"förmågor": ["Absorption","Återhämtning","Harmoni","Uthållighet"],
+"beskrivning": "En varelse bestående av trä.
+Den är lugn och stilla för det mesta.
+Ibland slukar den ett offer och stjäl dess livskraft."
+}

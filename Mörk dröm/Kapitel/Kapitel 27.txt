@@ -1,0 +1,294 @@
+{s}
+	{set,Kapitel,27}
+	{image,'Bilder/Altare'}
+
+{p}
+	Kapitel 27
+
+{p}
+	Du och Goran går in i den innersta kammaren.
+
+{p}
+	Trots att ni befinner er långt under jord
+	är platsen full av växter.
+
+{p}
+	Mara och Selena är fastbundna av rankor
+	vid väggen.
+
+{p}
+	Du använder en isformel för att döda rankorna
+	och frita dem.
+	
+{p}
+	Goran:
+	- De är vid liv men växterna har absorberat
+	mycket av deras energi.
+
+{p}
+	Goran:
+	- Det lär ta några dagar
+	tills de återhämtat sig.
+
+{p}
+	Ni lämnar dem och fortsätter framåt.
+	Olivia väntar på er i mitten av rummet.
+
+{p}
+	Olivia:
+	- Det är imponerande att ni lyckades ta er hit.
+
+{p}
+	Olivia:
+	- Vad hände med Dennis?
+
+{p}
+	Goran:
+	- Dennis är död. Merulas avatar har vänt sig emot Gömslet.
+
+{p}
+	Goran:
+	- Era planer att ta över ön har misslyckats.
+
+{p}
+	Olivia:
+	- Det var Dennis som drev på de planerna.
+	Huvudsaken är att Gömslet är säkert.
+
+{p}
+	Goran:
+	- Det är den, om vi bara kan besegra Merula.
+	Ge oss amuletten.
+
+{p}
+	Olivia:
+	- Nej. Jag kan inte ge upp amuletten.
+
+{p}
+	Olivia:
+	- Ni får inte befria fångarna från Fristaden heller.
+	Risken finns att de kommer tillbaka för att hämnas.
+
+{p}
+	Goran:
+	- Då är jag rädd att vi måste slåss...
+
+{p}
+	Olivia:
+	- Tveklöst. Det här är djupet av trätemplet.
+	Jag tänker inte gå miste om den här chansen att döda er.
+
+{p}
+	Växterna i rummet börjar röra sig.
+	De förvandlas, formar hotfulla spjut och bildar
+	en skyddande mur kring Olivia.
+
+{p}
+	Olivia:
+	- Jag är Viridis avatar och styr över alla växter.
+	Se om ni kan överleva det här.
+	{name,Fiende.Namn,'Viridis'}
+	{set,Fiende.Grad,10}
+	{name,Fas,'Strid'}
+	{call}
+	
+{p}
+	Olivia har tagit dödlig skada och faller ned på marken.
+
+{p}
+	Du tar träamuletten.
+
+{p}
+	Goran:
+	- Vi klarade det...
+
+{p}
+	Bakom er har Mara och Selena återfått medvetandet.
+
+{p}
+	Selena:
+	- Goran...?
+
+{p}
+	Goran:
+	- Ja, det är jag. Olivia är död.
+
+{p}
+	Goran:
+	- Vi ska ta er härifrån. Orkar du stå upp?
+
+{p}
+	Selena:
+	- Nätt och jämnt... det känns som jag varit här i evigheter.
+
+{p}
+	Selena:
+	- Mara, är du okej?
+
+{p}
+	Mara:
+	- Helvete, låt mig vila...
+
+{p}
+	Selena:
+	- Du klarar dig. Upp med dig nu!
+
+{p}
+	Goran:
+	- Jag har hittat en genväg uppåt. Vi borde kunna undvika monstren.
+
+{p}
+	Ni tar er snabbt upp mot ytan.
+	{name,Plats,'Gömslet'}
+	{image,'Bilder/Trätemplet'}
+
+{p}
+	Ni lämnar Trätemplet och går ut i gläntan.
+	Sita möter er.
+
+{p}
+	Sita:
+	- Är det ni? Då är både Dennis och Olivia besegrade...
+
+{p}
+	Sita:
+	- Jag ska stå vid mitt ord och befria fångarna.
+	Den här vägen.
+	{image,'Bilder/Gömslet'}
+
+{p}
+	Ni går nedför trappan och in i Gömslet.
+	Fångarna hålls i en av de större husen.
+	De är trötta och utmärglade.
+
+{p}
+	Sita:
+	- Förlåt att vi inte kunde ge dem en bättre behandling.
+	Vi har inte så mycket resurser...
+
+{p}
+	Selena:
+	- Är alla vid liv?
+
+{p}
+	Sita:
+	- Ja.
+
+{p}
+	Selena:
+	- Bra. Annars hade vi haft ett problem.
+
+{p}
+	Selena:
+	- Vi måste ta oss till Staden
+	men vi kan inte ta oss igenom Urskogen så här.
+
+{p}
+	Selena:
+	- Vi blir tvungna att stanna i Gömslet tills imorgon.
+	Kan du garantera vår säkerhet?
+
+{p}
+	Sita:
+	- Jag vet inte... byborna kommer att bli upprörda
+	när de inser vad som har hänt.
+
+{p}
+	Selena:
+	- Gör något åt saken. Om vi känner oss hotade
+	så kommer vi att försvara oss. Det kan sluta illa för er.
+
+{p}
+	Sita:
+	- Hota oss inte. Jag försöker vara tålmodig här...
+
+{p}
+	Selena:
+	- Det är inget hot. Jag säger bara att det finns en risk.
+
+{p}
+	Plötsligt känner du av en ondskefull närvaro.
+
+{p}
+	Du går ut på torget med Goran och Sita
+	och ser Turdus där.
+
+{p}
+	Turdus:
+	- Så ni lyckades besegra Olivia.
+
+{p}
+	Turdus:
+	- Jag har haft stärkt mitt inflytande över Urskogen.
+	Så fort ni lämnar byn kommer ni att överväldigas av monster.
+
+{p}
+	Goran:
+	- Så vi är instängda här?
+
+{p}
+	Turdus:
+	- Det stämmer. Ni kommer inte kunna återvända till Staden.
+
+{p}
+	Turdus:
+	- Låt se om ni kan överleva det här...
+
+{p}
+	Turdus anfaller.
+	{name,Fiende.Namn,'Turdus'}
+	{set,Fiende.Grad,9}
+	{name,Fas,'Strid'}
+	{call}
+
+{p}
+	Ni lyckas försvara er mot Turdus.
+
+{p}
+	Turdus:
+	- Inte illa. De åtta amuletterna ger dig kraft, ser jag.
+
+{p}
+	Turdus:
+	- Men jag behöver inte besegra er här.
+	Jag väntar på er i Urskogen.
+
+{p}
+	Turdus ger sig av.
+
+{p}
+	Goran:
+	- Det här är illa...
+
+{p}
+	Goran:
+	- Sita, kan du hjälpa oss till Staden?
+
+{p}
+	Sita:
+	- Nej. Så länge du befinner dig i Gömslet råder vapenvila
+	men du färdas genom Urskogen på egen risk.
+
+{p}
+	Goran:
+	- Borde du inte garantera att fångarna kommer hem säkert?
+
+{p}
+	Sita:
+	- Om det bara handlade om att lotsa er genom Urskogen - kanske.
+	Men vi kan inte vända oss mot vår skyddsgud.
+
+{p}
+	Sita:
+	- Fatta ett beslut snabbt. Vi har inte råd att låta er stanna
+	i Gömslet alltför länge.
+
+{p}
+	Ni går tillbaka in och stannar över natten.
+	{set,Trätemplet,3}
+	{set,Hp,Max hp}
+
+{p}
+	{chap,'Kapitel/Kapitel 28'}
+
+{p}

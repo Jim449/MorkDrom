@@ -1,0 +1,151 @@
+{p}
+	{set,Tid,0}
+	{name,Plats,'Nålsögat'}
+	{image,'Bilder/Nålsögat'}
+
+{s}
+	Du befinner dig vid Nålsögat.
+	{ans}
+		Utforska Nålsögat
+	{if}{has,Staden,1}
+		{ans}
+			Gå västerut till Staden
+			{chap,'Platser/Staden'}	
+	{if}{equal,Avataren,1}
+		{ans}
+			Gå mot ravinen
+			{chap,'Kapitel/Kapitel 17'}
+	{elif}{lack,Mörkertemplet,1}
+		{ans}
+			Gå mot ravinen
+			{find,2}
+	{elif}{equal,Mörkertemplet,1}
+		{ans}
+			Gå mot ravinen
+			{find,3}
+	{elif}{has,Mörkertemplet,2}
+		{ans}
+			Gå ned i ravinen
+			{act,'Ravinen'}
+
+{p}
+	Du utforskar nålsögat...
+	{add,Tid,1}
+	
+{p}
+	{if}{equal,Tid,3}{equal,Ondska,1}
+		{find,1}
+	
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Vätte'}
+	{set,Fiende.Grad,2}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}
+
+{s}
+	Du vandrar omkring i Nålsögat. Det är kargt
+	och blåser en isande vind.
+	
+{p}
+	Du befinner dig många meter över havet och omges av stup
+	på nästan alla kanter.
+	
+{p}
+	Du ser ravinen på håll men något säger dig
+	att du gör bäst i att hålla dig undan.
+
+{p}
+	Så får du syn på någon. Du går närmare
+	och ser att det är Turdus som står där.
+	
+{p}
+	Turdus:
+	- Vad gör du här? Det finns ingenting här
+	och jag vill vara ifred.
+
+{p}
+	Turdus:
+	- Jag hörde att Alyssa gett dig ett uppdrag att hitta jordamuletten.
+	Jag tror inte du vet vad du ger dig in på.
+
+{p}
+	Turdus:
+	- Det här ön är en farlig plats. Du kanske är uppmärksam
+	men vissa hot är svåra att upptäcka.
+	
+{p}
+	Turdus:
+	- Du förstår nog inte vad jag menar. Jag kanske ska visa dig...
+
+{p}
+	Turdus:
+	- Möt mig väster om staden, på vägen som går längs kusten.
+	{set,Kustvägen,1}
+	{set,Ondska,2}
+	{find,0}
+
+{s}	
+	När du närmar dig ravinen överväldigas du av rädsla.
+	Du kan inte fortsätta.
+	{find,0}
+	
+{s}
+	{image,'Bilder/Ravinen'}
+
+{p}
+	Du går mot ravinen.
+
+{p}
+	Du känner rädslan igen. Du koncentrerar dig,
+	frammanar kraften från de åtta amuletterna.
+
+{p}
+	Rädslan försvinner. Du går fram till kanten av ravinen
+	och ser trappan som leder ned.
+
+{p}
+	Du börjar din nedstigning. Trappan är lång
+	och luften är isande.
+	{image,'Bilder/Mörkertemplet'}
+
+{p}
+	Till slut når du djupet av ravinen.
+	Porten till Mörkrets tempel står framför dig.
+
+{p}
+	Du går in i templet.
+	{name,Plats,'Mörkertemplet'}
+	{image,'Bilder/Labyrint'}
+
+{p}
+	Du vandrar genom långa, smala korridorer.
+	Det är ödsligt, väggarna är grå och kala.
+	
+{p}
+	Du känner av att det finns monster framöver.
+	De är starkare än de flesta du stött på tidigare.
+
+{p}
+	Du fortsätter framåt.
+	{set,Mörkertemplet,2}
+	
+{p}
+	{chap,'Platser/Mörkertemplet'}
+
+{f,Ravinen}
+	{name,Plats,'Nålsögat'}
+	{image,'Bilder/Mörkertemplet'}
+
+{p}
+	Du befinner dig i Ravinen.
+	{ans}
+		Gå in i Mörkertemplet
+		{chap,'Platser/Mörkertemplet'}
+	{ans}
+		Gå upp till Nålsögat
+		{find,0}
+		{rewind,1}
+
+{p}

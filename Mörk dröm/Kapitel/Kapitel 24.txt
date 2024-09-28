@@ -1,0 +1,215 @@
+{s}
+	{set,Kapitel,24}
+
+{p}
+	Kapitel 24
+
+{p}
+	Du står ensam kvar i skogsgläntan.
+	Du börjar gå söderut för att komma ikapp de andra.
+
+{p}
+	Du hittar Alba och Ron i Bergspasset.
+	{name,Plats,'Bergspasset'}
+	{image,'Bilder/Bergspasset'}
+
+{p}
+	Alba:
+	- Du klarade dig! Men hur? Vad hände?
+
+{p}
+	Alba:
+	- Så Aegithalos är död...?
+
+{p}
+	Ron får syn på något och tecknar åt er att stanna.
+
+{p}
+	Ron:
+	- Bergspasset är fullt av Nimbus soldater.
+	Vi måste fortsätta med försiktighet.
+
+{p}
+	Ron:
+	- Vad är det med himmelen? Det kan inte vara eldsröken,
+	men högt över oss ligger det något slags gulaktigt dis.
+
+{p}
+	Ron:
+	- Nu när jag tittar närmare så ser soldaterna sjukliga ut...
+
+{p}
+	Alba:
+	- De måste ha blivit förgiftade. Molnet ligger rakt ovanför Metalltemplet.
+	Jag skulle tro att det skapats av metallmagi.
+
+{p}
+	Alba:
+	- Det måste vara Nimbus verk. Om han skickar molnet över Staden
+	så kommer massor av folk att dö.
+
+{p}
+	Ron:
+	- Så Nimbus är så skoningslös att han förgiftar sina egna soldater?
+
+{p}
+	Alba:
+	- Det kanske var oavsiktligt?
+	Det kan inte vara lätt att kontrollera en magi av sådan skala.
+	
+{p}
+	Ron:
+	- Eller så vill han röja bort vittnena. När det där molnet är klart
+	lär han inte längre behöva några vakter som skyddar honom.
+
+{p}
+	Ron:
+	- Vi måste skynda oss men om vi fortsätter finns risken att vi blir förgiftade.
+
+{p}
+	Alba:
+	- Om vi bara är ett fåtal så kan jag bota förgiftningen med mina formler.
+
+{p}
+	Ron:
+	- Bra. Vi går ned bara vi tre. Med lite tur kan vi smyga oss förbi soldaterna.
+
+{p}
+	Ni smyger er ned mot soldaternas läger.
+	Du använder en formel för att skydda er från upptäckt.
+
+{p}
+	Ni lyckas ta er fram till grottmynningen och upptäcker
+	att båda vakterna är döda. De har dödats av ett vasst vapen
+	och det hände nyligen.
+	{image,'Bilder/Grottsal'}
+
+{p}
+	Ni går in i grottan och ser en gestalt framför er.
+	Han lär inte se er då ni höljda i mörker.
+
+{p}
+	Du ser snart vem det är. Narden.
+	Du bestämmer dig för att konfrontera honom.
+
+{p}
+	Narden:
+	- Är ni här? Har ni något att göra med rökmolnet över Muren?
+
+{p}
+	Ron:
+	- Kanske. Vad gör du här?
+
+{p}
+	Narden:
+	- Vad tror du? Jag kände av att någon samlade
+	en farlig mängd metallmagi och kom för att undersöka.
+
+{p}
+	Ron:
+	- Hur då? Det är inte så lätt att korsa Urskogen.
+	
+{p}
+	Narden:
+	- Förtrollningen över Urskogen har dragit sig tillbaka.
+	Jag behöver ingen vägvisare, jag har varit här förut.
+
+{p}
+	Narden:
+	- Det här giftmolnet får inte användas mot Staden.
+	Jag måste stoppa det.
+
+{p}
+	Ron:
+	- Jag håller med. Giftmolnet har antagligen skapats av Nimbus,
+	ledaren över Muren. Vi hjälper dig stoppa honom.
+
+{p}
+	Narden:
+	- Och hur vet jag att ni inte kommer att bli en belastning?
+
+{p}
+	Ron:
+	- Vi har redan utforskat Underjorden.
+	Det var fullt av dödliga monster men vi klarade det.
+
+{p}
+	Narden:
+	- Bli inte övermodig. Vet ni inte hur många
+	dåraktiga äventyrare som jag har sett mista livet?
+
+{p}
+	Narden:
+	- Om ni ska hjälpa mig så ska ni följa mina regler.
+	Förstår du?
+
+{p}
+	Ron:
+	- Jag förstår.
+
+{p}
+	Alba:
+	- Ursäkta mig...
+
+{p}
+	Alba:
+	- Jag är orolig för invånarna i Muren.
+	Jag vill gå tillbaka dit och göra vad jag kan.
+
+{p}
+	Ron:
+	- Vi tre borde räcka för att besegra Nimbus.
+	Gå tillbaka du. Några av mina män kan eskortera dig.
+	
+{p}
+	Alba:
+	- Tack, Ron!
+
+{p}
+	Alba lämnar grottan och ni andra fortsätter djupare in.
+	
+{p}
+	Ron:
+	- Så, Narden... hur länge har du varit i Bergspassset?
+
+{p}
+	Narden:
+	- Alltför länge. Soldaterna patrullerade grottan hårt.
+	Jag fick spendera några dagar med att sabotera deras läger.
+
+{p}
+	Narden:
+	- Vi är framme vid Metalltemplet.
+	{name,Plats,'Metalltemplet'}
+	{image,'Bilder/Metalltemplet'}
+
+{p}
+	Narden:
+	- Metalltemplet är labyrintiskt. Vi behöver ett system för att hålla reda på vilka platser vi besökt.
+	{name,Allierad.Namn,'Narden'}
+	{set,Allierad.Grad,8}
+	{name,Fas,'Assistent'}
+	{call}
+
+{p}
+	Narden:
+	- Då går vi.
+	{set,Sabotage,0}
+	{set,Metalltemplet,1}
+	{set,Första porten,1}
+	{rand,Första porten,4}
+	{set,Andra porten,1}
+	{rand,Andra porten,4}
+
+{p}
+	{set,Farliga porten,1}
+	{rand,Farliga porten,4}
+
+{p}
+	{if}{equal,Farliga porten,Andra porten}
+		{rewind,2}
+
+{p}
+	{chap,'Platser/Metalltemplets ingång'}
+
+{p}

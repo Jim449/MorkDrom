@@ -1,0 +1,83 @@
+{s}
+	{if}{equal,Muren,2}
+		{find,1}
+
+{p}
+	{name,Plats,'Muren'}
+	{image,'Bilder/Muren'}
+
+{p}
+	Du befinner dig i Muren.
+	{if}{has,Norra bergen,1}
+		{ans}
+			Gå österut till Norra bergen
+			{chap,'Platser/Norra bergen'}
+	{ans}
+		Gå västerut till Klipporna
+		{chap,'Platser/Klipporna'}
+	{ans}
+		Gå söderut till Skogen
+		{chap,'Platser/Skogen'}
+	{if}{equal,Nimbus,1}
+		{ans}
+			Besök palatset
+			{open,'Karaktärer/Nimbus'}
+	{if}{equal,Paris,1}
+		{ans}
+			Besök värdshuset
+			{open,'Karaktärer/Paris'}
+	{if}{has,Slummen,1}
+		{ans}
+			Besök slummen
+			{chap,'Platser/Slummen'}
+
+{p}
+	{find,0}
+
+{s}
+	{name,Plats,'Murens ruiner'}
+	{image,'Bilder/Murens ruiner'}
+
+{p}
+	Du befinner dig vid Murens ruiner.
+	{ans}
+		Utforska Murens ruiner
+	{if}{has,Norra bergen,1}
+		{ans}
+			Gå österut till Norra bergen
+			{chap,'Platser/Norra bergen'}
+	{ans}
+		Gå västerut till Klipporna
+		{chap,'Platser/Klipporna'}
+	{ans}
+		Gå söderut till Skogen
+		{chap,'Platser/Skogen'}
+
+{p}
+	{set,Slump,0}
+	{rand,Slump,2}
+
+{p}
+	Du utforskar murens ruiner...
+	
+{p}
+	{if}{equal,Slump,1}
+		{skip,1}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Ogre'}
+	{set,Fiende.Grad,8}
+	{name,Fas,'Strid'}
+	{call}
+	{find,1}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Panter'}
+	{set,Fiende.Grad,8}
+	{name,Fas,'Strid'}
+	{call}
+	{find,1}
+
+{p}

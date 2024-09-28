@@ -1,0 +1,300 @@
+{s}
+	{set,Kapitel,21}
+
+{p}
+	Kapitel 21
+	
+{p}
+	Ni går upp för den sista trappan. Solstrålarna slår emot er.
+	{image,'Bilder/Spegelsjön'}
+
+{p}
+	Ni befinner er på en liten ö i mitten av sjön. Gräset är skirt och orört och vattnet glittrar stillsamt.
+
+{p}
+	Det finns ruiner överallt omkring er men de är i bättre skick än vid templets huvudbyggnad.
+
+{p}
+	Längre bort ligger ett liten tempelbyggnad utan tak. Ett altare står i dess mitt.
+
+{p}
+	Sita sitter på trappan, till syntes obekymrad.
+
+{p}
+	Sita:
+	- Jag väntade på att ni skulle komma. Ni vill ha min amulett, eller hur? Då måste ni besegra mig först.
+
+{p}
+	Philomelos:
+	- Jag hoppades på att vi kunde prata.
+
+{p}
+	Philomelos:
+	- Dennis och Gömslet har gett dig en alltför negativ bild av samhällena på ön.
+	Hela den här konflikten är meningslös.
+
+{p}
+	Sita:
+	- Hatet mellan oss har funnits alltför länge. Det kanske är du som är ignorant inför öns historia.
+
+{p}
+	Philomelos:
+	- Ja, jag medger att jag inte vet mycket om den. Kan du berätta?
+
+{p}
+	Sita:
+	- Du vill att jag ska berätta om öns historia? Tror du verkligen att du har tid att lyssna på den?
+	Det är inte svårt för mig att kalla på förstärkning.
+
+{p}
+	Philomelos:
+	- Vi har gott om tid.
+
+{p}
+	Sita:
+	- Som du vill.
+
+{p}
+	Sita:
+	- I början av öns historia fanns det åtta tempel, tillägnad åtta olika element.
+	I anknytning till dessa fanns sju städer.
+
+{p}
+	Sita:
+	- Mörkertemplet byggdes i djupet av ravinen i Nålsögat. Det är den mest svårtillgängliga
+	av alla tempel.
+
+{p}
+	Sita:
+	- Dessvärre är Nålsögat en ogästvänlig plats. Ingen stad kunde uppföras här
+	så följarna av Mörkrets gud sökte sig till andra städer över hela ön. Där bemöttes de med förakt.
+
+{p}
+	Sita:
+	- Staden vid Eldtemplet - låt oss kalla hela samhället för Eldtemplet - förklarade krig mot Trätemplet.
+	Trätemplet ville inget annat än att vara i fred.
+
+{p}
+	Sita:
+	- Trätemplet försökte få hjälp från de övriga städerna. Men de tog alla Eldtemplets parti
+	– för de hade utsett Eldtemplet som väktare av elementalreligionernas samlade artefakter.
+
+{p}
+	Sita:
+	- Som om inte det vore nog plundrades artefakter från Trätemplet och fördes till Eldtemplet.
+	Ett enigt beslut fattat av alla städernas ledare var orsaken. De kunde inte låta Trätemplet ensamt behålla sina artefakter.
+
+{p}
+	Sita:
+	- Mörkertemplet fick också sitt tempel plundrat. Följarna av mörkrets gud sökte sig till Trätemplet
+	och föreslog en allians.
+
+{p}
+	Sita:
+	- Trätemplet accepterade alliansen och tillbedjarna av mörkrets gud lade en skyddande besvärjelse över Urskogen.
+
+{p}
+	Sita:
+	- Oroligheter bröt ut i Muren i öster. Ett underjordiskt folk ogillade att Lufttemplet hade byggt en ny stad, Muren, precis ovanför dem.
+	Muren utnyttjade skamlöst de magiska krafter som Underjorden såg som sina egna.
+
+{p}
+	Sita:
+	- När Trätemplet fick reda på detta skickade de hjälp till Underjorden.
+	Vapen, arbetskraft, krigare...
+
+{p}
+	Sita:
+	- Med Trätemplets hjälp kunde Underjorden utdela ett förödande slag mot Lufttemplet.
+
+{p}
+	Sita:
+	- De övriga städerna anslöt sig till Lufttemplet. Kriget fortgick länge - städerna hade större arméer
+	men Underjorden hade fördelen att de kunde förflytta sina trupper fritt genom Urskogen.
+
+{p}
+	Sita:
+	- Metalltemplet bestämde sig för att förgifta Urskogen och Underjorden.
+	Underjorden blev fullständigt utplånad. Trätemplet överlevde med knapp marginal.
+
+{p}
+	Sita:
+	- Kriget var över och för Trätemplet följde en lång tid av hungersnöd.
+	Urskogen stod kvar men var sig inte lik.
+
+{p}
+	Sita:
+	- Städerna håller ett vaksamt öga på oss. Så fort vi försöker söka oss bort från Urskogen kommer de att agera.
+
+{p}
+	Sita:
+	- Folk har lämnat Gömslet för att aldrig återvända. Förtryckta och dödade i städerna... 
+	De talar om att hugga ned Urskogen, de gillar inte att förtrollningen över skogen har spritt sig så brett.
+
+{p}
+	Sita:
+	- Men vi är tvungna att isolera oss. Det är vårt enda skydd.
+
+{p}
+	Sita:
+	- Vad säger du, Philomelos? Finns det något hopp för försoning?
+
+{p}
+	Philomelos:
+	- Ja, det står jag fast vid. En lång tid har passerat.
+
+{p}
+	Philomelos: 
+	- Städerna vid Eldtemplet, Ljustemplet och Metalltemplet försvann för länge sedan. Alldeles nyss utplånades staden vid Vattentemplet.
+
+{p}
+	Philomelos:
+	- Vi i Fristaden är det enda som återstår av Eldtemplet och Ljustemplet men vi är bara en liten by.
+	Vi bryr oss inte om vad som hände i det förflutna.
+
+{p}
+	Philomelos:
+	- Hatet som riktas mot Trätemplet är nu till största grad självförvållat.
+	Jag har hört om hur ni fortfarande sprider oreda. Ni säljer vapen och är inblandade i kupper och mord.
+
+{p}
+	Philomelos:
+	- Det är åtminstone vad jag hört från Ron, som kommer från Muren.
+
+{p}
+	Sita:
+	- Lögner.
+
+{p}
+	Sita:
+	- Vi kanske besöker andra städer, för vi har begränsade naturtillgångar och behöver viss handel,
+	men vi sysslar inte med några ohederliga affärer.
+
+{p}
+	Philomelos:
+	- Du tror mig inte? Om du tänker efter märker du säkert att många underliga saker har inträffat.
+
+{p}
+	Sita:
+	- Nej! Allt som vi gör har ett gott mål. Jag tänker inte lyssna på ditt förtal.
+
+{p}
+	Sita:
+	- Gömslet lever numera inom ett väldigt litet område. Vi kan inte nöja oss med det.
+	Vi vill besöka ön utanför Urskogen.
+
+{p}
+	Sita:
+	- Det är min uppgift att besanna våra drömmar men då får inte städerna stå i vår väg.
+
+{p}
+	Sita:
+	- Jag ska ge er en sista chans att lämna Ljustemplet. Väljer ni att stanna så är jag tvungen att slåss.
+
+{p}
+	Philomelos:
+	- Vi kan inte gå nu.
+
+{p}
+	Sita:
+	- Jag behöver inte slåss mot er själv. Jag kallar på Serafen.
+
+{p}
+	En skrimrande vit, bevingad skepnad dyker upp från ingenstans.
+
+{p}
+	Sita:
+	- Ljustemplets väktare… jag ger dig all min styrka. Driv bort inkräktarna!
+	{name,Fiende.Namn,'Seraf'}
+	{set,Fiende.Grad,6}
+	{name,Fas,'Strid'}
+	{call}
+
+{p}
+	Sita:
+	- Så Serafen var inte stark nog...
+
+{p}
+	Philomelos:
+	- Ge mig Ljusamuletten.
+
+{p}
+	Sita:
+	- Ta den. Jag kan inte stoppa dig.
+
+{p}
+	Sita ger amuletten till Philomelos.
+
+{p}
+	Sita:
+	- Tänker du inte döda mig?
+
+{p}
+	Philomelos:
+	- Nej.
+
+{p}
+	Sita:
+	- Du vet att jag kommer att fortsätta att kämpa mot er.
+
+{p}
+	Philomelos:
+	- Det får vi ta itu med då.
+
+{p}
+	Sita:
+	- Låt mig berätta något för er innan ni går, och jag säger det inte som något hån...
+
+{p}
+	Sita:
+	- Invånarna i Fristaden har tagits tillfånga. De har förts till Gömslet.
+
+{p}
+	Sita:
+	- Dennis manipulerade dem så att de gick vilse i Urskogen. Där snärjdes de av växter och sövdes.
+	De hade aldrig någon chans att slå tillbaka.
+
+{p}
+	Philomelos:
+	- Mara, Selena, alla byborna... de är alla fängslade?
+
+{p}
+	Sita:
+	- Jag har sett allt genom min ljusmagi. Jag försäkrar att det är sant.
+
+{p}
+	Philomelos:
+	- Jag tror dig. Jag var hoppfull men Dennis och Olivia kände till våra planer i förväg.
+
+{p}
+	Philomelos:
+	- Kanske hade vi haft en chans om jag upptäckt Dennis något snabbare...
+
+{p}
+	Sita:
+	- Underskatta oss inte. Du hade inte kunnat ändra någonting.
+
+{p}
+	Sita:
+	- Ni har fortfarande möjligheten att frita dem. Ljusamuletten kan skingra till och med
+	den kraftfulla förtrollning som vilar över den djupaste delen av Urskogen.
+
+{p}
+	Sita:
+	- Men ni lär inte kunna besegra Gömslet. Dessutom står Muren redo att anfalla Staden.
+
+{p}
+	Philomelos:
+	- Situationen ser utan tvivel dyster ut. Tack för att informationen i alla fall.
+
+{p}
+	Ni lämnar Ljustemplet.
+	{set,Ljustemplet,3}
+	{set,Selena,0}
+	{set,Mara,0}
+	{set,Urskogen,1}
+
+{p}
+	{chap,'Platser/Spegelsjön'}
+
+{p}

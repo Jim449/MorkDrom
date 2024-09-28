@@ -1,0 +1,10 @@
+{
+"namn": "Varg",
+"element": "Trä",
+"hp": 8,
+"belöning": 2,
+"förmågor": ["Skalv","Absorption","Vindsköld","Styrka"],
+"beskrivning": "En farlig best.
+Den jagar och äter de som är svaga
+och undviker de andra."
+}

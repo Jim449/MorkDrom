@@ -1,0 +1,9 @@
+{
+"namn": "Merula",
+"element": "Mörker",
+"hp": 36,
+"belöning": 10,
+"förmågor": ["Svarta vingar","Mörk vind","Depression","Osårbarhet","Blixt"],
+"beskrivning": "Guden av mörker
+och kausalitet."
+}

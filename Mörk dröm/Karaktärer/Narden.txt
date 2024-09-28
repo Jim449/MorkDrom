@@ -1,0 +1,364 @@
+{s}
+	{if}{equal,Värdshusvärden,1}
+		{act,'Introduktion'}
+	{elif}{equal,Värdshusvärden,2}
+		{act,'Ockerpris'}
+	
+{s}
+	Du besöker Narden.
+	{ans}
+		Prata
+		{if}{equal,Försvunnen,1}
+			{act,'Försvunnen'}
+		{elif}{equal,Försvunnen,2}
+			{act,'Bekännelse'}
+		{elif}{equal,Försvunnen,4}
+			{act,'Rykten'}
+		{elif}{equal,Förakt,1}
+			{act,'Förakt'}
+	{ans}
+		Ta in på värdshuset
+		{act,'Värdshuset'}
+	{if}{has,Mörkertemplet,1}
+		{ans}
+			Välj som assistent
+			{act,'Assistent'}
+	{ans}
+		Tillbaka
+		{return}
+
+{p}
+	Narden:
+	- Är du här för logi? Inte mig emot.
+	{find,0}
+	
+{f,Värdshuset}
+	Narden begär 1 silver för mat och logi.
+	{if}{has,Silver,1}
+		{ans}
+			Acceptera
+			{sub,Silver,1}
+	{ans}
+		Avböj
+		{find,0}
+		
+{p}
+	Du tar in för natten och vaknar upp utvilad.
+	{set,Hp,Max hp}
+	{return}
+
+{f,Introduktion}
+	Du går in i värdshuset. Där inne sitter slitna, råa män.
+	Det finns en bitterhet i deras röster.
+	
+{p}
+	De stannar till och tittar på dig.
+	
+{p}
+	Du går fram mot baren. En medelålders, kraftig man
+	står där bakom.
+	
+{p}
+	Du antar att detta är värdshusvärden, Narden,
+	som Goran nämnde. Han stirrar misstänksamt på dig.
+	
+{p}
+	Narden:
+	- Vem är du? Du är inte från Staden.
+
+{p}
+	Narden:
+	- Svara då! Är du en av vandrarna från Urskogen?
+	Du har inget här att göra!
+
+{p}
+	Du står kvar. Värdshusvärden iakttar dig tyst
+	men tröttnar till slut.
+	
+{p}
+	Narden:
+	- Okej, som du vill!
+	
+{p}
+	Narden
+	- Det här är ändå ett värdshus - mitt värdshus.
+	Vill du ha en natts logi kostar det 3 silvermynt.
+
+{f,Ockerpris}
+	Vill du betala 3 silvermynt för en natts logi?
+	{if}{has,Silver,3}
+		{ans}
+			Ja
+			{sub,Silver,3}{set,Hp,Max hp}
+			{set,Värdshusvärden,0}
+	{ans}
+		Nej
+		{skip,1}
+
+{p}
+	Du tar in för natten och vaknar upp utvilad.
+	{chap,'Kapitel/Kapitel 2'}
+
+{p}
+	Narden:
+	- Då kan du dra åt helvete!
+	{set,Värdshusvärden,2}
+	{return}
+
+{f,Försvunnen}
+	Narden:
+	- Jag hörde att Alyssa och Goran har tagit dig
+	under sitt beskydd.
+	
+{p}
+	Narden:
+	- Goran kom hit och klagade på mina priser, den jäveln.
+	
+{p}
+	Narden:
+	- Det här säger jag - de där två är inte att lita på!
+	
+{p}
+	Narden:
+	- Alyssa har levt i Skärgården och lärt sig vem vet vad
+	från de där prästinnorna vid Vattentemplet.
+
+{p}
+	Narden:
+	- Efter att monstren ödelade över hälften av staden
+	ville den dåvarande ledaren av vaktstyrkan, Selena,
+	att vi skulle återerövra Jordtemplet.
+
+{p}
+	Narden:
+	- Alyssa protesterade som starkast. Och sen försvann Selena spårlöst.
+	
+{p}
+	Narden:
+	- Alyssa tog över positionen som ledare. Alla inflytelserika personer
+	hade dött i de tidigare attackerna.
+
+{p}
+	Narden:
+	- Goran tog över Selenas position som ledare av vaktstyrkan.
+
+{p}
+	Narden:
+	- Du förstår? Det är klart att det var Alyssa som låg bakom
+	Selenas försvinnande!
+	{set,Försvunnen,2}
+	
+{f,Bekännelse}
+	Narden:
+	- Säg mig nu... vad har Alyssa gett dig för uppdrag?
+	{ans}
+		Berätta
+		{skip,1}
+	{ans}
+		Undanhåll
+
+{p}
+	Narden:
+	- Tänk noga på vilken sida du väljer.
+	Jag är kvar här om du vill berätta något.
+	{find,0}
+	
+{p}
+	Narden:
+	- De sa åt dig att utforska Templet av jord? Vilket skämt...
+
+{p}
+	Narden:
+	- Det är uppenbart att Alyssa och Goran vill ha Jordamuletten
+	för sin egen räkning.
+	
+{p}
+	Narden:
+	- Tror de verkligen att du kommer att lyckas?
+	Templet är raserat och även om du hittar en väg in
+	så är templet fullt av monster.
+	
+{p}
+	Narden:
+	- Ja, jag har varit i Jordtemplet.
+	Jag är en äventyrare - jag utforskat varenda skrymsle av denna ö.
+
+{p}
+	Narden:
+	- Det finns en annan ingång till Jordtemplet.
+	Men jag tänker inte berätta var den ligger...
+
+{p}
+	Narden:
+	- Kanhända att jag ändrar mig... om du hostar upp hundratusen silvermynt.
+
+{p}
+	Narden:
+	- Om Alyssa är så mån om att du hittar Jordamuletten
+	kan hon väl betala den summan?
+
+{p}
+	Narden:
+	- Du vägrar? Gå och leta själv då! 
+	
+{p}
+	Narden:
+	- Ingången ligger någonstans i den öde staden.
+	Den är väl dold - du kommer aldrig att hitta den.
+
+{p}
+	Narden:
+	- Nog nu. Jag har gäster att ta hand om.
+	{return}
+	
+{f,Rykten}
+	Narden:
+	- Norr om den öde staden ligger en enorm skog,
+	kallad Urskogen.
+
+{p}
+	Narden:
+	- Alla som går in i den går vilse. Det har inte alltid varit så.
+	För bara något år sedan gick Urskogen att beträda.
+
+{p}
+	Narden:
+	- Men nu undviker alla Urskogen. Alla utom en person...
+
+{p}
+	Narden:
+	- ... det sägs att Turdus, Alyssas assistent,
+	kan vandra fritt genom Urskogen. Till och med monstren undviker honom.
+
+{p}
+	Narden:
+	- Folk säger också att Turdus har gått farligt nära ravinen i Nålsögat.
+	Vissa hävdar att ravinen slukat honom...
+
+{p}
+	Narden:
+	- ... och att den person som vi känner i själva verket
+	är en vålnad som klättrat upp från djupet av ravinen.
+
+{p}
+	Narden:
+	- Jag säger inte att jag tror på det där...
+
+{p}
+	Narden:
+	- ... men Turdus är fan otäck. Håll dig borta från honom.
+
+{p}
+	Narden:
+	- Håll dig borta från Urskogen också.
+	Du vill inte gå vilse i den.
+	{set,Försvunnen,0}
+	{set,Ondska,1}
+	{set,Nålsögat,1}
+
+{p}
+	{return}
+
+{f,Förakt}
+	Narden:
+	- Så du är tillbaka igen.
+
+{p}
+	Narden:
+	- Jag har inte ändrat min uppfattning.
+	Jag svär att något ondskefullt är i görningen.
+
+{p}
+	Narden:
+	- Jag kan inte säga exakt vad
+	men du är i högsta grad medskyldig.
+
+{p}
+	Narden:
+	- Så vad ska jag göra med dig...?
+
+{p}
+	Narden:
+	- Förra gången lyckades du undkomma.
+	Jag tänker inte begå några fler misstag.
+
+{p}
+	Narden:
+	- Nej, jag tänker samla bevis.
+
+{p}
+	Narden:
+	- Säg mig nu, vad har Alyssa beordrat dig att göra härnäst?
+	{ans}
+		Berätta
+		{skip,1}
+	{ans}
+		Undanhåll
+
+{p}
+	Narden:
+	- Du tiger? Dra åt helvete!
+	{set,Förakt,0}
+	{add,Hinder,1}
+	{return}
+
+{p}
+	Narden:
+	- Skämtar du?
+
+{p}
+	Narden:
+	- Vill Alyssa verkligen att du ska gå in i Urskogen ensam?
+	
+{p}
+	Narden:
+	- Hahaha! Det var det värsta jag har hört! Du kommer att dö, din jävel!
+
+{p}
+	Narden:
+	- Men det påminner mig...
+
+{p}
+	Narden:
+	- Det finns en by djupt inne i Urskogen.
+	Jag har besökt den några gånger.
+
+{p}
+	Narden:
+	- En äventyrare vid namn Mara kommer därifrån.
+	Slåss kunde hon men fan vad hon var oförsiktig.
+
+{p}
+	Narden:
+	- Ingen trodde att hon skulle överleva någon längre tid.
+	Jag har ingen aning om vad som blev av henne.
+
+{p}
+	Narden:
+	- Om du mot förmodan tar dig till Fristaden
+	och träffar henne kan du väl hälsa henne från mig.
+
+{p}
+	{set,Förakt,0}
+	{add,Hinder,1}
+	{return}
+
+{f,Assistent}
+	Vill du välja Narden som assistent?
+	{ans}
+		Ja
+	{ans}
+		Nej
+		{find,0}
+
+{p}
+	{name,Allierad.Namn,'Narden'}
+	{set,Allierad.Grad,15}
+	{name,Fas,'Assistent'}
+	{call}
+
+{p}
+	Narden är nu din assistent.
+	{find,0}
+	
+{p}

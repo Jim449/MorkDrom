@@ -1,0 +1,9 @@
+{
+"namn": "Arakid",
+"element": "Luft",
+"hp": 36,
+"belöning": 10,
+"förmågor": ["Vindskära","Vindsköld","Förfrysning","Invasiv kyla"],
+"beskrivning": "En enorm spindel
+som lägger ut fällor för sina offer."
+}

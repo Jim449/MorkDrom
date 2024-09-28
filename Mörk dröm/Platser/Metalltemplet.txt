@@ -1,0 +1,100 @@
+{p}
+	{name,Plats,'Metalltemplet'}
+	{image,'Bilder/Labyrint'}
+
+{s}
+	Du befinner dig i Metalltemplet.
+	{ans}
+		Fortsätt framåt (första porten)
+		{set,Andra valet,1}
+	{ans}
+		Fortsätt framåt (andra porten)
+		{set,Andra valet,2}
+	{ans}
+		Fortsätt framåt (tredje porten)
+		{set,Andra valet,3}
+	{ans}
+		Fortsätt framåt (fjärde porten)
+		{set,Andra valet,4}
+	{ans}
+		Lämna metalltemplet
+		{chap,'Platser/Metalltemplets ingång'}
+
+{p}
+	Du fortsätter längre in i metalltemplet...
+	{set,Slump,0}
+	{rand,Slump,2}
+
+{p}
+	{if}{equal,Metalltemplet,1}{equal,Första valet,Första porten}{equal,Andra valet,Andra porten}
+		{find,1}
+	{elif}{has,Epilog,4}{equal,Första valet,Första porten}{equal,Andra valet,Andra porten}
+		{act,'Prövning'}
+	{elif}{equal,Första valet,Första porten}{equal,Andra valet,Farliga porten}
+		{skip,2}
+	{elif}{equal,Slump,1}
+		{skip,1}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Ogre'}
+	{set,Fiende.Grad,10}
+	{name,Fas,'Strid'}
+	{find,0}
+	{call}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Ödleman'}
+	{set,Fiende.Grad,10}
+	{name,Fas,'Strid'}
+	{find,0}
+	{call}
+
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Troll'}
+	{set,Fiende.Grad,8}
+	{name,Fas,'Strid'}
+	{find,0}
+	{call}
+	
+{s}
+	Du har hittat vägen till den innersta kammaren!
+	Vill du fortsätta?
+	{ans}
+		Ja
+		{chap,'Kapitel/Kapitel 25'}
+	{ans}
+		Nej
+		{find,0}
+
+{f,Prövning}
+	Du har hittat vägen till den innersta kammaren!
+	Vill du fortsätta?
+	{ans}
+		Ja
+	{ans}
+		Nej
+		{find,0}
+
+{p}
+	Du går in i Metalltemplets innersta kammare.
+
+{p}
+	Väktaren dyker upp och anfaller!
+	{name,Fiende.Namn,'Giftdrake'}
+	{set,Fiende.Grad,15}
+	{name,Fas,'Strid'}
+	{call}
+
+{p}
+	Väktaren var inte mer än ett spöke.
+	Nu när den är besegrad är du ett steg närmare
+	att nå Elementaltemplets innersta kammare.
+	{set,Metallprövning,1}
+
+{p}
+	{find,0}
+	
+{p}

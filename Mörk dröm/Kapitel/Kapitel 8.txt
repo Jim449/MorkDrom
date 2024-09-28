@@ -1,0 +1,291 @@
+{s}
+	{set,Kapitel,8}
+
+{p}
+	Kapitel 8
+	
+{p}
+	Du smyger in i palatset. Du ser Alba och Nimbus gå igenom korridoren
+	och följer efter, skyddad av osynlighetsformeln.
+
+{p}
+	Du går in i Nimbus kontor.
+	
+{p}
+	Nimbus:
+	- Vad är det för brådskande ärende som du hade?
+
+{p}
+	Alba:
+	- Luftamuletten är försvunnen!
+	
+{p}
+	Nimbus:
+	- Försvunnen!? Hur?
+	
+{p}
+	Alba:
+	- Jag vet inte. Jag har inte varit i den innersta kammaren
+	på många år... den kan ha stulits när som helst!
+	
+{p}
+	Nimbus:
+	- Vi måste hitta den. Jag ska ge uppdraget
+	till mina mest betrodda män.
+	
+{p}
+	Alba:
+	- Tack!
+	
+{p}
+	Nimbus:
+	- Hur kom det sig att du upptäckte att amuletten var borta?
+	
+{p}
+	Alba:
+	- Um... så många underliga saker har hänt på senaste tiden, så...
+
+{p}
+	Alba:
+	- ... jag ville försäkra mig om att amuletten fortfarande var kvar.
+
+{p}
+	Nimbus:
+	- Underliga saker? Du menar besökaren från Staden.
+	Som kom hit, genom urskogen, och bad om amuletten...
+
+{p}
+	Nimbus:
+	- Där har vi vår skyldige. Vakterna kommer att få ett nytt
+	uppdrag imorgon.
+	
+{p}
+	Alba:
+	- Är du säker på det? Oroligheterna i staden började långt innan han kom hit...
+
+{p}
+	Nimbus:
+	- Och hur vet du det? Det är inte direkt svårt att gömma sig här.
+	
+{p}
+	Alba:
+	- Nej, det är klart.
+	
+{p}
+	Nimbus:
+	- Du kan gå.
+
+{p}
+	Alba lämnar rummet. Du funderar på att göra detsamma... 
+
+{p}
+	... men du ser att Nimbus har en ny gäst.
+	Någon som du känner igen.
+
+{p}
+	Nimbus:
+	- Det är en av er igen. Tröttnar ni aldrig?
+
+{p}
+	Dennis:
+	- God afton, ers nåd. Jag är här för att påminna dig
+	om att Vandrarna fortfarande behandlas med misstänksamhet i Muren.
+
+{p}
+	Nimbus:
+	- Ni är främlingar. Vi välkomnar er här
+	men förvänta er inte att vi anpassar oss.
+
+{p}
+	Dennis:
+	- Ron har blivit allt mer besatt av att hitta oss.
+	Något verkar ha hänt de senaste dagarna.
+
+{p}
+	Nimbus:
+	- Vad Ron gör angår inte mig.
+	
+{p}
+	Dennis:
+	- Muren behandlar oss orätt. Den svarta guden, Merula,
+	kommer att straffa er...
+
+{p}
+	Nimbus:
+	- Skitsnack! Merula har ingen makt här.
+
+{p}
+	Dennis:
+	- Jag ser att vi fortfarande inte kommer överens.
+	Låt mig dela med mig av lite information.
+
+{p}
+	Dennis:
+	- En besökare har kommit från Staden, som du kanske vet.
+
+{p}
+	Dennis:
+	- Denne besökare har tagit Jordens amulett
+	och är nu ute efter Luftens amulett.
+
+{p}
+	Dennis:
+	- Om detta är jag helt förvissad. Det var jag som ledde
+	denna person till Muren, och jag har själv sett Jordamuletten.
+	
+{p}
+	Nimbus:
+	- Jag känner redan till personen som du pratar om
+	och är medveten om hotet.
+
+{p}
+	Nimbus:
+	- Men jag tackar dig för informationen om Jordamuletten.
+	Jag har fått höra att Jordtemplet fallit i händerna på monstren. Är det sant?
+	
+{p}
+	Dennis:
+	- Förvisso. Men för ledarna i staden är monstren en bekväm ursäkt
+	för att förklara amulettens försvinnande.
+
+{p}
+	Nimbus:
+	- Menar du att ledarna i staden skyddar
+	personen som stal Jordamuletten?
+
+{p}
+	Dennis:
+	- Ja, jag skulle säga att det finns personer i Staden
+	som ville se amuletten stulen. Andra kan ha blivit vilseförda.
+	
+{p}
+	Dennis:
+	- Det var allt jag hade att säga för idag.
+	Jag hoppas att du ändrar dig och tar krafttag mot Ron.
+
+{p}
+	Dennis lämnar rummet. Du smyger ut efter honom.
+
+{p}
+	Du skulle kunna följa Dennis, men osynligheten
+	är på väg att försvinna.
+	
+{p}
+	Du lämnar palatset och beger dig direkt till Lufttemplet.
+	{name,Plats,'Klipporna'}
+	{image,'Bilder/Klipporna'}
+
+{p}
+	Alba:
+	- Du är tillbaka igen? Vilken dåre du är!
+
+{p}
+	Alba:
+	- Nimbus har redan bestämt sig för att arrestera dig.
+
+{p}
+	Alba:
+	- Nej, jag vill inte att han hittar dig.
+	Om det du säger är sant hotas vår ö av Merula...
+
+{p}
+	Alba:
+	- ... och det är upp till dig att stoppa honom.
+
+{p}
+	Alba:
+	- Vi kanske kan hitta fler svar i Underjorden.
+	Jag är också nyfiken på den kraft som håller Muren uppe.
+
+{p}
+	Alba:
+	- Men underjorden är säkerligen full av faror.
+	Kan vi verkligen utforska den på egen hand?
+
+{p}
+	Alba:
+	- Du känner Ron från slummen?
+	Låt oss fråga honom om hjälp.
+	{name,Plats,'Slummen'}
+	{image,'Bilder/Slummen'}
+	
+{p}
+	Alba följer med dig ned i slummen.
+	Ni träffar Ron i hans hus och förklarar situationen.
+
+{p}
+	Ron:
+	- Givetvis hjälper jag er att utforska underjorden.
+	Jag ser fram emot att se vad som döljer sig under ytan.
+
+{p}
+	Ron:
+	- Jag ska samla ihop en expedition.
+	Nimbus är ute efter dig så vi har ont om tid. Vänta här.
+
+{p}
+	Ron går iväg.
+
+{p}
+	Alba:
+	- Han gick med på det så snabbt! Vilken tur!
+
+{p}
+	Alba:
+	- Jag gillar tanken att jag tagit mig till Slummen
+	för att prata med en av Nimbus värsta plågoandar...
+
+{p}
+	Efter ett tag är Ron tillbaka.
+
+{p}
+	Ron:
+	- Förberedelserna är klara. Jag ska bara hämta en sak.
+
+{p}
+	Ron öppnar ett skåp och tar fram ett långsvärd.
+	
+{p}
+	Alba:
+	- Det svärdet har starka krafter från jordelementet.
+	Kommer det från Jordtemplet?
+
+{p}
+	Ron:
+	- Antagligen. Det sägs att det skyddar sin användare från skada.
+	Det borde komma väl till pass i underjorden.
+
+{p}
+	Alba:
+	- Hur fick du tag på det?
+
+{p}
+	Ron:
+	- Det vill du inte veta.
+
+{p}
+	Alba:
+	- Okej... det spelar väl ingen roll,
+	bara det kommer till användning.
+
+{p}
+	Alba:
+	- Låt mig visa vägen ned i Underjorden.
+	{name,Plats,'Skogen'}
+	{image,'Bilder/Skogen'}
+
+{p}
+	Alba leder er till en igenväxt grotta i Skogen.
+	Inne i grottan finns en tung port.
+	{name,Allierad.Namn,'Alba'}
+	{set,Allierad.Grad,3}
+	{name,Fas,'Assistent'}
+	{call}
+
+{p}
+	Alba låser upp den och ni kliver ned i mörkret.
+	{set,Osynlighet,0}
+	{set,Underjorden,1}
+	{chap,'Platser/Underjorden'}
+
+{p}

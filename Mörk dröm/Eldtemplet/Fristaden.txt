@@ -1,0 +1,82 @@
+{s}
+	{name,Plats,'Fristaden'}
+	{image,'Bilder/Fristaden'}
+
+{p}
+	Du ser de bekanta husen i Fristaden.
+	Det är inte länge sen du lämnade men synen
+	är befriande.
+
+{p}
+	Mara:
+	- Fristaden! Det är skönt att vara tillbaka.
+
+{p}
+	Mara:
+	- Jag ska inte bli alltför hemmastadd.
+	Vi har inte lämnat Eldtemplet ännu.
+
+{p}
+	Ni går för att träffa Selena och Philomelos.
+
+{p}
+	Selena:
+	- Är ni redan tillbaka?
+	Hittade du det du sökte?
+
+{p}
+	Mara:
+	- Nej. Eldtemplet är svårare
+	att ta sig igenom än jag trodde.
+
+{p}
+	Mara berättar vad som hänt.
+
+{p}
+	Selena:
+	- Jag förstår. Fortsätt utforska.
+
+{p}
+	Mara:
+	- Men hur ska Fristaden klara sig när jag är borta?
+	Mina jägare är väl helt vilsna utan mig?
+	
+{p}
+	Selena:
+	- Åh nej. De är väldigt kompetenta.
+	Fristadens behåller ett stadigt försvar mot monstren.
+
+{p}
+	Selena:
+	- Du behöver inte oroa dig.
+	Fokusera på att ta dig igenom Eldtemplet.
+
+{p}
+	Mara:
+	- Det ska jag göra.
+
+{p}
+	Ni lämnar Selenas hydda.
+
+{p}
+	Mara:
+	- Du vet att Fristaden är hårt ansatt av monster.
+	Vi har knappt några marginaler.
+
+{p}
+	Mara:
+	- Jag vet att Selena inte kommer att acceptera någon hjälp från mig.
+	Hon gjorde sitt val när hon bad mig att resa till Eldtemplet.
+
+{p}
+	Mara:
+	- Vi måste gå snart. Se till att köpa
+	de elixir och formler som du behöver.
+	Jag har några i mitt förråd.
+	{set,Respit,0}
+
+{p}
+	{chap,'Platser/Eldtemplet'}
+	{act,'Fristaden'}
+	
+{p}

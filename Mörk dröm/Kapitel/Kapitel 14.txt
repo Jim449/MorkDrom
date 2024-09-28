@@ -1,0 +1,407 @@
+{s}
+	{set,Kapitel,14}
+	{name,Plats,'Spegelsjön'}
+	{image,'Bilder/Spegelsjön'}
+
+{p}
+	Kapitel 14
+	
+{p}
+	Philomelos:
+	- Vi är äntligen framme.
+	{name,Allierad.Namn,'Philomelos'}
+	{set,Allierad.Grad,4}
+	{name,Fas,'Assistent'}
+	{call}
+
+{p}
+	Framför dig ser du en gammal ruin.
+	Allting är fullständigt sönderfallet och överväxt.
+
+{p}
+	Philomelos:
+	- Ljustemplet har varit övergivet sedan länge.
+	De flesta har glömt bort att det finns.
+
+{p}
+	Philomelos:
+	- Ändå tror jag att Luscinia dröjer sig kvar här...
+
+{p}
+	Philomelos:
+	- Låt oss leta efter en ingång. Den är antagligen begraven
+	men det kanske går att öppna upp den.
+
+{p}
+	När du letar runt ruinerna känner du en obehaglig närvaro.
+	Philomelos har också märkt det.
+	
+{p}
+	Philomelos:
+	- Det är monster i närheten.
+	
+{p}
+	Philomelos:
+	- De är många, i alla riktningar.
+	Vi är omringade.
+
+{p}
+	Ni lämnar omedelbart ruinen och springer mot skogen
+	men det är för sent.
+
+{p}
+	Två personer står i er väg, den ene känner du igen - Dennis.
+
+{p}
+	Den andra är en ung, rödhårig kvinna
+	som du aldrig sett förut.
+
+{p}
+	Dennis:
+	- Ser man på. Vi möts igen.
+
+{p}
+	Philomelos:
+	- Dennis! Du planerade det här, men hur visste du...
+
+{p}
+	Dennis:
+	- Tack vare Sita har vi full koll på alla
+	som närmar sig Ljustemplet.
+
+{p}
+	Sita:
+	- Jag gillar inte strategin, men det har gett resultat.
+
+{p}
+	Sita:
+	- Jag är Sita, från Gömslet. Det är mitt ansvar att
+	skydda Ljustemplet.
+
+{p}
+	Du får syn på amuletten som hänger runt Sitas hals.
+
+{p}
+	Philomelos:
+	- Det är Ljusamuletten, utan tvekan. Och jag ser att Sita
+	har kvalifikationerna att använda den.
+	Hon måste ha en fallenhet för ljuselementet.
+
+{p}
+	Philomelos:
+	- Men jag förstår inte... hur kan en följare av ljusets gud
+	alliera sig med mörkrets gud och medverka till sådana grymheter?
+
+{p}
+	Sita:
+	- Vad viskar du om, Philomelos?
+
+{p}
+	Philomelos:
+	- Du vet vem jag är? Okej... låt mig fråga dig rakt ut.
+	Vad har Gömslet för mål? Varför hjälper du dem?
+
+{p}
+	Sita:
+	- Hatet mellan Gömslet och resten av ön rinner djupt.
+	Vårt mål är inget annat än att få leva i fred
+	och kunna färdas vart vi vill.
+
+{p}
+	Sita:
+	- Vi har gömt oss djupt inne i Urskogen för att skydda oss
+	från sådana som er.
+	
+{p}
+	Sita:
+	- Philomelos, jag känner dig för att du tillhör
+	ljusets element. Du borde överge Fristaden och följa med oss.
+	Vi behöver dig på vår sida.
+	
+{p}
+	Philomelos:
+	- Jag vägrar. Ni bedrog oss och mördade vårt folk.
+	Det kommer jag aldrig att glömma.
+	
+{p}
+	Sita:
+	- ...
+
+{p}
+	Dennis:
+	- Tveka inte, Sita. Vi väljer de strategier som leder till minst
+	dödsfall - förräderi och sabotage.
+
+{p}
+	Sita:
+	- Tala för dig själv.
+	
+{p}
+	Sita:
+	- Det är slut med smygandet. Vi har fyra amuletter i vår ägo
+	och Dennis kontrollerar mörkrets gud...
+
+{p}
+	Dennis:
+	- Sita! Avslöja inte våra förmågor.
+
+{p}
+	Sita:
+	- Det måste avslöjas. Gå tillbaka till Fristaden
+	och berätta för de andra...
+
+{p}
+	Dennis:
+	- Vi kan inte låta dem gå.
+
+{p}
+	Dennis:
+	- Sita, döda dem. Eller ta dem tillfånga om du hellre vill det.
+
+{p}
+	Sita:
+	- Okej, okej...
+
+{p}
+	Philomelos:
+	- Vi måste fly. Men hur? Om vi försökte gömma oss skulle Sita
+	avslöja oss direkt...
+
+{p}
+	Sita anfaller.
+	{name,Fiende.Namn,'Sita'}
+	{set,Fiende.Grad,4}
+	{name,Fas,'Strid'}
+	{call}
+
+{p}
+	Ni lyckas försvara er mot Sita men det är bara en tidsfråga
+	tills ni blir övermannade.
+
+{p}
+	Sita reagerar plötsligt på något.
+	
+{p}
+	Sita:
+	- Dennis, krigare från Fristaden är på väg hit!
+	De är här om några minuter.
+
+{p}
+	Dennis:
+	- Det spelar ingen roll.
+	Jag ska avsluta det här.
+
+{p}
+	Philomelos:
+	- Jag är ledsen att jag drog in dig i dig här.
+	Jag ska försöka köpa oss lite tid!
+	
+{p}
+	Philomelos använder en magi och du fylls
+	omedelbart av lugn. Monstren stannar upp.
+
+{p}
+	Dennis:
+	- Fördömt...
+
+{p}
+	Tiden går. Ingen agerar.
+
+{p}
+	Så hör du ljudet av strid. Jägarna från Fristaden har anlänt
+	och anfaller monstren.
+
+{p}
+	Dennis:
+	- Tch! Om vi bara fått lite mer tid
+	hade vi vunnit...
+
+{p}
+	Selena:
+	- Dennis!
+
+{p}
+	Dennis:
+	- Är det du, Selena, och Mara också?
+	Jag hade inte planerat att slåss mot er här.
+
+{p}
+	Selena:
+	- Du kommer inte undan! Mara!
+	
+{p}
+	En svarthårig jägare rusar fram med en sabel i sin hand.
+	Hon och hennes krigare hugger snabbt och skoningslöst ned fienderna.
+
+{p}
+	Hon tar sig obevekligt fram mot Dennis och Sita.
+	
+{p}
+	Dennis:
+	- Vi är inte redo att ta oss an hela Fristaden!
+	Vi måste fly!
+
+{p}
+	Dennis och Sita drar sig tillbaka och monstren täcker upp deras flyktväg.
+	
+{p}
+	Krigarna besegrar monstren effektivt med en kombination av hugg och pilar.
+	Selena och Mara besegrar de sista av dem.
+
+{p}
+	Selena ger ordern att återvända till Fristaden så snabbt som möjligt.
+	{name,Plats,'Fristaden'}
+	{image,'Bilder/Fristaden'}
+
+{p}
+	Väl framme anordnar Mara en fest. Hon skrattar gott och högt åt segern.
+
+{p}
+	Mara:
+	- Flera monster dödade, deras ledare drivna på flykten
+	och vi är alla vid liv! Det måste firas!
+	
+{p}
+	Mara:
+	- Selena, var inte tråkig! Ta ett glas till!
+	
+{p}
+	Selena:
+	- Du har rätt, Mara. Skål!
+	{set,Hp,Max hp}
+
+{p}
+	Dagen passerar. Du vaknar upp nästa morgon
+	och går till Selenas hydda.
+
+{p}
+	Selena:
+	- Det var oförsiktigt av dig att gå till Spegelsjön.
+	Lyssna inte på Philomelos - hans nyfikenhet kommer att ta död på honom.
+
+{p}
+	Selena:
+	- Vi lärde oss i alla fall något nytt.
+	Ljusamuletten är i våra fienders händer
+	och det är nog inte den enda.
+
+{p}
+	Selena:
+	- Han som anföll dig, Dennis, är en gammal fiende till Fristaden.
+
+{p}
+	Selena:
+	- Han representerar ett samhälle som kallas för Gömslet.
+	Det sägs ligga djupt inne i Urskogen.
+
+{p}
+	Selena:
+	- Vi har länge handlat med Gömslet. De är kringströvande
+	som ofta har med sig varor att sälja.
+
+{p}
+	Selena:
+	- En dag kom vi överens om ett möte. Dennis kom hit
+	för att träffa Fristadens dåvarande ledare.
+
+{p}
+	Selena:
+	- Jag var med på mötet. Dennis ville övertyga oss att
+	konvertera till Mörkrets gud.
+
+{p}
+	Selena:
+	- Vi vägrade. Under den natten anföll monstren...
+	och Dennis mördade vår ledare.
+
+{p}
+	Selena:
+	- Vi slog tillbaka angriparna. Men Fristaden var i skärvor...
+	Trots att jag var en utomstående valde de mig som sin nya ledare.
+
+{p}
+	Selena:
+	- Jag har gjort mitt bästa men det här är svåra tider för Fristaden.
+	Monstren anfaller regelbundet. Vi har blivit experter på att bekämpa dem.
+
+{p}
+	Selena:
+	- Invånare går vilse i Urskogen, som tycks växa sig större.
+	Delar av skogen som vi brukade jaga i går inte längre att nå.
+
+{p}
+	Selena:
+	- Jag hoppas att du kan göra något åt det.
+	Ärligt talat så tror jag inte du kan göra något.
+
+{p}
+	Selena:
+	- Jag har aldrig fäst någon tilltro till gudarna
+	eller deras amuletter...
+	
+{p}
+	Selena:
+	- Vänta, det kommer någon...
+	
+{p}
+	Selena:
+	- Mara? Du ser yrvaken ut...
+
+{p}
+	Mara:
+	- Jag är lite trött... det blev mycket festande igår.
+
+{p}
+	Selena:
+	- Jag har ett uppdrag till dig. Orkar du resa till Eldtemplet?
+
+{p}
+	Mara:
+	- Eldtemplet? Nej, det låter inte så lockande.
+
+{p}
+	Selena:
+	- Mig lurar du inte. Får du en utmaning så är du snart uppe på fötter igen.
+	
+{p}
+	Mara:
+	- Hahaha, du känner mig väl. Okej, jag gör det.
+
+{p}
+	Mara:
+	- Men är du säker? Jag har hört att Eldtemplet är en lömsk och farlig plats.
+	Det sägs att den är värre än Urskogen!
+
+{p}
+	Selena:
+	- Vår besökare måste hitta amuletten som finns djupt i templet.
+	Det är viktigt så jag vill att du följer med.
+
+{p}
+	Mara:
+	- Som du vill.
+	
+{p}
+	Mara vänder sig till dig.
+	
+{p}
+	Mara:
+	- Förbered dig väl. Jag har några magiska formler
+	och elixir i lager.
+	{name,Fas,'Solo'}
+	{call}
+
+{p}
+	Mara:
+	- Kom och prata med mig när du är redo
+	att resa till Eldtemplet.
+	{set,Spegelsjön,1}
+	{set,Reflektioner,1}
+	{set,Tempelruinen,0}
+	{set,Djungelvandring,1}
+	{set,Mara,1}
+
+{p}
+	{chap,'Platser/Fristaden'}
+
+{p}

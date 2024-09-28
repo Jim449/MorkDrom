@@ -1,0 +1,10 @@
+{
+"namn":"Sjöstjärna",
+"element":"Vatten",
+"hp": 72,
+"belöning": 20,
+"förmågor": ["Läkekraft","Återhämtning","Regenerering","Harmoni","Illusion","Jordbävning"],
+"beskrivning": "En varelse
+som läker sina skador
+extremt snabbt."
+}

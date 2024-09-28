@@ -1,0 +1,10 @@
+{
+"namn": "Skugga",
+"element": "Mörker",
+"hp": 72,
+"belöning": 20,
+"förmågor": ["Inferno","Förfrysning","Erodering","Osårbarhet","Världslighet"],
+"förberedelser": ["Världslighet"],
+"beskrivning": "En skugga
+av den mörka guden."
+}

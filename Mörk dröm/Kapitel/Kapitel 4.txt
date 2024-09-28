@@ -1,0 +1,194 @@
+{s}
+	{set,Kapitel,4}
+	{name,Plats,'Staden'}
+	{image,'Bilder/Staden'}
+	
+{p}
+	Kapitel 4
+
+{p}
+	Du återvänder till staden. Du ger Jordamuletten till Alyssa
+	och går till värdshuset för att vila ut dig.
+	{set,Hp,Max hp}
+
+{p}
+	Nästa dag går du ut på torget, framför stadshuset och herrgården.
+	
+{p}
+	Av ett sammanträffande möter du Turdus.
+	
+{p}
+	Turdus:
+	- Jag hörde att du återfunnit jordamuletten. Inte illa.
+	
+{p}
+	Turdus:
+	- Du undrar varför jag skickade ut dig på kustvägen?
+	
+{p}
+	Turdus:
+	- Vem vet... men tack vare det så lärde du dig att varsebli ondska.
+	
+{p}
+	Turdus:
+	- Inte för att det spelar någon roll. Du kanske hittat jordamuletten
+	men saker kommer bara att bli värre...
+
+{p}
+	När du lyssnar på Turdus hör du en mjuk, avlägsen vissling.
+	
+{p}
+	Plötsligt blixtrar något svart genom luften. Överallt omkring dig
+	ser du hur folk faller till marken.
+
+{p}
+	Du tittar uppåt. Högt upp på herrgårdens torn sitter vad som ser ut
+	som en kolsvart fläck.
+
+{p}
+	Du ser på den som hypnotiserad och hör det där underliga,
+	visslande ljudet.
+
+{p}
+	Så försvinner den svarta tingesten. Omkring dig, på marken,
+	över gatstenarna, rinner blodet och det är fullständigt tyst.
+	
+{p}
+	De enda personer som står upp är du och Turdus.
+	
+{p}
+	Sen börjar folk förstå, få panik. En massaker har inträffat.
+	Goran rusar fram och får syn på er.
+	
+{p}
+	Goran:
+	- Fort, in i herrgården! Vi måste prata med Alyssa omedelbart.
+	
+{p}
+	Du följer Goran, in i herrgården, till Alyssas kontor.
+	{image,'Bilder/Kontoret'}
+	
+{p}
+	Goran:
+	- Dåliga nyheter! Merula har slagit till vid torget
+	- cirka ett dussin personer är döda.
+	
+{p}
+	Alyssa:
+	- Hur många sårade?
+	
+{p}
+	Goran:
+	- Inga. Alla som höggs av Merulas vingar avled omedelbart.
+	
+{p}
+	Alyssa:
+	- Jag förstår... tyvärr finns det inte mycket som jag kan göra.
+
+{p}
+	Alyssa:
+	- Sen jag fick jordamuletten har jag försökt skapa en barriär,
+	men jordmagi är inte min specialitet.
+	
+{p}
+	Alyssa:
+	- Nu måste vi fundera ut vad vi ska göra härnäst.
+	Låt mig förklara situationen.
+	
+{p}
+	Alyssa:
+	- Merula är guden av mörker, en av de fyra mindre gudarna.
+	
+{p}
+	Alyssa:
+	- Vi tror att det är Merula som ligger bakom morden i Staden.
+	Det är svårt att veta och jag håller på att undersöka saken.
+
+{p}
+	Alyssa:
+	- Vi tror att Merula också ligger bakom den formel
+	som gör det omöjligt att navigera över havet och i urskogen.
+	
+{p}
+	Alyssa:
+	- Det verkar också som att guden av trä, Viridis,
+	är vår fiende.
+	
+{p}
+	Alyssa:
+	- Tron på gudarna har sakta dött ut. De fyra större gudarna,
+	som styr eld, vatten, luft och jord är negligerade.
+	
+{p}
+	Alyssa:
+	- De fyra mindre gudarna, som styr ljus, mörker, trä och metall,
+	är nästan helt bortglömda...
+	
+{p}
+	Alyssa:
+	- ... det var åtminstone så vi trodde. Men vi kan utgå ifrån att
+	Merula och Viridis har ett stort antal tillbedjare någonstans.
+	Det är tillbedjarna som ger gudarna dess kraft.
+	
+{p}
+	Alyssa:
+	- Jag anar att du är immun mot Merulas krafter.
+	Du är den enda som har en chans att stoppa honom.
+
+{p}
+	Alyssa:
+	- Jag gav dig i uppdrag att hitta jordamuletten.
+	Nu vill jag att du hittar de andra amuletterna.
+	
+{p}
+	Alyssa:
+	- Du behöver ta dig norrut, till staden Muren. Där kommer du
+	att hitta luftens tempel.
+	
+{p}
+	Alyssa:
+	- Jag har mina misstankar gällande Muren.
+	Försök hitta svar, leta efter Merulas tillbedjare.
+
+{p}
+	Alyssa:
+	- Innan du reser måste jag ge dig något. Ta jordens amulett.
+
+{p}
+	Goran:
+	- Behövde du inte amuletten för att skydda staden?
+
+{p}
+	Alyssa:
+	- Som sagt, jag har inte den förmågan... och amuletten är nödvändig
+	för att korsa urskogen.
+
+{p}
+	Alyssa:
+	- Amuletten skyddar mot förvirring och har kraften att skapa en fristad.
+	Utan den kommer du att irra dig bort eller dödas i sömnen.
+	
+{p}
+	Goran:
+	- Fördömt att inte Selena var här... Vi borde hitta henne först.
+	
+{p}
+	Alyssa:
+	- Hur då? Vi vet inte var hon är eller ens om hon lever.
+	Nej, vi har inte tid för det.
+	
+{p}
+	Alyssa:
+	- Innan du ger dig av behöver du vara väl förberedd.
+	Försök att hitta en vägvisare. Jag ska också leta.
+	
+{p}
+	Alyssa:
+	- Besök mig igen när du är redo att resa.
+	{name,Fas,'Solo'}
+	{call}
+	
+{p}
+	{chap,'Platser/Staden'}
+
+{p}

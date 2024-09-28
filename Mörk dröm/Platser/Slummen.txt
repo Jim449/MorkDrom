@@ -1,0 +1,410 @@
+{p}
+	{name,Plats,'Slummen'}
+	{image,'Bilder/Slummen'}
+	{set,Tid,0}
+
+{s}
+	Du befinner dig i slummen.
+	{if}{equal,Morden,5}
+		{ans}
+			Prata med Ron
+			{act,'Mord'}
+	{elif}{equal,Ron,1}
+		{ans}
+			Prata med Ron
+	{ans}
+		Utforska slummen
+		{find,1}
+	{if}{equal,Morden,5}
+		{ans}
+			Genomsök slummen
+			{act,'Fälla'}
+	{ans}
+		Tillbaka
+		{chap,'Platser/Muren'}
+
+{p}
+	Ron:
+	- Hallå. Kan jag hjälpa till med något?
+	{find,0}
+	
+{s}
+	Du utforskar slummen...
+	{add,Tid,1}
+	{set,Slump,0}
+	{rand,Slump,4}
+
+{p}
+	{if}{equal,Erbjudande,1}{equal,Tid,5}
+		{act,'Möte'}
+	{elif}{equal,Morden,3}{equal,Tid,3}
+		{act,'Introduktion'}
+	{elif}{equal,Sabotage,2}{equal,Tid,3}
+		{act,'Sabotage'}
+	{elif}
+		{range,Slump}
+	
+{r,2}
+	... men hittar ingenting.
+	{find,0}
+
+{r,1}
+	Du är under attack!
+	{name,Fiende.Namn,'Vätte'}
+	{set,Fiende.Grad,2}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}
+
+{r,1}
+	Du är under attack!
+	{name,Fiende.Namn,'Svartalv'}
+	{set,Fiende.Grad,2}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}
+
+
+{f,Introduktion}
+	Slummen är en labyrint av gränder.
+	Det finns vägar som går både bort och fram, upp och ned...
+	
+{p}
+	På vissa håll är solljuset helt blockerat av alla husen.
+	
+{p}
+	Du frågar dig fram och hittar till slut
+	vägen till Ron, den informelle ledaren i slummen.
+	
+{p}
+	Han bor i ett stort men sjaskigt hus.
+	Det är dunkelt upplyst.
+	
+{p}
+	Ron:
+	- Välkommen, främling.
+	Jag hörde att du kommit hit ända från Staden.
+
+{p}
+	Ron:
+	- Slummen har blivit en farlig plats.
+	En serie oförklarliga mord har inträffat.
+
+{p}
+	Ron:
+	- Mina män har fullt upp med att leta efter spår.
+	Nimbus folk känner inte denna plats som oss.
+	
+{p}
+	Ron:
+	- Offren har blivit skurna mitt itu. Rakt igenom kött och ben
+	med kuslig precision.
+	
+{p}
+	Ron:
+	- Vittnen säger att de hört ett underligt visslande ljud...
+	
+{p}
+	Ron:
+	- Du säger att en liknande incident inträffade i Staden?
+	Det verkar osannolikt att mördaren kunnat färdas mellan Muren och Staden på så kort tid...
+	
+{p}
+	Ron:
+	- ... då är det verkligen guden av mörker, Merula, som ligger bakom?
+	
+{p}
+	Ron:
+	- Jag har mina misstankar om de vandrare som brukar ses här i slummen.
+
+{p}
+	Ron:
+	- De korsar Urskogen utan problem. De kan vara de Merulas tjänare
+	som du letar efter.
+
+{p}
+	Ron:
+	- De är bra på att gömma sig. Och något säger mig att deras bas
+	är någon annanstans.
+
+{p}
+	Ron:
+	- De är bra på att så split. De säljer vapen och magiska formler.
+	De tar på sig uppdrag som spioneri och lönnmord...
+
+{p}
+	Ron:
+	- Jag vill göra mig av med dem, helt enkelt.
+
+{p}
+	Ron:
+	- En stad under jorden, säger du?
+
+{p}
+	Ron:
+	- Jag har hört legenderna men jag har ingen aning
+	om hur man tar sig ned.
+
+{p}
+	Ron:
+	- Jag vill gärna utforska denna underjord.
+	Något säger mig att Nimbus döljer något där nere.
+
+{p}
+	Ron:
+	- Det kanske finns en nedgång någonstans i Muren.
+	Ge mig lite tid så ska jag försöka hitta den.
+
+{p}
+	Ron:
+	- Tack för ditt besök. Du har gett mig mycket att tänka på.
+	{set,Morden,4}
+	{set,Ron,1}
+	{find,0}
+
+{f,Möte}
+	När du går genom slummen möter du Dennis.
+
+{p}
+	Dennis:
+	- Goddag. Har din färd till Muren varit givande?
+	Prata med mig om du vill återvända till Staden.
+
+{p}
+	Dennis:
+	- Jag sa visst aldrig var du kunde hitta mig.
+	Du behöver inte veta det - lägg ett ord till värdshusvärden
+	så söker jag upp dig.
+	
+{p}
+	Dennis:
+	- Jag hörde att du har pratat med Ron.
+	Han har orsakat oss Vandrare mycket besvär...
+
+{p}
+	Dennis:
+	- Han skyller morden i slummen på oss
+	men har inga bevis.
+	
+{p}
+	Dennis:
+	- Han försöker kartlägga allt vi gör och hotar
+	att slänga ut oss från Muren. Det är bara en tidsfråga
+	innan situationen eskalerar i öppet våld.
+	
+{p}
+	Dennis:
+	- Kan du inte få honom att ändra sig?
+	Jag ser till att du tjänar något på det.
+
+{p}
+	Dennis:
+	- Eller är du också misstänksam mot oss?
+
+{p}
+	Dennis:
+	- Jag kan inte förneka att det finns Vandrare
+	som tillber gudarna av trä och mörker.
+
+{p}
+	Dennis:
+	- Än sen? Det betyder ingenting.
+	Gudarna har alltid gjort som de vill.
+
+{p}
+	Dennis:
+	- Förresten, har du något intresse av Underjorden
+	som ligger under Muren?
+
+{p}
+	Dennis:
+	- Vi hjälper dig gärna ner dit.
+
+{p}
+	Dennis ger dig ett pris och ber dig att tänka över saken.
+	Sen försvinner han in bland gränderna.
+	{set,Erbjudande,2}
+	{find,0}
+
+{f,Mord}
+	Ron ser plågad ut då du besöker honom.
+
+{p}
+	Ron:
+	- Flera av mina män har precis blivit mördade av den svarta tingesten.
+
+{p}
+	Ron:
+	- Nimbus säger att han morden är under utredning men det är skitsnack.
+	Vakterna sätter inte foten i Slummen.
+
+{p}
+	Ron:
+	- Jag gav mina män ordern att skugga vandrarna.
+	Det var ett misstag.
+
+{p}
+	Ron:
+	- Vi som är uppvuxna i Slummen vet hur man gör
+	för att undgå upptäckt, men vandrarna verkar ändå
+	märka när någon förföljer dem.
+	
+{p}
+	Ron:
+	- Nu är mina män döda och vi har fortfarande ingen
+	aning om var vandrarna gömmer sig.
+
+{p}
+	Ron:
+	- Se till att hitta nedgången till underjorden snart.
+	Situationen kan snabbt gå överstyr...
+	{set,Morden,6}
+	{find,0}
+
+{f,Fälla}
+	Du höljer dig i mörker och smyger genom slummen.
+
+{p}
+	Du får syn på Dennis. Han vandrar genom gränderna.
+	
+{p}
+	Vill du skugga Dennis?
+	{ans}
+		Ja
+		{skip,1}
+	{ans}
+		Nej
+
+{p}
+	Du bestämmer dig för att låta honom gå.
+	{find,0}
+
+{p}
+	Dennis går in i en smal gränd. Du följer efter.
+
+{p}
+	Solstrålarna måste ha letat sig in mellan de tätt stående husen.
+	De skiner starkt på dig och du måste kisa...
+
+{p}
+	... när du öppnar ögonen är du redan omringad.
+
+{p}
+	Dennis:
+	- Ser man på...
+
+{p}
+	Dennis:
+	- Du tog dig hit, men vi är väl förberedda.
+	Vi anade att du skulle komma...
+
+{p}
+	Dennis:
+	- ... så det spelar ingen roll att du lärt dig Mörker.
+	Jag undrar vad Turdus ville med det.
+
+{p}
+	Dennis:
+	- Det är för sent att fråga honom.
+	Han måste vara i underjorden vid det här laget.
+
+{p}
+	Dennis:
+	- Du kommer att dö här.
+
+{p}
+	Dennis använder en magi och dina sinnen börjar svartna...
+	{image,'Bilder/Svart'}
+
+{p}
+	... sekunden efter är ditt hjärta genomborrat av ett dolkblad.
+
+{p}
+	Du kollapsar.
+
+{p}
+	Du har förlorat spelet. Gå till menyn för att ladda eller starta ett spel.
+	{rewind,1}
+	
+{f,Sabotage}
+	Du går omkring i Slummen. Platsen är lika ogästvänlig som alltid – eller kanske ännu mer än förut,
+	nu när ligorna drivits bort och Vandrarna befäst sin närvaro.
+
+{p}
+	Du har besökt Rons hus men det var övergivet. Du fortsätter att vandra planlöst.
+
+{p}
+	Efter ett tag möts du av en man som säger sig veta var Ron är.
+	Du följer med honom in i ett sjaskigt hus.
+
+{p}
+	Ron:
+	- Jag väntade på att du skulle komma. Välkommen till Muren.
+
+{p}
+	Du följer med in i kontoret och ser Alba. Hon skiner upp när hon ser dig.
+
+{p}
+	Alba:
+	- Äntligen! Jag började tröttna på att vänta på dig.
+
+{p}
+	Alba kramar om dig hårt.
+
+{p}
+	Alba:
+	- De här senaste dagarna har varit förfärliga! Jag har varit fast i den här hålan hela dagarna.
+
+{p}
+	Ron:
+	- Låt mig berätta vad som hänt sen sist.
+
+{p}
+	Ron:
+	- Jag har anfallt fängelset igen och fritagit mina forna kompanjoner och några andra fångar. Jag har sökt igenom Slummen efter fler gamla vänner.
+
+{p}
+	Ron:
+	- Nu är vi en hyggligt stor grupp och vi har genomfört attacker mot adeln för att skapa oreda.
+
+{p}
+	Ron:
+	- Vårt mål är att storma palatset men bevakningen är för hård. Vi försöker hitta en bakväg
+	men har inte lyckats än.
+
+{p}
+	En person går in i kontoret.
+
+{p}
+	Okänd man:
+	- Ursäkta. Spejarna rapporterar att Aegithalos har lämnat Staden och är på väg söderut.
+
+{p}
+	Ron:
+	- Bra. Nu när han är ur vägen kan vi få saker uträttade.
+
+{p}
+	Ron:
+	- Vänta på mig här. Jag är snart tillbaka.
+
+{p}
+	Ron lämnar kontoret.
+
+{p}
+	Alba:
+	- Är du förvånad över att Aegithalos fortfarande är vid liv?
+	Selenas magi borde ha trasat sönder hans inre organ.
+
+{p}
+	Alba:
+	- Tyvärr lyckades Merula rädda honom. Guden av tid och rum
+	verkar vara kapabel att hela vilka skador som helst.
+	{set,Sabotage,3}
+
+{p}
+	Alba:
+	- Jag tänker inte stanna kvar här mycket längre till.
+	Jag måste göra något så att vi kan sätta stopp för Nimbus...
+	{find,0}
+	
+{p}

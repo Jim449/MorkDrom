@@ -1,0 +1,132 @@
+﻿{p}
+	{set,Tid,0}
+	{name,Plats,'Den öde staden'}
+	{image,'Bilder/Den öde staden'}
+
+{s}
+	{add,Tid,1}
+	
+{p}
+	Du befinner dig i Den öde staden.
+	{ans}
+		Utforska den öde staden
+	{if}{has,Urskogen,1}
+		{ans}
+			Gå norrut till Urskogen
+			{chap,'Platser/Urskogen'}
+	{elif}{equal,Fristaden,1}
+		{ans}
+			Gå norrut till Urskogen
+			{chap,'Kapitel/Kapitel 12'}
+	{elif}{equal,Kapitel,19}
+		{ans}
+			Gå norrut till Urskogen
+			{chap,'Kapitel/Kapitel 20'}
+	{if}{has,Staden,1}
+		{ans}
+			Gå söderut till Staden
+			{chap,'Platser/Staden'}
+	{if}{has,Jordtemplet,1}
+		{ans}
+			Gå till Jordtemplet
+			{chap,'Platser/Jordtemplet'}
+
+{p}
+	Du utforskar den öde staden...
+	
+{p}	
+	{if}{equal,Tid,5}{lack,Ondska,4}
+		{find,1}
+	
+{p}
+	Du är under attack!
+	{name,Fiende.Namn,'Vätte'}
+	{set,Fiende.Grad,1}
+	{name,Fas,'Strid'}
+	{call}
+	{find,0}
+
+{s}
+	Mörkret sänker sig över den öde staden.
+	
+{p}
+	Du hör steg närma sig från flera riktningar.
+	Ett stort antal varelser kommer emot dig!
+	
+{p}
+	Vad vill du göra?
+	{ans}
+		Slåss
+		{skip,2}
+	{ans}
+		Fly
+
+{s}
+	Du flyr. Du lyckas precis ta dig ut ur omringningen.
+
+{p}
+	När du slänger en blick bakom axeln ser du hur många fienderna är - vilken tur att du inte valt att slåss.
+	{find,0}
+
+{p}
+	Ett dussin varelser kommer ut ur mörkret.
+	
+{p}
+	De har redan omringat dig. Du är tvungen att slåss!
+	{name,Fiende.Namn,'Kobold'}
+	{set,Fiende.Grad,1}
+	{name,Fas,'Strid'}
+	{call}
+	
+{p}
+	Du har besegrat de flesta av varelserna.
+	De återstående verkar tveksamma och börjar dra sig tillbaka.
+	{add,Silver,2}
+	{add,Ep,2}
+	
+{p}
+	Vill du skugga dem?
+	{ans}
+		Ja
+		{if}{equal,Ondska,3}
+			{skip,2}
+		{elif}
+			{skip,1}
+	{ans}
+		Nej
+	
+{p}
+	Du väljer att inte skugga varelserna.
+	{find,0}
+
+{p}
+	Varelserna försvinner snabbt ur sikte i mörkret.
+	Du lyckas inte skugga dem.
+	{find,0}
+
+{p}
+	Varelserna försvinner snabbt ur sikte i mörkret
+	men du kan ändå känna av var de är.
+
+{p}
+	Du följer efter dem. Det går förvånansvärt lätt
+	och de verkar inte märka någonting.
+	
+{p}
+	De går in bland de täta husruinerna. Du saktar in...
+	
+{p}
+	Du känner av en ondskefull närvaro, som om en större grupp varelser
+	har samlats på samma plats.
+
+{p}
+	Plötsligt försvinner närvaron. Du fortsätter framåt, in i ruinerna.
+	
+{p}
+	Du öppnar dörren till källaren och hittar en passage
+	ned till Jordens tempel.
+	{set,Jordtemplet,1}
+	{set,Ondska,0}
+	{chap,'Kapitel/Kapitel 3'}
+	
+{p}

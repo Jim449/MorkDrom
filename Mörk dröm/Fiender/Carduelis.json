@@ -1,0 +1,9 @@
+{
+"namn":"Carduelis",
+"element":"?",
+"hp": 72,
+"belöning": 20,
+"förmågor": ["Mardröm","Transformation","Inferno","Läkekraft","Orubblighet"],
+"förberedelser": ["Orubblighet"],
+"beskrivning": "?"
+}

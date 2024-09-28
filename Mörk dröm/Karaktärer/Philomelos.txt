@@ -1,0 +1,160 @@
+{s}
+	Du besöker Philomelos.
+	{ans}
+		Prata
+		{if}{equal,Tempelruinen,1}
+			{act,'Tempelruinen'}
+		{elif}{equal,Tempelruinen,2}
+			{act,'Avfärd'}
+		{elif}{equal,Reflektioner,1}
+			{act,'Reflektioner'}
+	{if}{equal,Philomelos,1}
+		{ans}
+			Vila
+			{skip,1}
+	{if}{has,Mörkertemplet,1}
+		{ans}
+			Välj som assistent
+			{act,'Assistent'}
+	{ans}
+		Tillbaka
+		{return}
+
+{p}
+	Philomelos:
+	- Goddag.
+	{find,0}
+
+{p}
+	Vill du vila i gäststugan?
+	{ans}
+		Ja
+	{ans}
+		Nej
+		{find,0}
+		
+{p}
+	Du vilar i gäststugan och återfår din styrka.
+	{set,Hp,Max hp}
+	{if}{equal,Återkomsten,1}
+		{act,'Återkomsten'}
+
+{p}
+	{return}
+	
+{f,Tempelruinen}
+	Philomelos:
+	- Du sa att du kom från Staden?
+	
+{p}
+	Philomelos:
+	- Inte det? Du strandsattes på denna ö
+	utan förklaring? Fascinerande.
+
+{p}
+	Philomelos:
+	- Jag vill gärna veta mer om Staden.
+	När du återvänder, kan du ta med mig?
+	
+{p}
+	Philomelos:
+	- Hm... men hur ska du kunna återvända?
+	Då måste du korsa Urskogen igen.
+	Och kompassen pekar bara mot Fristaden.
+	
+{p}
+	Philomelos:
+	- Jag har en idé. Följ med mig till Spegelsjön.
+	Den ligger precis österut.
+	{set,Spegelsjön,1}
+	{set,Tempelruinen,2}
+
+{p}
+	Philomelos:
+	Prata med mig när du är redo att ge dig av.
+	{return}
+
+{f,Avfärd}
+	Philomelos:
+	- Är du redo för avfärd?
+	{ans}
+		Ja
+		{chap,'Kapitel/Kapitel 14'}
+	{ans}
+		Nej
+
+{p}
+	Philomelos:
+	- Okej. Det är ingen brådska.
+	{find,0}
+	
+{f,Reflektioner}
+	Philomelos:
+	- Hej...
+
+{p}
+	Philomelos:
+	- Jag funderar över gårdagens händelser.
+	Gömslet måste vara en riktigt toxisk plats att leva på.
+	
+{p}
+	Philomelos:
+	- De tycks känna ett sådant hat mot resten av ön.
+	Sita verkade helt övertygad om vår skuld...
+
+{p}
+	Philomelos:
+	- Men varför då? Vad jag vet har det inte skett några konflikter på mycket länge.
+
+{p}
+	Philomelos:
+	- Bortsett från de senaste händelserna förstås.
+	Det är inget vi glömmer i första taget...
+	
+{p}
+	Philomelos:
+	- Jag är väl idealistisk men jag tycker att vi borde lägga
+	de här tråkigheterna åt sidan. Vi borde förhandla med Gömslet.
+
+{p}
+	Philomelos:
+	- Jag antar att du kommer att resa till Eldtemplet nu?
+	Låt mig önska dig lycka till.
+
+{p}
+	Philomelos:
+	- Låt oss prata mer senare.
+	{set,Reflektioner,0}
+	{return}
+
+{f,Återkomsten}
+	Nästa dag går du för att möta Selena.
+
+{p}
+	Selena:
+	- Du är här! Bra.
+	Jag och Philomelos är redo att ge oss av.
+
+{p}
+	Ni lämnar Fristaden och ger er in i Urskogen.
+	{chap,'Kapitel/Kapitel 16'}
+
+{f,Assistent}
+	Vill du välja Philomelos som assistent?
+	{ans}
+		Ja
+	{ans}
+		Nej
+		{find,0}
+
+{p}
+	{name,Allierad.Namn,'Philomelos'}
+	{set,Allierad.Grad,15}
+	{name,Fas,'Assistent'}
+	{call}
+
+{p}
+	Philomelos är nu din assistent.
+	{find,0}
+	
+{p}

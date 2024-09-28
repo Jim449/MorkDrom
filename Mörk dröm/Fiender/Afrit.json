@@ -1,0 +1,10 @@
+{
+"namn":"Afrit",
+"element":"Eld",
+"hp": 36,
+"belöning": 10,
+"förmågor": ["Inferno","Eldsköld","Blixt","Raseri","Rasande eld"],
+"förberedelser": ["Eldsköld"],
+"beskrivning": "En varelse av ren eld.
+Den älskar kaos."
+}

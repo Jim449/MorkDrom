@@ -1,0 +1,343 @@
+{s}
+	{set,Kapitel,23}
+
+{p}
+	Kapitel 23
+
+{p}
+	När du går in i Lufttemplet hör du att någonting är på gång.
+
+{p}
+	Alba står i tempelsalen och pratar med ett halvdussin präster.
+
+{p}
+	Stämningen är spänd. Några vakter ligger medvetslösa på golvet.
+	
+{p}
+	Alba:
+	- Jag ber er att bryta med Nimbus och Aegithalos.
+	De har startat ett meningslöst krig mot Staden...
+
+{p}
+	Präst:
+	- Nimbus har förklarat varför kriget är nödvändigt.
+	Staden missbrukar kraften av elementen.
+
+{p}
+	Alba:
+	- Det är lögn.
+
+{p}
+	Präst #2:
+	- Vänta lite, jag tror på Alba. Vi vet att hon är den utvalda
+	av Luftens gud, inte Aegithalos. Stenarna visar...
+
+{p}
+	Präst:
+	- Såg du inte hur Aegithalos tämjde Garudan,
+	en av de mytiska bestarna? Det spelar ingen roll vad stenarna säger
+	om Aegithalos förmågor...
+
+{p}
+	Präst #2:
+	- Det är klart att det spelar roll. Traditionen säger att ämbetet
+	som lufttemplets överhuvud bara kan innehas av den utvalda av luft...
+
+{p}
+	Alba:
+	- Ursäkta, men den där föråldrade regeln tycker jag vi kan överge...
+
+{p}
+	Alba:
+	- Jag har inget intresse av att ta tillbaka rollen som överhuvud.
+	Poängen är att Nimbus planer är skadliga för Muren och hela ön...
+
+{p}
+	Präst:
+	- Om du inte är en av oss har du inget här att göra.
+	Låt oss tillfångata henne.
+
+{p}
+	Prästen får medhåll från nästan alla de andra.
+	En strid verkar oundviklig.
+
+{p}
+	Du går fram till Albas sida.
+
+{p}
+	Alba:
+	- Är du här? Ledsen, det här var något jag ville göra ensam.
+
+{p}
+	Präst:
+	- Den där personen, kan det vara...
+	{name,Allierad.Namn,'Alba'}
+	{set,Allierad.Grad,7}
+	{name,Fas,'Assistent'}
+	{call}
+
+{p}
+	Präst:
+	- Det avgör saken. Vi kan inte låta dem undkomma.
+	{name,Fiende.Namn,'Magiker'}
+	{set,Fiende.Grad,7}
+	{name,Fas,'Strid'}
+	{call}
+
+{p}
+	Alba:
+	- Det där var enklare än jag trodde.
+
+{p}
+	Alba:
+	- Kom med mig. Lufttemplet har ett privat bibliotek som kan innehålla information som vi behöver.
+
+{p}
+	Du följer Alba till ett litet bibliotek. Alba letar bland hyllorna och tar ned en bok.
+
+{p}
+	Alba:
+	- En ritning över palatset! Utmärkt.
+
+{p}
+	Ni återvänder till Slummen och pratar med Ron.
+	{name,Plats,'Slummen'}
+	{image,'Bilder/Slummen'}
+
+{p}
+	Ron:
+	- Det här var precis vad vi letade efter! Nu kan vi infiltrera palatset.
+
+{p}
+	Ni beger er till den plats där lönngången ska finnas.
+	Ron har tagit med sig en grupp män.
+	{name,Plats,'Muren'}
+	{image,'Bilder/Muren'}
+
+{p}
+	Än så länge går planen smidigt. Lönngången tar er in i palatset,
+	förbi alla vakter.
+
+{p}
+	Väl inne i palatset delar Rons män upp sig i grupper
+	och ger sig av i olika riktningar. Du, Ron och Alba beger er mot tronsalen.
+
+{p}
+	Ni tar snabbt itu med allt motstånd och stormar tronsalen.
+
+{p}
+	Ron:
+	- Han är inte här! Fördömt!
+
+{p}
+	Nimbus ställföreträdare tas tillfånga och Ron frågar ut honom.
+
+{p}
+	Ron:
+	- Det verkar som att Nimbus har rest till Bergspasset. Hur kunde vi missa det?
+
+{p}
+	Ni återvänder till samlingspunkten. Rons män anländer några i taget och rapporterar.
+
+{p}
+	Ron:
+	- Du och Alba kan gå tillbaka in i tunneln.
+	Vi möter er där snart, vi ska bara uträtta en sak till.
+
+{p}
+	Alba:
+	- Okej.
+
+{p}
+	Ni går in i tunneln. Efter ett tag är Ron tillbaka
+	och ni flyr från Muren, mot Skogen.
+	{name,Plats,'Skogen'}
+	{image,'Bilder/Skogen'}
+
+{p}
+	Ni fortsätter söderut genom Skogen men något får er att stanna till.
+
+{p}
+	Alba:
+	- Vänta.
+
+{p}
+	Ron:
+	- Har du upptäckt något?
+
+{p}
+	Alba:
+	- Det är Aegithalos. Han står i gläntan framför oss och använder
+	någon sorts magi. Det är inte troligt att vi kan komma förbi honom.	
+
+{p}
+	Ron:
+	- Är han ensam?
+
+{p}
+	Alba:
+	- Det är svårt att säga.
+
+{p}
+	Ron:
+	- Låt oss konfrontera honom. Hellre det än att han överraskar oss senare.
+
+{p}
+	Ron skickar sina trupper på en omväg medan han fortsätter framåt.
+
+{p}
+	Aegithalos står på en stor sten och tittar mot fjärran.
+
+{p}
+	Aegithalos:
+	- Är det ni igen? Jag hinner inte prata med er nu.
+	Jag har viktigare saker att ägna mig åt.
+
+{p}
+	Ron:
+	- Är du säker på det? Du lär ångra dig efter jag huggt ned dig.
+
+{p}
+	Aegithalos:
+	- Nej, nej... du utgör inget hot mot mig, Ron. Det gör ingen av er,
+	det var förut.
+
+{p}
+	Aegithalos:
+	- Vänd er om och titta mot Muren. Ni håller på att missa hela skådespelet.
+
+{p}
+	Ron:
+	- Försöker du distrahera oss?
+
+{p}
+	Aegithalos:
+	- Vem vet?
+
+{p}
+	Ron går fram så att han kan se över träden och vänder sig om.
+
+{p}
+	Ron:
+	- Det är inte möjligt...!
+
+{p}
+	Hela Muren står i lågor.
+
+{p}
+	Aegithalos:
+	- Inte möjligt? Vad det inte det här du ville när du satte eld på palatset?
+
+{p}
+	Ron:
+	- Muren skyddas av en formel som saktar ned åldrande och ökar motståndskraft.
+	Byggnaderna i Muren kan inte fatta eld så snabbt. Det har jag bekräftat många gånger tidigare.
+
+{p}
+	Aegithalos:
+	- Har du tappat gnistan? Det är uppenbart att du har helt fel.
+
+{p}
+	Alba:
+	- Ron... du har gått för långt. Var du tvungen att sätta eld på palatset?
+
+{p}
+	Ron:
+	- Som jag sa...
+
+{p}
+	Något svart blixtrar genom luften.
+
+{p}
+	Ron:
+	- Helvete... fly!
+
+{p}
+	Aegithalos:
+	- Inte du...
+
+{p}
+	Aegithalos ser irriterad ut av någon anledning.
+
+{p}
+	Ron flyr och Alba också men du får en konstig känsla. Du stannar kvar.
+
+{p}
+	Den svarta tingesten - Merula - svävar någon meter över marken
+	innan den tar form.
+
+{p}
+	Aegithalos:
+	- Vad gör du här, Turdus? Jag är upptagen.
+
+{p}
+	Turdus nonchalerar honom och ser sig omkring.
+	
+{p}
+	Turdus:
+	- Är du här också, {write,Namn,'? '}
+
+{p}
+	Turdus:
+	- Det är lika bra. Stanna och lyssna.
+
+{p}
+	Turdus:
+	- Aegithalos. Jag trodde jag sa till dig
+	att jag inte ville att Muren skulle falla.
+
+{p}
+	Aegithalos:
+	- Jag struntar i vad du sagt. Sen när har du varit
+	till annat än besvär för mig?
+
+{p}
+	Aegithalos:
+	- Till och med efter jag blivit dödligt sårad av Selenas magi.
+	Du väntade med att ta mig därifrån tills du var säker
+	på att jag var död.
+
+{p}
+	Turdus:
+	- Jag förväntade mig inte att du skulle överleva.
+	
+{p}
+	Turdus:
+	- Men du är bara en besvikelse. Vi hade aldrig samma mål
+	eller syn på världen.
+
+{p}
+	Turdus:
+	- Det är dags att jag gör mig av med dig.
+
+{p}
+	Turdus frammanar mörkret.
+	Aegithalos huggs itu flera gånger av de svarta vingarna.
+
+{p}
+	Det slutar inte ens när hans kropp är delad i småbitar.
+	Svärtan fräter på hans kropp tills det bara är aska kvar.
+
+{p}
+	Turdus:
+	- Det borde räcka...
+
+{p}
+	Turdus:
+	- Förstår du nu vem jag är?
+	Jag är Merulas avatar.
+
+{p}
+	Turdus:
+	- Om du fortsätter att samla amuletterna
+	så kommer jag att behöva döda dig...
+
+{p}
+	Turdus:
+	- ... men inte idag. Tänk över saken.
+
+{p}
+	Turdus försvinner.
+	{chap,'Kapitel/Kapitel 24'}
+
+{p}

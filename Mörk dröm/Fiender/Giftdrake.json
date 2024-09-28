@@ -1,0 +1,11 @@
+{
+"namn":"Giftdrake",
+"element":"Metall",
+"hp": 72,
+"belöning": 20,
+"förmågor": ["Förgiftning","Vindskära","Djup infektion","Hopplöshet","Identifiering"],
+"förberedelser": ["Identifiering"],
+"beskrivning": "En ruttnande
+drake som sprider död
+vart den än går."
+}

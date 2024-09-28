@@ -1,0 +1,11 @@
+{
+"namn": "Griffin",
+"element": "Ljus",
+"hp": 16,
+"belöning": 6,
+"extradrag": true,
+"förmågor": ["Inferno","Kontring","Erodering","Viljestyrka"],
+"förberedelser": ["Viljestyrka"],
+"beskrivning": "En stolt best
+och en fruktansvärd kämpe."
+}

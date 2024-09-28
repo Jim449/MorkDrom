@@ -1,0 +1,10 @@
+{
+"namn": "Svartalv",
+"element": "Mörker",
+"hp": 8,
+"belöning": 2,
+"förmågor": ["Vindskära","Tomhet","Mörker","Förgiftning"],
+"beskrivning": "En liten, slug varelse
+som döljer sig i skuggorna
+i väntan på rätt tillfälle."
+}

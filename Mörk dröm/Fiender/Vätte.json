@@ -1,0 +1,10 @@
+{
+"namn": "Vätte",
+"element": "Mörker",
+"hp": 4,
+"belöning": 1,
+"förmågor": ["Hopplöshet","Tomhet","Självbevarelsedrift","Frost"],
+"beskrivning": "En liten och klen varelse som mest av allt vill överleva.
+Den gillar att sabotera och älskar när
+andra sjunker ned i hopplöshet."
+}

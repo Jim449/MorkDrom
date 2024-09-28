@@ -1,0 +1,9 @@
+{
+"namn":"Demon",
+"element":"Eld",
+"hp": 72,
+"belöning": 20,
+"förmågor": ["Nova","Skalv","Styrka","Erodering","Återhämtning"],
+"förberedelser": ["Styrka"],
+"beskrivning": "En djupt ondskefull varelse."
+}

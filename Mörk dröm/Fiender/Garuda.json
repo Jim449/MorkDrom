@@ -1,0 +1,9 @@
+{
+"namn":"Garuda",
+"element":"Luft",
+"hp": 36,
+"belöning": 10,
+"förmågor": ["Storm","Vindskära","Frihet","Tomhet"],
+"beskrivning": "En enorm best som är herre över luften.
+Den agerar efter sina tillfälliga nycker."
+}

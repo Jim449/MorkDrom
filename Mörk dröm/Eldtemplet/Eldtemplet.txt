@@ -1,0 +1,39 @@
+{s}
+	{name,Plats,'Djungeln'}
+	{image,'Bilder/Eldtemplet'}
+
+{p}
+	Du är tillbaka i Djungeln.
+	Eldtemplet tornar över dig.
+
+{p}
+	Du tittar mot pelargången och ser en port...
+
+{p}
+	... det är något som skaver. Var porten alltid på höger sida?
+	Du går fram för att se närmare.
+	
+{p}
+	Mara:
+	- Vänta!
+
+{p}
+	Mara:
+	- Det är ingen idé. Porten till höger leder antagligen ut ur Eldtemplet.
+
+{p}
+	Mara:
+	- Huvudingången är fortfarande stängd. Det måste finnas någon
+	en prövning som vi inte har klarat.
+	
+{p}
+	Mara:
+	- Vi får ge det ett nytt försök. Skynda på.
+	{set,Eldtemplet,2}
+
+{p}
+	{chap,'Platser/Eldtemplet'}
+	{act,'Djungeln'}
+	{skip,3}
+
+{p}

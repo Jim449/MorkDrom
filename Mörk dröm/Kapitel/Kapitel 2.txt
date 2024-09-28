@@ -1,0 +1,193 @@
+{s}
+	{set,Kapitel,2}
+
+{p}
+	Kapitel 2
+
+{p}
+	När du går ut i staden nästa morgon märker du snabbt att något inte står rätt till.
+	
+{p}
+	Du beger dig i all hast till den gamla stadsdelen.
+	{name,Plats,'Den öde staden'}
+	{image,'Bilder/Den öde staden'}
+	
+{p}
+	Du hör ett högt, knakande ljud av trä.
+	När du lyfter blicken ser du hur rötter och murgröna
+	växer explosionsartat.
+	
+{p}
+	Husen blir snabbt höljda i grönt, gatorna täcks med rankor.
+	De kommer allt närmare dig men du står som förstelnad.
+
+{p}
+	Goran:
+	- Spring! Den här vägen!
+	
+{p}
+	Gorans röst väcker liv i dig
+	och du vänder dig om för att springa.
+
+{p}
+	Goran:
+	- Det är inte säkert här ute. Följ med mig, jag tar dig till herrgården!
+
+{p}
+	Du lyckas fly från växterna och är tillbaka i Staden.
+
+{p}
+	I Staden råder en orolig stämning.
+	Folk är ute på gatorna och bär improviserade vapen.
+	
+{p}
+	Du följer Goran in till Alyssas kontor.
+	{name,Plats,'Staden'}
+	{image,'Bilder/Kontoret'}
+	
+{p}
+	Alyssa:
+	- Välkommen tillbaka.
+
+{p}
+	Goran:
+	- Växterna invaderar Staden igen. Jag har skickat ut vaktstyrkorna
+	och de har fört medborgarna i säkerhet.
+
+{p}
+	Goran:
+	- Nu verkar det som att invasionen har avstannat.
+	Inga monster har siktats.
+
+{p}
+	Alyssa:
+	- Vet du hur stora skadorna blev?
+	
+{p}
+	Goran:
+	- Det är svårt att säga. Vi får se senare
+	hur stor del av Staden som har gått förlorad.
+
+{p}
+	Alyssa:
+	- Tack, Goran. Gå tillbaka och ta hand om resten.
+
+{p}
+	Goran lämnar rummet men du stannar kvar.
+	
+{p}
+	Alyssa:
+	- Nu vet du mer om vad som pågår; vår stad hotas av illvilliga varelser
+	och en onaturlig växtlighet.
+
+{p}
+	Alyssa:
+	- Allting började för ungefär ett halvår sedan.
+	Medparten av Staden förgjordes inom loppet av någon dag.
+
+{p}
+	Alyssa:
+	- En underlig svart fläck dök upp, svävandes i luften.
+	Sen började folk dö - klyvda itu av klingor från ingenstans.
+
+{p}
+	Alyssa:
+	- Monstren invaderade och växtligheten började ta över byggnader.
+	
+{p}
+	Alyssa:
+	- När en plats blivit överväxt går det inte att stanna,
+	alla som försökt har dödats av rankorna.
+
+{p}
+	Alyssa:
+	- Vi hade inget annat val än att fly till den lilla del av staden
+	som hade undkommit förödelsen.
+
+{p}
+	Alyssa:
+	- Och där är vi ännu. Vår fiende har legat lågt,
+	men vi har inte gjort några framsteg.
+	
+{p}
+	Alyssa:
+	- Vi vet inte hur man dödar växterna. Om vi bränner dem eller hugger ned dem
+	växer de snabbt upp igen.
+	
+{p}
+	Alyssa:
+	- Vi behöver mer kraft för att slå tillbaka mot våra fiender.
+	Vi behöver kraften från jordens gud, Certhia.
+
+{p}
+	Alyssa:
+	- Djupt nere i Jordens tempel finns en amulett.
+	Jag vill att du hittar den.
+
+{p}
+	Alyssa:
+	- Jag förstår att du vill komma hem men jag är rädd för att det är omöjligt.
+	Vår ö är avgränsad från resten av världen.
+	
+{p}
+	Alyssa:
+	- Även om du hade ett skepp skulle du inte kunna ta dig ut på öppet hav.
+	Din enda chans att återvända är att besegra öns makter.
+	
+{p}
+	Alyssa:
+	- Du har en svår utmaning framför dig. För det första vet vi inte
+	hur man tar sig ned i templets labyrint. Templet har rasat och nedgången är begraven.
+
+{p}
+	Alyssa:
+	- Om du behöver information kan du tala med stadsborna.
+	Värdshusvärden, Narden, är en gammal äventyrare, han kanske vet något.
+
+{p}
+	Alyssa:
+	- Innan du går så har jag något åt dig...
+	
+{p}
+	Alyssa tar fram ett pergament från en låda.
+
+{p}
+	Alyssa:
+	- Det här pergamentet innehåller kunskap om en magi kallad Invasiv kyla.
+	Det är en offensiv magi som slår mot motståndarens svaga punkt.
+
+{p}
+	Alyssa:
+	- Vi kan använda magier genom vår koppling till elementen.
+	Invasiv kyla tillhör vattenelementet. Ta den.
+	
+{p}
+	Du öppnar pergamentet. Då du läser orden känner du hur kunskapen
+	strömmar in i dig.
+	{name,Formel,'Invasiv kyla'}{name,Text,Invasiv kyla}
+	{open,'Förmågor'}{act,'Tillskott'}
+
+{p}
+	Alyssa:
+	- Jag ser att det lyckades.
+
+{p}
+	Alyssa:
+	- Vill du lära dig fler magier kan du prata med mig.
+	Då är jag rädd att jag måste ta betalt.
+
+{p}
+	Alyssa:
+	- Det var allt jag hade att säga. Lycka till!
+	
+{p}
+	{set,Försvunnen,1}
+	{set,Lektion,1}
+	
+{p}
+	{set,Vattenbrynet,1}
+	
+{p}
+	{chap,'Platser/Staden'}
+
+{p}

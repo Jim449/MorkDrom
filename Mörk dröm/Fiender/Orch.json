@@ -1,0 +1,9 @@
+{
+"namn": "Orch",
+"element": "Jord",
+"hp": 8,
+"belöning": 2,
+"förmågor": ["Skalv","Styrka","Viljestyrka","Fanatism"],
+"beskrivning": "En kraftfull varelse med osviklig stolthet.
+Den älskar att slåss."
+}
