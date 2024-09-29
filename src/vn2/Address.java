@@ -244,6 +244,62 @@ public class Address {
 	}
 	
 	
+	private void loadMeta( BufferedReader data, Attribute attribute )
+	{
+		int code;
+		char symbol;
+		String sentence = "";
+		ArrayList<String> content = new ArrayList<String>();
+		
+		// Check for BOM
+		try
+		{
+			code = data.read();
+			symbol = (char)code;
+		
+			if (code == 65279)
+			{
+				code = data.read();
+				symbol = (char)code;
+			}
+			
+			do
+			{
+				if (symbol == '{') // A command starts. Add the sentence, excluding this symbol
+				{
+					sentence = "";
+				}
+				else if (symbol == '}')
+				{
+					content.add(sentence);
+					sentence = "";
+				}
+				else if (symbol == ',')
+				{
+					content.add(sentence);
+					sentence = "";
+				}
+				else
+					sentence += symbol;
+				
+				code = data.read();
+				symbol = (char)code;
+			}
+			while (code >= 0);
+			
+			for (int i = 0; i < content.size(); i += 3)
+			{
+				if (content.get(i).equals("meta"))
+					attribute.addListName(content.get(i + 1), content.get(i + 2));
+			}
+		}
+		catch (IOException error)
+		{
+			System.out.println("Failed to load meta!");
+		}
+	}
+	
+	
 	/**
 	 * Creates an address which doesn't load an actual file.
 	 * The contents is added as a parameter.
@@ -319,6 +375,44 @@ public class Address {
 	
 	
 	/**
+	 * Reads a save meta file and stores the result into the attribute.
+	 * If there is no file, default values are stored
+	 * 
+	 * @param attribute
+	 */
+	public void openMeta( Attribute attribute )
+	{
+		FileInputStream file;
+		InputStreamReader reader;
+		BufferedReader buffReader;
+		
+		try
+		{
+			if (folder.length() == 0) file = new FileInputStream(name + ".txt");
+			else file = new FileInputStream(folder + "/" + name + ".txt");
+			
+			reader = new InputStreamReader(file, "UTF-8"); 
+			buffReader = new BufferedReader(reader);
+			
+			loadMeta(buffReader, attribute);
+			
+			buffReader.close();
+		}
+		catch (FileNotFoundException error)
+		{
+			attribute.addListName("Namn", "");
+			attribute.addListName("Plats", "");
+			attribute.addListName("Grad", "");
+			attribute.addListName("Kapitel", "");
+		}
+		catch (IOException error)
+		{
+			System.out.println("Meta IOError!");
+		}
+	}
+	
+	
+	/**
 	 * Returns a text which can be written into a save file.
 	 * To load the save file, read it with 'open'.
 	 * 
@@ -383,6 +477,31 @@ public class Address {
 	
 	
 	/**
+	 * Returns a text which can be written into a meta save file.
+	 * To read the the file, use 'openMeta'.
+	 * 
+	 * @param meta
+	 * @return
+	 */
+	private String getSaveMeta( Attribute meta )
+	{
+		String write = "";
+		String value;
+		
+		for (Map.Entry<String, String> map: meta.stringVar.entrySet())
+		{
+			write += "{meta," + map.getKey() + "," + map.getValue() + "}";
+		}
+		for (Map.Entry<String, Integer> map: meta.intVar.entrySet())
+		{
+			value = String.valueOf(map.getValue());
+			write += "{meta," + map.getKey() + "," + value + "}";
+		}
+		return write;
+	}
+	
+	
+	/**
 	 * Saves all variables in the database into this addresses file
 	 * 
 	 * @param database
@@ -390,6 +509,37 @@ public class Address {
 	public void save( Database database, String filename, String image )
 	{
 		String saveData = getSaveData(database, image);
+		FileOutputStream file;
+		OutputStreamWriter writer;
+		
+		try
+		{
+			if (folder.length() == 0) file = new FileOutputStream(filename + ".txt");
+			else file = new FileOutputStream(folder + "/" + filename + ".txt");
+			
+			writer = new OutputStreamWriter(file, "UTF-8");
+			BufferedWriter buffWriter = new BufferedWriter(writer);
+			
+			buffWriter.write(saveData);
+			buffWriter.close();
+		}
+		
+		catch (IOException error)
+		{
+			System.out.println("Sweden... We have an IOError!");
+		}
+	}
+	
+	
+	/**
+	 * Saves information about the saved game
+	 * 
+	 * @param meta
+	 * @param filename
+	 */
+	public void saveMeta( Attribute meta, String filename )
+	{
+		String saveData = getSaveMeta(meta);
 		FileOutputStream file;
 		OutputStreamWriter writer;
 		

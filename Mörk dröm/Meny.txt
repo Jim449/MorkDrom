@@ -63,37 +63,140 @@
 	{chap,'Kapitel/Kapitel 1'}
 	
 {f,Spara}
+	{readMeta,'Sparade spel/Sparfil'}
+
+{p}
 	Välj en sparfil
-	{ans}
-		Fil 1
-		{save,'Sparade spel/Sparfil 1'}
-	{ans}
-		Fil 2
-		{save,'Sparade spel/Sparfil 2'}
-	{ans}
-		Fil 3
-		{save,'Sparade spel/Sparfil 3'}
-	{ans}
-		Fil 4
-		{save,'Sparade spel/Sparfil 4'}
-	{ans}
-		Fil 5
-		{save,'Sparade spel/Sparfil 5'}
-	{ans}
-		Fil 6
-		{save,'Sparade spel/Sparfil 6'}
-	{ans}
-		Fil 7
-		{save,'Sparade spel/Sparfil 7'}
-	{ans}
-		Fil 8
-		{save,'Sparade spel/Sparfil 8'}
-	{ans}
-		Fil 9
-		{save,'Sparade spel/Sparfil 9'}
-	{ans}
-		Fil 10
-		{save,'Sparade spel/Sparfil 10'}
+	{not}{same,Meta.Grad[0],''}
+		{ans}
+			{write,Meta.Namn[0],', grad '}{write,Meta.Grad[0],''}
+			{save,'Sparade spel/Sparfil 1'}
+			{info}
+				{write,Meta.Namn[0],'
+Grad '}{write,Meta.Grad[0],'
+Kapitel '}{write,Meta.Kapitel[0],'
+'}{write,Meta.Plats[0],''}
+	{elif}
+		{ans}
+			(tomt)
+			{save,'Sparade spel/Sparfil 1'}
+	{not}{same,Meta.Grad[1],''}
+		{ans}
+			{write,Meta.Namn[1],', grad '}{write,Meta.Grad[1],''}
+			{save,'Sparade spel/Sparfil 2'}
+			{info}
+				{write,Meta.Namn[1],'
+Grad '}{write,Meta.Grad[1],'
+Kapitel '}{write,Meta.Kapitel[1],'
+'}{write,Meta.Plats[1],''}
+	{elif}
+		{ans}
+			(tomt)
+			{save,'Sparade spel/Sparfil 2'}
+	{not}{same,Meta.Grad[2],''}
+		{ans}
+			{write,Meta.Namn[2],', grad '}{write,Meta.Grad[2],''}
+			{save,'Sparade spel/Sparfil 3'}
+			{info}
+				{write,Meta.Namn[2],'
+Grad '}{write,Meta.Grad[2],'
+Kapitel '}{write,Meta.Kapitel[2],'
+'}{write,Meta.Plats[2],''}
+	{elif}
+		{ans}
+			(tomt)
+			{save,'Sparade spel/Sparfil 3'}
+	{not}{same,Meta.Grad[3],''}
+		{ans}
+			{write,Meta.Namn[3],', grad '}{write,Meta.Grad[3],''}
+			{save,'Sparade spel/Sparfil 4'}
+			{info}
+				{write,Meta.Namn[3],'
+Grad '}{write,Meta.Grad[3],'
+Kapitel '}{write,Meta.Kapitel[3],'
+'}{write,Meta.Plats[3],''}
+	{elif}
+		{ans}
+			(tomt)
+			{save,'Sparade spel/Sparfil 4'}
+	{not}{same,Meta.Grad[4],''}
+		{ans}
+			{write,Meta.Namn[4],', grad '}{write,Meta.Grad[4],''}
+			{save,'Sparade spel/Sparfil 5'}
+			{info}
+				{write,Meta.Namn[4],'
+Grad '}{write,Meta.Grad[4],'
+Kapitel '}{write,Meta.Kapitel[4],'
+'}{write,Meta.Plats[4],''}
+	{elif}
+		{ans}
+			(tomt)
+			{save,'Sparade spel/Sparfil 5'}
+	{not}{same,Meta.Grad[5],''}
+		{ans}
+			{write,Meta.Namn[5],', grad '}{write,Meta.Grad[5],''}
+			{save,'Sparade spel/Sparfil 6'}
+			{info}
+				{write,Meta.Namn[5],'
+Grad '}{write,Meta.Grad[5],'
+Kapitel '}{write,Meta.Kapitel[5],'
+'}{write,Meta.Plats[5],''}
+	{elif}
+		{ans}
+			(tomt)
+			{save,'Sparade spel/Sparfil 6'}
+	{not}{same,Meta.Grad[6],''}
+		{ans}
+			{write,Meta.Namn[6],', grad '}{write,Meta.Grad[6],''}
+			{save,'Sparade spel/Sparfil 7'}
+			{info}
+				{write,Meta.Namn[6],'
+Grad '}{write,Meta.Grad[6],'
+Kapitel '}{write,Meta.Kapitel[6],'
+'}{write,Meta.Plats[6],''}
+	{elif}
+		{ans}
+			(tomt)
+			{save,'Sparade spel/Sparfil 7'}
+	{not}{same,Meta.Grad[7],''}
+		{ans}
+			{write,Meta.Namn[7],', grad '}{write,Meta.Grad[7],''}
+			{save,'Sparade spel/Sparfil 8'}
+			{info}
+				{write,Meta.Namn[7],'
+Grad '}{write,Meta.Grad[7],'
+Kapitel '}{write,Meta.Kapitel[7],'
+'}{write,Meta.Plats[7],''}
+	{elif}
+		{ans}
+			(tomt)
+			{save,'Sparade spel/Sparfil 8'}
+	{not}{same,Meta.Grad[8],''}
+		{ans}
+			{write,Meta.Namn[8],', grad '}{write,Meta.Grad[8],''}
+			{save,'Sparade spel/Sparfil 9'}
+			{info}
+				{write,Meta.Namn[8],'
+Grad '}{write,Meta.Grad[8],'
+Kapitel '}{write,Meta.Kapitel[8],'
+'}{write,Meta.Plats[8],''}
+	{elif}
+		{ans}
+			(tomt)
+			{save,'Sparade spel/Sparfil 9'}
+	{not}{same,Meta.Grad[9],''}
+		{ans}
+			{write,Meta.Namn[9],', grad '}{write,Meta.Grad[9],''}
+			{save,'Sparade spel/Sparfil 10'}
+			{info}
+				{write,Meta.Namn[9],'
+Grad '}{write,Meta.Grad[9],'
+Kapitel '}{write,Meta.Kapitel[9],'
+'}{write,Meta.Plats[9],''}
+	{elif}
+		{ans}
+			(tomt)
+			{save,'Sparade spel/Sparfil 10'}
 	{ans}
 		Tillbaka
 		{find,0}
@@ -103,37 +206,100 @@
 	{find,0}
 
 {f,Ladda}
+	{readMeta,'Sparade spel/Sparfil'}
+
+{p}
 	Välj en sparfil att ladda.
-	{ans}
-		Fil 1
-		{open,'Sparade spel/Sparfil 1'}
-	{ans}
-		Fil 2
-		{open,'Sparade spel/Sparfil 2'}
-	{ans}
-		Fil 3
-		{open,'Sparade spel/Sparfil 3'}
-	{ans}
-		Fil 4
-		{open,'Sparade spel/Sparfil 4'}
-	{ans}
-		Fil 5
-		{open,'Sparade spel/Sparfil 5'}
-	{ans}
-		Fil 6
-		{open,'Sparade spel/Sparfil 6'}
-	{ans}
-		Fil 7
-		{open,'Sparade spel/Sparfil 7'}
-	{ans}
-		Fil 8
-		{open,'Sparade spel/Sparfil 8'}
-	{ans}
-		Fil 9
-		{open,'Sparade spel/Sparfil 9'}
-	{ans}
-		Fil 10
-		{open,'Sparade spel/Sparfil 10'}
+	{not}{same,Meta.Grad[0],''}
+		{ans}
+			{write,Meta.Namn[0],', grad '}{write,Meta.Grad[0],''}
+			{open,'Sparade spel/Sparfil 1'}
+			{info}
+				{write,Meta.Namn[0],'
+Grad '}{write,Meta.Grad[0],'
+Kapitel '}{write,Meta.Kapitel[0],'
+'}{write,Meta.Plats[0],''}
+	{not}{same,Meta.Grad[1],''}
+		{ans}
+			{write,Meta.Namn[1],', grad '}{write,Meta.Grad[1],''}
+			{open,'Sparade spel/Sparfil 2'}
+			{info}
+				{write,Meta.Namn[1],'
+Grad '}{write,Meta.Grad[1],'
+Kapitel '}{write,Meta.Kapitel[1],'
+'}{write,Meta.Plats[1],''}
+	{not}{same,Meta.Grad[2],''}
+		{ans}
+			{write,Meta.Namn[2],', grad '}{write,Meta.Grad[2],''}
+			{open,'Sparade spel/Sparfil 3'}
+			{info}
+				{write,Meta.Namn[2],'
+Grad '}{write,Meta.Grad[2],'
+Kapitel '}{write,Meta.Kapitel[2],'
+'}{write,Meta.Plats[2],''}
+	{not}{same,Meta.Grad[3],''}
+		{ans}
+			{write,Meta.Namn[3],', grad '}{write,Meta.Grad[3],''}
+			{open,'Sparade spel/Sparfil 4'}
+			{info}
+				{write,Meta.Namn[3],'
+Grad '}{write,Meta.Grad[3],'
+Kapitel '}{write,Meta.Kapitel[3],'
+'}{write,Meta.Plats[3],''}
+	{not}{same,Meta.Grad[4],''}
+		{ans}
+			{write,Meta.Namn[4],', grad '}{write,Meta.Grad[4],''}
+			{open,'Sparade spel/Sparfil 5'}
+			{info}
+				{write,Meta.Namn[4],'
+Grad '}{write,Meta.Grad[4],'
+Kapitel '}{write,Meta.Kapitel[4],'
+'}{write,Meta.Plats[4],''}
+	{not}{same,Meta.Grad[5],''}
+		{ans}
+			{write,Meta.Namn[5],', grad '}{write,Meta.Grad[5],''}
+			{open,'Sparade spel/Sparfil 6'}
+			{info}
+				{write,Meta.Namn[5],'
+Grad '}{write,Meta.Grad[5],'
+Kapitel '}{write,Meta.Kapitel[5],'
+'}{write,Meta.Plats[5],''}
+	{not}{same,Meta.Grad[6],''}
+		{ans}
+			{write,Meta.Namn[6],', grad '}{write,Meta.Grad[6],''}
+			{open,'Sparade spel/Sparfil 7'}
+			{info}
+				{write,Meta.Namn[6],'
+Grad '}{write,Meta.Grad[6],'
+Kapitel '}{write,Meta.Kapitel[6],'
+'}{write,Meta.Plats[6],''}
+	{not}{same,Meta.Grad[7],''}
+		{ans}
+			{write,Meta.Namn[7],', grad '}{write,Meta.Grad[7],''}
+			{open,'Sparade spel/Sparfil 8'}
+			{info}
+				{write,Meta.Namn[7],'
+Grad '}{write,Meta.Grad[7],'
+Kapitel '}{write,Meta.Kapitel[7],'
+'}{write,Meta.Plats[7],''}
+	{not}{same,Meta.Grad[8],''}
+		{ans}
+			{write,Meta.Namn[8],', grad '}{write,Meta.Grad[8],''}
+			{open,'Sparade spel/Sparfil 9'}
+			{info}
+				{write,Meta.Namn[8],'
+Grad '}{write,Meta.Grad[8],'
+Kapitel '}{write,Meta.Kapitel[8],'
+'}{write,Meta.Plats[8],''}
+	{not}{same,Meta.Grad[9],''}
+		{ans}
+			{write,Meta.Namn[9],', grad '}{write,Meta.Grad[9],''}
+			{open,'Sparade spel/Sparfil 10'}
+			{info}
+				{write,Meta.Namn[9],'
+Grad '}{write,Meta.Grad[9],'
+Kapitel '}{write,Meta.Kapitel[9],'
+'}{write,Meta.Plats[9],''}
 	{ans}
 		Tillbaka
 		{find,0}

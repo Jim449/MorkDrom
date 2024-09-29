@@ -57,9 +57,38 @@ public class Interpret {
 	{
 		Address savepoint = addressList.get(0);
 		
+		Attribute meta = database.getAttribute("Meta");
+		meta.setName("Namn", database.getName("Namn"));
+		meta.setName("Plats", database.getName("Plats"));
+		meta.setValue("Grad", database.getValue("Grad"));
+		meta.setValue("Kapitel", database.getValue("Kapitel"));
+		
+		savepoint.saveMeta(meta, filename + " meta");
 		savepoint.save(database, filename, image);
 	}
 	
+	/**
+	 * Reads meta info for the ten save files
+	 * and stores the result into nameLists in the Meta attribute:
+	 * Name, 
+	 * 
+	 * @param savename
+	 */
+	public void readMeta( String savename )
+	{
+		String filename;
+		Attribute attribute = database.getAttribute("Meta");
+		Address address;
+		
+		attribute.clear();
+		
+		for (int i = 1; i <= 10; i++)
+		{
+			filename = savename + " " + i + " meta";
+			address = new Address(folder, filename);
+			address.openMeta(attribute);
+		}
+	}
 	
 	/**
 	 * Opens a new address on top of the current
@@ -517,6 +546,17 @@ public class Interpret {
 					stringArg1 = database.getName(command.getNext());
 					System.out.println("save " + stringArg1);
 					save(stringArg1);
+					break;
+				}
+				// {readMeta, file} - given the name of a save file,
+				// excluding final space and number,
+				// reads all meta files from 1 to 10
+				// and stores the result in the Meta attribute
+				case "readMeta":
+				{
+					stringArg1 = database.getName(command.getNext());
+					System.out.println("readMeta " + stringArg1);
+					readMeta(stringArg1);
 					break;
 				}
 				// {die} - freezes the top address of the game
